@@ -168,6 +168,14 @@ UNIT
 systemctl daemon-reload
 systemctl enable vp-web.service
 
+# Permite que deploy.sh reinicie el servicio sin pedir contrasena. Acotado a
+# este servicio y a estos verbos: no es un NOPASSWD general.
+cat > /etc/sudoers.d/vp-web <<SUDO
+${APP_USER} ALL=(root) NOPASSWD: /usr/bin/systemctl restart vp-web, /usr/bin/systemctl start vp-web, /usr/bin/systemctl stop vp-web
+SUDO
+chmod 0440 /etc/sudoers.d/vp-web
+visudo -c -f /etc/sudoers.d/vp-web
+
 log "Listo"
 cat <<FIN
 PostgreSQL ${PG_VERSION} + PostGIS activos, base 'vp' creada.
