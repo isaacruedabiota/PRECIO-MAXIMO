@@ -1,4 +1,4 @@
-export * from './schemas.js';
+export * from './schemas';
 export {
   MissingConfigError,
   InvalidConfigError,
@@ -9,4 +9,4 @@ export {
   auditarConfig,
   type ConfigCargada,
   type AuditoriaConfig,
-} from './loader.js';
+} from './loader';

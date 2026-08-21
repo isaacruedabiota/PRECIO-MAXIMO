@@ -4,7 +4,7 @@
  * Valida los JSON de configuracion y lista lo que falta por rellenar y por
  * verificar. Es el panel de control de la deuda de configuracion del proyecto.
  */
-import { auditarConfig, loadConfig } from './loader.js';
+import { auditarConfig, loadConfig } from './loader';
 
 function main(): number {
   const { raw, dir } = loadConfig();

@@ -11,9 +11,9 @@
  * proyecto: si el motor esta mal, lo demas da igual.
  */
 
-export * from './types.js';
+export * from './types';
 
-import type { CalcInput, MaxPriceResult } from './types.js';
+import type { CalcInput, MaxPriceResult } from './types';
 
 export const VERSION_MOTOR = '0.0.0-fase0';
 
