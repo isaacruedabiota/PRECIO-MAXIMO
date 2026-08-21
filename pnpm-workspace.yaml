@@ -1,0 +1,26 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "scripts"
+
+# pnpm >=10 no ejecuta postinstall scripts salvo que se autoricen aqui.
+allowBuilds:
+  esbuild: true
+  "@tailwindcss/oxide": true
+  sharp: true
+  unrs-resolver: true
+
+# pnpm 11 retiene por defecto los paquetes recien publicados (minimumReleaseAge)
+# como medida frente a compromisos de cadena de suministro. Estas exclusiones las
+# anadio pnpm al instalar y permiten usar la version actual de Next.
+minimumReleaseAgeExclude:
+  - '@next/env@16.3.2'
+  - '@next/swc-darwin-arm64@16.3.2'
+  - '@next/swc-darwin-x64@16.3.2'
+  - '@next/swc-linux-arm64-gnu@16.3.2'
+  - '@next/swc-linux-arm64-musl@16.3.2'
+  - '@next/swc-linux-x64-gnu@16.3.2'
+  - '@next/swc-linux-x64-musl@16.3.2'
+  - '@next/swc-win32-arm64-msvc@16.3.2'
+  - '@next/swc-win32-x64-msvc@16.3.2'
+  - next@16.3.2

@@ -1,0 +1,29 @@
+name: vp
+
+# Solo para DESARROLLO local en Windows.
+# En la Raspberry Pi, PostgreSQL + PostGIS corren nativos desde apt (ver infra/pi/).
+
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    container_name: vp-postgis
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: vp
+      POSTGRES_PASSWORD: vp_dev_password
+      POSTGRES_DB: vp
+      # Espanol para ordenaciones y busquedas de texto de municipios/vias
+      POSTGRES_INITDB_ARGS: "--locale=C.UTF-8 --encoding=UTF8"
+    ports:
+      # 55432 en el host para no chocar con un Postgres local en el 5432
+      - "55432:5432"
+    volumes:
+      - vp_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vp -d vp"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  vp_pgdata:
