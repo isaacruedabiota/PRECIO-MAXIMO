@@ -3,15 +3,43 @@
   "version": "0.0.0",
   "verificado": false,
   "fuente_url": "",
-
   "alquiler": {
-    "tasa_vacancia": { "min": 0.03, "max": 0.1, "sugerido": 0.06, "valor": null },
-    "mantenimiento_pct_valor_anual": { "min": 0.005, "max": 0.015, "sugerido": 0.01, "valor": null },
-    "gestion_autogestion": { "min": 0.0, "max": 0.0, "sugerido": 0.0, "valor": null },
-    "gestion_agencia": { "min": 0.06, "max": 0.1, "sugerido": 0.08, "valor": null },
-    "seguro_anual_eur": { "min": 150, "max": 400, "sugerido": 250, "valor": null },
-    "rentabilidad_neta_objetivo": { "min": 0.035, "max": 0.07, "sugerido": 0.045, "valor": null },
-
+    "tasa_vacancia": {
+      "min": 0.03,
+      "max": 0.1,
+      "sugerido": 0.06,
+      "valor": 0.06
+    },
+    "mantenimiento_pct_valor_anual": {
+      "min": 0.005,
+      "max": 0.015,
+      "sugerido": 0.01,
+      "valor": 0.01
+    },
+    "gestion_autogestion": {
+      "min": 0,
+      "max": 0,
+      "sugerido": 0,
+      "valor": 0
+    },
+    "gestion_agencia": {
+      "min": 0.06,
+      "max": 0.1,
+      "sugerido": 0.08,
+      "valor": 0.08
+    },
+    "seguro_anual_eur": {
+      "min": 150,
+      "max": 400,
+      "sugerido": 250,
+      "valor": 250
+    },
+    "rentabilidad_neta_objetivo": {
+      "min": 0.035,
+      "max": 0.07,
+      "sugerido": 0.045,
+      "valor": 0.045
+    },
     "irpf": {
       "_doc": "Reduccion del rendimiento neto del capital inmobiliario por arrendamiento de vivienda. La Ley 12/2023 sustituyo la reduccion unica anterior por un abanico de porcentajes segun el caso. CONFIRMAR cual aplica antes de usarlo.",
       "reduccion_general": null,
@@ -19,7 +47,6 @@
       "fuente_url": "",
       "verificado": false
     },
-
     "zona_tensionada": {
       "_doc": "Si el municipio esta declarado zona de mercado residencial tensionado, el indice de referencia limita la renta de los nuevos contratos. Es un input de T4, no un adorno: puede tumbar la operacion entera.",
       "aplicar_limite_indice": true,
@@ -27,24 +54,57 @@
       "verificado": false
     }
   },
-
   "flipping": {
     "_doc": "T4 = ARV * factor - coste_reforma. El complementario del factor cubre gastos de compra, financieros, fiscales, de comercializacion y el margen del inversor.",
-    "factor_arv": { "min": 0.65, "max": 0.78, "sugerido": 0.72, "valor": null },
+    "factor_arv": {
+      "min": 0.65,
+      "max": 0.78,
+      "sugerido": 0.72,
+      "valor": 0.72
+    },
     "desglose_del_complementario": {
       "_doc": "Debe sumar 1 - factor_arv. Sirve para explicar en el informe a donde va ese porcentaje en lugar de soltar un numero magico.",
-      "gastos_compra": { "sugerido": 0.1, "valor": null },
-      "gastos_financieros": { "sugerido": 0.03, "valor": null },
-      "gastos_venta_y_comercializacion": { "sugerido": 0.04, "valor": null },
-      "impuestos_sobre_la_ganancia": { "sugerido": 0.05, "valor": null },
-      "margen_inversor": { "sugerido": 0.06, "valor": null }
+      "gastos_compra": {
+        "sugerido": 0.1,
+        "valor": 0.1
+      },
+      "gastos_financieros": {
+        "sugerido": 0.03,
+        "valor": 0.03
+      },
+      "gastos_venta_y_comercializacion": {
+        "sugerido": 0.04,
+        "valor": 0.04
+      },
+      "impuestos_sobre_la_ganancia": {
+        "sugerido": 0.05,
+        "valor": 0.05
+      },
+      "margen_inversor": {
+        "sugerido": 0.06,
+        "valor": 0.06
+      }
     },
-    "meses_operacion_estimados": { "min": 6, "max": 18, "sugerido": 10, "valor": null }
+    "meses_operacion_estimados": {
+      "min": 6,
+      "max": 18,
+      "sugerido": 10,
+      "valor": 10
+    }
   },
-
   "gastos_recurrentes": {
     "_doc": "Se piden al usuario cuando se conocen (IBI del recibo, comunidad del acta). Estos son solo estimaciones de respaldo.",
-    "ibi_pct_valor_catastral": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "comunidad_mensual_eur": { "min": null, "max": null, "sugerido": null, "valor": null }
+    "ibi_pct_valor_catastral": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "comunidad_mensual_eur": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    }
   }
 }

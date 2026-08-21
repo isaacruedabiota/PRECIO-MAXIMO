@@ -10,7 +10,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "check": "tsx src/check.ts"
+    "check": "tsx src/check.ts",
+    "seed": "tsx src/seed.ts"
   },
   "dependencies": {
     "zod": "^4.4.3"

@@ -3,37 +3,76 @@
   "version": "0.0.0",
   "verificado": false,
   "fuente_url": "",
-
   "ltv": {
     "_doc": "Loan to value maximo. 80% es el limite habitual de la banca en vivienda habitual sin garantia adicional.",
-    "max_por_defecto": { "min": 0.7, "max": 0.8, "sugerido": 0.8, "valor": null },
-    "tope_absoluto": { "min": 0.8, "max": 1.0, "sugerido": 0.9, "valor": null }
+    "max_por_defecto": {
+      "min": 0.7,
+      "max": 0.8,
+      "sugerido": 0.8,
+      "valor": 0.8
+    },
+    "tope_absoluto": {
+      "min": 0.8,
+      "max": 1,
+      "sugerido": 0.9,
+      "valor": 0.9
+    }
   },
-
   "ratio_esfuerzo": {
     "_doc": "Cuota mensual sobre ingresos netos. La cuota incluye las deudas mensuales ya existentes.",
-    "por_defecto": { "min": 0.3, "max": 0.3, "sugerido": 0.3, "valor": null },
-    "maximo_permitido": { "min": 0.3, "max": 0.35, "sugerido": 0.35, "valor": null },
-    "umbral_alerta_escenario_estres": { "min": 0.4, "max": 0.4, "sugerido": 0.4, "valor": null }
+    "por_defecto": {
+      "min": 0.3,
+      "max": 0.3,
+      "sugerido": 0.3,
+      "valor": 0.3
+    },
+    "maximo_permitido": {
+      "min": 0.3,
+      "max": 0.35,
+      "sugerido": 0.35,
+      "valor": 0.35
+    },
+    "umbral_alerta_escenario_estres": {
+      "min": 0.4,
+      "max": 0.4,
+      "sugerido": 0.4,
+      "valor": 0.4
+    }
   },
-
   "escenario_estres": {
     "_doc": "Solo para tipo variable o mixto. Se recalcula la cuota con el euribor subido y se avisa si rompe el umbral de alerta.",
-    "incremento_euribor_pp": { "min": 0.02, "max": 0.02, "sugerido": 0.02, "valor": null }
+    "incremento_euribor_pp": {
+      "min": 0.02,
+      "max": 0.02,
+      "sugerido": 0.02,
+      "valor": 0.02
+    }
   },
-
   "plazo": {
-    "anios_por_defecto": { "min": 20, "max": 30, "sugerido": 30, "valor": null },
-    "anios_maximo": { "min": 30, "max": 40, "sugerido": 30, "valor": null },
+    "anios_por_defecto": {
+      "min": 20,
+      "max": 30,
+      "sugerido": 30,
+      "valor": 30
+    },
+    "anios_maximo": {
+      "min": 30,
+      "max": 40,
+      "sugerido": 30,
+      "valor": 30
+    },
     "_doc_edad": "La banca suele exigir que el prestamo venza antes de una edad limite del titular. Confirmar y aplicar como tope al plazo.",
-    "edad_limite_vencimiento": { "min": 70, "max": 80, "sugerido": 75, "valor": null }
+    "edad_limite_vencimiento": {
+      "min": 70,
+      "max": 80,
+      "sugerido": 75,
+      "valor": 75
+    }
   },
-
   "amortizacion": {
     "sistema": "frances",
     "_doc": "cuota = C * i / (1 - (1+i)^-n), con i mensual y n en meses."
   },
-
   "solver": {
     "_doc": "T2 se resuelve por biseccion porque gastos(P) no es lineal: aranceles escalados mas el max() del valor de referencia catastral introducen escalones.",
     "metodo": "biseccion",

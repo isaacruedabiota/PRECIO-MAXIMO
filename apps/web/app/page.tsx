@@ -17,6 +17,24 @@ export default function Home() {
 
   return (
     <div className="space-y-8">
+      {bloquesSinVerificar.length > 0 && (
+        <aside
+          role="alert"
+          className="rounded-lg border-2 border-(--color-alerta) bg-(--color-alerta)/5 p-4"
+        >
+          <p className="text-sm font-semibold text-(--color-alerta)">
+            Ningun dato esta contrastado
+          </p>
+          <p className="mt-1 text-sm">
+            {bloquesSinVerificar.length} bloques de configuracion siguen con{' '}
+            <code className="text-xs">verificado: false</code>. Los coeficientes vienen de
+            estimaciones sembradas con <code className="text-xs">config:seed</code>, no de una
+            fuente oficial. Cualquier cifra que salga de aqui es provisional hasta que se
+            verifique una por una.
+          </p>
+        </aside>
+      )}
+
       <section>
         <h2 className="text-sm font-medium uppercase tracking-wide text-(--color-tenue)">
           Estado

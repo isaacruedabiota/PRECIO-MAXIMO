@@ -119,8 +119,19 @@ validado. Un ITP mal puesto son 8.000 € de error en un piso de 200.000 €.
 resultado. Un número presente pero sin contrastar se puede usar avisando; uno
 ausente no se puede usar de ninguna manera.
 
-`pnpm config:check` lista ambas deudas. Al cerrar la Fase 0: **167 valores
-pendientes de fijar y 43 bloques sin verificar.** Es lo esperado.
+`pnpm config:check` lista ambas deudas, agrupadas por fichero.
+
+`pnpm config:seed` copia `sugerido → valor` en los valores que sigan a `null`,
+para poder ejecutar el motor de punta a punta antes de haber contrastado cada
+cifra. Tres límites deliberados: no toca `verificado`, no sobrescribe un `valor`
+ya fijado, y **no siembra lo que no tiene `sugerido`**. Los tipos de ITP, los de
+IVA y los tramos de arancel no los dio nunca el brief, así que se quedan a
+`null` y el motor seguirá fallando en ellos hasta que se rellenen contra el BOE.
+Para deshacerlo: `git checkout packages/config/data`.
+
+Estado tras sembrar: **74 valores sembrados, 93 pendientes, 43 bloques sin
+verificar.** Mientras quede un bloque sin verificar, la UI muestra un aviso rojo
+diciendo que ninguna cifra está contrastada.
 
 ### 4. Todo número de salida es un `TrazedValue`
 

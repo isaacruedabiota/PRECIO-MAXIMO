@@ -6,12 +6,23 @@
  */
 import { auditarConfig, loadConfig } from './loader';
 
+function agruparPorFichero(rutas: string[]): Map<string, string[]> {
+  const grupos = new Map<string, string[]>();
+  for (const ruta of rutas) {
+    const fichero = ruta.split('.')[0] ?? '(raiz)';
+    const lista = grupos.get(fichero) ?? [];
+    lista.push(ruta);
+    grupos.set(fichero, lista);
+  }
+  return new Map([...grupos].sort((a, b) => b[1].length - a[1].length));
+}
+
 function main(): number {
   const { raw, dir } = loadConfig();
   const { pendientes, sin_verificar, fuera_de_rango } = auditarConfig(raw);
 
   console.log(`Config cargada desde: ${dir}`);
-  console.log(`Todos los ficheros validan contra su esquema.\n`);
+  console.log('Todos los ficheros validan contra su esquema.\n');
 
   if (fuera_de_rango.length > 0) {
     console.log(`FUERA DE RANGO (${fuera_de_rango.length}) - revisar:`);
@@ -20,17 +31,23 @@ function main(): number {
   }
 
   console.log(`PENDIENTES DE FIJAR (${pendientes.length})`);
-  console.log('El motor lanza MissingConfigError si necesita alguno de estos:');
-  for (const p of pendientes) console.log(`  - ${p}`);
-  console.log('');
+  console.log('El motor lanza MissingConfigError si necesita alguno de estos.\n');
+  for (const [fichero, rutas] of agruparPorFichero(pendientes)) {
+    console.log(`  ${fichero}.json  (${rutas.length})`);
+    for (const r of rutas) console.log(`    - ${r}`);
+    console.log('');
+  }
 
   const bloques = [...new Set(sin_verificar)];
   console.log(`SIN VERIFICAR CONTRA FUENTE (${bloques.length} bloques)`);
-  console.log('No impiden calcular, pero generan aviso en el resultado:');
-  for (const b of bloques) console.log(`  ? ${b}`);
+  console.log('No impiden calcular, pero el resultado sale con aviso destacado.\n');
+  for (const [fichero, rutas] of agruparPorFichero(bloques)) {
+    console.log(`  ${fichero}.json  (${rutas.length})`);
+  }
   console.log('');
 
-  // Fase 0: se espera que este todo pendiente. No es un fallo de build.
+  // Que quede todo pendiente no es un fallo de build: es el estado esperado
+  // hasta que se contrasten los datos oficiales uno a uno.
   return fuera_de_rango.length > 0 ? 1 : 0;
 }
 

@@ -6,7 +6,12 @@
     "_doc": "Arancel notarial por la escritura de compraventa. Escalado sobre el valor del inmueble.",
     "tramos": [],
     "cuota_fija_base": null,
-    "suplidos_y_copias": { "min": 60, "max": 200, "sugerido": 120, "valor": null },
+    "suplidos_y_copias": {
+      "min": 60,
+      "max": 200,
+      "sugerido": 120,
+      "valor": 120
+    },
     "iva_aplicable": null,
     "fuente_url": "",
     "vigencia_desde": null,
@@ -26,7 +31,7 @@
     "min": 300,
     "max": 500,
     "sugerido": 400,
-    "valor": null,
+    "valor": 400,
     "fuente_url": "",
     "verificado": false
   },
@@ -35,7 +40,7 @@
     "min": 300,
     "max": 600,
     "sugerido": 450,
-    "valor": null,
+    "valor": 450,
     "fuente_url": "",
     "verificado": false
   },
@@ -43,7 +48,7 @@
     "min": 10,
     "max": 30,
     "sugerido": 15,
-    "valor": null,
+    "valor": 15,
     "fuente_url": "",
     "verificado": false
   },

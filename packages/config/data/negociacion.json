@@ -3,19 +3,32 @@
   "version": "0.0.0",
   "verificado": false,
   "fuente_url": "",
-
   "precio_entrada": {
     "_doc": "Primera oferta que se pone sobre la mesa, como fraccion del precio maximo. Deja recorrido para negociar sin ofender.",
-    "factor_min": { "min": 0.85, "max": 0.9, "sugerido": 0.88, "valor": null },
-    "factor_max": { "min": 0.9, "max": 0.95, "sugerido": 0.92, "valor": null }
+    "factor_min": {
+      "min": 0.85,
+      "max": 0.9,
+      "sugerido": 0.88,
+      "valor": 0.88
+    },
+    "factor_max": {
+      "min": 0.9,
+      "max": 0.95,
+      "sugerido": 0.92,
+      "valor": 0.92
+    }
   },
-
   "veredicto_precio_pedido": {
     "_doc": "Umbrales sobre (precio_pedido - precio_maximo) / precio_maximo.",
-    "umbral_por_debajo_de_mercado": { "sugerido": -0.05, "valor": null },
-    "umbral_sobrevalorado": { "sugerido": 0.05, "valor": null }
+    "umbral_por_debajo_de_mercado": {
+      "sugerido": -0.05,
+      "valor": -0.05
+    },
+    "umbral_sobrevalorado": {
+      "sugerido": 0.05,
+      "valor": 0.05
+    }
   },
-
   "disclaimer": {
     "texto": "Valoracion orientativa. No constituye tasacion oficial a efectos de la Orden ECO/805/2003 ni sustituye el asesoramiento profesional.",
     "_doc": "Obligatorio y permanente en la UI y en cada informe generado. No es un texto configurable por comodidad: es la linea que separa esta herramienta de una tasacion regulada."

@@ -3,55 +3,91 @@
   "version": "0.0.0",
   "verificado": false,
   "fuente_url": "",
-
   "modulos_eur_m2_util": {
     "lavado_de_cara": {
       "_doc": "Pintura, suelos flotantes, carpinteria interior.",
       "min": 150,
       "max": 250,
       "sugerido": 200,
-      "valor": null
+      "valor": 200
     },
     "reforma_parcial": {
       "_doc": "Lo anterior mas un bano y la cocina.",
       "min": 300,
       "max": 500,
       "sugerido": 400,
-      "valor": null
+      "valor": 400
     },
     "reforma_integral": {
       "_doc": "Todo lo anterior mas fontaneria, electricidad, ventanas y distribucion.",
       "min": 700,
       "max": 900,
       "sugerido": 800,
-      "valor": null
+      "valor": 800
     },
     "integral_premium": {
       "_doc": "Calidades altas, aerotermia, domotica.",
       "min": 1000,
       "max": 1400,
       "sugerido": 1200,
+      "valor": 1200
+    }
+  },
+  "partidas_singulares_eur": {
+    "_doc": "Importe absoluto, no EUR/m2. Se suman al modulo elegido.",
+    "sustitucion_bajante_comunitaria": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "refuerzo_estructural": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "retirada_fibrocemento": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "instalacion_ascensor": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "aerotermia": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
+    },
+    "rehabilitacion_fachada": {
+      "min": null,
+      "max": null,
+      "sugerido": null,
       "valor": null
     }
   },
-
-  "partidas_singulares_eur": {
-    "_doc": "Importe absoluto, no EUR/m2. Se suman al modulo elegido.",
-    "sustitucion_bajante_comunitaria": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "refuerzo_estructural": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "retirada_fibrocemento": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "instalacion_ascensor": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "aerotermia": { "min": null, "max": null, "sugerido": null, "valor": null },
-    "rehabilitacion_fachada": { "min": null, "max": null, "sugerido": null, "valor": null }
-  },
-
   "imprevistos": {
     "_doc": "Provision sobre el coste de ejecucion. Sube al valor alto si el edificio es anterior a 1970 o no hay proyecto cerrado.",
-    "por_defecto": { "min": 0.15, "max": 0.15, "sugerido": 0.15, "valor": null },
-    "edificio_antiguo_o_sin_proyecto": { "min": 0.25, "max": 0.25, "sugerido": 0.25, "valor": null },
+    "por_defecto": {
+      "min": 0.15,
+      "max": 0.15,
+      "sugerido": 0.15,
+      "valor": 0.15
+    },
+    "edificio_antiguo_o_sin_proyecto": {
+      "min": 0.25,
+      "max": 0.25,
+      "sugerido": 0.25,
+      "valor": 0.25
+    },
     "anio_corte_edificio_antiguo": 1970
   },
-
   "iva": {
     "_doc": "Art. 91 LIVA: tipo reducido en obras de renovacion y reparacion de vivienda si se cumplen las tres condiciones. Si no se cumplen, tipo general. CONFIRMAR ambos tipos y la redaccion vigente del articulo.",
     "tipo_reducido_rehabilitacion": null,
@@ -69,12 +105,11 @@
     "fuente_url": "",
     "verificado": false
   },
-
   "margen_seguridad": {
     "_doc": "Porcentaje del valor de mercado reformado que se reserva como colchon frente a desviaciones de obra.",
     "min": 0.1,
     "max": 0.1,
     "sugerido": 0.1,
-    "valor": null
+    "valor": 0.1
   }
 }
