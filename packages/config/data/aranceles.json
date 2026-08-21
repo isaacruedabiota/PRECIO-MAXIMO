@@ -1,0 +1,56 @@
+{
+  "_doc": "Gastos de compraventa distintos del impuesto. Notaria y registro son aranceles escalados por tramos (reales decretos de 1989, con reducciones posteriores), no un porcentaje plano: por eso T2 se resuelve numericamente y no despejando.",
+  "_como_rellenar": "Cargar los tramos del arancel vigente. Cada tramo aplica su tipo sobre la parte de base que cae dentro de el, mas la cuota fija. Mientras 'tramos' este vacio, el motor lanza MissingConfigError.",
+  "version": "0.0.0",
+  "notaria": {
+    "_doc": "Arancel notarial por la escritura de compraventa. Escalado sobre el valor del inmueble.",
+    "tramos": [],
+    "cuota_fija_base": null,
+    "suplidos_y_copias": { "min": 60, "max": 200, "sugerido": 120, "valor": null },
+    "iva_aplicable": null,
+    "fuente_url": "",
+    "vigencia_desde": null,
+    "verificado": false
+  },
+  "registro": {
+    "_doc": "Arancel del registrador de la propiedad por la inscripcion. Escalado sobre el valor del inmueble.",
+    "tramos": [],
+    "cuota_fija_base": null,
+    "iva_aplicable": null,
+    "fuente_url": "",
+    "vigencia_desde": null,
+    "verificado": false
+  },
+  "gestoria": {
+    "_doc": "Honorarios de gestoria. Precio libre de mercado, no arancel.",
+    "min": 300,
+    "max": 500,
+    "sugerido": 400,
+    "valor": null,
+    "fuente_url": "",
+    "verificado": false
+  },
+  "tasacion": {
+    "_doc": "Tasacion ECO/805 exigida por el banco para conceder la hipoteca. Precio libre.",
+    "min": 300,
+    "max": 600,
+    "sugerido": 450,
+    "valor": null,
+    "fuente_url": "",
+    "verificado": false
+  },
+  "nota_simple": {
+    "min": 10,
+    "max": 30,
+    "sugerido": 15,
+    "valor": null,
+    "fuente_url": "",
+    "verificado": false
+  },
+  "gastos_hipoteca_a_cargo_del_comprador": {
+    "_doc": "Desde la Ley 5/2019 de credito inmobiliario, notaria, registro, gestoria y AJD de la hipoteca los paga el prestamista. Al comprador solo le queda la tasacion y su copia de la escritura. Confirmar antes de dar por bueno.",
+    "aplica": null,
+    "fuente_url": "",
+    "verificado": false
+  }
+}

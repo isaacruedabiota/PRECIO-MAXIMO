@@ -1,0 +1,125 @@
+{
+  "_doc": "Catalogo de fuentes de datos. TODAS estan a verificado: false. Regla del proyecto: antes de escribir una linea de codigo contra cualquiera de ellas hay que hacer una peticion real, guardar la respuesta en fixtures/<fuente>/<caso>.json y programar contra esa respuesta. Si un endpoint no responde o ha cambiado, se para y se avisa; no se mockea en silencio.",
+  "_estado": "Ningun endpoint de este fichero ha sido probado todavia. Las URLs vienen del brief, no de una comprobacion propia.",
+  "version": "0.0.0",
+
+  "catastro": {
+    "nombre": "Catastro - Oficina Virtual (datos no protegidos)",
+    "requiere_autenticacion": false,
+    "coste": "gratuito",
+    "aporta": ["superficie construida", "ano de construccion", "uso", "coordenadas", "tipologia", "referencia catastral"],
+    "endpoints": {
+      "soap_callejero": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx",
+      "soap_coordenadas": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx",
+      "rest_dnprc": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC"
+    },
+    "operaciones": ["Consulta_DNPRC", "Consulta_DNPLOC", "ConsultaProvincia", "ConsultaMunicipio", "ConsultaVia", "ConsultaNumero", "Consulta_RCCOOR", "Consulta_CPMRC", "Consulta_RCCOOR_Distancia"],
+    "aviso": "Los dominios han migrado (minhap -> hacienda) y hay mezcla http/https con certificados problematicos. Verificar cada endpoint antes de usarlo.",
+    "documentacion": "Webservices_Libres.pdf en catastro.hacienda.gob.es",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "catastro_inspire": {
+    "nombre": "Catastro INSPIRE - geometrias",
+    "servicios": ["wfsBU (buildings)", "wfsCP (cadastral parcels)", "wfsAD (addresses)", "descarga ATOM por municipio"],
+    "aporta": ["poligono del edificio", "superficie de parcela"],
+    "verificado": false,
+    "fixture": null
+  },
+
+  "valor_referencia_catastro": {
+    "nombre": "Valor de referencia del Catastro",
+    "critico": true,
+    "_doc": "Determina la base imponible del ITP desde la Ley 11/2021. Investigar si es consultable sin certificado digital para un inmueble ajeno. Si requiere autenticacion NO se rodea: el usuario lo consulta a mano en la sede y lo introduce, con enlace directo e instrucciones.",
+    "requiere_autenticacion": null,
+    "estrategia": "entrada_manual_por_defecto",
+    "url_sede": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "notariado": {
+    "nombre": "Notariado - penotariado",
+    "_doc": "Precio real de escritura por codigo postal. Es el dato rey de T1: precio pagado, no precio de oferta. Sin API documentada.",
+    "estrategia_preferente": "buscar dataset descargable o endpoint JSON publico documentado",
+    "estrategia_alternativa": "adaptador con carga manual/CSV: el usuario consulta su CP y pega el EUR/m2",
+    "url": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "mitma": {
+    "nombre": "MITMA - valor tasado de vivienda libre",
+    "serie": "35103500",
+    "granularidad": ["municipio (>25.000 hab)", "provincia"],
+    "periodicidad": "trimestral",
+    "formato": "XLS descargable",
+    "modo": "ingesta batch",
+    "url": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "ine": {
+    "nombre": "INE - Indice de Precios de Vivienda (IPV)",
+    "api": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{idTabla}?nult={n}",
+    "requiere_clave": false,
+    "_doc": "Hay que localizar los IDs de tabla del IPV por CCAA (general / vivienda nueva / segunda mano) y guardarlos aqui. NO inventarlos: se comprueban llamando a la API.",
+    "tablas": {
+      "ipv_ccaa_general": null,
+      "ipv_ccaa_nueva": null,
+      "ipv_ccaa_segunda_mano": null
+    },
+    "verificado": false,
+    "fixture": null
+  },
+
+  "geocodificacion": {
+    "nombre": "CartoCiudad / IGN",
+    "reverse": "https://geolocalizador.idee.es/v1/reverse?point.lat={lat}&point.lon={lon}&size=1",
+    "formato": "GeoJSON",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "certificados_energeticos": {
+    "nombre": "Registros autonomicos de certificados de eficiencia energetica",
+    "_doc": "Cada CCAA por su cuenta. Empezar por el de la Generalitat Valenciana y buscar el resto via datos.gob.es.",
+    "registros": {
+      "Comunitat Valenciana": { "url": "", "verificado": false }
+    },
+    "verificado": false,
+    "fixture": null
+  },
+
+  "serpavi": {
+    "nombre": "SERPAVI - sistema estatal de referencia del precio del alquiler",
+    "aporta": ["renta de mercado estimada"],
+    "url": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "zonas_tensionadas": {
+    "nombre": "Municipios declarados zona de mercado residencial tensionado",
+    "_doc": "Listado por CCAA. Input directo de T4.",
+    "url": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "euribor": {
+    "nombre": "Euribor 12 meses",
+    "_doc": "Serie historica del Banco de Espana o del BCE. Necesario para el escenario de estres de T2.",
+    "url": "",
+    "verificado": false,
+    "fixture": null
+  },
+
+  "_prohibido": {
+    "_doc": "No se scrapean portales inmobiliarios. Sus terminos prohiben expresamente la extraccion automatica de contenido, y hacerlo via Apify o servicios de terceros subcontrata el riesgo en vez de eliminarlo.",
+    "portales": ["idealista", "fotocasa", "habitaclia", "pisos.com"],
+    "alternativa": "Formulario donde el usuario introduce a mano los datos del anuncio que esta mirando."
+  }
+}

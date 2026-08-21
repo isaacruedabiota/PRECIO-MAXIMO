@@ -1,0 +1,184 @@
+{
+  "_doc": "Tipos de ITP y AJD por CCAA. TODOS los tipos estan a null a proposito. El motor lanza MissingConfigError si necesita un tipo que sigue a null: un ITP mal puesto son 8.000 EUR de error en un piso de 200.000. Rellenar contra BOE / boletin autonomico, poner fuente_url y vigencia_desde, y marcar verificado: true.",
+  "_como_rellenar": "Buscar el texto refundido del impuesto de cada CCAA. Los tipos reducidos listados son PLANTILLAS: hay que confirmar que la modalidad existe en esa CCAA, sus requisitos exactos y sus limites de renta antes de darla por buena. Si una modalidad no existe, borrar la entrada en lugar de dejarla a null.",
+  "version": "0.0.0",
+  "ccaa": [
+    {
+      "ccaa": "Comunitat Valenciana",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes menores de 35 anos, primera vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad < 35", "vivienda habitual", "limite de renta por confirmar"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        },
+        {
+          "codigo": "familia_numerosa",
+          "nombre": "Familia numerosa, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        },
+        {
+          "codigo": "discapacidad",
+          "nombre": "Persona con discapacidad reconocida, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["grado de discapacidad por confirmar", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        },
+        {
+          "codigo": "vpo",
+          "nombre": "Vivienda de proteccion publica, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["calificacion de VPO vigente", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    },
+    {
+      "ccaa": "Comunidad de Madrid",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes, primera vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        },
+        {
+          "codigo": "familia_numerosa",
+          "nombre": "Familia numerosa, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    },
+    {
+      "ccaa": "Cataluna",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad por confirmar", "vivienda habitual", "limite de renta por confirmar"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        },
+        {
+          "codigo": "familia_numerosa",
+          "nombre": "Familia numerosa, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    },
+    {
+      "ccaa": "Andalucia",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    },
+    {
+      "ccaa": "Region de Murcia",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    },
+    {
+      "ccaa": "Aragon",
+      "tipo_general": null,
+      "tipo_ajd_obra_nueva": null,
+      "tipos_reducidos": [
+        {
+          "codigo": "joven_primera_vivienda",
+          "nombre": "Jovenes, vivienda habitual",
+          "tipo": null,
+          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": null,
+          "fuente_url": "",
+          "verificado": false
+        }
+      ],
+      "vigencia_desde": null,
+      "fuente_url": "",
+      "verificado": false
+    }
+  ],
+  "obra_nueva": {
+    "_doc": "Primera transmision: IVA + AJD, no ITP. El tipo de IVA de vivienda es estatal; el de AJD es autonomico y va en tipo_ajd_obra_nueva de cada CCAA.",
+    "iva_vivienda": null,
+    "iva_vpo_regimen_especial": null,
+    "fuente_url": "",
+    "verificado": false
+  }
+}

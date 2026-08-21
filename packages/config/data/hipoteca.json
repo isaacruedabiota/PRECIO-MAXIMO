@@ -1,0 +1,45 @@
+{
+  "_doc": "Parametros de la restriccion financiera de T2. Todos sobrescribibles por el perfil del comprador; estos son los limites y los valores por defecto de la herramienta.",
+  "version": "0.0.0",
+  "verificado": false,
+  "fuente_url": "",
+
+  "ltv": {
+    "_doc": "Loan to value maximo. 80% es el limite habitual de la banca en vivienda habitual sin garantia adicional.",
+    "max_por_defecto": { "min": 0.7, "max": 0.8, "sugerido": 0.8, "valor": null },
+    "tope_absoluto": { "min": 0.8, "max": 1.0, "sugerido": 0.9, "valor": null }
+  },
+
+  "ratio_esfuerzo": {
+    "_doc": "Cuota mensual sobre ingresos netos. La cuota incluye las deudas mensuales ya existentes.",
+    "por_defecto": { "min": 0.3, "max": 0.3, "sugerido": 0.3, "valor": null },
+    "maximo_permitido": { "min": 0.3, "max": 0.35, "sugerido": 0.35, "valor": null },
+    "umbral_alerta_escenario_estres": { "min": 0.4, "max": 0.4, "sugerido": 0.4, "valor": null }
+  },
+
+  "escenario_estres": {
+    "_doc": "Solo para tipo variable o mixto. Se recalcula la cuota con el euribor subido y se avisa si rompe el umbral de alerta.",
+    "incremento_euribor_pp": { "min": 0.02, "max": 0.02, "sugerido": 0.02, "valor": null }
+  },
+
+  "plazo": {
+    "anios_por_defecto": { "min": 20, "max": 30, "sugerido": 30, "valor": null },
+    "anios_maximo": { "min": 30, "max": 40, "sugerido": 30, "valor": null },
+    "_doc_edad": "La banca suele exigir que el prestamo venza antes de una edad limite del titular. Confirmar y aplicar como tope al plazo.",
+    "edad_limite_vencimiento": { "min": 70, "max": 80, "sugerido": 75, "valor": null }
+  },
+
+  "amortizacion": {
+    "sistema": "frances",
+    "_doc": "cuota = C * i / (1 - (1+i)^-n), con i mensual y n en meses."
+  },
+
+  "solver": {
+    "_doc": "T2 se resuelve por biseccion porque gastos(P) no es lineal: aranceles escalados mas el max() del valor de referencia catastral introducen escalones.",
+    "metodo": "biseccion",
+    "precio_min_eur": 10000,
+    "precio_max_eur": 3000000,
+    "tolerancia_eur": 10,
+    "max_iteraciones": 200
+  }
+}

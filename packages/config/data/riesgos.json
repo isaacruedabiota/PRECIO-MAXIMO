@@ -1,0 +1,62 @@
+{
+  "_doc": "Descuentos por riesgo y bloqueantes. Los bloqueantes no descuentan: paran el calculo.",
+  "version": "0.0.0",
+  "verificado": false,
+  "fuente_url": "",
+
+  "descuentos": {
+    "derramas_aprobadas": {
+      "_doc": "Importe absoluto que aporta el usuario leyendo el acta de la junta. No se estima nunca.",
+      "modo": "importe_usuario"
+    },
+    "cargas_registrales": {
+      "_doc": "Importe absoluto de la nota simple. No se estima nunca.",
+      "modo": "importe_usuario"
+    },
+    "ite_desfavorable": {
+      "modo": "estimacion_por_metro_fachada",
+      "eur_por_m2_fachada": { "min": null, "max": null, "sugerido": null, "valor": null }
+    },
+    "ite_no_pasada": {
+      "_doc": "Riesgo de derrama futura desconocida. Menor que una ITE ya desfavorable, pero no cero.",
+      "modo": "estimacion_por_metro_fachada",
+      "eur_por_m2_fachada": { "min": null, "max": null, "sugerido": null, "valor": null }
+    },
+    "fibrocemento": {
+      "_doc": "Retirada por empresa inscrita en el RERA, con plan de trabajo aprobado. Enlaza con partidas_singulares de reforma.json.",
+      "modo": "importe_config",
+      "eur": { "min": null, "max": null, "sugerido": null, "valor": null }
+    },
+    "zona_inundable": {
+      "modo": "porcentaje_sobre_minimo_techos",
+      "pct": { "min": null, "max": null, "sugerido": null, "valor": null },
+      "_aviso": "Ademas del descuento, aviso destacado: afecta al seguro y a la financiacion."
+    },
+    "suelo_contaminado": {
+      "modo": "porcentaje_sobre_minimo_techos",
+      "pct": { "min": null, "max": null, "sugerido": null, "valor": null }
+    }
+  },
+
+  "bloqueantes": {
+    "_doc": "Cuando se activa uno, el motor devuelve precio_maximo null y una alerta. Dar un numero aqui seria dar un numero falso.",
+    "sin_division_horizontal": {
+      "activo": true,
+      "titulo": "El inmueble no tiene division horizontal",
+      "detalle": "Sin division horizontal no hay finca registral independiente, y sin finca registral independiente ningun banco concede hipoteca sobre ella.",
+      "como_verificar": "Nota simple del Registro de la Propiedad. Comprobar que el piso tiene finca propia y no es una cuota indivisa del edificio."
+    },
+    "vpo_precio_maximo": {
+      "activo": true,
+      "titulo": "Vivienda de proteccion oficial con precio maximo vigente",
+      "detalle": "El precio lo fija la administracion, no el mercado. Calcular un precio maximo de mercado seria irrelevante y potencialmente ilegal como referencia de compraventa.",
+      "como_verificar": "Consultar la calificacion y su plazo de proteccion en el organismo de vivienda de la CCAA."
+    },
+    "afeccion_urbanistica": {
+      "activo": true,
+      "titulo": "Afeccion urbanistica sobre el inmueble",
+      "detalle": "Fuera de ordenacion o afectado por alineacion: puede impedir reformar con licencia, rehipotecar o incluso reconstruir en caso de siniestro.",
+      "como_verificar": "Pedir cedula urbanistica en el ayuntamiento y comprobar el planeamiento vigente sobre la parcela."
+    }
+  }
+}
