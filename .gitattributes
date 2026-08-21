@@ -1,0 +1,18 @@
+# El repositorio se desarrolla en Windows y se despliega en Linux (arm64).
+# Todo se normaliza a LF: deploy.sh envia el arbol con `git archive`, y un script
+# con CRLF hace que bash falle con un "bad interpreter" bastante opaco.
+* text=auto eol=lf
+
+# Binarios: sin conversion.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.xls binary
+*.xlsx binary
+
+# Los fixtures son respuestas capturadas: se guardan tal cual llegaron.
+fixtures/** -text
+
+# Ruido en los diffs de PR.
+pnpm-lock.yaml linguist-generated=true
+packages/db/migrations/** linguist-generated=true
