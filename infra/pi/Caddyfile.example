@@ -1,0 +1,27 @@
+# Caddy NO se usa ahora mismo.
+#
+# La aplicacion escucha directamente en el 8090 y el acceso es solo LAN, asi que
+# un proxy delante no aporta nada y si anade una pieza mas que puede fallar.
+#
+# Este fichero queda como punto de partida para cuando haga falta alguna de estas
+# tres cosas: HTTPS, autenticacion, o servir varias aplicaciones bajo el mismo
+# puerto. Ojo: la Pi ya tiene otras cosas en 8080 (footy-web) y 8129
+# (fantasyhelper); si se activa Caddy hay que decidir si tambien pasan por el.
+#
+# Para usarlo: copiar el bloque a /etc/caddy/Caddyfile, ajustar el puerto de
+# escucha del servicio vp-web a 127.0.0.1:3000 en /etc/vp/vp-web.env, y
+# systemctl enable --now caddy.
+
+:8090 {
+	encode gzip zstd
+
+	reverse_proxy 127.0.0.1:3000 {
+		health_uri /
+		health_interval 30s
+	}
+
+	log {
+		output file /var/log/caddy/vp.log
+		format console
+	}
+}
