@@ -1,0 +1,23 @@
+{
+  "name": "@vp/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "ingest:mitma": "tsx src/ingest-mitma.ts",
+    "ingest:ine": "tsx src/ingest-ine.ts",
+    "capture:fixture": "tsx src/capture-fixture.ts"
+  },
+  "dependencies": {
+    "@vp/adapters": "workspace:*",
+    "@vp/config": "workspace:*",
+    "@vp/db": "workspace:*",
+    "@vp/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.12",
+    "typescript": "5.9.3",
+    "@types/node": "^22.15.3"
+  }
+}
