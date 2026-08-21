@@ -54,6 +54,7 @@ Comprobaciones:
 
 ```bash
 pnpm typecheck      # los 6 proyectos
+pnpm lint           # eslint, config plana única en la raíz
 pnpm test           # tests del motor
 pnpm config:check   # qué falta por fijar y por verificar en la config
 ```
@@ -205,7 +206,14 @@ ajustar un tipo de ITP es editar un JSON y reiniciar, sin reconstruir. Si el
 directorio no existe, `configDir()` lanza en el arranque en lugar de fallar tres
 capas más abajo.
 
-### ADR-007 — Sin Caddy delante
+### ADR-007 — ESLint con una sola config plana en la raíz
+`next lint` desapareció en Next 16, así que el linter se monta aparte:
+`eslint.config.mjs` en la raíz cubre los seis proyectos y `pnpm lint` ejecuta
+`eslint .`. Sin reglas de estilo — solo las que atrapan errores reales, con
+`no-explicit-any` en error: un `any` en un motor que calcula euros es
+exactamente lo que no queremos.
+
+### ADR-008 — Sin Caddy delante
 La Pi tiene Caddy instalado pero parado, y otras aplicaciones en 8080 y 8129. La
 app escucha directamente en el 8090. Un proxy inverso para una herramienta
 personal en LAN añade una pieza que puede fallar sin aportar nada. Queda

@@ -12,7 +12,7 @@
     "build": "pnpm --filter @vp/web build",
     "typecheck": "pnpm -r --no-bail typecheck",
     "test": "pnpm -r --no-bail test",
-    "lint": "pnpm -r --no-bail lint",
+    "lint": "eslint .",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
     "db:generate": "pnpm --filter @vp/db generate",
@@ -21,7 +21,11 @@
     "config:check": "pnpm --filter @vp/config check"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.15.3",
+    "eslint": "^10.8.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "typescript": "5.9.3",
-    "@types/node": "^22.15.3"
+    "typescript-eslint": "^8.67.0"
   }
 }
