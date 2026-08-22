@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque id="a14" tipo="precepto" titulo="Artículo 14">
+      <version id_norma="BOE-A-1998-8202" fecha_publicacion="19971231" fecha_vigencia="19980101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">A efectos de lo dispuesto en los artículos 13.cinco de la Ley 14/1996, de 30 de diciembre, y 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">1. Tratándose de primeras copias de escrituras que documenten adquisiciones de vivienda habitual, el 0,4 por 100. A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo">2. En los demás casos, el 0,50 por 100.</p>
+      </version>
+      <version id_norma="BOE-A-2002-2414" fecha_publicacion="20011231" fecha_vigencia="20020101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">A efectos de lo dispuesto en los artículos 13.5 de la Ley 14/1996, de 30 de diciembre, y 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">1. Tratándose de primeras copias de escrituras que documenten adquisiciones de vivienda habitual, el 0,1 por ciento. A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo">2. En los demás casos, el 1 por ciento.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2003-2213" fecha_publicacion="20021231" fecha_vigencia="20030101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 41.1.a) ?in fine? de la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, y en el artículo 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">Uno El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">1. Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">2. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que se cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición tenga lugar dentro del plazo de los dos años siguientes a la fecha en que la familia del sujeto pasivo haya alcanzado la consideración legal de numerosa o, si ya lo fuere con anterioridad, en el plazo de los dos años siguientes al nacimiento o adopción de cada hijo.</p>
+        <p class="parrafo">b) Que, dentro del mismo plazo a que se refiere el párrafo anterior, se proceda a la venta de la anterior vivienda habitual. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">c) Que la superficie útil de la vivienda adquirida sea superior en más de un 10 por 100 a la superficie útil de la vivienda anterior. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">d) Que la suma de las bases imponibles del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondientes al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda de 30.050 euros.</p>
+        <p class="parrafo_2">Las condiciones necesarias para la consideración de familia numerosa y su clasificación por categorías se determinarán con arreglo a lo establecido en la Ley 25/1971, de 19 de junio, de Protección a las Familias Numerosas.</p>
+        <p class="parrafo">3. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado, con un grado de minusvalía igual o superior al 65 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquél resulte prestatario. El grado de minusvalía del adquirente discapacitado se deberá acreditar en la forma establecida en el apartado cuatro del artículo cuarto de la presente Ley.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. En los demás casos, el 1 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2006-2973" fecha_publicacion="20051230" fecha_vigencia="20060101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 41.1.a)"in fine" de la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, y en el artículo 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">Uno El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">1. Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">2. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que se cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición tenga lugar dentro del plazo de los dos años siguientes a la fecha en que la familia del sujeto pasivo haya alcanzado la consideración legal de numerosa o, si ya lo fuere con anterioridad, en el plazo de los dos años siguientes al nacimiento o adopción de cada hijo.</p>
+        <p class="parrafo">b) Que, dentro del mismo plazo a que se refiere el párrafo anterior, se proceda a la venta de la anterior vivienda habitual. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">c) Que la superficie útil de la vivienda adquirida sea superior en más de un 10 por 100 a la superficie útil de la vivienda anterior. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">d) Que la suma de las bases imponibles del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondientes al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda de 32.218 euros.</p>
+        <p class="parrafo_2">Las condiciones necesarias para la consideración de familia numerosa y su clasificación por categorías se determinarán con arreglo a lo establecido en la Ley 25/1971, de 19 de junio, de Protección a las Familias Numerosas.</p>
+        <p class="parrafo">3. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado, con un grado de minusvalía igual o superior al 65 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquél resulte prestatario. El grado de minusvalía del adquirente discapacitado se deberá acreditar en la forma establecida en el apartado cuatro del artículo cuarto de la presente Ley.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.Dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2007-1348" fecha_publicacion="20061228" fecha_vigencia="20070101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 41.1.a)"in fine" de la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, y en el artículo 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">Uno El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">1. Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">2. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que se cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición tenga lugar dentro del plazo de los dos años siguientes a la fecha en que la familia del sujeto pasivo haya alcanzado la consideración legal de numerosa o, si ya lo fuere con anterioridad, en el plazo de los dos años siguientes al nacimiento o adopción de cada hijo.</p>
+        <p class="parrafo">b) Que, dentro del mismo plazo a que se refiere el párrafo anterior, se proceda a la venta de la anterior vivienda habitual. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">c) Que la superficie útil de la vivienda adquirida sea superior en más de un 10 por 100 a la superficie útil de la vivienda anterior. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">d) Que la base liquidable del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondiente al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda de 43.210,06 euros.</p>
+        <p class="parrafo_2">Las condiciones necesarias para la consideración de familia numerosa y su clasificación por categorías se determinarán con arreglo a lo establecido en la Ley 25/1971, de 19 de junio, de Protección a las Familias Numerosas.</p>
+        <p class="parrafo">3. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado, con un grado de minusvalía igual o superior al 65 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquél resulte prestatario. El grado de minusvalía del adquirente discapacitado se deberá acreditar en la forma establecida en el apartado cuatro del artículo cuarto de la presente Ley.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.Dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2008-1338" fecha_publicacion="20071228" fecha_vigencia="20080101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 41.1.a)"in fine" de la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, y en el artículo 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">Uno El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">1. Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">2. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que se cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición tenga lugar dentro del plazo de los dos años siguientes a la fecha en que la familia del sujeto pasivo haya alcanzado la consideración legal de numerosa o, si ya lo fuere con anterioridad, en el plazo de los dos años siguientes al nacimiento o adopción de cada hijo.</p>
+        <p class="parrafo">b) Que, dentro del mismo plazo a que se refiere el párrafo anterior, se proceda a la venta de la anterior vivienda habitual. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">c) Que la superficie útil de la vivienda adquirida sea superior en más de un 10 por 100 a la superficie útil de la vivienda anterior. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">d) Que la suma de la base liquidable general y de la base liquidable del ahorro del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondiente al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda de 44.074 euros.</p>
+        <p class="parrafo_2">Las condiciones necesarias para la consideración de familia numerosa y su clasificación por categorías se determinarán con arreglo a lo establecido en la Ley 25/1971, de 19 de junio, de Protección a las Familias Numerosas.</p>
+        <p class="parrafo">3. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado físico o sensorial, con un grado de minusvalía igual o superior al 65 por 100, o psíquico, con un grado de minusvalía igual o superior al 33 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquel resulte prestatario.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.Dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2009-1603" fecha_publicacion="20081229" fecha_vigencia="20090101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 41.1.a)"in fine" de la Ley 21/2001, de 27 de diciembre, por la que se regulan las medidas fiscales y administrativas del nuevo sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, y en el artículo 31.2 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, los tipos de gravamen aplicables serán:</p>
+        <p class="parrafo_2">Uno El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">1. Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">2. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que se cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición tenga lugar dentro del plazo de los dos años siguientes a la fecha en que la familia del sujeto pasivo haya alcanzado la consideración legal de numerosa o, si ya lo fuere con anterioridad, en el plazo de los dos años siguientes al nacimiento o adopción de cada hijo.</p>
+        <p class="parrafo">b) Que, dentro del mismo plazo a que se refiere el párrafo anterior, se proceda a la venta de la anterior vivienda habitual. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">c) Que la superficie útil de la vivienda adquirida sea superior en más de un 10 por 100 a la superficie útil de la vivienda anterior. Este requisito no será de aplicación cuando la vivienda adquirida sea la primera vivienda habitual.</p>
+        <p class="parrafo">d) Que la suma de la base liquidable general y de la base liquidable del ahorro del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondiente al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda de 44.955 euros.</p>
+        <p class="parrafo_2">Las condiciones necesarias para la consideración de familia numerosa y su clasificación por categorías se determinarán con arreglo a lo establecido en la Ley 25/1971, de 19 de junio, de Protección a las Familias Numerosas.</p>
+        <p class="parrafo">3. Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado físico o sensorial, con un grado de minusvalía igual o superior al 65 por 100, o psíquico, con un grado de minusvalía igual o superior al 33 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquel resulte prestatario.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.Dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 35 de la Ley 16/2008, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-1603</a>.</p>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2013-90266" fecha_publicacion="20130806" fecha_vigencia="20130806">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 49.1.a) de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, los tipos de gravamen de la modalidad de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados serán los siguientes:</p>
+        <p class="parrafo_2">Uno. El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">Las primeras copias de escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición de la vivienda habitual de una familia numerosa, siempre que la suma de la base liquidable general y de la base liquidable del ahorro del Impuesto sobre la Renta de las Personas Físicas del sujeto pasivo, su cónyuge, los descendientes y los ascendientes de los anteriores que convivan con ellos, así como de las demás personas que vayan a habitar en la vivienda, correspondiente al período impositivo inmediatamente anterior, con plazo de presentación vencido a la fecha del devengo, no exceda, en conjunto, de 45.000 euros.</p>
+        <p class="parrafo">Las primeras copias de escrituras públicas que documenten la constitución de préstamos hipotecarios para la adquisición por un discapacitado físico o sensorial, con un grado de minusvalía igual o superior al 65 por 100, o psíquico, con un grado de minusvalía igual o superior al 33 por 100, de su vivienda habitual, únicamente por la parte del préstamo en que aquel resulte prestatario.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del Impuesto sobre la Renta de las Personas Físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1,5 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 7 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 35 de la Ley 16/2008, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-1603</a>.</p>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2019-1988" fecha_publicacion="20181231" fecha_vigencia="20190101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 49.1.a) de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, los tipos de gravamen de la modalidad de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados serán los siguientes:</p>
+        <p class="parrafo_2">Uno. El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) Las primeras copias de las escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">b) Los documentos que formalicen la constitución y la modificación de derechos reales de garantía a favor de una sociedad de garantía recíproca con domicilio social en el territorio de la Comunitat Valenciana, del Institut Valencià de Finances y de los fondos sin personalidad jurídica a los que hace referencia el artículo 2.4 de la Ley 1/2015, de 6 de febrero, de la Generalitat, de hacienda pública, del sector público instrumental y de subvenciones.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del impuesto sobre la renta de las personas físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. En los demás casos, el 1,5 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 1 por la disposición adicional 38 de la Ley 28/2018, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2019-1988</a></p>
+          <p class="nota_pie">Se modifica por el art. 7 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 35 de la Ley 16/2008, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-1603</a>.</p>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2020-1010" fecha_publicacion="20191230" fecha_vigencia="20200101">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 49.1.a) de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, los tipos de gravamen de la modalidad de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados serán los siguientes:</p>
+        <p class="parrafo_2">Uno. El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) Las primeras copias de las escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">b) Los documentos que formalicen la constitución y la modificación de derechos reales de garantía a favor de una sociedad de garantía recíproca con domicilio social en el territorio de la Comunitat Valenciana, del Institut Valencià de Finances y de los fondos sin personalidad jurídica a los que hace referencia el artículo 2.4 de la Ley 1/2015, de 6 de febrero, de la Generalitat, de hacienda pública, del sector público instrumental y de subvenciones.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del impuesto sobre la renta de las personas físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. El 2 por 100 en las primeras copias de escrituras y actas notariales que formalicen préstamos o créditos hipotecarios, siempre que el sujeto pasivo sea el prestamista.</p>
+        <p class="parrafo">Cuatro. En los demás casos, el 1,5 por 100.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 3 y se renombra el contenido actual como apartado 4 por el art. 68 de la Ley 9/2019, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2020-1010</a></p>
+          <p class="nota_pie">Se modifica el apartado 1 por la disposición adicional 38 de la Ley 28/2018, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2019-1988</a></p>
+          <p class="nota_pie">Se modifica por el art. 7 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 35 de la Ley 16/2008, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-1603</a>.</p>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2025-11959" fpub="20250614" fecha_publicacion="20250531" fecha_vigencia="20250601">
+        <p class="articulo">Artículo 14. Actos jurídicos documentados.</p>
+        <p class="parrafo">De conformidad con lo dispuesto en el artículo 49.1.a) de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía y se modifican determinadas normas tributarias, los tipos de gravamen de la modalidad de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados serán los siguientes:</p>
+        <p class="parrafo_2">Uno. El 0,1 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) Las primeras copias de las escrituras públicas que documenten adquisiciones de vivienda habitual.</p>
+        <p class="parrafo">b) Los documentos que formalicen la constitución y la modificación de derechos reales de garantía a favor de una sociedad de garantía recíproca con domicilio social en el territorio de la Comunitat Valenciana, del Institut Valencià de Finances y de los fondos sin personalidad jurídica a los que hace referencia el artículo 2.4 de la Ley 1/2015, de 6 de febrero, de la Generalitat, de hacienda pública, del sector público instrumental y de subvenciones.</p>
+        <p class="parrafo">A estos efectos, se estará al concepto de vivienda habitual contemplado en la normativa estatal reguladora del impuesto sobre la renta de las personas físicas.</p>
+        <p class="parrafo_2">Dos. El 2 por 100 en las primeras copias de escrituras y actas notariales que documenten transmisiones de bienes inmuebles respecto de las cuales se haya renunciado a la exención en el Impuesto sobre el Valor Añadido, de conformidad con lo dispuesto en el artículo 20.dos, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Tres. El 2 por 100 en las primeras copias de escrituras y actas notariales que formalicen préstamos o créditos hipotecarios, siempre que el sujeto pasivo sea el prestamista.</p>
+        <p class="parrafo">Cuatro. En los demás casos, el 1,4 por 100.</p>
+        <blockquote caduca="20260601" class="siempreSeVe">
+          <p class="parrafo">Téngase en cuenta que esta actualización del apartado cuatro, establecida por el art. 34 de la Ley 5/2025, de 30 de mayo, <a class="refPost">Ref. BOE-A-2025-11959</a>, produce efectos para los hechos imponibles devengados desde el 1 de junio de 2026 inclusive.</p>
+          <p class="cita_con_pleca">Redacción anterior:</p>
+          <p class="parrafo">"Cuatro. En los demás casos, el 1,5 por 100."</p>
+        </blockquote>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado cuatro, para los hechos imponibles devengados desde el 1 de junio de 2026 inclusive, por el art. 34 de la Ley 5/2025, de 30 de mayo. <a class="refPost">Ref. BOE-A-2025-11959</a></p>
+          <p class="nota_pie">Se modifica el apartado 3 y se renombra el contenido actual como apartado 4 por el art. 68 de la Ley 9/2019, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2020-1010</a></p>
+          <p class="nota_pie">Se modifica el apartado 1 por la disposición adicional 38 de la Ley 28/2018, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2019-1988</a></p>
+          <p class="nota_pie">Se modifica por el art. 7 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 35 de la Ley 16/2008, de 22 de diciembre. <a class="refPost">Ref. BOE-A-2009-1603</a>.</p>
+          <p class="nota_pie">Se modifican los apartados 2.d) y 3 por el art. 34 y 35 de la Ley 14/2007, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2008-1338</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.d) por el art. 18 de la Ley 10/2006, de 26 de diciembre. <a class="refPost">Ref. BOE-A-2007-1348</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 35 de la Ley 14/2005, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2006-2973</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 37 de la Ley 11/2002, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2003-2213</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 40 de la Ley 10/2001, de 27 de diciembre. <a class="refPost">Ref. BOE-A-2002-2414</a>.</p>
+        </blockquote>
+      </version>
+    </bloque>
+  </data>
+</response>

@@ -82,7 +82,15 @@ export const itpCcaaSchema = z.looseObject({
     tramos: z.array(tramoTipoSchema),
     articulo: z.string().nullable(),
   }),
-  tipo_ajd_obra_nueva: z.number().nullable(),
+  /**
+   * AJD de primera copia de escritura. El tipo reducido suele exigir que el
+   * inmueble sea vivienda habitual; el resto va al general.
+   */
+  tipo_ajd_obra_nueva: z.looseObject({
+    vivienda_habitual: z.number().nullable(),
+    general: z.number().nullable(),
+    articulo: z.string().nullable(),
+  }),
   tipos_reducidos: z.array(tipoReducidoSchema),
   vigencia_desde: z.string().nullable(),
   fuente_url: z.string(),

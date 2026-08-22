@@ -1,0 +1,612 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": [
+        {
+            "bloque": [
+                {
+                    "id": "pr",
+                    "titulo": "[preambulo]",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/pr"
+                },
+                {
+                    "id": "ci",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ci"
+                },
+                {
+                    "id": "ar",
+                    "titulo": "Art\u00edculo\u00a01",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar"
+                },
+                {
+                    "id": "ar-2",
+                    "titulo": "Art\u00edculo\u00a02",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-2"
+                },
+                {
+                    "id": "ar-3",
+                    "titulo": "Art\u00edculo\u00a03",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-3"
+                },
+                {
+                    "id": "ar-4",
+                    "titulo": "Art\u00edculo\u00a04",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-4"
+                },
+                {
+                    "id": "ci-2",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ci-2"
+                },
+                {
+                    "id": "se",
+                    "titulo": "Secci\u00f3n\u00a01",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se"
+                },
+                {
+                    "id": "ar-5",
+                    "titulo": "Art\u00edculo\u00a05",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-5"
+                },
+                {
+                    "id": "ar-6",
+                    "titulo": "Art\u00edculo\u00a06",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-6"
+                },
+                {
+                    "id": "ar-7",
+                    "titulo": "Art\u00edculo\u00a07",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-7"
+                },
+                {
+                    "id": "ar-8",
+                    "titulo": "Art\u00edculo\u00a08",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-8"
+                },
+                {
+                    "id": "ar-9",
+                    "titulo": "Art\u00edculo\u00a09",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-9"
+                },
+                {
+                    "id": "ar-10",
+                    "titulo": "Art\u00edculo\u00a010",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-10"
+                },
+                {
+                    "id": "ar-11",
+                    "titulo": "Art\u00edculo\u00a011",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-11"
+                },
+                {
+                    "id": "ar-12",
+                    "titulo": "Art\u00edculo\u00a012",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-12"
+                },
+                {
+                    "id": "ar-13",
+                    "titulo": "Art\u00edculo\u00a013",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-13"
+                },
+                {
+                    "id": "ar-14",
+                    "titulo": "Art\u00edculo\u00a014",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-14"
+                },
+                {
+                    "id": "ar-15",
+                    "titulo": "Art\u00edculo\u00a015",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-15"
+                },
+                {
+                    "id": "se-2",
+                    "titulo": "Secci\u00f3n\u00a02",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-2"
+                },
+                {
+                    "id": "ar-16",
+                    "titulo": "Art\u00edculo\u00a016",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-16"
+                },
+                {
+                    "id": "ar-17",
+                    "titulo": "Art\u00edculo\u00a017",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-17"
+                },
+                {
+                    "id": "ar-18",
+                    "titulo": "Art\u00edculo\u00a018",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-18"
+                },
+                {
+                    "id": "ar-19",
+                    "titulo": "Art\u00edculo\u00a019",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-19"
+                },
+                {
+                    "id": "ar-20",
+                    "titulo": "Art\u00edculo\u00a020",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-20"
+                },
+                {
+                    "id": "ar-21",
+                    "titulo": "Art\u00edculo\u00a021",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-21"
+                },
+                {
+                    "id": "se-3",
+                    "titulo": "Secci\u00f3n\u00a03",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-3"
+                },
+                {
+                    "id": "ar-22",
+                    "titulo": "Art\u00edculo\u00a022",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-22"
+                },
+                {
+                    "id": "ar-23",
+                    "titulo": "Art\u00edculo\u00a023",
+                    "fecha_actualizacion": "20231228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-23"
+                },
+                {
+                    "id": "ar-24",
+                    "titulo": "Art\u00edculo\u00a024",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-24"
+                },
+                {
+                    "id": "ar-25",
+                    "titulo": "Art\u00edculo\u00a025",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-25"
+                },
+                {
+                    "id": "ci-3",
+                    "titulo": "CAP\u00cdTULO III",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ci-3"
+                },
+                {
+                    "id": "se-4",
+                    "titulo": "Secci\u00f3n\u00a01",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-4"
+                },
+                {
+                    "id": "ar-26",
+                    "titulo": "Art\u00edculo\u00a026",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-26"
+                },
+                {
+                    "id": "se-5",
+                    "titulo": "Secci\u00f3n\u00a02",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-5"
+                },
+                {
+                    "id": "ar-27",
+                    "titulo": "Art\u00edculo\u00a027",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-27"
+                },
+                {
+                    "id": "ar-28",
+                    "titulo": "Art\u00edculo\u00a028",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-28"
+                },
+                {
+                    "id": "ar-29",
+                    "titulo": "Art\u00edculo\u00a029",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-29"
+                },
+                {
+                    "id": "ar-30",
+                    "titulo": "Art\u00edculo\u00a030",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-30"
+                },
+                {
+                    "id": "ar-31",
+                    "titulo": "Art\u00edculo\u00a031",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-31"
+                },
+                {
+                    "id": "ar-32",
+                    "titulo": "Art\u00edculo\u00a032",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-32"
+                },
+                {
+                    "id": "ar-33",
+                    "titulo": "Art\u00edculo\u00a033",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-33"
+                },
+                {
+                    "id": "ar-34",
+                    "titulo": "Art\u00edculo\u00a034",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-34"
+                },
+                {
+                    "id": "ar-35",
+                    "titulo": "Art\u00edculo\u00a035",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-35"
+                },
+                {
+                    "id": "ar-36",
+                    "titulo": "Art\u00edculo\u00a036",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-36"
+                },
+                {
+                    "id": "ar-37",
+                    "titulo": "Art\u00edculo\u00a037",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-37"
+                },
+                {
+                    "id": "se-6",
+                    "titulo": "Secci\u00f3n\u00a03",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-6"
+                },
+                {
+                    "id": "ar-38",
+                    "titulo": "Art\u00edculo\u00a038",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-38"
+                },
+                {
+                    "id": "ar-39",
+                    "titulo": "Art\u00edculo\u00a039",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-39"
+                },
+                {
+                    "id": "ar-40",
+                    "titulo": "Art\u00edculo\u00a040",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-40"
+                },
+                {
+                    "id": "ar-41",
+                    "titulo": "Art\u00edculo\u00a041",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-41"
+                },
+                {
+                    "id": "se-7",
+                    "titulo": "Secci\u00f3n\u00a04",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/se-7"
+                },
+                {
+                    "id": "ar-42",
+                    "titulo": "Art\u00edculo\u00a042",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-42"
+                },
+                {
+                    "id": "ar-43",
+                    "titulo": "Art\u00edculo\u00a043",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-43"
+                },
+                {
+                    "id": "ci-4",
+                    "titulo": "CAP\u00cdTULO IV",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ci-4"
+                },
+                {
+                    "id": "ar-44",
+                    "titulo": "Art\u00edculo\u00a044",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-44"
+                },
+                {
+                    "id": "ar-45",
+                    "titulo": "Art\u00edculo\u00a045",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-45"
+                },
+                {
+                    "id": "ar-46",
+                    "titulo": "Art\u00edculo\u00a046",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-46"
+                },
+                {
+                    "id": "ar-47",
+                    "titulo": "Art\u00edculo\u00a047",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-47"
+                },
+                {
+                    "id": "ar-48",
+                    "titulo": "Art\u00edculo\u00a048",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-48"
+                },
+                {
+                    "id": "ar-49",
+                    "titulo": "Art\u00edculo\u00a049",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ar-49"
+                },
+                {
+                    "id": "da",
+                    "titulo": "Disposici\u00f3n adicional primera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da"
+                },
+                {
+                    "id": "da-2",
+                    "titulo": "Disposici\u00f3n adicional segunda",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-2"
+                },
+                {
+                    "id": "da-3",
+                    "titulo": "Disposici\u00f3n adicional tercera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-3"
+                },
+                {
+                    "id": "da-4",
+                    "titulo": "Disposici\u00f3n adicional cuarta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-4"
+                },
+                {
+                    "id": "da-5",
+                    "titulo": "Disposici\u00f3n adicional quinta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-5"
+                },
+                {
+                    "id": "da-6",
+                    "titulo": "Disposici\u00f3n adicional sexta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-6"
+                },
+                {
+                    "id": "da-7",
+                    "titulo": "Disposici\u00f3n adicional s\u00e9ptima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-7"
+                },
+                {
+                    "id": "da-8",
+                    "titulo": "Disposici\u00f3n adicional octava",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-8"
+                },
+                {
+                    "id": "da-9",
+                    "titulo": "Disposici\u00f3n adicional novena",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-9"
+                },
+                {
+                    "id": "da-10",
+                    "titulo": "Disposici\u00f3n adicional d\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-10"
+                },
+                {
+                    "id": "da-11",
+                    "titulo": "Disposici\u00f3n adicional und\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-11"
+                },
+                {
+                    "id": "da-12",
+                    "titulo": "Disposici\u00f3n adicional duod\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-12"
+                },
+                {
+                    "id": "da-13",
+                    "titulo": "Disposici\u00f3n adicional d\u00e9cima tercera",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/da-13"
+                },
+                {
+                    "id": "dt",
+                    "titulo": "Disposici\u00f3n transitoria primera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dt"
+                },
+                {
+                    "id": "dt-2",
+                    "titulo": "Disposici\u00f3n transitoria segunda",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dt-2"
+                },
+                {
+                    "id": "dt-3",
+                    "titulo": "Disposici\u00f3n transitoria tercera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dt-3"
+                },
+                {
+                    "id": "dt-4",
+                    "titulo": "Disposici\u00f3n transitoria cuarta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dt-4"
+                },
+                {
+                    "id": "dt-5",
+                    "titulo": "Disposici\u00f3n transitoria quinta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dt-5"
+                },
+                {
+                    "id": "dd",
+                    "titulo": "Disposici\u00f3n derogatoria",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/dd"
+                },
+                {
+                    "id": "df",
+                    "titulo": "Disposici\u00f3n final primera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df"
+                },
+                {
+                    "id": "df-2",
+                    "titulo": "Disposici\u00f3n final segunda",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-2"
+                },
+                {
+                    "id": "df-3",
+                    "titulo": "Disposici\u00f3n final tercera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-3"
+                },
+                {
+                    "id": "df-4",
+                    "titulo": "Disposici\u00f3n final cuarta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-4"
+                },
+                {
+                    "id": "df-5",
+                    "titulo": "Disposici\u00f3n final quinta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-5"
+                },
+                {
+                    "id": "df-6",
+                    "titulo": "Disposici\u00f3n final sexta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-6"
+                },
+                {
+                    "id": "df-7",
+                    "titulo": "Disposici\u00f3n final s\u00e9ptima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-7"
+                },
+                {
+                    "id": "df-8",
+                    "titulo": "Disposici\u00f3n final octava",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-8"
+                },
+                {
+                    "id": "df-9",
+                    "titulo": "Disposici\u00f3n final novena",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-9"
+                },
+                {
+                    "id": "df-10",
+                    "titulo": "Disposici\u00f3n final d\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-10"
+                },
+                {
+                    "id": "df-11",
+                    "titulo": "Disposici\u00f3n final und\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-11"
+                },
+                {
+                    "id": "df-12",
+                    "titulo": "Disposici\u00f3n final duod\u00e9cima",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-12"
+                },
+                {
+                    "id": "df-13",
+                    "titulo": "Disposici\u00f3n final decimotercera",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-13"
+                },
+                {
+                    "id": "df-14",
+                    "titulo": "Disposici\u00f3n final decimocuarta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-14"
+                },
+                {
+                    "id": "df-15",
+                    "titulo": "Disposici\u00f3n final decimoquinta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-15"
+                },
+                {
+                    "id": "df-16",
+                    "titulo": "Disposici\u00f3n final decimosexta",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/df-16"
+                },
+                {
+                    "id": "fi",
+                    "titulo": "[firma]",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/fi"
+                },
+                {
+                    "id": "ai",
+                    "titulo": "ANEXO I",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ai"
+                },
+                {
+                    "id": "ai-2",
+                    "titulo": "ANEXO II",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ai-2"
+                },
+                {
+                    "id": "ir",
+                    "titulo": "[Informaci\u00f3n relacionada]",
+                    "fecha_actualizacion": "20190316",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2019-3814\/texto\/bloque\/ir"
+                }
+            ]
+        }
+    ]
+}

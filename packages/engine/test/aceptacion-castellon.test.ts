@@ -76,6 +76,7 @@ function casoDelGrao(): CalcInput {
     buyer: {
       edad: 27,
       primera_vivienda_habitual: true,
+      sera_vivienda_habitual: true,
       familia_numerosa: 'no',
       tributacion_irpf: 'individual',
       discapacidad_reconocida: false,

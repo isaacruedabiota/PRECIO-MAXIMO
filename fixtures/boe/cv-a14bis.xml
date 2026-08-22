@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque id="a14bis" tipo="precepto" titulo="Artículo 14 bis">
+      <version id_norma="BOE-A-2013-90266" fecha_publicacion="20130806" fecha_vigencia="20130806">
+        <p class="articulo">Artículo 14 bis. Plazos de presentación.</p>
+        <p class="parrafo">Uno. El plazo para la presentación de la autoliquidación, junto con el documento o la declaración escrita sustitutiva del documento, será de un mes, contado desde el día en que se cause el acto o contrato.</p>
+        <p class="parrafo">No obstante, cuando se trate de consolidaciones del dominio en el nudo propietario por fallecimiento del usufructuario, el plazo será de seis meses, contados desde el día del fallecimiento del usufructuario o desde aquel en que adquiera firmeza la declaración de fallecimiento.</p>
+        <p class="parrafo">Dos. Salvo que específicamente se establezca otra cosa, cuando con posterioridad a la aplicación de un beneficio fiscal se produzca la pérdida del derecho a su aplicación por incumplimiento de los requisitos a que estuviese condicionado, se deberá presentar la autoliquidación correspondiente en el plazo de un mes contado desde el día en que se hubiera producido el incumplimiento. La regularización que se practique incluirá la parte del impuesto que se hubiere dejado de ingresar como consecuencia de la aplicación del beneficio fiscal, así como los intereses de demora.</p>
+        <p class="parrafo">Tres. Las transmisiones patrimoniales onerosas en las que el contribuyente sea un empresario o profesional y que tengan por objeto bienes muebles adquiridos a particulares para su reventa, excepto valores mobiliarios y medios de transporte usados no destinados a su achatarramiento, deberán ser objeto de autoliquidación en la forma y plazo siguientes:</p>
+        <p class="parrafo_2">a) La autoliquidación comprenderá de forma agregada todas las adquisiciones realizadas dentro del periodo de liquidación, que coincidirá con el trimestre natural, y deberá ajustarse al modelo que determine el conseller competente en materia de Hacienda.</p>
+        <p class="parrafo">b) El conseller competente en materia de Hacienda podrá determinar, mediante Orden, que la autoliquidación se deba acompañar de una declaración en la que se contenga una relación de los bienes adquiridos, incluyendo, por cada bien, su descripción, la fecha de adquisición, la identificación del transmitente y la contraprestación satisfecha por la adquisición. Dicha orden podrá determinar, igualmente, que la citada declaración se deba sustituir o complementar mediante la copia de las hojas correspondientes de los libros o registros oficiales en los que se incluyan las citadas operaciones.</p>
+        <p class="parrafo">c) La presentación de dicha autoliquidación se realizará en los veinte primeros días naturales del mes siguiente al periodo de liquidación que corresponda. Sin embargo, la autoliquidación correspondiente al último período del año se presentará durante los treinta primeros días naturales del mes de enero del año siguiente.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2013-970" fecha_publicacion="20131227" fecha_vigencia="20140101">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2017-1291" fecha_publicacion="20161231" fecha_vigencia="20170101">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2018-1871" fecha_publicacion="20171230" fecha_vigencia="20180101">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo circulante del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="ning_n_estilo_de_tabla">
+          <colgroup>
+            <col class="row_column_1"/>
+            <col class="row_column_2"/>
+          </colgroup>
+          <thead>
+            <tr class="row_column_3">
+              <td>
+                <p class="cabeza_tabla">Concepto</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Porcentaje de bonificación</p>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row_column_4">
+              <td>
+                <p class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a conservar o mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">50 %</p>
+              </td>
+            </tr>
+            <tr class="row_column_4">
+              <td>
+                <p class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">50 %</p>
+              </td>
+            </tr>
+            <tr class="row_column_5">
+              <td>
+                <p class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a conservar o mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">70 %</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra f del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. Mediante orden de la persona titular de la Conselleria competente en materia de hacienda, se establecerán los supuestos, condiciones y medios de justificación de las obras tendentes a conservar o mejorar el rendimiento energético de la vivienda que dan lugar a la aplicación de la bonificación regulada en este artículo.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2018-8949" fecha_publicacion="20180607" fecha_vigencia="20180608">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo circulante del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="ning_n_estilo_de_tabla">
+          <colgroup>
+            <col class="row_column_1"/>
+            <col class="row_column_2"/>
+          </colgroup>
+          <thead>
+            <tr class="row_column_3">
+              <td>
+                <p class="cabeza_tabla">Concepto</p>
+              </td>
+              <td>
+                <p class="cabeza_tabla">Porcentaje de bonificación</p>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row_column_4">
+              <td>
+                <p class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a conservar o mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">50 %</p>
+              </td>
+            </tr>
+            <tr class="row_column_4">
+              <td>
+                <p class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">50 %</p>
+              </td>
+            </tr>
+            <tr class="row_column_5">
+              <td>
+                <p class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a conservar o mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</p>
+              </td>
+              <td>
+                <p class="cuerpo_tabla_centro">70 %</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra f del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. Mediante orden de la persona titular de la Conselleria competente en materia de hacienda, se establecerán los supuestos, condiciones y medios de justificación de las obras tendentes a conservar o mejorar el rendimiento energético de la vivienda que dan lugar a la aplicación de la bonificación regulada en este artículo.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version fpub="20220122" id_norma="BOE-A-2022-1018" fecha_publicacion="20211230" fecha_vigencia="20220101">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que, en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="tabla">
+          <colgroup>
+            <col width="80%"/>
+            <col width="20%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="cabeza_tabla">Concepto</th>
+              <th class="cabeza_tabla">Porcentaje de bonificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">70 %</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo_2">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra <em>f</em> del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. A los efectos de esta norma, se considerarán obras tendentes a mejorar el rendimiento energético de la vivienda las actuaciones que se consideren subvencionables para la mejora de la eficiencia energética de acuerdo con los criterios y medios de justificación contenidos en las bases reguladoras de las ayudas de rehabilitación de edificios de los programas de fomento de la mejora de la eficiencia energética y sostenibilidad en viviendas del plan de ayudas estatal o europeo vigente en el momento del devengo del impuesto.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 3 por el art. 28 de la Ley 7/2021, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2022-1018</a></p>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2022-90447" fecha_publicacion="20221231" fecha_vigencia="20230101">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que, en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="tabla">
+          <colgroup>
+            <col width="80%"/>
+            <col width="20%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="cabeza_tabla">Concepto</th>
+              <th class="cabeza_tabla">Porcentaje de bonificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">70 %</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo_2">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra <em>f</em> del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. A los efectos de esta norma, se considerarán obras tendentes a mejorar el rendimiento energético de la vivienda las actuaciones que se consideren subvencionables para la mejora de la eficiencia energética de acuerdo con los criterios y medios de justificación contenidos en las bases reguladoras de las ayudas de rehabilitación de edificios de los programas de fomento de la mejora de la eficiencia energética y sostenibilidad en viviendas del plan de ayudas estatal o europeo vigente en el momento del devengo del impuesto.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <p class="parrafo">Cinco. Se aplicará una bonificación del 50 por 100 en la cuota de la modalidad transmisiones patrimoniales onerosas en las adquisiciones de inmuebles situados en el término municipal de un municipio en riesgo de despoblamiento que vayan a ser objeto de inmediata rehabilitación y destinados a su uso como viviendas. Se entenderá cumplido este requisito si, en el plazo de tres años desde la adquisición, se acredita la finalización de las obras de rehabilitación.</p>
+        <p class="parrafo">En el documento público en el que se formalice la compraventa se hará constar este destino.</p>
+        <p class="parrafo_2">A los efectos de este beneficio se estará al concepto de rehabilitación contenido en la normativa del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Seis. Será aplicable una bonificación del 30 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados en las escrituras públicas por las que se formalizan las adquisiciones de inmuebles que vayan a constituir la sede social o centro de trabajo de empresas o negocios profesionales que tengan su domicilio fiscal y social en alguno de los municipios en riesgo de despoblamiento.</p>
+        <p class="parrafo">Las empresas o negocios profesionales deben cumplir los siguientes requisitos:</p>
+        <p class="parrafo_2">1. Tener el domicilio social y fiscal en alguno de los municipios en riesgo de despoblamiento y mantenerlo durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo">2. Ejercer una actividad económica durante los tres años siguientes a la adquisición. A tal efecto, no debe tener por actividad principal la gestión de un patrimonio mobiliario o inmobiliario, de acuerdo con lo dispuesto en el artículo 4.8.° Dos.a) de la Ley 19/1991, de 6 de junio, del impuesto sobre el patrimonio.</p>
+        <p class="parrafo_2">3. Contar, como mínimo, con una persona ocupada con contrato laboral y a jornada completa, dada de alta en el régimen general de la Seguridad Social durante los tres años siguientes a la adquisición.</p>
+        <blockquote>
+          <p class="nota_pie">Se añaden los apartados 5 y 6 por los arts. 5 y 6 del Decreto-ley 19/2022, de 30 de diciembre. <a class="refPost">Ref. DOGV-r-2022-90447</a></p>
+          <p class="nota_pie">Se modifica el apartado 3 por el art. 28 de la Ley 7/2021, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2022-1018</a></p>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2023-10134" fpub="20230427" fecha_publicacion="20230419" fecha_vigencia="20230509">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que, en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="tabla">
+          <colgroup>
+            <col width="80%"/>
+            <col width="20%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="cabeza_tabla">Concepto</th>
+              <th class="cabeza_tabla">Porcentaje de bonificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">70 %</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo_2">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra <em>f</em> del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. A los efectos de esta norma, se considerarán obras tendentes a mejorar el rendimiento energético de la vivienda las actuaciones que se consideren subvencionables para la mejora de la eficiencia energética de acuerdo con los criterios y medios de justificación contenidos en las bases reguladoras de las ayudas de rehabilitación de edificios de los programas de fomento de la mejora de la eficiencia energética y sostenibilidad en viviendas del plan de ayudas estatal o europeo vigente en el momento del devengo del impuesto.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <p class="parrafo">Cinco. Se aplicará una bonificación del 50 por 100 en la cuota de la modalidad transmisiones patrimoniales onerosas en las adquisiciones de inmuebles situados en el término municipal de un municipio en riesgo de despoblamiento que vayan a ser objeto de inmediata rehabilitación y destinados a su uso como viviendas. Se entenderá cumplido este requisito si, en el plazo de tres años desde la adquisición, se acredita la finalización de las obras de rehabilitación.</p>
+        <p class="parrafo">En el documento público en el que se formalice la compraventa se hará constar este destino.</p>
+        <p class="parrafo_2">A los efectos de este beneficio se estará al concepto de rehabilitación contenido en la normativa del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Seis. Será aplicable una bonificación del 30 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados en las escrituras públicas por las que se formalizan las adquisiciones de inmuebles que vayan a constituir la sede social o centro de trabajo de empresas o negocios profesionales que tengan su domicilio fiscal y social en alguno de los municipios en riesgo de despoblamiento.</p>
+        <p class="parrafo">Las empresas o negocios profesionales deben cumplir los siguientes requisitos:</p>
+        <p class="parrafo_2">1. Tener el domicilio social y fiscal en alguno de los municipios en riesgo de despoblamiento y mantenerlo durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo">2. Ejercer una actividad económica durante los tres años siguientes a la adquisición. A tal efecto, no debe tener por actividad principal la gestión de un patrimonio mobiliario o inmobiliario, de acuerdo con lo dispuesto en el artículo 4.8.° Dos.a) de la Ley 19/1991, de 6 de junio, del impuesto sobre el patrimonio.</p>
+        <p class="parrafo">3. Contar, como mínimo, con una persona ocupada con contrato laboral y a jornada completa, dada de alta en el régimen general de la Seguridad Social durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo_2">Séptimo. Se establece una bonificación del 99 % del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en lo sucesivo ITPAJD, sobre los siguientes hechos imponibles:</p>
+        <p class="parrafo_2"><em>a)</em> La adquisición, construcción, adecuación o rehabilitación del suelo, edificio o instalaciones que constituyan una vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>b)</em> La declaración de obra nueva del edificio o el conjunto residencial de viviendas colaborativas de interés social.</p>
+        <p class="parrafo"><em>c)</em> Los préstamos con garantía hipotecaria destinados a la financiación de la adquisición o construcción o rehabilitación del edificio por vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>d)</em> Los arrendamientos exentos del impuesto sobre el valor añadido derivados de la cesión de uso a los socios de viviendas colaborativas de interés social.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 7 por la disposición final 3.1 de la Ley 3/2023, de 13 de abril. <a class="refPost">Ref. BOE-A-2023-10134#df-3</a></p>
+          <p class="nota_pie_2">Redactado conforme a la corrección de errores publicada en el DOGV núm. 9594, de 12 de mayo de 2023. <a class="refPost">Ref. BOE-A-2023-16067</a></p>
+          <p class="nota_pie">Se añaden los apartados 5 y 6 por los arts. 5 y 6 del Decreto-ley 19/2022, de 30 de diciembre. <a class="refPost">Ref. DOGV-r-2022-90447</a></p>
+          <p class="nota_pie">Se modifica el apartado 3 por el art. 28 de la Ley 7/2021, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2022-1018</a></p>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2025-11959" fpub="20250614" fecha_publicacion="20250531" fecha_vigencia="20250601">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que, en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="tabla">
+          <colgroup>
+            <col width="80%"/>
+            <col width="20%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="cabeza_tabla">Concepto</th>
+              <th class="cabeza_tabla">Porcentaje de bonificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">70 %</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo_2">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra <em>f</em> del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. A los efectos de esta norma, se considerarán obras tendentes a mejorar el rendimiento energético de la vivienda las actuaciones que se consideren subvencionables para la mejora de la eficiencia energética de acuerdo con los criterios y medios de justificación contenidos en las bases reguladoras de las ayudas de rehabilitación de edificios de los programas de fomento de la mejora de la eficiencia energética y sostenibilidad en viviendas del plan de ayudas estatal o europeo vigente en el momento del devengo del impuesto.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <p class="parrafo">Cinco. Se aplicará una bonificación del 50 por 100 en la cuota de la modalidad transmisiones patrimoniales onerosas en las adquisiciones de inmuebles situados en el término municipal de un municipio en riesgo de despoblamiento que vayan a ser objeto de inmediata rehabilitación y destinados a su uso como viviendas. Se entenderá cumplido este requisito si, en el plazo de tres años desde la adquisición, se acredita la finalización de las obras de rehabilitación.</p>
+        <p class="parrafo">En el documento público en el que se formalice la compraventa se hará constar este destino.</p>
+        <p class="parrafo_2">A los efectos de este beneficio se estará al concepto de rehabilitación contenido en la normativa del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Seis. Será aplicable una bonificación del 30 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados en las escrituras públicas por las que se formalizan las adquisiciones de inmuebles que vayan a constituir la sede social o centro de trabajo de empresas o negocios profesionales que tengan su domicilio fiscal y social en alguno de los municipios en riesgo de despoblamiento.</p>
+        <p class="parrafo">Las empresas o negocios profesionales deben cumplir los siguientes requisitos:</p>
+        <p class="parrafo_2">1. Tener el domicilio social y fiscal en alguno de los municipios en riesgo de despoblamiento y mantenerlo durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo">2. Ejercer una actividad económica durante los tres años siguientes a la adquisición. A tal efecto, no debe tener por actividad principal la gestión de un patrimonio mobiliario o inmobiliario, de acuerdo con lo dispuesto en el artículo 4.8.° Dos.a) de la Ley 19/1991, de 6 de junio, del impuesto sobre el patrimonio.</p>
+        <p class="parrafo">3. Contar, como mínimo, con una persona ocupada con contrato laboral y a jornada completa, dada de alta en el régimen general de la Seguridad Social durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo_2">Siete. Se establece una bonificación del 99 % del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en lo sucesivo ITPAJD, sobre los siguientes hechos imponibles:</p>
+        <p class="parrafo_2"><em>a)</em> La adquisición, construcción, adecuación o rehabilitación del suelo, edificio o instalaciones que constituyan una vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>b)</em> La declaración de obra nueva del edificio o el conjunto residencial de viviendas colaborativas de interés social.</p>
+        <p class="parrafo"><em>c)</em> Los préstamos con garantía hipotecaria destinados a la financiación de la adquisición o construcción o rehabilitación del edificio por vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>d)</em> Los arrendamientos exentos del impuesto sobre el valor añadido derivados de la cesión de uso a los socios de viviendas colaborativas de interés social.</p>
+        <p class="parrafo_2">Ocho. Siempre que así sea reconocido en el acuerdo del Consell que declare una iniciativa de inversión como Proyecto de interés autonómico o figura análoga que haga mención al carácter territorial estratégico de la misma, se aplicará una bonificación del 50 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del Impuesto sobre transmisiones patrimoniales y actos jurídicos documentados a las primeras copias de escrituras y actas notariales que documenten los actos de adquisición, agrupación, agregación, segregación y división que se efectúen sobre inmuebles destinados a su ejecución.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 8 por el art. 28 de la Ley 5/2025, de 30 de mayo. <a class="refPost">Ref. BOE-A-2025-11959</a></p>
+          <p class="nota_pie">Se añade el apartado 7 por la disposición final 3.1 de la Ley 3/2023, de 13 de abril. <a class="refPost">Ref. BOE-A-2023-10134#df-3</a></p>
+          <p class="nota_pie_2">Redactado conforme a la corrección de errores publicada en el DOGV núm. 9594, de 12 de mayo de 2023. <a class="refPost">Ref. BOE-A-2023-16067</a></p>
+          <p class="nota_pie">Se añaden los apartados 5 y 6 por los arts. 5 y 6 del Decreto-ley 19/2022, de 30 de diciembre. <a class="refPost">Ref. DOGV-r-2022-90447</a></p>
+          <p class="nota_pie">Se modifica el apartado 3 por el art. 28 de la Ley 7/2021, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2022-1018</a></p>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2026-90066" fecha_publicacion="20260330" fecha_vigencia="20260331">
+        <p class="articulo">Artículo 14 bis. Bonificaciones.</p>
+        <p class="parrafo">Uno. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados en las escrituras públicas de novación modificativa de préstamos y créditos con garantía hipotecaria pactados de común acuerdo entre acreedor y deudor, siempre que el acreedor sea una de las entidades a las que se refiere el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios y la modificación se refiera a las condiciones del tipo de interés inicialmente pactado o vigente, a la alteración del plazo o a ambas.</p>
+        <p class="parrafo">Dos. Se aplicará una bonificación del 100 por 100 de la cuota tributaria de la modalidad gradual de Actos Jurídicos Documentados respecto a aquellas escrituras públicas de novación modificativa, pactadas de común acuerdo entre acreedor y deudor, que cambien el método de amortización y cualesquiera otras condiciones financieras de aquellos préstamos y créditos con garantía hipotecaria que cumplan los siguientes requisitos:</p>
+        <p class="parrafo_2">– Que el préstamo se haya concertado con la finalidad de la adquisición de una vivienda.</p>
+        <p class="parrafo">– Que dicha vivienda constituya la vivienda habitual del deudor y/o hipotecante en el momento de la novación.</p>
+        <p class="parrafo">– Que el acreedor sea una de las entidades contempladas en el artículo 1 de la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios.</p>
+        <p class="parrafo">Dentro del concepto de modificación del método o sistema de amortización y de cualesquiera otras condiciones financieras del préstamo no se entenderán comprendidas la ampliación o reducción de capital; la alteración del plazo o de las condiciones del tipo de interés inicialmente pactado o vigente, ni la prestación o modificación de las garantías personales.</p>
+        <p class="parrafo">Tres.</p>
+        <p class="parrafo_2">1. La transmisión de la totalidad o parte de una o más viviendas y sus anexos a una persona física o jurídica a cuya actividad le sea de aplicación las normas de adaptación del Plan general de contabilidad del sector inmobiliario disfrutará de una bonificación de la cuota del impuesto en la modalidad de transmisiones patrimoniales onerosas, siempre que cumpla los siguientes requisitos:</p>
+        <p class="parrafo_2">a) Que la adquisición se realice como pago total o parcial por la entrega de una vivienda al transmitente.</p>
+        <p class="parrafo">b) Que la vivienda entregada al transmitente vaya a constituir su vivienda habitual.</p>
+        <p class="parrafo">c) Que la entrega de la vivienda al transmitente esté sujeta y no exenta del impuesto sobre el valor añadido.</p>
+        <p class="parrafo">d) Que la actividad principal del adquirente sea la construcción de edificios, la promoción inmobiliaria o la compraventa o arrendamiento de bienes inmuebles por su cuenta.</p>
+        <p class="parrafo">e) Que los bienes adquiridos se incorporen al activo del adquirente con la finalidad de venderlos o alquilarlos.</p>
+        <p class="parrafo">f) Que, en el plazo de tres años, los bienes adquiridos se transmitan a una persona física para su uso como vivienda o se destinen al arrendamiento de vivienda, de acuerdo con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos.</p>
+        <p class="parrafo">Tanto la transmisión como la formalización del arrendamiento deberán formalizarse en documento público.</p>
+        <p class="parrafo">g) Que la empresa adquirente esté al corriente con las obligaciones tributarias con la Generalitat.</p>
+        <p class="parrafo_2">2. La bonificación sobre la cuota del impuesto tendrá las siguientes modalidades:</p>
+        <table class="tabla">
+          <colgroup>
+            <col width="80%"/>
+            <col width="20%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="cabeza_tabla">Concepto</th>
+              <th class="cabeza_tabla">Porcentaje de bonificación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si en la vivienda adquirida se realizan obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos Urbanos, siempre y cuando reúna condiciones de habitabilidad.</td>
+              <td class="cuerpo_tabla_centro">50 %</td>
+            </tr>
+            <tr>
+              <td class="cuerpo_tabla_izq">Si la vivienda adquirida se destina al arrendamiento de vivienda, de conformidad con lo dispuesto en la Ley 29/1994, de 24 de noviembre, de arrendamientos urbanos, tras la realización de obras tendentes a mejorar el rendimiento energético, la salubridad o la accesibilidad en la vivienda, así como a suprimir barreras arquitectónicas.</td>
+              <td class="cuerpo_tabla_centro">70 %</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="parrafo_2">3. La aplicación de esta bonificación es provisional, por lo que solamente hay que hacer constar en la escritura pública que la adquisición de la vivienda y, en su caso, anexos se efectúa con el fin de venderlos o arrendarlos a un particular para su uso como vivienda. Para la elevación a definitiva, el sujeto pasivo debe acreditar la transmisión o arrendamiento posterior de la totalidad de los bienes adquiridos.</p>
+        <p class="parrafo">4. Ante el incumplimiento de cualquiera de los requisitos, condicionantes o plazos para la aplicación de la bonificación prevista en este artículo, el sujeto pasivo deberá presentar, dentro del plazo reglamentario de presentación, contado desde el día después del incumplimiento, una autoliquidación complementaria sin bonificación y con deducción de la cuota ingresada, con aplicación de los correspondientes intereses de demora.</p>
+        <p class="parrafo">5. A efectos de la aplicación de la bonificación, es preciso tener en cuenta las siguientes reglas especiales:</p>
+        <p class="parrafo_2">a) Cuando se transmitan viviendas que formen parte de una edificación entera en régimen de propiedad vertical, la bonificación solo será aplicable en relación con la superficie que se asigne como vivienda en la división en propiedad horizontal posterior, quedando excluida la superficie dedicada a locales comerciales.</p>
+        <p class="parrafo">b) La bonificación será aplicable a la vivienda y el terreno en el que se encuentra enclavada siempre y cuando formen una misma finca registral y la venta posterior del plazo de los tres años comprenda la totalidad de la misma.</p>
+        <p class="parrafo">c) En el caso de adquisición de partes indivisas, el día inicial del plazo de tres años al que se refiere la letra <em>f</em> del apartado 1 será la fecha de adquisición de la primera parte indivisa.</p>
+        <p class="parrafo">d) Quedan expresamente excluidas de la aplicación de esta bonificación:</p>
+        <p class="parrafo_2">– Las adjudicaciones de inmuebles en subasta pública.</p>
+        <p class="parrafo">– Las transmisiones de valores que incurran en los supuestos a que se refiere el artículo 17.2 del texto refundido de la Ley del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, aprobado por el Real decreto legislativo 1/1993, de 24 de septiembre.</p>
+        <p class="parrafo_2">6. A los efectos de esta norma, se considerarán obras tendentes a mejorar el rendimiento energético de la vivienda las actuaciones que se consideren subvencionables para la mejora de la eficiencia energética de acuerdo con los criterios y medios de justificación contenidos en las bases reguladoras de las ayudas de rehabilitación de edificios de los programas de fomento de la mejora de la eficiencia energética y sostenibilidad en viviendas del plan de ayudas estatal o europeo vigente en el momento del devengo del impuesto.</p>
+        <p class="parrafo_2">Cuatro. Se aplicará una bonificación del 30% de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en las escrituras públicas por las que se formalicen las adquisiciones de bienes inmuebles situados en una zona declarada como área industrial avanzada.</p>
+        <p class="parrafo">Cinco. Se aplicará una bonificación del 50 por 100 en la cuota de la modalidad transmisiones patrimoniales onerosas en las adquisiciones de inmuebles situados en el término municipal de un municipio en riesgo de despoblamiento que vayan a ser objeto de inmediata rehabilitación y destinados a su uso como viviendas. Se entenderá cumplido este requisito si, en el plazo de tres años desde la adquisición, se acredita la finalización de las obras de rehabilitación.</p>
+        <p class="parrafo">En el documento público en el que se formalice la compraventa se hará constar este destino.</p>
+        <p class="parrafo_2">A los efectos de este beneficio se estará al concepto de rehabilitación contenido en la normativa del Impuesto sobre el Valor Añadido.</p>
+        <p class="parrafo">Seis. Será aplicable una bonificación del 30 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados en las escrituras públicas por las que se formalizan las adquisiciones de inmuebles que vayan a constituir la sede social o centro de trabajo de empresas o negocios profesionales que tengan su domicilio fiscal y social en alguno de los municipios en riesgo de despoblamiento.</p>
+        <p class="parrafo">Las empresas o negocios profesionales deben cumplir los siguientes requisitos:</p>
+        <p class="parrafo_2">1. Tener el domicilio social y fiscal en alguno de los municipios en riesgo de despoblamiento y mantenerlo durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo">2. Ejercer una actividad económica durante los tres años siguientes a la adquisición. A tal efecto, no debe tener por actividad principal la gestión de un patrimonio mobiliario o inmobiliario, de acuerdo con lo dispuesto en el artículo 4.8.° Dos.a) de la Ley 19/1991, de 6 de junio, del impuesto sobre el patrimonio.</p>
+        <p class="parrafo">3. Contar, como mínimo, con una persona ocupada con contrato laboral y a jornada completa, dada de alta en el régimen general de la Seguridad Social durante los tres años siguientes a la adquisición.</p>
+        <p class="parrafo_2">Siete. Se establece una bonificación del 99 % del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, en lo sucesivo ITPAJD, sobre los siguientes hechos imponibles:</p>
+        <p class="parrafo_2"><em>a)</em> La adquisición, construcción, adecuación o rehabilitación del suelo, edificio o instalaciones que constituyan una vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>b)</em> La declaración de obra nueva del edificio o el conjunto residencial de viviendas colaborativas de interés social.</p>
+        <p class="parrafo"><em>c)</em> Los préstamos con garantía hipotecaria destinados a la financiación de la adquisición o construcción o rehabilitación del edificio por vivienda colaborativa de interés social.</p>
+        <p class="parrafo"><em>d)</em> Los arrendamientos exentos del impuesto sobre el valor añadido derivados de la cesión de uso a los socios de viviendas colaborativas de interés social.</p>
+        <p class="parrafo_2">Ocho. Siempre que así sea reconocido en el acuerdo del Consell que declare una iniciativa de inversión como Proyecto de interés autonómico o figura análoga que haga mención al carácter territorial estratégico de la misma, se aplicará una bonificación del 50 % de la cuota gradual de documentos notariales de la modalidad actos jurídicos documentados del Impuesto sobre transmisiones patrimoniales y actos jurídicos documentados a las primeras copias de escrituras y actas notariales que documenten los actos de adquisición, agrupación, agregación, segregación y división que se efectúen sobre inmuebles destinados a su ejecución.</p>
+        <p class="parrafo">Nueve. Se aplicará una bonificación del 100 % de la cuota tributaria del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados en la adquisición de los bienes inmuebles incluidos en la transmisión de la totalidad de una explotación de ganadería extensiva, o de terrenos afectos a la misma, siempre que el adquirente sea una persona física que figure, o se inscriba por efecto de la adquisición, como titular de una actividad censada en el Registro de Explotaciones Ganaderas.</p>
+        <p class="parrafo">Los bienes y derechos adquiridos deberán estar afectos a la explotación durante los cinco años siguientes a su adquisición, salvo fallecimiento del adquirente dentro del citado plazo, o salvo supuestos de expropiación forzosa o concurrencia de otras causas de fuerza mayor debidamente acreditadas que imposibiliten su ejercicio.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 9 por el art. 2 del Decreto-ley 4/2026, de 27 de marzo. <a class="refPost">Ref. DOGV-r-2026-90066</a></p>
+          <p class="nota_pie">Se añade el apartado 8 por el art. 28 de la Ley 5/2025, de 30 de mayo. <a class="refPost">Ref. BOE-A-2025-11959</a></p>
+          <p class="nota_pie">Se añade el apartado 7 por la disposición final 3.1 de la Ley 3/2023, de 13 de abril. <a class="refPost">Ref. BOE-A-2023-10134#df-3</a></p>
+          <p class="nota_pie_2">Redactado conforme a la corrección de errores publicada en el DOGV núm. 9594, de 12 de mayo de 2023. <a class="refPost">Ref. BOE-A-2023-16067</a></p>
+          <p class="nota_pie">Se añaden los apartados 5 y 6 por los arts. 5 y 6 del Decreto-ley 19/2022, de 30 de diciembre. <a class="refPost">Ref. DOGV-r-2022-90447</a></p>
+          <p class="nota_pie">Se modifica el apartado 3 por el art. 28 de la Ley 7/2021, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2022-1018</a></p>
+          <p class="nota_pie">Se añade el apartado 4 por la disposición adicional 4.2 de la Ley 14/2018, de 5 de junio. <a class="refPost">Ref. BOE-A-2018-8949</a></p>
+          <p class="nota_pie">Se añade el apartado 3 por el art. 4 de la Ley 21/2017, de 28 de diciembre. <a class="refPost">Ref. BOE-A-2018-1871</a></p>
+          <p class="nota_pie">Se modifica por el art. 17 de la Ley 13/2016, de 29 de diciembre. <a class="refPost">Ref. BOE-A-2017-1291</a>.</p>
+          <p class="nota_pie">Se modifica por el art. 63.1 de la Ley 5/2013, de 23 de diciembre. <a class="refPost">Ref. BOE-A-2014-970</a>.</p>
+          <p class="nota_pie">Se añade por el art. 8 del Decreto-ley 4/2013, de 2 de agosto. <a class="refPost">Ref. DOCV-r-2013-90266</a>.</p>
+          <p class="nota_pie_2">El apartado 3 resultará aplicable a los hechos imponibles producidos a partir del 1 de julio de 2013, inclusive, según establece la disposición final 2.</p>
+        </blockquote>
+      </version>
+    </bloque>
+  </data>
+</response>

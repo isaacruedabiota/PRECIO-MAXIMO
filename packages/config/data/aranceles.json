@@ -7,11 +7,31 @@
     "_fuente": "RD 1426/1989, de 17 de noviembre, anexo I, numero 2. BOE-A-1989-28111, version en vigor desde 2010-05-25.",
     "_cita": "Por los instrumentos de cuantia se percibiran los derechos que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala: a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros. b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil. c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil. d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil. e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil. f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.",
     "tramos": [
-      { "desde": 6010.12, "hasta": 30050.61, "tipo": 0.0045 },
-      { "desde": 30050.61, "hasta": 60101.21, "tipo": 0.0015 },
-      { "desde": 60101.21, "hasta": 150253.03, "tipo": 0.001 },
-      { "desde": 150253.03, "hasta": 601012.1, "tipo": 0.0005 },
-      { "desde": 601012.1, "hasta": 6010121.04, "tipo": 0.0003 }
+      {
+        "desde": 6010.12,
+        "hasta": 30050.61,
+        "tipo": 0.0045
+      },
+      {
+        "desde": 30050.61,
+        "hasta": 60101.21,
+        "tipo": 0.0015
+      },
+      {
+        "desde": 60101.21,
+        "hasta": 150253.03,
+        "tipo": 0.001
+      },
+      {
+        "desde": 150253.03,
+        "hasta": 601012.1,
+        "tipo": 0.0005
+      },
+      {
+        "desde": 601012.1,
+        "hasta": 6010121.04,
+        "tipo": 0.0003
+      }
     ],
     "cuota_fija_base": 90.151816,
     "rebaja": 0.05,
@@ -38,11 +58,31 @@
     "_cita": "Por la inscripcion, anotacion o cancelacion de cada finca o derecho, se percibiran las cantidades que fijan las siguientes escalas: a) Si el valor de la finca o derecho no excede de 6.010,12 euros, 24,040484 euros. b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros, 1,75 por 1.000. c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros, 1,25 por 1.000. d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros, 0,75 por 1.000. e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros, 0,30 por 1.000. f) Por el valor que exceda de 601.012,10 euros 0,20 por 1.000.",
     "_cita_topes": "En todo caso, el arancel global aplicable regulado en el numero 2 del arancel no podra superar los 2.181,673939 euros ni ser inferior a 24,040484 euros. En todos los supuestos de este numero se aplicara una rebaja del 5 por 100 del importe del arancel a percibir por el registrador de la propiedad.",
     "tramos": [
-      { "desde": 6010.12, "hasta": 30050.61, "tipo": 0.00175 },
-      { "desde": 30050.61, "hasta": 60101.21, "tipo": 0.00125 },
-      { "desde": 60101.21, "hasta": 150253.03, "tipo": 0.00075 },
-      { "desde": 150253.03, "hasta": 601012.1, "tipo": 0.0003 },
-      { "desde": 601012.1, "hasta": null, "tipo": 0.0002 }
+      {
+        "desde": 6010.12,
+        "hasta": 30050.61,
+        "tipo": 0.00175
+      },
+      {
+        "desde": 30050.61,
+        "hasta": 60101.21,
+        "tipo": 0.00125
+      },
+      {
+        "desde": 60101.21,
+        "hasta": 150253.03,
+        "tipo": 0.00075
+      },
+      {
+        "desde": 150253.03,
+        "hasta": 601012.1,
+        "tipo": 0.0003
+      },
+      {
+        "desde": 601012.1,
+        "hasta": null,
+        "tipo": 0.0002
+      }
     ],
     "cuota_fija_base": 24.040484,
     "rebaja": 0.05,
@@ -81,10 +121,15 @@
     "verificado": false
   },
   "gastos_hipoteca_a_cargo_del_comprador": {
-    "_doc": "Desde la Ley 5/2019 de contratos de credito inmobiliario, los gastos de constitucion de la hipoteca (notaria, gestoria, registro y AJD del prestamo) los paga el prestamista. Al comprador solo le queda la tasacion y la copia de la escritura que pida.",
-    "_pendiente": "PENDIENTE DE VERIFICAR contra el art. 14.1.e de la Ley 5/2019. Se deja en false porque es lo que dice la norma segun la practica habitual, pero no se ha leido el texto.",
+    "_doc": "Reparto de los gastos de constitucion de la HIPOTECA (no de la compraventa).",
+    "_fuente": "Ley 5/2019 de contratos de credito inmobiliario, art. 14.1.e. Texto consolidado del BOE (BOE-A-2019-3814), en vigor desde 2019-06-16, leido el 2026-08-22.",
+    "_cita": "i. Los gastos de tasacion del inmueble corresponderan a prestatario y los de gestoria al prestamista. ii. El prestamista asumira el coste de los aranceles notariales de la escritura de prestamo hipotecario y los de las copias los asumira quien las solicite. iii. Los gastos de inscripcion de las garantias en el registro de la propiedad corresponderan al prestamista. iv. El pago del impuesto de transmisiones patrimoniales y actos juridicos documentados se realizara de conformidad con lo establecido en la normativa tributaria aplicable.",
+    "_por_eso_false": "Notaria, registro, gestoria y AJD DE LA HIPOTECA los paga el prestamista. Al comprador solo le queda la tasacion, que el motor cobra aparte en el campo tasacion.",
+    "_no_confundir_con_la_gestoria_de_compraventa": "El campo gestoria de este fichero NO es la de la hipoteca: es la de la compraventa (liquidacion del impuesto e inscripcion de la escritura de compra), que si asume el comprador. La del prestamo la paga el banco y por eso no se suma.",
     "aplica": false,
+    "articulo": "art. 14.1.e Ley 5/2019",
     "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-3814",
-    "verificado": false
+    "vigencia_desde": "2019-06-16",
+    "verificado": true
   }
 }

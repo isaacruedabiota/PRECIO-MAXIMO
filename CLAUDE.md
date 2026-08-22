@@ -31,7 +31,7 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 ## Estado
 
 **Fase 1 completa** — los cuatro techos, descuentos por riesgo, bloqueantes,
-argumentario y métricas de inversión, con **179 tests**. `calcularPrecioMaximo`
+argumentario y métricas de inversión, con **181 tests**. `calcularPrecioMaximo`
 devuelve un resultado completo y trazable en los tres modos: residencia,
 inversión en alquiler e inversión en flipping.
 
@@ -149,11 +149,12 @@ IVA y los tramos de arancel no los dio nunca el brief, así que se quedan a
 `null` y el motor seguirá fallando en ellos hasta que se rellenen contra el BOE.
 Para deshacerlo: `git checkout packages/config/data`.
 
-Estado: **62 pendientes, 24 bloques sin verificar.** Los tipos de ITP de la
-Comunitat Valenciana, el IVA de reforma, la reducción de IRPF por arrendamiento y
-los aranceles de notaría y registro **sí están verificados**, leídos del BOE con
-cita literal (ADR-016). Lo que queda pendiente es sobre todo las otras cinco
-CCAA, que siguen como plantillas vacías.
+Estado: **68 pendientes, 21 bloques sin verificar.** Los tipos de ITP y AJD de la
+Comunitat Valenciana, el IVA de reforma y de obra nueva, la reducción de IRPF por
+arrendamiento, los aranceles de notaría y registro y el reparto de gastos de
+hipoteca de la Ley 5/2019 **sí están verificados**, leídos del BOE con cita
+literal (ADR-016). Lo que queda pendiente es sobre todo las otras cinco CCAA, que
+siguen como plantillas vacías.
 
 Mientras quede un bloque sin verificar, la UI muestra un aviso rojo diciendo que
 esa cifra no está contrastada.

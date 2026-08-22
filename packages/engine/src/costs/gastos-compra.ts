@@ -290,15 +290,23 @@ export function calcularGastosCompra(
       'itp.obra_nueva.iva_vivienda',
       'Tipo de IVA de vivienda de obra nueva.',
     );
-    const tipoAjd = requerido(
-      bloque.tipo_ajd_obra_nueva,
-      `itp.ccaa[ccaa="${bloque.ccaa}"].tipo_ajd_obra_nueva`,
-      'Tipo de AJD de la comunidad para obra nueva.',
-    );
+    // El AJD reducido pide vivienda habitual a secas, no que sea la primera.
+    const rutaAjd = `itp.ccaa[ccaa="${bloque.ccaa}"].tipo_ajd_obra_nueva`;
+    const tipoAjd = ctx.buyer.sera_vivienda_habitual
+      ? requerido(
+          bloque.tipo_ajd_obra_nueva.vivienda_habitual,
+          `${rutaAjd}.vivienda_habitual`,
+          'Tipo de AJD para adquisicion de vivienda habitual.',
+        )
+      : requerido(
+          bloque.tipo_ajd_obra_nueva.general,
+          `${rutaAjd}.general`,
+          'Tipo general de AJD de la comunidad.',
+        );
     iva = precio * tipoIva;
     ajd = precio * tipoAjd;
     tipoAplicado = tipoIva + tipoAjd;
-    modalidad = 'Obra nueva: IVA + AJD';
+    modalidad = `Obra nueva: IVA ${(tipoIva * 100).toFixed(0)}% + AJD ${(tipoAjd * 100).toFixed(2)}%`;
   } else {
     const resuelto = resolverTipoITP(ctx, base);
     itp = base * resuelto.tipo;

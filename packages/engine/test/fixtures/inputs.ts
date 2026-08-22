@@ -54,6 +54,7 @@ export function compradorBase(over: Partial<BuyerProfile> = {}): BuyerProfile {
   return {
     edad: 40,
     primera_vivienda_habitual: false,
+    sera_vivienda_habitual: true,
     familia_numerosa: 'no',
     discapacidad_reconocida: false,
     tributacion_irpf: 'individual',

@@ -11,12 +11,28 @@
       "_ojo_devengo": "El 9 % viene del art. 33 de la Ley 5/2025, de 30 de mayo, y produce efectos para los hechos imponibles devengados desde el 1 de junio de 2026. Antes de esa fecha el tipo general era el 10 %.",
       "tipo_general": {
         "tramos": [
-          { "desde": 0, "hasta": 1000000, "tipo": 0.09 },
-          { "desde": 1000000, "hasta": null, "tipo": 0.11 }
+          {
+            "desde": 0,
+            "hasta": 1000000,
+            "tipo": 0.09
+          },
+          {
+            "desde": 1000000,
+            "hasta": null,
+            "tipo": 0.11
+          }
         ],
         "articulo": "art. 13.Uno Ley 13/1997"
       },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_ajd_obra_nueva": {
+        "_fuente": "Ley 13/1997 art. 14, texto consolidado del BOE (BOE-A-1998-8202), version en vigor desde 2025-06-01, leida el 2026-08-22.",
+        "_cita": "Uno. El 0,1 por 100 en los siguientes casos: a) Las primeras copias de las escrituras publicas que documenten adquisiciones de vivienda habitual. [...] Cuatro. En los demas casos, el 1,4 por 100.",
+        "_ojo_devengo": "El 1,4 % del apartado Cuatro viene del art. 34 de la Ley 5/2025 y produce efectos para hechos imponibles devengados desde el 1 de junio de 2026. Antes era el 1,5 %.",
+        "_no_confundir": "El 2 % del apartado Tres es para prestamos hipotecarios cuando el sujeto pasivo es el prestamista, no para la compraventa. Desde el RDL 17/2018 ese AJD lo paga el banco, no el comprador.",
+        "vivienda_habitual": 0.001,
+        "general": 0.014,
+        "articulo": "art. 14.Uno.a y art. 14.Cuatro Ley 13/1997"
+      },
       "tipos_reducidos": [
         {
           "codigo": "joven_primera_vivienda",
@@ -29,7 +45,10 @@
             "base liquidable general + del ahorro dentro del limite del art. 4.Cuatro parrafo primero"
           ],
           "limite_edad": 35,
-          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_base_imponible_irpf": {
+            "individual": 30000,
+            "conjunta": 47000
+          },
           "limite_valor_inmueble": 180000,
           "valor_inmueble_desde": null,
           "articulo": "art. 13.Tres.1 Ley 13/1997",
@@ -47,7 +66,10 @@
             "base liquidable general + del ahorro dentro del limite del art. 4.Cuatro parrafo primero"
           ],
           "limite_edad": 35,
-          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_base_imponible_irpf": {
+            "individual": 30000,
+            "conjunta": 47000
+          },
           "limite_valor_inmueble": null,
           "valor_inmueble_desde": 180000,
           "articulo": "art. 13.Dos.2 Ley 13/1997",
@@ -65,12 +87,18 @@
             "limite de renta segun categoria y regimen de declaracion"
           ],
           "limite_edad": null,
-          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_base_imponible_irpf": {
+            "individual": 30000,
+            "conjunta": 47000
+          },
           "limite_valor_inmueble": 180000,
           "valor_inmueble_desde": null,
           "articulo": "art. 13.Cinco.2 Ley 13/1997",
           "_ojo_categoria_especial": "Para categoria ESPECIAL los limites del art. 4.Cuatro son 35.000 individual y 58.000 conjunta. El motor lo resuelve con el campo familia_numerosa del perfil del comprador.",
-          "limite_base_imponible_irpf_categoria_especial": { "individual": 35000, "conjunta": 58000 },
+          "limite_base_imponible_irpf_categoria_especial": {
+            "individual": 35000,
+            "conjunta": 58000
+          },
           "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
           "verificado": true
         },
@@ -85,11 +113,17 @@
             "limite de renta segun categoria y regimen de declaracion"
           ],
           "limite_edad": null,
-          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_base_imponible_irpf": {
+            "individual": 30000,
+            "conjunta": 47000
+          },
           "limite_valor_inmueble": null,
           "valor_inmueble_desde": 180000,
           "articulo": "art. 13.Cuatro.1.2 Ley 13/1997",
-          "limite_base_imponible_irpf_categoria_especial": { "individual": 35000, "conjunta": 58000 },
+          "limite_base_imponible_irpf_categoria_especial": {
+            "individual": 35000,
+            "conjunta": 58000
+          },
           "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
           "verificado": true
         },
@@ -153,8 +187,15 @@
     },
     {
       "ccaa": "Comunidad de Madrid",
-      "tipo_general": { "tramos": [], "articulo": null },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_general": {
+        "tramos": [],
+        "articulo": null
+      },
+      "tipo_ajd_obra_nueva": {
+        "vivienda_habitual": null,
+        "general": null,
+        "articulo": null
+      },
       "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
@@ -162,8 +203,15 @@
     },
     {
       "ccaa": "Cataluna",
-      "tipo_general": { "tramos": [], "articulo": null },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_general": {
+        "tramos": [],
+        "articulo": null
+      },
+      "tipo_ajd_obra_nueva": {
+        "vivienda_habitual": null,
+        "general": null,
+        "articulo": null
+      },
       "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
@@ -171,8 +219,15 @@
     },
     {
       "ccaa": "Andalucia",
-      "tipo_general": { "tramos": [], "articulo": null },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_general": {
+        "tramos": [],
+        "articulo": null
+      },
+      "tipo_ajd_obra_nueva": {
+        "vivienda_habitual": null,
+        "general": null,
+        "articulo": null
+      },
       "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
@@ -180,8 +235,15 @@
     },
     {
       "ccaa": "Region de Murcia",
-      "tipo_general": { "tramos": [], "articulo": null },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_general": {
+        "tramos": [],
+        "articulo": null
+      },
+      "tipo_ajd_obra_nueva": {
+        "vivienda_habitual": null,
+        "general": null,
+        "articulo": null
+      },
       "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
@@ -189,8 +251,15 @@
     },
     {
       "ccaa": "Aragon",
-      "tipo_general": { "tramos": [], "articulo": null },
-      "tipo_ajd_obra_nueva": null,
+      "tipo_general": {
+        "tramos": [],
+        "articulo": null
+      },
+      "tipo_ajd_obra_nueva": {
+        "vivienda_habitual": null,
+        "general": null,
+        "articulo": null
+      },
       "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
@@ -199,10 +268,14 @@
   ],
   "obra_nueva": {
     "_doc": "Primera transmision: IVA + AJD, no ITP. El tipo de IVA de vivienda es estatal; el de AJD es autonomico y va en tipo_ajd_obra_nueva de cada CCAA.",
-    "_fuente": "Art. 91.Uno.1.7 de la Ley 37/1992 del IVA, texto consolidado del BOE (BOE-A-1992-28740), leido el 2026-08-22. PENDIENTE: confirmar el subapartado exacto de entregas de edificios aptos para vivienda antes de dar el 10 % por bueno.",
-    "iva_vivienda": null,
-    "iva_vpo_regimen_especial": null,
+    "_fuente": "Ley 37/1992 del IVA, texto consolidado del BOE (BOE-A-1992-28740), art. 91 en vigor desde 2024-12-22, leido el 2026-08-22.",
+    "_cita_vivienda": "Art. 91.Uno.1.7: \"Los edificios o partes de los mismos aptos para su utilizacion como viviendas, incluidas las plazas de garaje, con un maximo de dos unidades, y anexos en ellos situados que se transmitan conjuntamente.\" (tipo del 10 por ciento, art. 91.Uno)",
+    "_cita_vpo": "Art. 91.Dos.1.6: \"Las viviendas calificadas administrativamente como de proteccion oficial de regimen especial o de promocion publica, cuando las entregas se efectuen por sus promotores, incluidos los garajes y anexos situados en el mismo edificio que se transmitan conjuntamente. A estos efectos, el numero de plazas de garaje no podra exceder de dos unidades.\" (tipo del 4 por ciento, art. 91.Dos)",
+    "_ojo_garajes": "El tipo reducido cubre como maximo DOS plazas de garaje transmitidas conjuntamente. La tercera y siguientes van al tipo general.",
+    "iva_vivienda": 0.1,
+    "iva_vpo_regimen_especial": 0.04,
+    "articulo": "art. 91.Uno.1.7 y art. 91.Dos.1.6 Ley 37/1992",
     "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
-    "verificado": false
+    "verificado": true
   }
 }

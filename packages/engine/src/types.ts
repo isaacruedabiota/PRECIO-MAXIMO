@@ -334,6 +334,12 @@ export type CategoriaFamiliaNumerosa = 'no' | 'general' | 'especial';
 export interface BuyerProfile {
   edad: number;
   primera_vivienda_habitual: boolean;
+  /**
+   * El inmueble va a ser vivienda habitual, sea o no la primera. Son cosas
+   * distintas: el AJD reducido de obra nueva pide vivienda habitual a secas,
+   * mientras que varias bonificaciones de ITP exigen ademas que sea la primera.
+   */
+  sera_vivienda_habitual: boolean;
   familia_numerosa: CategoriaFamiliaNumerosa;
   discapacidad_reconocida: boolean;
   /** Los limites de renta de las bonificaciones difieren segun el regimen. */

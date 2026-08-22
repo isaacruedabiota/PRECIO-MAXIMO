@@ -38,7 +38,8 @@ export function configDeTest(): EngineConfig {
             ],
             articulo: 'test',
           },
-          tipo_ajd_obra_nueva: 0.015, // INVENTADO
+          // INVENTADOS: 0,1% vivienda habitual, 1,5% el resto.
+          tipo_ajd_obra_nueva: { vivienda_habitual: 0.001, general: 0.015, articulo: 'test' },
           tipos_reducidos: [
             {
               codigo: 'joven_primera_vivienda',

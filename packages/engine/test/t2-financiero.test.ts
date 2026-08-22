@@ -258,6 +258,33 @@ describe('T2 - resolucion del tipo de ITP', () => {
     expect(conjunta.gastos?.tipo_aplicado).toBe(0.04); // 50.000 <= 60.000: si aplica
   });
 
+  it('en obra nueva cobra IVA y AJD en vez de ITP', () => {
+    const gastos = calcularGastosCompra(200000, {
+      property: propiedadBase({ es_obra_nueva: true }),
+      buyer: compradorBase({ sera_vivienda_habitual: true }),
+      config: configDeTest(),
+    }).gastos;
+
+    expect(gastos.itp).toBe(0);
+    expect(gastos.iva).toBeCloseTo(200000 * 0.1, 2);
+    // AJD reducido: 0,1% por ser vivienda habitual
+    expect(gastos.ajd).toBeCloseTo(200000 * 0.001, 2);
+    expect(gastos.modalidad).toContain('Obra nueva');
+  });
+
+  it('el AJD reducido pide vivienda habitual, no que sea la primera', () => {
+    const conHabitual = (sera: boolean) =>
+      calcularGastosCompra(200000, {
+        property: propiedadBase({ es_obra_nueva: true }),
+        // Segunda vivienda habitual: no es la primera, pero si es habitual.
+        buyer: compradorBase({ sera_vivienda_habitual: sera, primera_vivienda_habitual: false }),
+        config: configDeTest(),
+      }).gastos.ajd;
+
+    expect(conHabitual(true)).toBeCloseTo(200000 * 0.001, 2);
+    expect(conHabitual(false)).toBeCloseTo(200000 * 0.015, 2);
+  });
+
   it('falla ruidosamente si no hay bloque de ITP para la comunidad', () => {
     const property = propiedadBase();
     property.localizacion.ccaa = 'Comunidad Foral de Navarra';
