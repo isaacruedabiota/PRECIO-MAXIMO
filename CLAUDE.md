@@ -30,10 +30,13 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fase 0 completada** — andamiaje. El motor tiene contrato pero ni una línea de
-cálculo: `calcularPrecioMaximo` lanza `NotImplementedError` a propósito.
+**Fase 1, primera entrega** — T1, T2, T3, descuentos por riesgo y bloqueantes
+implementados, con 106 tests. `calcularPrecioMaximo` devuelve un resultado
+completo y trazable en modo residencia.
 
-Fase 1 (motor puro, con tests) es la siguiente y la más importante del proyecto.
+**T4 (rentabilidad) todavía no está.** En modo inversor el motor lanza
+`NotImplementedError` en lugar de devolver un precio que ignore un techo que
+podría ser el que manda. Es la segunda entrega de la Fase 1.
 
 ---
 
@@ -217,14 +220,39 @@ ajustar un tipo de ITP es editar un JSON y reiniciar, sin reconstruir. Si el
 directorio no existe, `configDir()` lanza en el arranque en lugar de fallar tres
 capas más abajo.
 
-### ADR-007 — ESLint con una sola config plana en la raíz
+### ADR-007 — La depreciación por antigüedad es relativa, no absoluta
+El brief pedía depreciación por vida útil residual (art. 18 ECO/805). Aplicada en
+absoluto sobre el €/m² de la zona hay **doble conteo**: ese €/m² ya incorpora la
+antigüedad media del parque del barrio, así que un piso viejo se penaliza dos
+veces. El coeficiente se calcula relativo a
+`coeficientes.antiguedad.edad_referencia_zona_anios`; con 0 el resultado es
+exactamente la depreciación absoluta del brief y el motor emite el aviso
+`ANTIGUEDAD_ABSOLUTA`. Poner ahí la antigüedad media del parque de la zona lo
+corrige.
+
+### ADR-008 — Ante la duda fiscal, el tipo menos favorable
+Cuando no se puede comprobar si una bonificación de ITP aplica (falta el límite
+de renta del comprador, por ejemplo), se calcula con el tipo general y se emite
+aviso. Un techo calculado sobre una bonificación que luego no te conceden te
+lleva a ofrecer de más, que es el error caro; al revés solo deja margen de sobra.
+Lo mismo con el IVA de la reforma cuando no hay valor catastral.
+
+### ADR-009 — El valor de referencia se contrasta con el precio final
+El aviso `VALOR_REFERENCIA_MANDA` compara el valor de referencia catastral con el
+**precio máximo recomendado**, no con el techo de T2. T2 suele quedar muy por
+encima del precio final, así que comprobarlo solo ahí dejaba el aviso sin
+dispararse justo en el caso que más importa: pagas 42.000 y tributas sobre
+120.000. El aviso de T2 se sustituye por el final para no dar dos cifras
+distintas bajo el mismo código.
+
+### ADR-010 — ESLint con una sola config plana en la raíz
 `next lint` desapareció en Next 16, así que el linter se monta aparte:
 `eslint.config.mjs` en la raíz cubre los seis proyectos y `pnpm lint` ejecuta
 `eslint .`. Sin reglas de estilo — solo las que atrapan errores reales, con
 `no-explicit-any` en error: un `any` en un motor que calcula euros es
 exactamente lo que no queremos.
 
-### ADR-008 — Sin Caddy delante
+### ADR-011 — Sin Caddy delante
 La Pi tiene Caddy instalado pero parado, y otras aplicaciones en 8080 y 8129. La
 app escucha directamente en el 8090. Un proxy inverso para una herramienta
 personal en LAN añade una pieza que puede fallar sin aportar nada. Queda
@@ -252,7 +280,9 @@ personal en LAN añade una pieza que puede fallar sin aportar nada. Queda
 Al terminar cada fase se para y se espera visto bueno.
 
 - [x] **Fase 0** — Andamiaje: monorepo, Docker Compose, esquema de BD, tipos del dominio, despliegue en la Pi.
-- [ ] **Fase 1** — Motor puro. Los cuatro techos + descuentos, con tests. **La fase que decide si el proyecto sirve.**
+- [~] **Fase 1** — Motor puro. **La fase que decide si el proyecto sirve.**
+  - [x] T1 mercado, T2 financiero-fiscal, T3 reforma, descuentos, bloqueantes, argumentario. 106 tests.
+  - [ ] T4 rentabilidad: alquiler y flipping.
 - [ ] **Fase 2** — Adaptador de Catastro.
 - [ ] **Fase 3** — Ingesta batch: MITMA + INE.
 - [ ] **Fase 4** — Web mínima: formulario → resultado → desglose trazable.
