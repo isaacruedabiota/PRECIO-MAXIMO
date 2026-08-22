@@ -60,6 +60,14 @@ pnpm typecheck      # los 6 proyectos
 pnpm lint           # eslint, config plana única en la raíz
 pnpm test           # tests del motor
 pnpm config:check   # qué falta por fijar y por verificar en la config
+pnpm calibrate      # informe de calibración de T1 y T3 sobre datos reales
+```
+
+`pnpm calibrate` acepta municipio y overrides sin tocar los JSON:
+
+```bash
+pnpm calibrate -- --edad-ref=40 --coef-min=0.5
+pnpm calibrate "Burriana"
 ```
 
 Despliegue a la Raspberry Pi: ver [infra/pi/README.md](infra/pi/README.md).
@@ -145,6 +153,28 @@ diciendo que ninguna cifra está contrastada.
 `fecha_dato` es la fecha a la que se refiere el dato, no la de descarga. En la
 base de datos el equivalente es la tabla `fuentes_datos`: ninguna ingesta inserta
 un precio sin crear antes su fila de procedencia.
+
+### 4 bis. Calibración: el modelo se contrasta, no se ajusta a ojo
+
+`packages/engine/src/calibration/` son funciones puras que responden a tres
+preguntas distintas:
+
+- **Sensibilidad** — qué valor de config mueve más el resultado de este caso.
+  Con 93 valores pendientes, dice cuáles verificar primero y cuáles pueden
+  esperar. Perturba cada valor a los extremos de su horquilla (o ±10% si no la
+  declara) y ordena por recorrido en euros.
+- **Coherencia estado ↔ reforma** — el coeficiente de estado de T1 y el coste de
+  obra de T3 hablan de lo mismo desde lados opuestos. Da el €/m² a partir del
+  cual reformar compensa. Si ningún nivel compensa, T3 mandará siempre y el
+  motor dirá que reformar destruye valor; puede ser cierto o puede ser que los
+  coeficientes estén mal.
+- **Contraste con comparables** — operaciones reales con su precio de cierre
+  frente a lo que estima T1. Separa **sesgo** (el modelo se equivoca siempre en
+  la misma dirección: coeficientes mal puestos) de **dispersión** (falla arriba
+  y abajo: falta información en el modelo).
+
+Los comparables salen de escrituras del Notariado por código postal o de pisos
+que se han visitado. Nunca de un portal.
 
 ### 5. Nada de datos inventados
 
