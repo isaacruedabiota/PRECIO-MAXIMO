@@ -22,6 +22,10 @@ const ENV_RAIZ = resolve(AQUI, '..', '..', '..', '.env');
  * ".env" relativo no lo encontraria.
  */
 function cargarEnv(): void {
+  // El entorno real manda sobre el fichero. En la Pi la cadena viene de
+  // /etc/vp/vp-web.env via systemd, y un .env que se hubiera colado en el arbol
+  // desplegado no debe pisarla.
+  if (process.env['DATABASE_URL'] !== undefined) return;
   if (!existsSync(ENV_RAIZ)) return;
   process.loadEnvFile(ENV_RAIZ);
 }
