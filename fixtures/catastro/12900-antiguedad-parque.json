@@ -4,7 +4,7 @@
   "fuente": "Catastro INSPIRE, dataset Buildings del municipio",
   "url_atom": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/12/ES.SDGC.bu.atom_12.xml",
   "fecha_dataset_gml": "2026-02-21",
-  "generado_en": "2026-08-22T19:19:12Z",
+  "generado_en": "2026-08-22T19:26:24Z",
   "criterio": "Edificios con currentUse que empieza por 1_residential, conditionOfConstruction functional y numberOfDwellings > 0. Ano de dateOfConstruction/beginning. Media ponderada por numero de viviendas.",
   "anio_referencia": 2026,
   "edificios_en_el_fichero": 23033,
@@ -24,6 +24,138 @@
     "anio_mediano": 1979,
     "edad_media_anios": 44.79,
     "edad_mediana_anios": 47
+  },
+  "por_codigo_postal": {
+    "12001": {
+      "parque_completo": {
+        "viviendas_computadas": 4718,
+        "anio_medio_ponderado": 1963.49,
+        "anio_mediano": 1970,
+        "edad_media_anios": 62.51,
+        "edad_mediana_anios": 56
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 4703,
+        "anio_medio_ponderado": 1963.3,
+        "anio_mediano": 1970,
+        "edad_media_anios": 62.7,
+        "edad_mediana_anios": 56
+      }
+    },
+    "12002": {
+      "parque_completo": {
+        "viviendas_computadas": 5901,
+        "anio_medio_ponderado": 1969.92,
+        "anio_mediano": 1971,
+        "edad_media_anios": 56.08,
+        "edad_mediana_anios": 55
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 5898,
+        "anio_medio_ponderado": 1969.9,
+        "anio_mediano": 1971,
+        "edad_media_anios": 56.1,
+        "edad_mediana_anios": 55
+      }
+    },
+    "12003": {
+      "parque_completo": {
+        "viviendas_computadas": 11256,
+        "anio_medio_ponderado": 1980.73,
+        "anio_mediano": 1978,
+        "edad_media_anios": 45.27,
+        "edad_mediana_anios": 48
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 11150,
+        "anio_medio_ponderado": 1980.31,
+        "anio_mediano": 1978,
+        "edad_media_anios": 45.69,
+        "edad_mediana_anios": 48
+      }
+    },
+    "12004": {
+      "parque_completo": {
+        "viviendas_computadas": 17491,
+        "anio_medio_ponderado": 1978.53,
+        "anio_mediano": 1978,
+        "edad_media_anios": 47.47,
+        "edad_mediana_anios": 48
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 17321,
+        "anio_medio_ponderado": 1978.1,
+        "anio_mediano": 1978,
+        "edad_media_anios": 47.9,
+        "edad_mediana_anios": 48
+      }
+    },
+    "12005": {
+      "parque_completo": {
+        "viviendas_computadas": 14161,
+        "anio_medio_ponderado": 1984.57,
+        "anio_mediano": 1981,
+        "edad_media_anios": 41.43,
+        "edad_mediana_anios": 45
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 13834,
+        "anio_medio_ponderado": 1983.68,
+        "anio_mediano": 1980,
+        "edad_media_anios": 42.32,
+        "edad_mediana_anios": 46
+      }
+    },
+    "12006": {
+      "parque_completo": {
+        "viviendas_computadas": 23050,
+        "anio_medio_ponderado": 1988.58,
+        "anio_mediano": 1995,
+        "edad_media_anios": 37.42,
+        "edad_mediana_anios": 31
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 22860,
+        "anio_medio_ponderado": 1988.3,
+        "anio_mediano": 1994,
+        "edad_media_anios": 37.7,
+        "edad_mediana_anios": 32
+      }
+    },
+    "12100": {
+      "parque_completo": {
+        "viviendas_computadas": 10575,
+        "anio_medio_ponderado": 1982.11,
+        "anio_mediano": 1981,
+        "edad_media_anios": 43.89,
+        "edad_mediana_anios": 45
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 10559,
+        "anio_medio_ponderado": 1982.05,
+        "anio_mediano": 1981,
+        "edad_media_anios": 43.95,
+        "edad_mediana_anios": 45
+      }
+    },
+    "12550": {
+      "parque_completo": {
+        "viviendas_computadas": 5,
+        "anio_medio_ponderado": 1978.2,
+        "anio_mediano": 1978,
+        "edad_media_anios": 47.8,
+        "edad_mediana_anios": 48
+      },
+      "parque_de_mas_de_5_anios": {
+        "viviendas_computadas": 5,
+        "anio_medio_ponderado": 1978.2,
+        "anio_mediano": 1978,
+        "edad_media_anios": 47.8,
+        "edad_mediana_anios": 48
+      }
+    },
+    "_doc": "USAR SOLO con un precio del mismo ambito. Con precio municipal (MITMA) hay que usar la cifra municipal: mezclar la edad de un barrio con el precio medio de la ciudad es peor que no afinar. Esto queda listo para cuando haya precios por codigo postal del Notariado.",
+    "viviendas_sin_codigo_postal": 1034
   },
   "viviendas_por_decada": {
     "1690": 1,

@@ -31,7 +31,7 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 ## Estado
 
 **Fase 1 completa** — los cuatro techos, descuentos por riesgo, bloqueantes,
-argumentario y métricas de inversión, con **175 tests**. `calcularPrecioMaximo`
+argumentario y métricas de inversión, con **179 tests**. `calcularPrecioMaximo`
 devuelve un resultado completo y trazable en los tres modos: residencia,
 inversión en alquiler e inversión en flipping.
 
@@ -319,6 +319,29 @@ precio: si el precio es de vivienda de más de cinco años, la edad también.
 Para Castellón de la Plana salen **44,8 años** sobre 86.887 viviendas. Con ese
 dato, el parámetro que antes decidía el 88% de T1 desaparece del ranking de
 sensibilidad y el tope global deja de atar.
+
+Con el dataset de direcciones se cruza además por código postal. El contraste
+dentro del municipio es grande —casco antiguo 12001 en 62,7 años frente a 37,7
+en el 12006— pero **el Grao (12100) sale en 43,95, casi la media municipal**, así
+que ahí el ajuste por barrio cambia T1 un 1,5%. El desglose queda guardado sin
+usar: con precio municipal hay que usar edad municipal, y mezclar el precio medio
+de la ciudad con la edad de un barrio es peor que no afinar.
+
+### ADR-021 — El factor construida→útil se cancela más veces de las que parece
+Cuando la superficie declarada del piso y la base del precio de referencia son
+del **mismo tipo**, el factor de conversión multiplica los metros y divide el
+€/m² en la misma proporción: **se cancela y no afecta a T1 en absoluto**. Con
+0,78, 0,82 o 0,90 sale exactamente el mismo techo, y hay tests que lo fijan.
+
+Solo importa cuando las bases difieren —el caso típico, precio de MITMA en
+construida sin comunes contra superficie de anuncio con comunes— y entonces lo
+que entra en el resultado no es cada factor sino **la razón entre los dos**. El
+motor emite `CONVERSION_SUPERFICIE_ASIMETRICA` justo en ese caso.
+
+Consecuencia práctica: no merece la pena verificar el factor absoluto. Y no se
+puede sacar del Catastro: su dataset INSPIRE publica **solo `grossFloorArea`**,
+23.033 de 23.033 edificios; la superficie útil no es un dato catastral. La única
+vía es contrastar pares (construida, útil) de notas simples de pisos reales.
 
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**

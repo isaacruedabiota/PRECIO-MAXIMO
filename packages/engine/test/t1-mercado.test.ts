@@ -93,6 +93,72 @@ describe('T1 - techo de mercado', () => {
     expect(enConstruida.eurM2Homogeneizado).toBeCloseTo(enUtil.eurM2Homogeneizado / 0.82, 4);
   });
 
+  it('el factor se cancela si la superficie y el precio son de la misma base', () => {
+    // Multiplica los metros y divide el EUR/m2 en la misma proporcion.
+    const conBase = (factor: number) => {
+      const config = configDeTest();
+      config.coeficientes.superficie.factor_construida_a_util.valor = factor;
+      return correrT1({
+        config,
+        property: propiedadBase({ superficie: { tipo: 'construida', m2: 85 } }),
+        market: mercadoBase({
+          precio_m2: { ...mercadoBase().precio_m2, base_superficie: 'construida' },
+        }),
+      }).techo.valor?.valor;
+    };
+
+    expect(conBase(0.78)).toBeCloseTo(conBase(0.82) ?? 0, 6);
+    expect(conBase(0.9)).toBeCloseTo(conBase(0.82) ?? 0, 6);
+  });
+
+  it('cuando las bases difieren, lo que manda es la razon entre los dos factores', () => {
+    const conFactores = (sinComunes: number, conComunes: number) => {
+      const config = configDeTest();
+      config.coeficientes.superficie.factor_construida_a_util.valor = sinComunes;
+      config.coeficientes.superficie.factor_construida_con_comunes_a_util.valor = conComunes;
+      return (
+        correrT1({
+          config,
+          property: propiedadBase({ superficie: { tipo: 'construida_con_comunes', m2: 85 } }),
+          market: mercadoBase({
+            precio_m2: { ...mercadoBase().precio_m2, base_superficie: 'construida' },
+          }),
+        }).techo.valor?.valor ?? 0
+      );
+    };
+
+    // Misma razon 0,76/0,82, valores absolutos distintos: mismo resultado salvo
+    // unos euros. La diferencia es el redondeo de los m2 utiles a dos decimales,
+    // que es deliberado: el TrazedValue de la superficie tiene que ser
+    // exactamente el numero con el que se ha calculado, no una version limpia
+    // de otro. Sobre 80.000 EUR son 3 EUR, un 0,003%.
+    const a = conFactores(0.82, 0.76);
+    const b = conFactores(0.9, 0.9 * (0.76 / 0.82));
+    expect(Math.abs(a - b)).toBeLessThan(5);
+    // Razon distinta: resultado distinto.
+    expect(conFactores(0.82, 0.7)).toBeLessThan(conFactores(0.82, 0.8));
+  });
+
+  it('avisa cuando las bases de superficie no coinciden', () => {
+    const r = correrT1({
+      property: propiedadBase({ superficie: { tipo: 'construida_con_comunes', m2: 85 } }),
+      market: mercadoBase({
+        precio_m2: { ...mercadoBase().precio_m2, base_superficie: 'construida' },
+      }),
+    });
+    expect(codigos(r.techo.avisos)).toContain('CONVERSION_SUPERFICIE_ASIMETRICA');
+  });
+
+  it('no avisa cuando coinciden', () => {
+    const r = correrT1({
+      property: propiedadBase({ superficie: { tipo: 'construida', m2: 85 } }),
+      market: mercadoBase({
+        precio_m2: { ...mercadoBase().precio_m2, base_superficie: 'construida' },
+      }),
+    });
+    expect(codigos(r.techo.avisos)).not.toContain('CONVERSION_SUPERFICIE_ASIMETRICA');
+  });
+
   it('actualiza el precio base con la variacion del IPV', () => {
     const r = correrT1({
       market: mercadoBase({

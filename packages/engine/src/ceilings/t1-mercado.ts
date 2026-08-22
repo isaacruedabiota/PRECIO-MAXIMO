@@ -131,6 +131,25 @@ export function calcularT1(ctx: ContextoT1): ResultadoT1 {
     );
   }
 
+  // Cuando la superficie declarada y la base del precio son del mismo tipo, el
+  // factor de conversion se cancela: multiplica los metros y divide el EUR/m2
+  // en la misma proporcion. Solo importa cuando difieren, y entonces lo que
+  // manda no es cada factor sino la razon entre los dos.
+  if (property.superficie.tipo !== ref.base_superficie) {
+    avisos.push(
+      aviso(
+        'atencion',
+        'CONVERSION_SUPERFICIE_ASIMETRICA',
+        'La superficie del piso y la del precio de referencia son de tipos distintos',
+        `Has dado la superficie como "${property.superficie.tipo.replace(/_/g, ' ')}" y el precio de ` +
+          `referencia va sobre "${ref.base_superficie.replace(/_/g, ' ')}". Eso obliga a usar dos factores ` +
+          'de conversion distintos, y ninguno de los dos esta contrastado, asi que su cociente entra ' +
+          'directo en el resultado. Si puedes, da la superficie en la misma base que el precio: entonces ' +
+          'el factor se cancela y deja de importar.',
+      ),
+    );
+  }
+
   const eurM2Actualizado = eurM2;
 
   // -------------------------------------------------------------------------
