@@ -5,12 +5,21 @@
   "verificado": false,
   "fuente_url": "",
   "superficie": {
-    "_doc": "Factor construida -> util cuando no hay dato de util. Aplicarlo degrada la confianza del resultado a media como minimo.",
+    "_doc": "Factores de conversion a superficie util. Aplicar cualquiera de ellos degrada la confianza del resultado a media como minimo.",
+    "_ojo_no_son_lo_mismo": "MITMA calcula su EUR/m2 dividiendo el valor de tasacion entre la SUPERFICIE CONSTRUIDA (verificado en su documento de metodologia, ver fixtures/mitma/metodologia-valor-tasado.txt), y define la construida con partes comunes como concepto distinto. Los anuncios inmobiliarios suelen dar la construida CON comunes. Aplicar el mismo factor a las dos mete un error de alrededor del 6% en T1.",
     "factor_construida_a_util": {
+      "_doc": "De construida SIN partes comunes a util. Es la base del EUR/m2 de MITMA. El rango del brief (0,78-0,85) parece corresponder mas bien a la construida CON comunes, asi que este valor esta pendiente de revisar a la luz de la metodologia.",
       "min": 0.78,
-      "max": 0.85,
+      "max": 0.92,
       "sugerido": 0.82,
       "valor": 0.82
+    },
+    "factor_construida_con_comunes_a_util": {
+      "_doc": "De construida CON partes comunes a util. Es la superficie que suelen publicar los anuncios y la que el usuario tiene mas a mano. Siempre menor que el factor anterior, porque parte de una superficie mayor. Sin sugerido a proposito: no lo dio el brief y no se inventa.",
+      "min": null,
+      "max": null,
+      "sugerido": null,
+      "valor": null
     },
     "atipica_sobre_p90": {
       "min": 0.95,

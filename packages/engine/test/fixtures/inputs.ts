@@ -84,7 +84,7 @@ export function mercadoBase(over: Partial<MarketData> = {}): MarketData {
       n_transacciones: 40,
       p25: 1200,
       p75: 1650,
-      base_construida: false,
+      base_superficie: 'util',
     },
     ipv: null,
     anexos: null,

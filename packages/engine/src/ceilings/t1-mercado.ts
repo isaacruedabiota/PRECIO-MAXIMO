@@ -1,6 +1,7 @@
 import type { CoeficientesConfig, EngineConfig } from '@vp/config/schemas';
 import { leerValor } from '@vp/config/values';
 
+import { factorAUtil } from '../superficie';
 import { anioDe, aviso, linea, mesesEntre, peorConfianza, traza } from '../trace';
 import type {
   Aviso,
@@ -67,21 +68,18 @@ export function calcularT1(ctx: ContextoT1): ResultadoT1 {
   // -------------------------------------------------------------------------
   let eurM2 = ref.eur_m2;
 
-  if (ref.base_construida) {
-    const factor = leerValor(
-      coef.superficie.factor_construida_a_util,
-      'coeficientes.superficie.factor_construida_a_util',
-    );
+  const conversionBase = factorAUtil(ref.base_superficie, coef);
+  if (conversionBase !== null) {
     // El EUR/m2 de la fuente se refiere a metros construidos. Para el mismo
     // importe total hay menos metros utiles, luego el EUR/m2 util es mayor.
-    eurM2 = eurM2 / factor;
+    eurM2 = eurM2 / conversionBase.factor;
     avisos.push(
       aviso(
         'info',
         'PRECIO_BASE_CONVERTIDO',
-        'El precio de referencia venia en superficie construida',
-        `${ref.eur_m2.toFixed(0)} EUR/m2 construido se han convertido a ${eurM2.toFixed(0)} EUR/m2 util ` +
-          `dividiendo por ${factor}.`,
+        `El precio de referencia venia en superficie ${ref.base_superficie.replace(/_/g, ' ')}`,
+        `${ref.eur_m2.toFixed(0)} EUR/m2 se han convertido a ${eurM2.toFixed(0)} EUR/m2 util dividiendo ` +
+          `por ${conversionBase.factor} (${conversionBase.ruta}).`,
       ),
     );
   }
@@ -93,7 +91,8 @@ export function calcularT1(ctx: ContextoT1): ResultadoT1 {
         valor: eurM2,
         fuente: `${ref.fuente} (${ref.ambito})`,
         fecha_dato: ref.fecha_dato,
-        metodo: ref.base_construida ? 'convertido a superficie util' : 'dato de superficie util',
+        metodo:
+          conversionBase !== null ? 'convertido a superficie util' : 'dato de superficie util',
         confianza: 'alta',
         unidad: 'EUR/m2',
       }),

@@ -112,13 +112,30 @@ export type Orientacion =
   | 'desconocida';
 
 /**
+ * Las tres superficies que maneja el sector, y que NO son intercambiables:
+ *
+ *   util                     lo que se pisa dentro de la vivienda
+ *   construida               util mas cerramientos y tabiqueria
+ *   construida_con_comunes   lo anterior mas la parte proporcional de zonas
+ *                            comunes, segun cuota de participacion
+ *
+ * La distincion no es academica. La metodologia de la estadistica de valor
+ * tasado de MITMA dice literalmente que su EUR/m2 sale del "cociente entre el
+ * valor de tasacion y la superficie construida", y define la construida con
+ * comunes como concepto aparte. Los anuncios, en cambio, suelen dar la
+ * construida con comunes. Confundirlas mueve T1 alrededor de un 6%.
+ */
+export type TipoSuperficie = 'util' | 'construida' | 'construida_con_comunes';
+
+/**
  * La superficie es el input que mas dinero mueve. 80 m2 construidos frente a
  * 65 m2 utiles son decenas de miles de euros, asi que el tipo obliga a declarar
- * cual de las dos se esta dando.
+ * cual de las tres se esta dando.
  */
-export type SuperficieInput =
-  | { tipo: 'util'; m2: number }
-  | { tipo: 'construida'; m2: number };
+export interface SuperficieInput {
+  tipo: TipoSuperficie;
+  m2: number;
+}
 
 /** Resultado de resolver la superficie a utiles, con la estimacion marcada. */
 export interface SuperficieResuelta {
@@ -337,8 +354,11 @@ export interface PrecioM2Referencia {
   n_transacciones: number | null;
   p25: number | null;
   p75: number | null;
-  /** true si la referencia es de superficie construida en vez de util. */
-  base_construida: boolean;
+  /**
+   * A que superficie se refiere el EUR/m2 de la fuente. MITMA: 'construida',
+   * verificado contra su documento de metodologia.
+   */
+  base_superficie: TipoSuperficie;
 }
 
 /** Variacion del IPV (INE) para actualizar el dato base a fecha de hoy. */

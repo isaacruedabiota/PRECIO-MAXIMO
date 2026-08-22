@@ -108,6 +108,7 @@ export const coeficientesConfigSchema = z.looseObject({
   verificado: z.boolean(),
   superficie: z.looseObject({
     factor_construida_a_util: vc,
+    factor_construida_con_comunes_a_util: vc,
     atipica_sobre_p90: vc,
   }),
   anexos: z.looseObject({

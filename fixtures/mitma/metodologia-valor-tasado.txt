@@ -1,0 +1,701 @@
+ 
+ 
+ 
+ 
+ 
+Estadística de Valor 
+Tasado de Vivienda 
+ 
+ 
+Metodología 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+Subdirección General de Estudios y Estadísticas 
+ 
+ 
+Madrid, agosto de 2017 
+ 
+
+ 2 
+ 
+ 
+Índice 
+ 
+ 
+1 Introducción 
+ 
+ 
+2 Objetivos 
+ 
+ 
+3 Ámbitos de la estadística 
+ 
+ 
+3.1 Ámbito poblacional 
+ 
+ 
+3.2 Ámbito geográfico 
+ 
+ 
+3.3 Ámbito temporal 
+ 
+ 
+4 Conceptos básicos 
+ 
+ 
+5 Fuentes de información y su tratamiento 
+ 
+ 
+6 Estimación del valor medio del metro cuadrado de vivienda 
+ 
+ 
+6.1 Estratos 
+ 
+ 
+6.2 Ponderaciones 
+ 
+ 
+6.3 Estimación de los valores medios 
+ 
+ 
+   6.3.1 Vivienda libre 
+ 
+ 
+   6.3.2 Vivienda protegida 
+ 
+ 
+7 Tabulación y difusión 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+ 
+1 Introducción 
+ 
+Existe una gran necesidad de información sobre la vivienda por parte de los 
+distintos agentes económicos para la toma de decisiones en sus ámbitos de 
+actuación.  
+ 
+En el caso de los hogares por ser un bien necesario para su desarrollo y por el 
+importante esfuerzo financiero que supone su acceso, ya sea a través de la compra 
+como del alquiler. 
+ 
+Para los sectores implicados en la producción de estos bienes, como el sector de la 
+construcción y de otros servicios relacionados, muy intensivos en formación de 
+empleo, para poder predecir la evolución del mercado en el medio plazo. 
+ 
+Por su parte, l as administraciones públicas necesitan disponer de indicadores que 
+sirvan como herramientas para la toma de decisiones sobre las actuaciones a 
+realizar en materia de vivienda. 
+ 
+La Estadística de Valor Tasado de la Vivienda persigue básicamente dos objetivos, 
+por un lado medir la evolución de los precios de la vivienda  en el tiempo y, por otro, 
+estimar el nivel de los mismos y de esta manera poder establecer comparaciones  
+entre los valores medios de  distintas tipologías de viviendas , así como desagregar 
+ésta a nivel geográfico. 
+ 
+Para la elaboración de la estadística se utiliza como fuente de información los datos 
+de los informes de tasación procedentes de las empresas tasadoras de inmuebles   
+situados en España , y que pertenecen a la Asociación Española de Análisis del 
+Valor (AEV). La AEV es una entidad sin ánimo de lucro  que está integrada por las 
+principales Sociedades de Tasación en España y sus objetivos son: 
+ 
+- Favorecer el desarrollo de la actividad del sector de la valoración, la tasación 
+y el análisis del valor. 
+- Promover buenas prácticas profesionales encaminadas a g arantizar la 
+independencia, autorregulación, transparencia y rigor técnico de sus 
+asociados. 
+- Representar a sus socios, defender sus intereses y promover su reputación. 
+ 
+En el año 2013 se firmó un convenio de colaboración entre el Ministerio de 
+Fomento y la  Asociación Española de Análisis del Valor , para el aprovechamiento 
+con fines estadísticos de la informaci ón de que dispon e la AEV. A 29  de abril de 
+2016, La AEV está formada por las siguientes sociedades tasadoras:  AESVAL, 
+Aguirre Newman, ARCO  Valoraciones, CATSA, C OHISPANIA, E UROVAL, 
+GEVASA, GESVALT , Grupo Tasvalor, IBERTASA , Instituto de Valoraciones, 
+KRATA, Sociedad de Tasación, THIRSA , JLL Valoraciones, TINSA , U VE 
+Valoraciones, VALMESA, VTH, VALTECNIC, CBRE, ARQUITASA y ZEHAZKI.  
+La actividad de estas sociedades supera el 85% del total del sector  en número de 
+tasaciones. 
+ 
+ 
+ 
+ 4 
+ 
+2 Objetivos 
+ 
+ 
+La Estadística de Valor Tasado de Vivienda tiene como principal objetivo estimar, a 
+lo largo del tiempo,  el valor  medio del m 2 de las viviendas en territorio nacional , 
+mediante la elaboración de un valor medio trimestral.  
+ 
+Las tablas que componen la estadística, se publican para diferentes 
+desagregaciones geográficas , como  son comunidades autónomas, p rovincias o 
+municipios. 
+ 
+Atendiendo al régimen de las viviendas, se clasifican estas en dos grupos 
+heterogéneos, viviendas libres y de protección oficial . Es imprescindible realizar el 
+tratamiento por separado en ambas tipologías,  ya que la f ormación de los precios 
+en cada caso es completamente diferente. Por un lado en el mercado de la vivienda 
+libre el precio del inmueble se llega a través  del acuerdo entre el vendedor y el 
+comprador, y en el caso de la vivienda protegida, es la administración la que regula 
+mediante leyes el acceso a dichas viviendas, así como las restricciones en cuanto a 
+superficie, precio u otras cuestiones referentes al mercado hipotecario.  
+ 
+En segundo lugar, se clasifica la vivienda libre según su antigüedad, en viviendas 
+de hasta 5 años de antigüedad y más de 5 años de antigüedad. Para ello, se utiliza 
+la variable ‘año de construcción de la vivienda ’. Es importante reseñar que esta 
+clasificación aunque intuitivamente refleje la distinción entre vivienda “nueva y 
+usada” no necesariamente es así, ya que puede haber viviendas de menos de 5 
+años que hayan su frido una o varias transmisiones y, en cambio, puede haber 
+viviendas de más de 5 años que aún no hayan sido transmitidas.   
+ 
+Además, la estadística tiene como objetivo dar información sobre las  tipologías y 
+características de las viviendas tasadas durante el trimestre. 
+ 
+ 
+ 
+ 
+3 Ámbitos de la estadística 
+ 
+ 
+3.1. Ámbito poblacional 
+ 
+La población objeto de estudio está formada por todas las viviendas que han 
+sido valoradas por las empresas de tasación en un determinado trimestre. La 
+población es variable, puesto que dep ende del número de valoraciones 
+efectuadas por las empresas de tasación.  
+ 
+ 
+3.2. Ámbito geográfico 
+ 
+El ámbito geográfico comprende todo el territorio nacional.   
+ 
+ 
+ 
+ 
+ 5 
+3.3 Ámbito temporal 
+ 
+La estadística se lleva a cabo con carácter trimestral. 
+ 
+ 
+ 
+4 Conceptos básicos 
+ 
+ 
+Las definiciones proceden de la Orden Ministerial ECO/805/2003, de 27 de marzo, 
+sobre normas de valoración de bienes inmuebles y de determinados derechos para 
+finalidades financieras. Esto viene determinado por la fuente de datos utilizada en 
+el tratamiento de la información.   
+ 
+- Vivienda 
+ 
+La vivienda se  define como un recinto con una o varias piezas de habitación y 
+anejos, que puede ocupar la totalidad de un edificio o una parte del mismo, estando 
+en este último caso el conjunto estructuralmente separado e independiente del 
+resto. La vivienda está concebida para ser habitada por personas, generalmente 
+familias, y dotada de acceso directo desde la vía pública o recintos privados.  
+ 
+- Vivienda protegida 
+ 
+La vivienda protegida es aquella que ha recibido cualqui er tipo de subvención a su 
+construcción, independientemente del organismo que la conceda , y donde se 
+tienen en cuenta limitaciones de superficie y precios máximos . Se excluyen, 
+aquellas viviendas que ya han sobrepasado el tiempo de vencimiento de dicha 
+subvención y aquellas otras que , aunque no lo hayan sobrepasado, aparecen con 
+un valor de realización definido en Orden Ministerial de Economía y Hacienda. 
+Estas dos últimas consideraciones otorgan a la vivienda la categoría de vivienda 
+libre.   
+ 
+- Vivienda libre  
+ 
+Es aquella que en el momento de la tasación no es vivienda protegida. 
+ 
+  
+Superficie  
+ 
+Un conjunto de definiciones sobre superficie de los inmuebles aparece en la Orden 
+Ministerial. A continuación se citan algunas de ellas.  
+ 
+ 
+- Superficie útil    
+ 
+Superficie útil es la superficie del suelo, delimitado por el perímetro definido por la 
+cara interior de los  cerramientos externos o de un elemento de un edificio. Se 
+incluye la mitad de la superficie del suelo de sus espacios exteriores de uso 
+privativo cubie rtos (tales como terrazas, balcones, tendederos, muelles de carga, 
+voladizos, etc…) medida bajo la proyección horizontal de su cubierta.  
+ 
+ 6 
+Sin embargo, en esta superficie no se incluye la ocupada en planta por 
+cerramientos interiores fijos, por elementos e structurales verticales , por  
+canalizaciones o conductos con sección horizontal superior a los 100 cm 2 y la del 
+suelo cuya altura libre sea inferior a 1,5 metros. Tampoco se incluye la ocupada por 
+los espacios exteriores no cubiertos. 
+ 
+- Superficie construida sin partes comunes  
+ 
+Es la superficie útil que además incluye los cerramientos exteriores al 100% o al 
+50%, según se trate, respectivamente, de cerramientos de fachadas o medianeros 
+o de cerramientos compartidos con otros elementos del mismo edific io y excluye la 
+superficie ocupada por los elementos interiores. 
+ 
+  
+- Superficie construida con partes comunes  
+ 
+Es la superficie construida sin partes comunes más la parte proporcional que le 
+corresponda, según su cuota , de la superficie de los elementos comunes del 
+edificio. 
+ 
+Valoración de los inmuebles  
+ 
+En la Orden Ministerial aparece n diferentes maneras de valorar los inmuebles, así 
+como los métodos de realizar tales valoraciones , a continuación se definen las 
+distintas valoraciones reflejadas en la Orden. 
+ 
+- Valor de mercado  
+ 
+Es el precio al que podría venderse un inmueble, mediante un contrato privado 
+entre el vendedor y comprador, en la fecha de tasación. 1 Los impuestos y los 
+gastos de comercialización no se incluyen en este valor de mercado. 
+ 
+- Valor de reemplazamiento 
+ 
+Es el valor obtenido como suma de las inversiones necesarias para construir, en la 
+fecha de la valoración, otro inmueble de las mismas características pero, utilizando 
+tecnología y materiales de construcción actuales. Este valor puede ser bruto o neto. 
+El valor neto es el resultado de deducir la depreciación física y funcional del 
+inmueble en la fecha de valoración. 
+ 
+- Valor hipotecario 
+ 
+Es el valor determinado por la tasación prudente sobre la posibilidad futura de su 
+comercialización, teniendo en  cuenta los aspectos duraderos a largo plazo, las 
+condiciones de los mercados, su uso tanto en el momento de la tasación como 
+otros alternativos. 
+ 
+                                                 
+1 Orden Ministerial ECO/805/2003, de 27 de marzo, (BOE 9 de abril de 2003) bajo el supuesto que 
+el bien se ofreciera en el mercado, que las condiciones del mer cado permitieren disponer del mismo 
+de manera ordenada y que se dispusiere de un plazo normal, habida cuenta de la naturaleza del 
+inmueble, para negociar la venta. 
+ 7 
+- Valor máximo legal  
+ 
+Es el valor máximo de venta de una vivienda sujeta a protección pública 
+establecido en la normativa específica que le sea aplicable. 
+ 
+- Valor de tasación 
+ 
+Es el valor jurídico o con efectos jurídicos para las finalidades integrantes del 
+ámbito de aplicación de las mismas. 
+ 
+ 
+Métodos de valoración  
+ 
+Los métodos técnicos utilizables  para la valora ción de los inmuebles, permiten 
+obtener el valor de mercado, el valor hipotecario y el valor de reemplazamiento y 
+son los siguientes: 
+ 
+- Método del coste  
+- Método de comparación 
+- Método de actualización de rentas 
+- Método residual 
+ 
+ 
+ 
+5 Fuentes de información y su tratamiento 
+ 
+ 
+La información utilizada para la elaboración de la Estadística proviene de las 
+Sociedades de Tasación integradas en la Asociación Española de Análisis de Valor 
+(AEV), entidad sin fin de lucro que agrupa a empresas de este sector. 
+ 
+La AEV co ordina el proceso de envío de informació n entre cada uno de sus  
+asociados y a la  unidad promot ora de la Estadística de Valor Tasado  de la 
+Vivienda. Los datos se reciben en soporte magnético, con un diseño de registro 
+preestablecido y con periodicidad trimestral. 
+ 
+Los registros corresponden con cada una de las tasaciones realizadas durante el 
+trimestre en estudio, tienen la misma estructura y están compuestos por las 
+siguientes variables:  
+ 
+- Localización de la vivienda:   
+ 
+-  Código provincial 
+-  Código de municipio 
+-  Código postal 
+ 
+- Carácter temporal:  
+ 
+-  Fecha de tasación 
+-  Año de terminación de la vivienda (Viviendas terminadas) 
+-  Año de la última rehabilitación integral del edificio. 
+ 8 
+ 
+- Valor del inmueble:  
+ 
+-  Valor de tasación 
+-  Valor de mercado 
+-  Valor máximo legal (En el caso de VPO) 
+  
+- Superficie del inmueble:  
+ 
+-  Superficie útil 
+-  Superficie construida 
+-  Superficie construida con elementos comunes 
+ 
+- Descripción del inmueble:  
+ 
+-  Tipo de vivienda, distinguiendo entre vivienda unifamiliar aislada, 
+adosada o en bloque. 
+-  Elementos vinculados registralmente en las viviendas en bloque. 
+Indica si la valoración incluye algún elemento vinculado 
+registralmente (por ejemplo garaje o trastero) 
+-  Estado de la vivienda. Distinguiendo entre vivienda en proyecto, en 
+construcción, en rehabi litación o terminado. Solamente se 
+consideran las viviendas terminadas o en rehabilitación (valoradas 
+bajo la hipótesis de edificio terminado). 
+-  Uso de la vivienda, distinguiendo entre primera o segunda residencia. 
+-  Calidad del edificio en su conjunto. Dis tinguiendo entre alta, bajo o 
+media. 
+-  Estado de conservación del inmueble, clasificados en nueva, bueno, 
+medio o malo. 
+ 
+- Relativas a normativas legales:  
+ 
+-  Régimen, protegida o libre. 
+-  Normativa aplicada. Distinguiendo entre metodología Orden ECO 
+805/2003 p ara finalidad hipotecaria, Orden ECO para otras 
+finalidades distintas de la hipotecaria y los casos en los que se 
+utilizan metodología distinta a la orden ECO.  
+-  Método utilizado para la confección del valor de tasación declarado, 
+pudiendo ser el de compar ación, actualización, residual estático, 
+residual dinámico, reemplazamiento neto, valor máximo legal u 
+otros métodos. 
+-  Solicitante. Se distingue entre persona física y jurídica.  
+ 
+Además de la información trimestral remitida por las Sociedades de T asación, se 
+utilizan otras fuentes  de información con dos finalidades, p or un lado aquellas que 
+sirven para  la construcción de estratos de viviendas con características similares  
+respecto a la variable en estudio y por otro, las que permiten asignar la importancia 
+relativa de cada uno de los estratos mediante ponderaciones. 
+ 
+De este modo se ha  utilizado la clasificación de Áreas Urbanas que realiza la 
+Subdirección General de Urbanismo del Ministerio de Fomento . Se entiende como 
+ 9 
+Área Urbana de una ciudad, el conjunt o de municipios situados geográficamente 
+próximas a dicha ciudad y sobre las que ésta tiene poder de atracción e influencia 
+en diversos aspectos: económicos, sociales, culturales, etc.  
+ 
+Se han utilizado 86 áreas mayores de 50.000 habitantes (uni o plurimu nicipales) 
+que agrupan un total de 752 municipios en los que viven más de 32 millones de 
+habitantes.  
+ 
+Para determinar los  pesos o ponderaci ones se utiliza el número de viviendas 
+ubicadas en cada uno de los estratos formados, contando para ello con la  
+información catastral sobre las viviendas. 
+ 
+De este modo para cada municipio disponemos de la información sobre el número 
+de viviendas que lo integran, desagregado por su antigüedad y por su tipología, 
+según sea vivienda unifamiliar o en bloque. 
+ 
+Una vez disp onible la información, se lleva a cabo un análisis exhaustivo de los 
+datos, con el fin de detectar y depurar errores. Se utilizan diferentes técnicas de 
+imputación dependiendo de cada tipo de error. 
+ 
+ 
+ 
+6 Estimación de precios 
+ 
+ 
+6.1 Estratos 
+ 
+Las viviendas valoradas cada trimestre por las Sociedades de Tasación son , por lo  
+general, diferentes. Esto hace que para cada periodo se disponga de una 
+composición diferente de la muestra de viviendas y que sea muy poco probable que 
+la misma proporción con las misma s características y en la misma localización se 
+mantenga para dos trimestres diferentes.  Estos cambios en la localización y en las 
+características de las viviendas tasadas afectan directamente a los valores medios 
+calculados.  
+ 
+Para solucionar este problem a se hace necesario clasificar las  viviendas en 
+subgrupos homogéneos, atendiendo a su localización, así como las  características 
+comunes que sirven para la valoración de las mismas. De esta forma se construyen  
+los estratos y se calcula el valor medio de l as viviendas en cada uno de ellos . Por 
+último, asignando los pesos correspondiente s a cada estrato se obtie nen los 
+valores medios de los diferentes agregados. 
+ 
+Las variables utilizadas para la creación de los estratos son: 
+- Clasificación de Áreas Urbanas. 
+- Municipios de más de 25.000 habitantes. 
+- Antigüedad de la vivienda. 
+- Régimen de la vivienda. 
+- Tipología de la vivienda (unifamiliar o en bloque). 
+ 
+6.2 Ponderaciones 
+ 
+ 10 
+Para cumplir con la finalidad que tiene la estadística, que no es otra que estimar el 
+valor me dio por metro cuadrado de la vivienda para distintas tipologías y zonas 
+geográficas en España, se ha ponderado por el número de viviendas en propiedad 
+existentes en cada estrato. Para ello se utiliza las bases de datos catastrales que 
+aporta información so bre el número total de viviendas situadas en cada municipio, 
+distinguiendo las que son unifamiliares o en bloque, así como las que se 
+encuentran en distintos intervalos de antigüedad.   
+ 
+6.3 Estimación de Valores medios 
+ 
+Para la estimación de los valores medios de la v ivienda se utilizan únicamente las 
+tasaciones sobre viviendas terminadas o en rehabilitación. 
+ 
+6.3.1 Vivienda libre 
+ 
+Para vivienda se tiene por un lado la variable v que representa su valor de tasación, 
+y s que representa su superficie construida expresada en metros cuadrados.   
+ 
+Para el cálculo de los valores medios de las viviendas en cada estrato, partiremos 
+de la magnitud valor tasado por metro cuadrado para cada vivienda, obtenido como 
+cociente entre el valor de tasación y la superficie c onstruida de la vivienda, 
+t
+ik
+t
+ik
+t
+iz svV /
+. De este modo el V alor por metro cuadrado de las viviendas de tipo j en 
+el estrato k en el período t vendrá definido como la siguiente media aritmética:  
+ 
+ 
+
+
+
+ki
+t
+k
+t
+ik
+t
+ik
+t
+k nsvV /   
+ 1  
+ 
+Donde 
+ 
+t
+kV
+ Es el valor  medio por metro cuadrado ( euros/m2) de las viviendas  
+pertenecientes al estrato k y en el período t, 
+ 
+t
+kn
+ Es el número de viviendas de la muestra pertenecientes al estrato k. 
+ 
+El valor por metro cuadrado de la vivienda en la zona geográfica z en el período t 
+se obtiene como media ari tmética ponderada de los valores  medios por metro 
+cuadrado en cada uno de los estratos k que pertenecen a la zona geográfica z y en 
+el período t: 
+ 
+
+
+
+zk
+t
+k
+t
+k
+t
+z VV 
+  
+ 2  
+ 
+La ponderación 
+t
+kz  representa el número de viviendas existentes en el estrato k de 
+la zona geográfica z en el período t sobre el número total de del parque de 
+viviendas ubicadas en la zona geográfica z en el período t: 
+ 
+
+
+
+zk
+t
+k
+t
+k
+t
+k NN
+  
+ 3  
+Donde 
+ 
+ 11 
+t
+kzN
+ Es el número de viviendas existentes en el estrato k de la zona geográfica z en 
+el período t, 
+ 
+
+zk
+t
+kN
+ Es el número total de viviendas existentes en la zona z en el período t. 
+ 
+La suma de los coeficientes de ponderación es la unidad: 
+ 
+1
+k
+t
+jkz
+ 
+ 
+El valor de la vivienda libre por metro cuadrado en la zona z se define como media 
+aritmética ponderada de los valores de cada tipo de vivienda por metro cuadrado: 
+ 
+
+
+
+zk
+t
+k
+t
+k
+t
+z VqV
+  
+ 4  
+ 
+Las ponderaciones vienen definidas por  el cociente entre  el número de viviendas 
+existentes en el estrato k de  la zona geográfica z en el período t sobre el número 
+total de viviendas existentes en la zona geográfica z en el período t: 
+ 
+
+
+
+zk
+t
+k
+t
+k
+t
+z NNq
+  
+ 5  
+ 
+Donde 
+ 
+t
+kN
+ Es el número de viviendas del estrato k perteneciente a la zona  geográfica z en 
+el período t, 
+ 
+
+zk
+t
+kN
+ Es el número total de viviendas existentes en la zona geográfica z en el 
+período t. 
+ 
+La suma de los coeficientes de ponderación es la unidad: 
+ 
+1
+j
+t
+jzq
+ 
+De esta forma, para la provincia A, tendremos que el valor medio por metro 
+cuadrado de la vivienda es 
+
+
+
+Ak
+t
+k
+t
+k
+t
+A VV  , con 
+
+
+
+Ak
+t
+k
+t
+k
+t
+k NN . 
+ 
+De forma análoga se estiman los valores medios de vivienda en la zona geográfica 
+z para la desagregación en hasta 5 años de antigüedad y más de 5 años de 
+antigüedad. Cogiendo en cada caso, lo s estratos que integran las viviendas de 
+hasta 5 años de antigüedad o las de más de 5 años y que pertenecen a la zona z. 
+ 
+6.2 Vivienda protegida 
+ 
+Las consideraciones establecid as para la estimación del valor  de la vivienda libre 
+pueden realizarse en la estimación del precio de la vivienda protegida. En este caso 
+no se utiliza la antigüedad de la vivienda como característica para estratificar  la 
+muestra, ni tampoco las desagregaciones territoriales más allá de la Provincia.  
+ 12 
+ 
+ 
+ 
+7 Tabulación y difusión 
+ 
+ 
+http://www.fomento.gob.es/BE2/?nivel=2&orden=35000000 
+ 
+Finalizadas las fases de recogida, tratamiento e imputación, se tabula  y se difunde 
+la información.  
+ 
+Se distinguen cuatro bloques de tab las referidas a los valores medios de la 
+vivienda:  
+ 
+1. Valor medio de vivienda libre 
+2. Valor medio de vivienda protegida 
+3. Tasaciones utilizadas para los cálculos de los valores medios. 
+4. Valor medio  de vivienda libre de los municipios mayores de 25000 
+habitantes. 
+ 
+Por otro lado, como información complementaria, se publican tablas sobre las  
+características de las viviendas tasadas  a nivel provincial y autonómico . En este 
+caso, la población est á compuesta por todas las  viviendas tasadas por las 
+sociedades integrant es en  la AEV, incluyendo las viviendas terminadas, en 
+rehabilitación, en proyecto o en construcción, así como aquellas valoraciones 
+individuales de viviendas pertenecientes a una promoción. No se incluirán 
+valoraciones automáticas, intermedias de obra, ni actualizaciones. 
+ 
+La información se presenta en siete  bloques de tablas en funci ón de las variables 
+estudiadas: 
+ 
+5. Estado de la vivienda (en proyecto, en construcción, en rehabilitación o 
+terminado). 
+6. Finalidad de la tasación. 
+7. Tipología (vivienda en bloque, unifamiliar aislada o unifamiliar adosada) 
+8. Régimen de la vivienda. 
+9. Superficie. 
+10. Antigüedad (vivienda terminada). 
+11. Tipo de solicitante (persona física o jurídica). 
+ 
+Para las variables tipología, régimen y superficie  de la vivienda, además de para el 
+total de viviendas, se publican por separado, tablas para las viviendas terminadas, 
+viviendas terminadas con finalidad hipotecaria, viviendas en proyecto o 
+construcción y viviendas en proyecto o construcción con finalidad hipotecaria. 
+Para la variable antigüedad de la vivienda, los resultados se tabulan para el total de 
+viviendas terminadas y para las viviendas terminadas con finalidad hipotecaria.  
+ 
+ 
+La información se difunde trimestralmente a través de una nota de prensa según 
+las fechas publicadas en el Calendario  de Disponibilidad de las Estadísticas 
+Coyunturales, y a través de la página Web del Ministerio. 

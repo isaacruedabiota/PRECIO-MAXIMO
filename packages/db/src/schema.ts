@@ -128,8 +128,12 @@ export const notariadoPrecios = pgTable(
     nTransacciones: integer('n_transacciones'),
     p25: numeric('p25', { precision: 10, scale: 2 }),
     p75: numeric('p75', { precision: 10, scale: 2 }),
-    /** true si el EUR/m2 se refiere a superficie construida y no util. */
-    baseConstruida: boolean('base_construida').notNull().default(true),
+    /**
+     * A que superficie se refiere el EUR/m2: 'util', 'construida' o
+     * 'construida_con_comunes'. No son intercambiables y confundirlas mueve la
+     * valoracion alrededor de un 6%.
+     */
+    baseSuperficie: varchar('base_superficie', { length: 24 }).notNull().default('construida'),
     fuenteId: integer('fuente_id')
       .notNull()
       .references(() => fuentesDatos.id),

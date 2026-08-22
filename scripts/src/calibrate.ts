@@ -148,7 +148,7 @@ function main(): void {
       p75: null,
       // PENDIENTE DE CONFIRMAR con MITMA. Se asume construida porque las
       // tasaciones ECO/805 se informan asi habitualmente.
-      base_construida: true,
+      base_superficie: 'construida',
     },
     ipv: null,
     anexos: null,

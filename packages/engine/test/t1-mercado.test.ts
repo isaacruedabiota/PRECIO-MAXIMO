@@ -44,12 +44,53 @@ describe('T1 - techo de mercado', () => {
   it('convierte el precio de referencia a superficie util cuando viene en construida', () => {
     const r = correrT1({
       market: mercadoBase({
-        precio_m2: { ...mercadoBase().precio_m2, eur_m2: 1400, base_construida: true },
+        precio_m2: { ...mercadoBase().precio_m2, eur_m2: 1400, base_superficie: 'construida' },
       }),
     });
     // 1.400 / 0,82 = 1.707,32 EUR/m2 util antes de homogeneizar
     expect(r.eurM2Homogeneizado).toBeCloseTo((1400 / 0.82) * 0.7252, 2);
     expect(codigos(r.techo.avisos)).toContain('PRECIO_BASE_CONVERTIDO');
+  });
+
+  it('usa un factor distinto para la construida con partes comunes', () => {
+    // MITMA calcula su EUR/m2 sobre superficie construida SIN comunes; los
+    // anuncios suelen dar la construida CON comunes. Aplicarles el mismo factor
+    // mete un error de alrededor del 6% en T1.
+    const sinComunes = correrT1({
+      property: propiedadBase({ superficie: { tipo: 'construida', m2: 85 } }),
+    });
+    const conComunes = correrT1({
+      property: propiedadBase({ superficie: { tipo: 'construida_con_comunes', m2: 85 } }),
+    });
+
+    // 85 x 0,82 = 69,7 m2 utiles frente a 85 x 0,76 = 64,6
+    expect(sinComunes.techo.valor?.valor).toBeGreaterThan(conComunes.techo.valor?.valor ?? 0);
+    expect((conComunes.techo.valor?.valor ?? 0) / (sinComunes.techo.valor?.valor ?? 1)).toBeCloseTo(
+      0.76 / 0.82,
+      4,
+    );
+  });
+
+  it('no sustituye un factor por el otro si el de comunes no esta fijado', () => {
+    const config = configDeTest();
+    config.coeficientes.superficie.factor_construida_con_comunes_a_util.valor = null;
+    expect(() =>
+      correrT1({
+        config,
+        property: propiedadBase({ superficie: { tipo: 'construida_con_comunes', m2: 85 } }),
+      }),
+    ).toThrow(/factor_construida_con_comunes_a_util/);
+  });
+
+  it('convierte la base del precio segun la superficie a la que se refiera la fuente', () => {
+    const enUtil = correrT1();
+    const enConstruida = correrT1({
+      market: mercadoBase({
+        precio_m2: { ...mercadoBase().precio_m2, base_superficie: 'construida' },
+      }),
+    });
+    // Mismo EUR/m2 nominal, pero referido a construida vale mas por metro util
+    expect(enConstruida.eurM2Homogeneizado).toBeCloseTo(enUtil.eurM2Homogeneizado / 0.82, 4);
   });
 
   it('actualiza el precio base con la variacion del IPV', () => {

@@ -103,7 +103,8 @@ export function configDeTest(): EngineConfig {
       version: 'test',
       verificado: true,
       superficie: {
-        factor_construida_a_util: v(0.82, 0.78, 0.85),
+        factor_construida_a_util: v(0.82, 0.78, 0.92),
+        factor_construida_con_comunes_a_util: v(0.76, 0.72, 0.8),
         atipica_sobre_p90: v(0.97, 0.95, 1),
       },
       anexos: { terraza_m2_minima_computable: v(8, 4, 12) },

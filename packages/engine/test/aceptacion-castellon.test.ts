@@ -102,7 +102,7 @@ function casoDelGrao(): CalcInput {
         n_transacciones: 34,
         p25: 1250,
         p75: 1680,
-        base_construida: true,
+        base_superficie: 'construida',
       },
       ipv: null,
       anexos: null,
