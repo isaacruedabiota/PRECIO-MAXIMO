@@ -136,15 +136,17 @@ export function configDeTest(): EngineConfig {
         suroeste: v(1.02),
         desconocida: v(1),
       },
+      // Con horquilla declarada, como en la config real: el analisis de
+      // sensibilidad la usa para saber entre que extremos mover cada valor.
       certificado_energetico: {
-        A: v(1.05),
-        B: v(1.03),
-        C: v(1),
-        D: v(1),
-        E: v(0.98),
-        F: v(0.97),
-        G: v(0.93),
-        no_disponible: v(1),
+        A: v(1.05, 1.03, 1.05),
+        B: v(1.03, 1.03, 1.05),
+        C: v(1, 1, 1),
+        D: v(1, 1, 1),
+        E: v(0.98, 0.98, 0.98),
+        F: v(0.97, 0.93, 0.97),
+        G: v(0.93, 0.93, 0.97),
+        no_disponible: v(1, 0.97, 1),
       },
       antiguedad: {
         vida_util_total_anios: v(100, 75, 100),

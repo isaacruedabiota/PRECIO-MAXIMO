@@ -19,7 +19,8 @@
     "db:migrate": "pnpm --filter @vp/db migrate",
     "db:studio": "pnpm --filter @vp/db studio",
     "config:check": "pnpm --filter @vp/config check",
-    "config:seed": "pnpm --filter @vp/config seed"
+    "config:seed": "pnpm --filter @vp/config seed",
+    "calibrate": "pnpm --filter @vp/scripts calibrate"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

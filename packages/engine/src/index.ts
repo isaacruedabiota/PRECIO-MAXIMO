@@ -26,6 +26,7 @@ export { calcularT3 } from './ceilings/t3-reforma';
 export { detectarBloqueantes } from './risk/blockers';
 export { calcularDescuentos } from './risk/discounts';
 export { resolverSuperficie } from './superficie';
+export * from './calibration/index';
 
 import { construirArgumentario } from './argumentario';
 import { calcularT1 } from './ceilings/t1-mercado';

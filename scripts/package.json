@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
+    "calibrate": "tsx src/calibrate.ts",
     "ingest:mitma": "tsx src/ingest-mitma.ts",
     "ingest:ine": "tsx src/ingest-ine.ts",
     "capture:fixture": "tsx src/capture-fixture.ts"
