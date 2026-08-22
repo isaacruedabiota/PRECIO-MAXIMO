@@ -215,8 +215,12 @@ export function calcularT3(ctx: ContextoT3): ResultadoT3 {
   // -------------------------------------------------------------------------
   // Margen de seguridad y techo
   // -------------------------------------------------------------------------
+  // El margen protege de que la OBRA se desvie, asi que escala con la obra y no
+  // con el valor del inmueble (ver ADR-012). Calculado sobre el valor reformado,
+  // un lavado de cara de 17.000 EUR cargaba 9.400 EUR de margen y una reforma
+  // premium de 105.000 EUR cargaba los mismos 9.400.
   const pctMargen = leerValor(conf.margen_seguridad, 'reforma.margen_seguridad');
-  const margen = valorReformado.valor * pctMargen;
+  const margen = costeReforma * pctMargen;
 
   desglose.push(
     linea(
@@ -230,7 +234,7 @@ export function calcularT3(ctx: ContextoT3): ResultadoT3 {
         valor: margen,
         fuente: 'config/reforma.json',
         fecha_dato: fecha_calculo,
-        metodo: `${(pctMargen * 100).toFixed(0)}% del valor reformado`,
+        metodo: `${(pctMargen * 100).toFixed(0)}% del coste de obra`,
         confianza: 'media',
         unidad: 'EUR',
       }),

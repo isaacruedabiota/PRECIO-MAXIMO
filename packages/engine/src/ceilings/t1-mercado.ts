@@ -379,12 +379,16 @@ function coeficienteAntiguedad(
   if (edadReferencia === 0) {
     avisos.push(
       aviso(
-        'info',
+        'critico',
         'ANTIGUEDAD_ABSOLUTA',
-        'La depreciacion por antiguedad se aplica en absoluto',
-        'coeficientes.antiguedad.edad_referencia_zona_anios esta en 0, asi que se deprecia contra obra ' +
-          'nueva. Como el EUR/m2 de la zona ya refleja la antiguedad media de su parque, esto puede penalizar ' +
-          'dos veces al inmueble antiguo. Poner ahi la antiguedad media del parque de la zona lo corrige.',
+        'La depreciacion por antiguedad se esta aplicando contra obra nueva',
+        'coeficientes.antiguedad.edad_referencia_zona_anios sigue en 0. Como el EUR/m2 de la zona ya ' +
+          'refleja la antiguedad media de su parque, depreciar ademas contra obra nueva penaliza dos veces ' +
+          'al inmueble antiguo. El analisis de sensibilidad (pnpm calibrate) situa este parametro como el ' +
+          'que mas mueve el resultado, por encima del 70% del valor en pisos de los 70 y 80: mientras siga ' +
+          'en 0, el numero que salga dice mas de este ajuste que del piso. Pon ahi la antiguedad media del ' +
+          'parque de viviendas de la zona.',
+        'Metodologia del art. 18 de la Orden ECO/805/2003',
       ),
     );
   }

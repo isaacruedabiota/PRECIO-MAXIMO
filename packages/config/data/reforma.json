@@ -112,9 +112,10 @@
     "verificado": false
   },
   "margen_seguridad": {
-    "_doc": "Porcentaje del valor de mercado reformado que se reserva como colchon frente a desviaciones de obra.",
-    "min": 0.1,
-    "max": 0.1,
+    "_doc": "Colchon frente a desviaciones de obra, como porcentaje del COSTE DE OBRA con imprevistos e IVA ya dentro. Sobre el valor del inmueble (que era la formulacion original del brief) el margen no guardaba proporcion con la obra: un lavado de cara de 17.000 EUR cargaba lo mismo que una reforma integral de 105.000. Ver ADR-012.",
+    "_ojo": "Se apila sobre 'imprevistos', que tiene la misma base. No son lo mismo: imprevistos es coste extra que esperas encontrar al abrir; el margen es el colchon que te quedas para no haber pagado de mas si todo sale mal. Pero al sumar los dos, revisa que el total no se dispare.",
+    "min": 0.05,
+    "max": 0.2,
     "sugerido": 0.1,
     "valor": 0.1
   }

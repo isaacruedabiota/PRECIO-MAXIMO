@@ -231,7 +231,8 @@
       "valor": 100
     },
     "metodo": "lineal_sobre_vida_residual",
-    "_doc_edad_referencia": "AVISO DE DOBLE CONTEO. El EUR/m2 de la zona ya refleja la antiguedad media de su parque de viviendas, asi que aplicar depreciacion absoluta penaliza dos veces al inmueble antiguo. El coeficiente se calcula relativo a esta edad de referencia: (1 - edad/vida_util) / (1 - edad_referencia/vida_util). Con 0 el resultado es la depreciacion absoluta del brief, y el motor emite aviso. Ponerlo en la antiguedad media del parque de la zona lo corrige.",
+    "_doc_edad_referencia": "EL PARAMETRO QUE MAS MUEVE T1. El analisis de sensibilidad (pnpm calibrate) lo situa por encima del 70% del valor en pisos de los 70 y 80, muy por delante de estado, ascensor o certificado energetico. Mientras siga en 0, el resultado dice mas de este ajuste que del inmueble. AVISO DE DOBLE CONTEO: el EUR/m2 de la zona ya refleja la antiguedad media de su parque, asi que depreciar ademas contra obra nueva penaliza dos veces al inmueble antiguo. El coeficiente se calcula relativo a esta edad de referencia: (1 - edad/vida_util) / (1 - edad_referencia/vida_util). Con 0 sale la depreciacion absoluta del brief y el motor emite aviso critico.",
+    "_como_elegirlo": "Antiguedad media del parque de viviendas de la zona. Si el precio base viene de la serie de MITMA de 'mas de 5 anos', la referencia coherente es la edad media de ese parque, que no es cero ni de lejos. Fuentes posibles: ano de construccion del Catastro para el codigo postal, o el censo de viviendas del INE por municipio.",
     "edad_referencia_zona_anios": {
       "min": 0,
       "max": 60,
@@ -255,11 +256,12 @@
   },
   "limites": {
     "_doc": "Tope al producto de todos los coeficientes. Evita que la acumulacion de factores de un resultado absurdo.",
+    "_doc_min": "Red de seguridad frente a combinaciones absurdas, no un suelo de mercado. Estaba en 0,60 y ataba en casos normales: un piso a reformar, sin ascensor, con CEE G y de los 70 da un producto de 0,39, asi que el tope se tragaba todos los demas coeficientes y el modelo dejaba de distinguir un piso de otro. Cuando actua, el motor emite COEFICIENTE_GLOBAL_TOPADO: si salta a menudo, el tope esta mal puesto o los coeficientes penalizan de mas.",
     "coeficiente_global_min": {
-      "min": 0.5,
+      "min": 0.4,
       "max": 0.7,
-      "sugerido": 0.6,
-      "valor": 0.6
+      "sugerido": 0.45,
+      "valor": 0.45
     },
     "coeficiente_global_max": {
       "min": 1.2,

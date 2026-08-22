@@ -21,10 +21,11 @@ import type { NivelReforma } from '../types';
 export interface EquilibrioNivel {
   nivel: NivelReforma;
   modulo_eur_m2: number;
+  /** Obra con imprevistos, IVA y margen de seguridad ya dentro. */
   coste_total_eur: number;
   /**
-   * Coeficiente neto que aporta reformar, ya descontado el margen de seguridad:
-   *   (1 - margen) x coef_reformado - coef_a_reformar
+   * Valor que aporta reformar, en coeficiente sobre el EUR/m2 de zona:
+   *   coef_reformado - coef_a_reformar
    * Si sale <= 0, no hay precio de zona que haga rentable la obra.
    */
   coeficiente_neto: number;
@@ -99,13 +100,14 @@ export function comprobarCoherenciaEstadoReforma(params: {
         )
       : requerido(ref.iva.tipo_general, 'reforma.iva.tipo_general', 'Tipo general de IVA.'));
 
-  // T3 > T1  <=>  (1 - margen) x cR x P x m2 - coste > cA x P x m2
-  //          <=>  P x m2 x [(1 - margen) cR - cA] > coste
-  const coeficienteNeto = (1 - margen) * coefReformado - coefAReformar;
+  // El margen de seguridad va sobre el coste de obra (ADR-012), asi que:
+  //   T3 > T1  <=>  cR x P x m2 - coste x (1 + margen) > cA x P x m2
+  //            <=>  P x m2 x (cR - cA) > coste x (1 + margen)
+  const coeficienteNeto = coefReformado - coefAReformar;
 
   const niveles: EquilibrioNivel[] = NIVELES.map((nivel) => {
     const modulo = leerValor(ref.modulos_eur_m2_util[nivel], `reforma.modulos_eur_m2_util.${nivel}`);
-    const coste = modulo * m2_utiles * (1 + imprevistos) * (1 + iva);
+    const coste = modulo * m2_utiles * (1 + imprevistos) * (1 + iva) * (1 + margen);
 
     const equilibrio = coeficienteNeto > 0 ? coste / (coeficienteNeto * m2_utiles) : null;
 
@@ -142,9 +144,9 @@ function diagnosticar(
 ): string {
   if (coeficienteNeto <= 0) {
     return (
-      'El coeficiente neto de reformar es negativo: aun con obra gratis, T3 quedaria por debajo de T1. ' +
-      'El margen de seguridad se come entero el salto entre "a reformar" y "reformado reciente". ' +
-      'O el margen es demasiado alto, o los dos coeficientes de estado estan demasiado juntos.'
+      'El coeficiente de "reformado reciente" no supera al de "a reformar": aun con obra gratis, T3 ' +
+      'quedaria por debajo de T1. Los dos coeficientes de estado estan mal puestos, porque reformar ' +
+      'nunca puede restar valor de mercado.'
     );
   }
 

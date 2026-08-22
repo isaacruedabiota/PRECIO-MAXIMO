@@ -46,9 +46,20 @@ describe('T3 - coste de la reforma', () => {
   });
 
   it('resta coste y margen de seguridad del valor reformado', () => {
-    // 120.000 - 77.924 - 12.000 (10% de margen)
+    // El margen es el 10% del COSTE DE OBRA, no del valor del inmueble (ADR-012)
     const r = correrT3();
-    expect(r.techo.valor?.valor).toBeCloseTo(120000 - 77924 - 12000, 2);
+    expect(r.techo.valor?.valor).toBeCloseTo(120000 - 77924 - 77924 * 0.1, 2);
+  });
+
+  it('el margen escala con la obra, no con el valor del inmueble', () => {
+    const barata = correrT3({}, reformaBase({ nivel: 'lavado_de_cara' }));
+    const cara = correrT3({}, reformaBase({ nivel: 'integral_premium' }));
+
+    const margenDe = (r: ReturnType<typeof correrT3>): number =>
+      r.techo.desglose.find((l) => l.concepto === 'Margen de seguridad')?.valor.valor ?? 0;
+
+    expect(margenDe(barata)).toBeCloseTo((barata.costeReforma ?? 0) * 0.1, 2);
+    expect(margenDe(cara)).toBeGreaterThan(margenDe(barata) * 5);
   });
 
   it('suma las partidas singulares como importe absoluto', () => {

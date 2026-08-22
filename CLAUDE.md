@@ -275,14 +275,32 @@ dispararse justo en el caso que más importa: pagas 42.000 y tributas sobre
 120.000. El aviso de T2 se sustituye por el final para no dar dos cifras
 distintas bajo el mismo código.
 
-### ADR-010 — ESLint con una sola config plana en la raíz
+### ADR-012 — El margen de seguridad de T3 va sobre el coste de obra
+El brief lo definía como 10% del valor reformado. Protege de que **la obra** se
+desvíe, así que tiene que escalar con la obra: sobre el valor del inmueble, un
+lavado de cara de 17.000 € cargaba los mismos 9.400 € de margen que una reforma
+premium de 105.000 €. Además consumía el 38% del salto entre los coeficientes
+de estado, y con ello T3 quedaba por debajo de T1 en cualquier mercado por
+debajo de ~1.400 €/m², haciendo que el motor concluyera siempre que reformar
+destruye valor. Con el cambio, el equilibrio del nivel más barato pasa de 1.285
+a 872 €/m². Ojo: el margen se apila sobre `imprevistos`, que tiene la misma base.
+
+### ADR-013 — El tope global de coeficientes no debe hacer el trabajo del modelo
+Estaba en 0,60. Un piso a reformar, sin ascensor, con CEE G y de los 70 da un
+producto de 0,39, así que el tope se tragaba todo: **37 de los 39 coeficientes
+dejaban de mover el resultado**. La valoración la decidían el tope y la edad de
+referencia, no las características del piso. Bajado a 0,45 con horquilla
+0,40-0,70, y sigue emitiendo `COEFICIENTE_GLOBAL_TOPADO` cuando actúa: si salta
+a menudo, o el tope está mal puesto o los coeficientes penalizan de más.
+
+### ADR-014 — ESLint con una sola config plana en la raíz
 `next lint` desapareció en Next 16, así que el linter se monta aparte:
 `eslint.config.mjs` en la raíz cubre los seis proyectos y `pnpm lint` ejecuta
 `eslint .`. Sin reglas de estilo — solo las que atrapan errores reales, con
 `no-explicit-any` en error: un `any` en un motor que calcula euros es
 exactamente lo que no queremos.
 
-### ADR-011 — Sin Caddy delante
+### ADR-015 — Sin Caddy delante
 La Pi tiene Caddy instalado pero parado, y otras aplicaciones en 8080 y 8129. La
 app escucha directamente en el 8090. Un proxy inverso para una herramienta
 personal en LAN añade una pieza que puede fallar sin aportar nada. Queda

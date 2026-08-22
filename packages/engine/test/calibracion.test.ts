@@ -25,17 +25,10 @@ const calculadoraT1 = (i: CalcInput) => {
 describe('coherencia entre estado de T1 y coste de obra de T3', () => {
   const config = configDeTest();
 
-  it('calcula el coeficiente neto descontando el margen de seguridad', () => {
+  it('el coeficiente neto es el salto limpio entre los dos estados', () => {
     const r = comprobarCoherenciaEstadoReforma({ config, m2_utiles: 70, iva_override: 0 });
-    // (1 - 0,10) x 1,11 - 0,82 = 0,179
-    expect(r.niveles[0]?.coeficiente_neto).toBeCloseTo(0.179, 6);
-  });
-
-  it('el margen de seguridad se lleva mas de un tercio del salto entre estados', () => {
-    const r = comprobarCoherenciaEstadoReforma({ config, m2_utiles: 70, iva_override: 0 });
-    const salto = r.coef_reformado_reciente - r.coef_a_reformar; // 0,29
-    const seLlevaElMargen = r.margen_seguridad * r.coef_reformado_reciente; // 0,111
-    expect(seLlevaElMargen / salto).toBeGreaterThan(0.33);
+    // 1,11 - 0,82 = 0,29. El margen ya no se descuenta aqui: va en el coste.
+    expect(r.niveles[0]?.coeficiente_neto).toBeCloseTo(0.29, 6);
   });
 
   it('el punto de equilibrio es coste dividido por coeficiente neto y metros', () => {
@@ -46,21 +39,49 @@ describe('coherencia entre estado de T1 y coste de obra de T3', () => {
       edificio_antiguo_o_sin_proyecto: false,
     });
     const nivel = r.niveles.find((n) => n.nivel === 'lavado_de_cara');
-    // 200 EUR/m2 x 70 m2 x 1,15 de imprevistos = 16.100 EUR
-    expect(nivel?.coste_total_eur).toBeCloseTo(16100, 2);
-    // 16.100 / (0,179 x 70) = 1.284,89 EUR/m2
-    expect(nivel?.eur_m2_equilibrio).toBeCloseTo(16100 / (0.179 * 70), 1);
+    // 200 EUR/m2 x 70 m2 x 1,15 imprevistos x 1,10 margen = 17.710 EUR
+    expect(nivel?.coste_total_eur).toBeCloseTo(17710, 2);
+    // 17.710 / (0,29 x 70) = 872,41 EUR/m2
+    expect(nivel?.eur_m2_equilibrio).toBeCloseTo(17710 / (0.29 * 70), 1);
+  });
+
+  it('mover el margen mueve el equilibrio, ahora que va sobre la obra', () => {
+    const suave = configDeTest();
+    suave.reforma.margen_seguridad.valor = 0.05;
+    const estricto = configDeTest();
+    estricto.reforma.margen_seguridad.valor = 0.2;
+
+    const a = comprobarCoherenciaEstadoReforma({ config: suave, m2_utiles: 70, iva_override: 0 });
+    const b = comprobarCoherenciaEstadoReforma({ config: estricto, m2_utiles: 70, iva_override: 0 });
+
+    // El coeficiente neto no cambia; lo que cambia es el coste a superar.
+    expect(a.niveles[0]?.coeficiente_neto).toBeCloseTo(b.niveles[0]?.coeficiente_neto ?? 0, 6);
+    expect(b.niveles[0]!.eur_m2_equilibrio!).toBeGreaterThan(a.niveles[0]!.eur_m2_equilibrio!);
   });
 
   it('marca que no compensa cuando el EUR/m2 esta por debajo del equilibrio', () => {
+    // El equilibrio del nivel mas barato esta en 872 EUR/m2
+    const r = comprobarCoherenciaEstadoReforma({
+      config,
+      m2_utiles: 70,
+      eur_m2_homogeneizado: 800,
+      iva_override: 0,
+    });
+    expect(r.niveles.every((n) => n.compensa === false)).toBe(true);
+    expect(r.diagnostico).toContain('ningun nivel de reforma compensa');
+  });
+
+  it('con el margen sobre la obra, el nivel mas barato compensa a precios de Castellon', () => {
+    // Con el margen sobre el valor reformado, el equilibrio del lavado de cara
+    // estaba en 1.285 EUR/m2 y no compensaba a 1.000. Ahora esta en 872.
     const r = comprobarCoherenciaEstadoReforma({
       config,
       m2_utiles: 70,
       eur_m2_homogeneizado: 1000,
       iva_override: 0,
     });
-    expect(r.niveles.every((n) => n.compensa === false)).toBe(true);
-    expect(r.diagnostico).toContain('ningun nivel de reforma compensa');
+    expect(r.niveles.find((n) => n.nivel === 'lavado_de_cara')?.compensa).toBe(true);
+    expect(r.niveles.find((n) => n.nivel === 'reforma_integral')?.compensa).toBe(false);
   });
 
   it('marca que compensa cuando el EUR/m2 esta por encima', () => {
@@ -74,10 +95,11 @@ describe('coherencia entre estado de T1 y coste de obra de T3', () => {
     expect(r.diagnostico).toContain('compensan');
   });
 
-  it('detecta que con un margen alto reformar nunca compensa, ni con obra gratis', () => {
-    const exigente = configDeTest();
-    exigente.reforma.margen_seguridad.valor = 0.3; // 0,7 x 1,11 = 0,777 < 0,82
-    const r = comprobarCoherenciaEstadoReforma({ config: exigente, m2_utiles: 70, iva_override: 0 });
+  it('detecta unos coeficientes de estado imposibles', () => {
+    const incoherente = configDeTest();
+    // Reformado valdria menos que a reformar: no puede ser.
+    incoherente.coeficientes.estado_conservacion.reformado_reciente.valor = 0.8;
+    const r = comprobarCoherenciaEstadoReforma({ config: incoherente, m2_utiles: 70, iva_override: 0 });
 
     expect(r.niveles[0]?.coeficiente_neto).toBeLessThan(0);
     expect(r.niveles.every((n) => n.eur_m2_equilibrio === null)).toBe(true);
