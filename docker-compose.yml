@@ -1,6 +1,12 @@
 name: vp
 
-# Solo para DESARROLLO local en Windows.
+# OPCIONAL, y hoy sin usar. Ver ADR-005.
+#
+# El desarrollo va contra el PostgreSQL de la Pi por tunel SSH (pnpm db:tunnel),
+# porque este Docker Desktop esta en modo contenedores WINDOWS por un entorno de
+# Business Central, y esta imagen es Linux. Si algun dia el daemon esta en modo
+# Linux, esto levanta igual y el DATABASE_URL no cambia: mismo puerto 55432.
+#
 # En la Raspberry Pi, PostgreSQL + PostGIS corren nativos desde apt (ver infra/pi/).
 
 services:

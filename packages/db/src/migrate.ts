@@ -7,15 +7,34 @@
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
+import { existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const AQUI = dirname(fileURLToPath(import.meta.url));
+const ENV_RAIZ = resolve(AQUI, '..', '..', '..', '.env');
+
+/**
+ * Carga el .env de la raiz del monorepo.
+ *
+ * Se resuelve desde la ubicacion del modulo y no desde el directorio de
+ * trabajo, porque pnpm ejecuta este script con el cwd en packages/db y un
+ * ".env" relativo no lo encontraria.
+ */
+function cargarEnv(): void {
+  if (!existsSync(ENV_RAIZ)) return;
+  process.loadEnvFile(ENV_RAIZ);
+}
 
 async function main(): Promise<void> {
+  cargarEnv();
   const url = process.env['DATABASE_URL'];
   if (!url) {
-    console.error('Falta DATABASE_URL.');
+    console.error(
+      `Falta DATABASE_URL. Se ha buscado en el entorno y en ${ENV_RAIZ}.
+` +
+        'Si desarrollas contra la Pi, abre antes el tunel con: pnpm db:tunnel',
+    );
     process.exit(1);
   }
 

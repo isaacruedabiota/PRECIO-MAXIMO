@@ -53,9 +53,11 @@ validan contra operaciones reales. Ver la sección de calibración.
 ```bash
 pnpm install
 
-# Base de datos de desarrollo (Docker Desktop tiene que estar arrancado)
-pnpm db:up
-cp .env.example .env
+# La base de datos de desarrollo es la de la Pi, por túnel SSH (ADR-005).
+# Deja esto abierto en otra terminal:
+pnpm db:tunnel
+
+cp .env.example .env    # y pon la contraseña de /etc/vp/vp-web.env de la Pi
 pnpm db:migrate
 
 pnpm dev            # http://localhost:3000
@@ -251,10 +253,28 @@ color de `globals.css` ya están puestos para que encaje sin repintar.
 transpila vía `transpilePackages`, y `tsx` y Vitest los leen nativamente. Un paso
 de compilación por paquete no aportaría nada en un monorepo privado.
 
-### ADR-005 — PostgreSQL nativo en la Pi, Docker solo en local
-La Pi tiene 4 GB: meter la base en un contenedor solo añade consumo. En Windows,
-Docker mantiene el desarrollo aislado y reproducible. Son dos bases distintas a
-propósito — así los datos de prueba no ensucian lo que se está usando de verdad.
+### ADR-005 — PostgreSQL nativo en la Pi, y el desarrollo va por túnel SSH
+En la Pi la base va nativa desde apt: con 4 GB, meterla en un contenedor solo
+añade consumo.
+
+En local **no hay base propia**, y no por gusto. Docker Desktop de esta máquina
+está en modo *contenedores Windows* porque ahí vive un entorno de Business
+Central, y la imagen de PostGIS es Linux: levantarla exige cambiar el daemon y
+dejar ese entorno inaccesible hasta volver a cambiarlo. No compensa. El
+desarrollo apunta al PostgreSQL de la Pi a través de un túnel SSH
+(`pnpm db:tunnel`), que mapea su 5432 al 55432 local — el mismo puerto que
+usaría el contenedor, así que el `DATABASE_URL` es idéntico.
+
+El PostgreSQL de la Pi **sigue escuchando solo en localhost**: el túnel evita
+abrirlo a la LAN, que era la alternativa y es peor.
+
+Contrapartida, y hay que tenerla presente: desarrollo y producción comparten
+base. Hoy da igual porque ahí no hay datos reales todavía, pero **en cuanto la
+Fase 3 empiece a ingestar MITMA e INE habrá que separarlas** — segunda base en la
+misma Pi, o volver a Docker si para entonces el modo Linux no estorba.
+
+`docker-compose.yml` se queda en el repo: funciona tal cual si algún día el
+daemon está en modo Linux.
 
 ### ADR-006 — `VP_CONFIG_DIR` explícito en producción
 `@vp/config` lee los JSON con `readFileSync` resolviendo desde `import.meta.url`.
