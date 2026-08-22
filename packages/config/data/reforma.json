@@ -92,6 +92,12 @@
     "_doc": "Art. 91 LIVA: tipo reducido en obras de renovacion y reparacion de vivienda si se cumplen las tres condiciones. Si no se cumplen, tipo general. CONFIRMAR ambos tipos y la redaccion vigente del articulo.",
     "tipo_reducido_rehabilitacion": null,
     "tipo_general": null,
+    "antiguedad_minima_anios": {
+      "min": 2,
+      "max": 2,
+      "sugerido": 2,
+      "valor": null
+    },
     "condiciones_tipo_reducido": [
       "vivienda con al menos 2 anos de antiguedad desde su construccion o rehabilitacion",
       "destinatario particular, no empresario ni profesional",

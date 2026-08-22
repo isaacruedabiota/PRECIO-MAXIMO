@@ -12,7 +12,12 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes menores de 35 anos, primera vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad < 35", "vivienda habitual", "limite de renta por confirmar"],
+          "condiciones": [
+            "edad < 35",
+            "vivienda habitual",
+            "limite de renta por confirmar"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -22,7 +27,11 @@
           "codigo": "familia_numerosa",
           "nombre": "Familia numerosa, vivienda habitual",
           "tipo": null,
-          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "condiciones": [
+            "familia numerosa",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -32,7 +41,11 @@
           "codigo": "discapacidad",
           "nombre": "Persona con discapacidad reconocida, vivienda habitual",
           "tipo": null,
-          "condiciones": ["grado de discapacidad por confirmar", "vivienda habitual"],
+          "condiciones": [
+            "grado de discapacidad por confirmar",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -42,7 +55,11 @@
           "codigo": "vpo",
           "nombre": "Vivienda de proteccion publica, vivienda habitual",
           "tipo": null,
-          "condiciones": ["calificacion de VPO vigente", "vivienda habitual"],
+          "condiciones": [
+            "calificacion de VPO vigente",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -62,7 +79,11 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes, primera vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "condiciones": [
+            "edad por confirmar",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -72,7 +93,11 @@
           "codigo": "familia_numerosa",
           "nombre": "Familia numerosa, vivienda habitual",
           "tipo": null,
-          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "condiciones": [
+            "familia numerosa",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -92,7 +117,12 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes, vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad por confirmar", "vivienda habitual", "limite de renta por confirmar"],
+          "condiciones": [
+            "edad por confirmar",
+            "vivienda habitual",
+            "limite de renta por confirmar"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -102,7 +132,11 @@
           "codigo": "familia_numerosa",
           "nombre": "Familia numerosa, vivienda habitual",
           "tipo": null,
-          "condiciones": ["familia numerosa", "vivienda habitual"],
+          "condiciones": [
+            "familia numerosa",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -122,7 +156,11 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes, vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "condiciones": [
+            "edad por confirmar",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -142,7 +180,11 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes, vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "condiciones": [
+            "edad por confirmar",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",
@@ -162,7 +204,11 @@
           "codigo": "joven_primera_vivienda",
           "nombre": "Jovenes, vivienda habitual",
           "tipo": null,
-          "condiciones": ["edad por confirmar", "vivienda habitual"],
+          "condiciones": [
+            "edad por confirmar",
+            "vivienda habitual"
+          ],
+          "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
           "fuente_url": "",

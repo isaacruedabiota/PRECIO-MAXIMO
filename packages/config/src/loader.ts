@@ -3,68 +3,18 @@ import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { CONFIG_FILES, type EngineConfig, type ValorConfigurable } from './schemas';
+import { CONFIG_FILES, type EngineConfig } from './schemas';
+import { InvalidConfigError } from './values';
 
 /**
  * Carga y validacion de la configuracion de negocio.
  *
  * El motor NO usa este modulo: es I/O. Quien carga la config es el borde de la
  * aplicacion (la web, un script CLI, un test) y se la pasa al motor ya validada.
+ * Los helpers de lectura que si usa el motor viven en values.ts, sin Node.
  */
 
-/**
- * Se lanza cuando el motor necesita un numero que sigue sin fijarse.
- *
- * Es la pieza que implementa la regla "falla ruidosamente". Un ITP mal puesto
- * son 8.000 EUR de error en un piso de 200.000: preferimos una excepcion con la
- * ruta exacta del campo a un resultado plausible calculado sobre un valor
- * por defecto que nadie decidio.
- */
-export class MissingConfigError extends Error {
-  override readonly name = 'MissingConfigError';
-
-  constructor(
-    readonly ruta: string,
-    readonly detalle: string,
-  ) {
-    super(`Falta configurar "${ruta}". ${detalle}`);
-  }
-}
-
-/** Se lanza cuando un fichero de config no cumple su esquema. */
-export class InvalidConfigError extends Error {
-  override readonly name = 'InvalidConfigError';
-
-  constructor(
-    readonly archivo: string,
-    readonly problemas: string,
-  ) {
-    super(`Config invalida en ${archivo}:\n${problemas}`);
-  }
-}
-
-/** Devuelve el valor o lanza. Para cualquier campo escalar de config. */
-export function requerido<T>(valor: T | null | undefined, ruta: string, detalle: string): T {
-  if (valor === null || valor === undefined) {
-    throw new MissingConfigError(ruta, detalle);
-  }
-  return valor;
-}
-
-/**
- * Lee el campo `valor` de un ValorConfigurable. Nunca cae al `sugerido`:
- * el sugerido es una propuesta para la UI, no un valor de calculo.
- */
-export function leerValor(v: ValorConfigurable, ruta: string): number {
-  if (v.valor === null || v.valor === undefined) {
-    const pista =
-      v.sugerido !== null && v.sugerido !== undefined
-        ? ` El brief sugiere ${v.sugerido}, pero hay que fijarlo explicitamente en "valor".`
-        : '';
-    throw new MissingConfigError(`${ruta}.valor`, `Sigue a null.${pista}`);
-  }
-  return v.valor;
-}
+export { InvalidConfigError, MissingConfigError, leerValor, requerido } from './values';
 
 // ---------------------------------------------------------------------------
 // Carga

@@ -19,6 +19,15 @@
       "valor": 0.97
     }
   },
+  "anexos": {
+    "_doc": "Los anexos se suman en valor absoluto con su propio EUR/unidad de zona, no como coeficiente sobre el EUR/m2. Una terraza pequena no anade valor de mercado apreciable; a partir de este umbral si.",
+    "terraza_m2_minima_computable": {
+      "min": 4,
+      "max": 12,
+      "sugerido": 8,
+      "valor": 8
+    }
+  },
   "estado_conservacion": {
     "a_reformar": {
       "min": 0.78,
@@ -222,6 +231,13 @@
       "valor": 100
     },
     "metodo": "lineal_sobre_vida_residual",
+    "_doc_edad_referencia": "AVISO DE DOBLE CONTEO. El EUR/m2 de la zona ya refleja la antiguedad media de su parque de viviendas, asi que aplicar depreciacion absoluta penaliza dos veces al inmueble antiguo. El coeficiente se calcula relativo a esta edad de referencia: (1 - edad/vida_util) / (1 - edad_referencia/vida_util). Con 0 el resultado es la depreciacion absoluta del brief, y el motor emite aviso. Ponerlo en la antiguedad media del parque de la zona lo corrige.",
+    "edad_referencia_zona_anios": {
+      "min": 0,
+      "max": 60,
+      "sugerido": 0,
+      "valor": 0
+    },
     "coeficiente_minimo": {
       "min": 0.5,
       "max": 0.7,

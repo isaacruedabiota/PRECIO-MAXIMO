@@ -38,6 +38,8 @@ export const tipoReducidoSchema = z.looseObject({
   nombre: z.string(),
   tipo: z.number().nullable(),
   condiciones: z.array(z.string()),
+  /** Edad maxima para las modalidades de joven. Varia por CCAA: no se supone. */
+  limite_edad: z.number().nullable(),
   limite_base_imponible_irpf: z.number().nullable(),
   limite_valor_inmueble: z.number().nullable(),
   fuente_url: z.string(),
@@ -108,6 +110,9 @@ export const coeficientesConfigSchema = z.looseObject({
     factor_construida_a_util: vc,
     atipica_sobre_p90: vc,
   }),
+  anexos: z.looseObject({
+    terraza_m2_minima_computable: vc,
+  }),
   estado_conservacion: z.looseObject({
     a_reformar: vc,
     buen_estado: vc,
@@ -144,6 +149,7 @@ export const coeficientesConfigSchema = z.looseObject({
   antiguedad: z.looseObject({
     vida_util_total_anios: vc,
     metodo: z.string(),
+    edad_referencia_zona_anios: vc,
     coeficiente_minimo: vc,
     penalizacion_extra_pre_1980_sin_rehabilitar: vc,
     anio_corte_instalaciones: z.number(),
@@ -182,6 +188,7 @@ export const reformaConfigSchema = z.looseObject({
   iva: z.looseObject({
     tipo_reducido_rehabilitacion: z.number().nullable(),
     tipo_general: z.number().nullable(),
+    antiguedad_minima_anios: vc,
     condiciones_tipo_reducido: z.array(z.string()),
     condicion_coste_vs_valor_catastral: z.looseObject({
       multiplicador_valor_catastral: z.number().nullable(),
@@ -308,6 +315,10 @@ export const fuentesConfigSchema = z.looseObject({ version: z.string() });
 // ---------------------------------------------------------------------------
 
 export type ItpConfig = z.infer<typeof itpConfigSchema>;
+export type ItpCcaa = z.infer<typeof itpCcaaSchema>;
+export type TipoReducido = z.infer<typeof tipoReducidoSchema>;
+export type ArancelEscalado = z.infer<typeof arancelEscaladoSchema>;
+export type TramoArancel = z.infer<typeof tramoArancelSchema>;
 export type ArancelesConfig = z.infer<typeof arancelesConfigSchema>;
 export type CoeficientesConfig = z.infer<typeof coeficientesConfigSchema>;
 export type ReformaConfig = z.infer<typeof reformaConfigSchema>;
