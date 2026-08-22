@@ -19,7 +19,14 @@ import type { EngineConfig } from '@vp/config/schemas';
 
 export type Confianza = 'alta' | 'media' | 'baja';
 
-export type Unidad = 'EUR' | 'EUR/m2' | 'porcentaje' | 'coeficiente' | 'anios' | 'meses';
+export type Unidad =
+  | 'EUR'
+  | 'EUR/m2'
+  | 'm2'
+  | 'porcentaje'
+  | 'coeficiente'
+  | 'anios'
+  | 'meses';
 
 /**
  * Todo numero que sale del motor es un TrazedValue. Regla del proyecto:
@@ -186,6 +193,41 @@ export interface PropertyInput {
   /** null = sin comprobar. Un null en un bloqueante genera aviso, no bloqueo. */
   tiene_division_horizontal: boolean | null;
   es_vpo: boolean | null;
+}
+
+// ---------------------------------------------------------------------------
+// Entrada: la reforma prevista
+// ---------------------------------------------------------------------------
+
+export type NivelReforma =
+  | 'lavado_de_cara'
+  | 'reforma_parcial'
+  | 'reforma_integral'
+  | 'integral_premium';
+
+export type PartidaSingular =
+  | 'sustitucion_bajante_comunitaria'
+  | 'refuerzo_estructural'
+  | 'retirada_fibrocemento'
+  | 'instalacion_ascensor'
+  | 'aerotermia'
+  | 'rehabilitacion_fachada';
+
+export interface ReformaPrevista {
+  nivel: NivelReforma;
+  /** Importes absolutos, no EUR/m2. Se suman al modulo. */
+  partidas_singulares: readonly PartidaSingular[];
+  /**
+   * Sin proyecto cerrado la provision de imprevistos sube: no sabes lo que vas
+   * a encontrar al levantar el suelo.
+   */
+  hay_proyecto_cerrado: boolean;
+  /**
+   * El destinatario de la obra actua como particular y no como empresario.
+   * Es una de las condiciones del tipo reducido de IVA del art. 91 LIVA, y en
+   * modo flipping deja de cumplirse.
+   */
+  destinatario_particular: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -411,6 +453,8 @@ export interface CalcInput {
   riesgos: RiesgosInput;
   buyer: BuyerProfile;
   market: MarketData;
+  /** null si el inmueble esta listo para entrar: entonces T3 no aplica. */
+  reforma: ReformaPrevista | null;
   /**
    * Config ya cargada y validada por el borde de la aplicacion.
    * Import solo de tipos: el motor no depende de @vp/config en runtime.
