@@ -231,6 +231,29 @@ export interface ReformaPrevista {
 }
 
 // ---------------------------------------------------------------------------
+// Entrada: la operacion de inversion (T4)
+// ---------------------------------------------------------------------------
+
+export interface InversionInput {
+  /** Autogestion no cuesta dinero pero cuesta tiempo; la agencia se lleva un %. */
+  gestion: 'autogestion' | 'agencia';
+  /**
+   * IBI anual del recibo. No se estima si no hace falta: omitirlo infla la
+   * rentabilidad y con ella el precio que la herramienta recomienda pagar.
+   */
+  ibi_anual_eur: number | null;
+  /** Cuota de comunidad mensual, del acta o del anuncio. */
+  comunidad_mensual_eur: number | null;
+  /** Rentabilidad neta objetivo. null usa la de config. */
+  rentabilidad_objetivo: number | null;
+  /**
+   * Tipo marginal de IRPF del inversor. Es un dato personal, no un parametro
+   * legal, por eso entra aqui y no en la configuracion.
+   */
+  tipo_marginal_irpf: number | null;
+}
+
+// ---------------------------------------------------------------------------
 // Entrada: riesgos
 // ---------------------------------------------------------------------------
 
@@ -455,6 +478,8 @@ export interface CalcInput {
   market: MarketData;
   /** null si el inmueble esta listo para entrar: entonces T3 no aplica. */
   reforma: ReformaPrevista | null;
+  /** null en modo residencia: entonces T4 no aplica. */
+  inversion: InversionInput | null;
   /**
    * Config ya cargada y validada por el borde de la aplicacion.
    * Import solo de tipos: el motor no depende de @vp/config en runtime.

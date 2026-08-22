@@ -1,6 +1,8 @@
 import type {
   BuyerProfile,
   CalcInput,
+  DatosAlquiler,
+  InversionInput,
   MarketData,
   PropertyInput,
   ReformaPrevista,
@@ -117,6 +119,28 @@ export function reformaBase(over: Partial<ReformaPrevista> = {}): ReformaPrevist
   };
 }
 
+export function inversionBase(over: Partial<InversionInput> = {}): InversionInput {
+  return {
+    gestion: 'autogestion',
+    ibi_anual_eur: 400,
+    comunidad_mensual_eur: 45,
+    rentabilidad_objetivo: null,
+    tipo_marginal_irpf: 0.3,
+    ...over,
+  };
+}
+
+export function alquilerBase(over: Partial<DatosAlquiler> = {}): DatosAlquiler {
+  return {
+    renta_mensual_estimada: 700,
+    fuente: 'SERPAVI (dato de test)',
+    fecha_dato: '2026-06-30',
+    zona_tensionada: false,
+    renta_maxima_indice: null,
+    ...over,
+  };
+}
+
 export function entradaBase(over: Partial<CalcInput> = {}): CalcInput {
   return {
     fecha_calculo: '2026-08-22',
@@ -125,6 +149,7 @@ export function entradaBase(over: Partial<CalcInput> = {}): CalcInput {
     buyer: compradorBase(),
     market: mercadoBase(),
     reforma: null,
+    inversion: null,
     config: configDeTest(),
     ...over,
   };

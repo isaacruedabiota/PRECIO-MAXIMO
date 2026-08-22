@@ -23,6 +23,7 @@ export { arancelEscalado } from './costs/arancel';
 export { calcularT1 } from './ceilings/t1-mercado';
 export { calcularT2 } from './ceilings/t2-financiero';
 export { calcularT3 } from './ceilings/t3-reforma';
+export { calcularT4 } from './ceilings/t4-rentabilidad';
 export { detectarBloqueantes } from './risk/blockers';
 export { calcularDescuentos } from './risk/discounts';
 export { resolverSuperficie } from './superficie';
@@ -32,7 +33,7 @@ import { construirArgumentario } from './argumentario';
 import { calcularT1 } from './ceilings/t1-mercado';
 import { calcularT2 } from './ceilings/t2-financiero';
 import { calcularT3 } from './ceilings/t3-reforma';
-import { NotImplementedError } from './errors';
+import { calcularT4 } from './ceilings/t4-rentabilidad';
 import { detectarBloqueantes } from './risk/blockers';
 import { calcularDescuentos } from './risk/discounts';
 import { resolverSuperficie } from './superficie';
@@ -60,7 +61,7 @@ const ORDEN_TECHOS: readonly TechoId[] = ['T1', 'T2', 'T3', 'T4'];
  * Los bloqueantes no descuentan: paran el calculo.
  */
 export function calcularPrecioMaximo(input: CalcInput): MaxPriceResult {
-  const { fecha_calculo, property, riesgos, buyer, market, config, reforma } = input;
+  const { fecha_calculo, property, riesgos, buyer, market, config, reforma, inversion } = input;
   const avisos: Aviso[] = [];
 
   const disclaimer = config.negociacion.disclaimer.texto;
@@ -174,12 +175,28 @@ export function calcularPrecioMaximo(input: CalcInput): MaxPriceResult {
   // -------------------------------------------------------------------------
   // 6. T4 - rentabilidad
   // -------------------------------------------------------------------------
-  if (buyer.objetivo !== 'residencia') {
-    // Devolver un precio maximo ignorando un techo que podria ser el que manda
-    // seria peor que no devolver nada.
-    throw new NotImplementedError(
-      `El modo "${buyer.objetivo}" necesita T4 (techo de rentabilidad), que llega en la segunda entrega ` +
-        'de la Fase 1',
+  const r4 = calcularT4({
+    fecha_calculo,
+    property,
+    buyer,
+    market,
+    config,
+    inversion,
+    costeReforma: r3.costeReforma,
+    valorReformado,
+  });
+
+  // En modo inversor, un T4 que no se puede calcular no se puede ignorar: seria
+  // devolver un precio saltandose el techo que probablemente manda.
+  if (buyer.objetivo !== 'residencia' && r4.techo.valor === null && r4.techo.aplica === false) {
+    avisos.push(
+      aviso(
+        'critico',
+        'T4_NO_CALCULABLE_EN_MODO_INVERSOR',
+        'El objetivo es de inversion y no se ha podido calcular el techo de rentabilidad',
+        `${r4.techo.motivo_no_aplica ?? ''} Sin T4, el precio maximo de abajo ignora justo el techo que ` +
+          'suele mandar en una operacion de inversion.',
+      ),
     );
   }
 
@@ -187,16 +204,7 @@ export function calcularPrecioMaximo(input: CalcInput): MaxPriceResult {
     T1: r1.techo,
     T2: r2.techo,
     T3: r3.techo,
-    T4: {
-      id: 'T4',
-      nombre: 'Techo de rentabilidad',
-      aplica: false,
-      motivo_no_aplica: 'Solo aplica en modo inversor. El objetivo declarado es residencia.',
-      valor: null,
-      rango: null,
-      desglose: [],
-      avisos: [],
-    },
+    T4: r4.techo,
   };
 
   for (const id of ORDEN_TECHOS) avisos.push(...techos[id].avisos);
@@ -358,7 +366,7 @@ export function calcularPrecioMaximo(input: CalcInput): MaxPriceResult {
             ? 'sobrevalorado'
             : 'en_precio',
     },
-    metricas_inversion: null,
+    metricas_inversion: r4.metricas,
     argumentario: construirArgumentario({
       fecha_calculo,
       property,

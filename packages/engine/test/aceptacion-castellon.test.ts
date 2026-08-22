@@ -116,6 +116,8 @@ function casoDelGrao(): CalcInput {
       hay_proyecto_cerrado: false,
       destinatario_particular: true,
     },
+    // Residencia habitual: no hay operacion de inversion que valorar.
+    inversion: null,
   };
 }
 

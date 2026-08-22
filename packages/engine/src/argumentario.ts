@@ -147,7 +147,10 @@ function explicarLimitante(id: TechoId, techo: Techo): string {
         'debajo del valor que tendra el piso ya reformado, con margen de seguridad.'
       );
     case 'T4':
-      return 'Manda la rentabilidad objetivo de la operacion.';
+      return (
+        'Manda la rentabilidad: por encima de esa cifra la operacion deja de dar el retorno que te has ' +
+        'marcado, aunque el piso valga mas y aunque puedas pagarlo. ' + (techo.valor?.notas?.join(' ') ?? '')
+      );
   }
 }
 

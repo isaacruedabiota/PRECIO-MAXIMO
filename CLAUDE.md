@@ -30,13 +30,17 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fase 1, primera entrega** — T1, T2, T3, descuentos por riesgo y bloqueantes
-implementados, con 106 tests. `calcularPrecioMaximo` devuelve un resultado
-completo y trazable en modo residencia.
+**Fase 1 completa** — los cuatro techos, descuentos por riesgo, bloqueantes,
+argumentario y métricas de inversión, con **161 tests**. `calcularPrecioMaximo`
+devuelve un resultado completo y trazable en los tres modos: residencia,
+inversión en alquiler e inversión en flipping.
 
-**T4 (rentabilidad) todavía no está.** En modo inversor el motor lanza
-`NotImplementedError` en lugar de devolver un precio que ignore un techo que
-podría ser el que manda. Es la segunda entrega de la Fase 1.
+Encima hay instrumental de calibración (`pnpm calibrate`) y fuentes reales
+verificadas (INE tabla 80270, MITMA serie 35103500).
+
+**Pendiente antes de fiarse de un número**: la config sigue con 93 valores sin
+fijar y 43 bloques sin verificar, y `edad_referencia_zona_anios` —el parámetro
+que más mueve T1— sigue en 0. Ver la sección de calibración.
 
 ---
 
@@ -328,9 +332,7 @@ personal en LAN añade una pieza que puede fallar sin aportar nada. Queda
 Al terminar cada fase se para y se espera visto bueno.
 
 - [x] **Fase 0** — Andamiaje: monorepo, Docker Compose, esquema de BD, tipos del dominio, despliegue en la Pi.
-- [~] **Fase 1** — Motor puro. **La fase que decide si el proyecto sirve.**
-  - [x] T1 mercado, T2 financiero-fiscal, T3 reforma, descuentos, bloqueantes, argumentario. 106 tests.
-  - [ ] T4 rentabilidad: alquiler y flipping.
+- [x] **Fase 1** — Motor puro, los cuatro techos, 161 tests. **La fase que decide si el proyecto sirve.**
 - [ ] **Fase 2** — Adaptador de Catastro.
 - [ ] **Fase 3** — Ingesta batch: MITMA + INE.
 - [ ] **Fase 4** — Web mínima: formulario → resultado → desglose trazable.
