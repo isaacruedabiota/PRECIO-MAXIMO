@@ -364,10 +364,17 @@ function coeficienteAntiguedad(
 
   const edad = Math.max(0, anioDe(fecha_calculo) - anioRef);
   const vidaUtil = leerValor(coef.antiguedad.vida_util_total_anios, 'coeficientes.antiguedad.vida_util_total_anios');
-  const edadReferencia = leerValor(
-    coef.antiguedad.edad_referencia_zona_anios,
-    'coeficientes.antiguedad.edad_referencia_zona_anios',
-  );
+
+  // La antiguedad del parque describe la zona, asi que el dato de mercado manda
+  // sobre el respaldo global de config.
+  const delMercado = ctx.market.antiguedad_parque;
+  const edadReferencia =
+    delMercado !== null
+      ? delMercado.edad_media_anios
+      : leerValor(
+          coef.antiguedad.edad_referencia_zona_anios,
+          'coeficientes.antiguedad.edad_referencia_zona_anios',
+        );
   const minimo = leerValor(coef.antiguedad.coeficiente_minimo, 'coeficientes.antiguedad.coeficiente_minimo');
 
   const residualInmueble = Math.max(0, 1 - edad / vidaUtil);
@@ -392,7 +399,12 @@ function coeficienteAntiguedad(
     );
   }
 
-  const explicaciones = [`${edad} anos sobre una vida util de ${vidaUtil}`];
+  const explicaciones = [
+    `${edad} anos sobre una vida util de ${vidaUtil}`,
+    delMercado !== null
+      ? `relativo a un parque de ${delMercado.edad_media_anios} anos de media (${delMercado.fuente})`
+      : `relativo a una edad de referencia de ${edadReferencia} anos (config)`,
+  ];
 
   // Penalizacion extra por instalaciones fuera de norma
   const corte = coef.antiguedad.anio_corte_instalaciones;

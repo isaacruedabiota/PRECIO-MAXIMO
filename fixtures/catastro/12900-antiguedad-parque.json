@@ -1,0 +1,58 @@
+{
+  "municipio": "Castello de la Plana",
+  "codigo_catastro": "12900",
+  "fuente": "Catastro INSPIRE, dataset Buildings del municipio",
+  "url_atom": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/12/ES.SDGC.bu.atom_12.xml",
+  "fecha_dataset_gml": "2026-02-21",
+  "generado_en": "2026-08-22T19:19:12Z",
+  "criterio": "Edificios con currentUse que empieza por 1_residential, conditionOfConstruction functional y numberOfDwellings > 0. Ano de dateOfConstruction/beginning. Media ponderada por numero de viviendas.",
+  "anio_referencia": 2026,
+  "edificios_en_el_fichero": 23033,
+  "edificios_computados": 14817,
+  "parque_completo": {
+    "viviendas_computadas": 88191,
+    "anio_medio_ponderado": 1981.83,
+    "anio_mediano": 1980,
+    "edad_media_anios": 44.17,
+    "edad_mediana_anios": 46
+  },
+  "parque_de_mas_de_5_anios": {
+    "_doc": "Excluye lo construido en los ultimos 5 anos. Es el parque que describe la serie de MITMA de vivienda de mas de 5 anos, que es la que alimenta T1.",
+    "anio_corte": 2021,
+    "viviendas_computadas": 86887,
+    "anio_medio_ponderado": 1981.21,
+    "anio_mediano": 1979,
+    "edad_media_anios": 44.79,
+    "edad_mediana_anios": 47
+  },
+  "viviendas_por_decada": {
+    "1690": 1,
+    "1800": 17,
+    "1840": 2,
+    "1850": 1,
+    "1860": 3,
+    "1870": 2,
+    "1880": 240,
+    "1890": 27,
+    "1900": 947,
+    "1910": 101,
+    "1920": 802,
+    "1930": 504,
+    "1940": 1317,
+    "1950": 2939,
+    "1960": 16234,
+    "1970": 20440,
+    "1980": 9719,
+    "1990": 12839,
+    "2000": 18396,
+    "2010": 2178,
+    "2020": 1482
+  },
+  "descartes": {
+    "uso no residencial": 7601,
+    "condicion declined": 298,
+    "sin viviendas declaradas": 208,
+    "ano invalido o ausente": 90,
+    "condicion ruin": 19
+  }
+}

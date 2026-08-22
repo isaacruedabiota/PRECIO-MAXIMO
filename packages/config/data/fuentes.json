@@ -1,6 +1,6 @@
 {
-  "_doc": "Catalogo de fuentes de datos. TODAS estan a verificado: false. Regla del proyecto: antes de escribir una linea de codigo contra cualquiera de ellas hay que hacer una peticion real, guardar la respuesta en fixtures/<fuente>/<caso>.json y programar contra esa respuesta. Si un endpoint no responde o ha cambiado, se para y se avisa; no se mockea en silencio.",
-  "_estado": "Ningun endpoint de este fichero ha sido probado todavia. Las URLs vienen del brief, no de una comprobacion propia.",
+  "_doc": "Catalogo de fuentes de datos. Regla del proyecto: antes de escribir una linea de codigo contra cualquiera de ellas hay que hacer una peticion real, guardar la respuesta en fixtures/<fuente>/<caso>.json y programar contra esa respuesta. Si un endpoint no responde o ha cambiado, se para y se avisa; no se mockea en silencio.",
+  "_estado": "Probados con peticion real y fixture guardado el 2026-08-22: MITMA, INE y Catastro INSPIRE. El resto siguen sin comprobar y sus URLs vienen del brief, no de una comprobacion propia.",
   "version": "0.0.0",
 
   "catastro": {
@@ -21,11 +21,15 @@
   },
 
   "catastro_inspire": {
-    "nombre": "Catastro INSPIRE - geometrias",
+    "nombre": "Catastro INSPIRE - edificios, parcelas y direcciones",
     "servicios": ["wfsBU (buildings)", "wfsCP (cadastral parcels)", "wfsAD (addresses)", "descarga ATOM por municipio"],
-    "aporta": ["poligono del edificio", "superficie de parcela"],
-    "verificado": false,
-    "fixture": null
+    "aporta": ["poligono del edificio", "superficie de parcela", "ano de construccion", "numero de viviendas", "uso"],
+    "atom_nacional": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/ES.SDGC.BU.atom.xml",
+    "atom_provincial": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/{provincia}/ES.SDGC.bu.atom_{provincia}.xml",
+    "_doc": "Probado el 2026-08-22. El dominio catastro.minhap.es esta MUERTO (no resuelve); funciona catastro.hacienda.gob.es. El zip municipal de Castellon (12900) pesa 12 MB y trae 108 MB de GML de edificios.",
+    "_uso_en_el_motor": "De aqui sale la antiguedad media del parque de la zona, que es la referencia contra la que T1 deprecia por antiguedad. Se calcula con: pnpm ingest:antiguedad <codigoCatastro>. Campos usados: dateOfConstruction/beginning, currentUse, conditionOfConstruction y numberOfDwellings.",
+    "verificado": true,
+    "fixture": "fixtures/catastro/12900-antiguedad-parque.json"
   },
 
   "valor_referencia_catastro": {

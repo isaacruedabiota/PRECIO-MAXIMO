@@ -13,7 +13,7 @@
  * Usa la config real de packages/config/data, no una de test. Si algo sigue a
  * null, el informe lo dice en lugar de rellenarlo.
  */
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -50,6 +50,27 @@ function cargarMitma(municipio: string): { fila: FilaMitma; periodo: string } {
   return { fila, periodo: json.periodo };
 }
 
+interface AntiguedadFixture {
+  municipio: string;
+  fuente: string;
+  url_atom: string;
+  fecha_dataset_gml: string;
+  parque_de_mas_de_5_anios: {
+    viviendas_computadas: number;
+    edad_media_anios: number;
+  };
+}
+
+/**
+ * Antiguedad del parque de la zona, calculada del Catastro. Es el parametro que
+ * mas mueve T1, asi que si esta se usa y si no se dice.
+ */
+function cargarAntiguedad(codigoCatastro: string): AntiguedadFixture | null {
+  const ruta = resolve(RAIZ, 'fixtures', 'catastro', `${codigoCatastro}-antiguedad-parque.json`);
+  if (!existsSync(ruta)) return null;
+  return JSON.parse(readFileSync(ruta, 'utf8')) as AntiguedadFixture;
+}
+
 /** Fin del trimestre en formato ISO, a partir de la etiqueta T1A2026. */
 function fechaDelPeriodo(periodo: string): string {
   const m = /^T(\d)A(\d{4})$/.exec(periodo.trim());
@@ -82,6 +103,7 @@ function main(): void {
   if (edadRef !== null) config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = edadRef;
   if (coefMin !== null) config.coeficientes.limites.coeficiente_global_min.valor = coefMin;
   const { fila, periodo } = cargarMitma(municipio);
+  const antiguedad = cargarAntiguedad('12900');
   const fechaDato = fechaDelPeriodo(periodo);
 
   if (fila.eur_m2_mas_de_5_anios === null) {
@@ -96,6 +118,12 @@ function main(): void {
   console.log(`Fuente:     MITMA serie 35103500, ${periodo} (${fechaDato})`);
   console.log(`Muestra:    ${fila.tasaciones_mas_de_5_anios ?? '?'} tasaciones`);
   console.log(`Fecha calc: ${fechaCalculo}`);
+  console.log(
+    antiguedad === null
+      ? 'Parque:     sin dato de antiguedad; se usa el respaldo de config'
+      : `Parque:     ${antiguedad.parque_de_mas_de_5_anios.edad_media_anios} anos de media sobre ` +
+        `${antiguedad.parque_de_mas_de_5_anios.viviendas_computadas.toLocaleString('es-ES')} viviendas (Catastro)`,
+  );
   if (edadRef !== null || coefMin !== null) {
     console.log(
       `Overrides:  edad_referencia_zona=${edadRef ?? 'config'} coeficiente_global_min=${coefMin ?? 'config'}`,
@@ -146,13 +174,24 @@ function main(): void {
       n_transacciones: fila.tasaciones_mas_de_5_anios,
       p25: null,
       p75: null,
-      // PENDIENTE DE CONFIRMAR con MITMA. Se asume construida porque las
-      // tasaciones ECO/805 se informan asi habitualmente.
+      // VERIFICADO en el documento de metodologia de MITMA: su EUR/m2 es el
+      // cociente entre el valor de tasacion y la superficie construida.
       base_superficie: 'construida',
     },
     ipv: null,
     anexos: null,
     superficie_p90_zona_m2: null,
+    antiguedad_parque:
+      antiguedad === null
+        ? null
+        : {
+            edad_media_anios: antiguedad.parque_de_mas_de_5_anios.edad_media_anios,
+            ambito: 'municipio',
+            fuente: antiguedad.fuente,
+            fuente_url: antiguedad.url_atom,
+            fecha_dato: antiguedad.fecha_dataset_gml,
+            n_viviendas: antiguedad.parque_de_mas_de_5_anios.viviendas_computadas,
+          },
     alquiler: null,
     arv_eur_m2: null,
   };

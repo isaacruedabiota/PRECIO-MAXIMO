@@ -31,16 +31,20 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 ## Estado
 
 **Fase 1 completa** — los cuatro techos, descuentos por riesgo, bloqueantes,
-argumentario y métricas de inversión, con **161 tests**. `calcularPrecioMaximo`
+argumentario y métricas de inversión, con **175 tests**. `calcularPrecioMaximo`
 devuelve un resultado completo y trazable en los tres modos: residencia,
 inversión en alquiler e inversión en flipping.
 
-Encima hay instrumental de calibración (`pnpm calibrate`) y fuentes reales
-verificadas (INE tabla 80270, MITMA serie 35103500).
+Encima hay instrumental de calibración (`pnpm calibrate`) y cuatro fuentes reales
+verificadas con fixture y cita: **BOE** (ITP, IVA, IRPF, aranceles), **MITMA**
+(serie 35103500), **INE** (tabla 80270) y **Catastro INSPIRE** (antigüedad del
+parque).
 
-**Pendiente antes de fiarse de un número**: la config sigue con 93 valores sin
-fijar y 43 bloques sin verificar, y `edad_referencia_zona_anios` —el parámetro
-que más mueve T1— sigue en 0. Ver la sección de calibración.
+**Pendiente antes de fiarse de un número**: 61 valores sin fijar y 23 bloques sin
+verificar, casi todos de las otras cinco CCAA y de fuentes que aún no se usan.
+Lo que sigue sin contrastar y sí se usa son los **coeficientes de
+homogeneización**: no son dato oficial sino criterio profesional, y solo se
+validan contra operaciones reales. Ver la sección de calibración.
 
 ---
 
@@ -65,6 +69,7 @@ pnpm lint           # eslint, config plana única en la raíz
 pnpm test           # tests del motor
 pnpm config:check   # qué falta por fijar y por verificar en la config
 pnpm calibrate      # informe de calibración de T1 y T3 sobre datos reales
+pnpm ingest:antiguedad 12900   # edad del parque de un municipio, del Catastro
 ```
 
 `pnpm calibrate` acepta municipio y overrides sin tocar los JSON:
@@ -301,6 +306,19 @@ dejaban de mover el resultado**. La valoración la decidían el tope y la edad d
 referencia, no las características del piso. Bajado a 0,45 con horquilla
 0,40-0,70, y sigue emitiendo `COEFICIENTE_GLOBAL_TOPADO` cuando actúa: si salta
 a menudo, o el tope está mal puesto o los coeficientes penalizan de más.
+
+### ADR-015 — La antigüedad del parque es dato de mercado, no config
+Describe la zona, igual que el precio, así que viaja en `MarketData.antiguedad_parque`
+y el valor de `coeficientes.json` queda solo como respaldo. Se calcula con
+`pnpm ingest:antiguedad <codigoCatastro>` desde el dataset INSPIRE de edificios,
+**ponderando por número de viviendas y no por edificios**: el precio de
+referencia es por vivienda, así que un bloque de 40 pisos pesa cuarenta veces
+más que un unifamiliar del mismo año. Y debe describir la misma población que el
+precio: si el precio es de vivienda de más de cinco años, la edad también.
+
+Para Castellón de la Plana salen **44,8 años** sobre 86.887 viviendas. Con ese
+dato, el parámetro que antes decidía el 88% de T1 desaparece del ranking de
+sensibilidad y el tope global deja de atar.
 
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**

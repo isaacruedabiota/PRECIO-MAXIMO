@@ -90,6 +90,7 @@ export function mercadoBase(over: Partial<MarketData> = {}): MarketData {
     ipv: null,
     anexos: null,
     superficie_p90_zona_m2: null,
+    antiguedad_parque: null,
     alquiler: null,
     arv_eur_m2: null,
     ...over,

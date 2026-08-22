@@ -20,7 +20,8 @@
     "db:studio": "pnpm --filter @vp/db studio",
     "config:check": "pnpm --filter @vp/config check",
     "config:seed": "pnpm --filter @vp/config seed",
-    "calibrate": "pnpm --filter @vp/scripts calibrate"
+    "calibrate": "pnpm --filter @vp/scripts calibrate",
+    "ingest:antiguedad": "pnpm --filter @vp/scripts ingest:antiguedad"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

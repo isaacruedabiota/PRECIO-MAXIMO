@@ -149,6 +149,49 @@ describe('T1 - depreciacion por antiguedad', () => {
     expect(codigos(r.techo.avisos)).not.toContain('ANTIGUEDAD_ABSOLUTA');
   });
 
+  it('el dato de mercado del parque manda sobre el respaldo de config', () => {
+    const config = configDeTest();
+    config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 0;
+
+    const r = correrT1({
+      config,
+      market: mercadoBase({
+        antiguedad_parque: {
+          edad_media_anios: 26,
+          ambito: 'municipio',
+          fuente: 'Catastro INSPIRE (test)',
+          fuente_url: null,
+          fecha_dato: '2026-02-21',
+          n_viviendas: 86887,
+        },
+      }),
+    });
+
+    // El piso tiene 26 anos y el parque tambien: coeficiente neutro, pese a que
+    // la config diga 0. Y sin el aviso de depreciacion absoluta.
+    expect(r.coeficientes.find((c) => c.nombre === 'antiguedad')?.valor).toBeCloseTo(1, 6);
+    expect(codigos(r.techo.avisos)).not.toContain('ANTIGUEDAD_ABSOLUTA');
+  });
+
+  it('cita la fuente del parque en la explicacion del coeficiente', () => {
+    const r = correrT1({
+      market: mercadoBase({
+        antiguedad_parque: {
+          edad_media_anios: 44.79,
+          ambito: 'municipio',
+          fuente: 'Catastro INSPIRE (test)',
+          fuente_url: null,
+          fecha_dato: '2026-02-21',
+          n_viviendas: 86887,
+        },
+      }),
+    });
+    const antiguedad = r.coeficientes.find((c) => c.nombre === 'antiguedad');
+    expect(antiguedad?.explicacion).toContain('Catastro INSPIRE');
+    // edad 26 sobre vida 100, relativo a un parque de 44,79
+    expect(antiguedad?.valor).toBeCloseTo((1 - 0.26) / (1 - 0.4479), 6);
+  });
+
   it('penaliza de mas a un edificio anterior a 1980 sin rehabilitar', () => {
     const r = correrT1({ property: propiedadBase({ anio_construccion: 1975 }) });
     const antiguedad = r.coeficientes.find((c) => c.nombre === 'antiguedad');

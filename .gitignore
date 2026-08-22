@@ -22,3 +22,8 @@ data/raw/
 Thumbs.db
 *.log
 npm-debug.log*
+
+# Descargas masivas del Catastro INSPIRE: se re-descargan del ATOM.
+# Lo que se versiona es el agregado derivado, no el GML de 108 MB.
+fixtures/catastro/*.zip
+fixtures/catastro/*.gml

@@ -108,6 +108,7 @@ function casoDelGrao(): CalcInput {
       ipv: null,
       anexos: null,
       superficie_p90_zona_m2: null,
+      antiguedad_parque: null,
       alquiler: null,
       arv_eur_m2: null,
     },

@@ -408,6 +408,27 @@ export interface DatosAlquiler {
   renta_maxima_indice: number | null;
 }
 
+/**
+ * Antiguedad del parque de viviendas de la zona.
+ *
+ * Describe la zona, no es una regla de negocio, asi que viaja con los datos de
+ * mercado igual que el precio. Es la referencia contra la que T1 deprecia por
+ * antiguedad: sin ella habria que depreciar contra obra nueva, y eso cuenta dos
+ * veces la antiguedad porque el EUR/m2 de la zona ya la lleva dentro.
+ *
+ * Debe describir la MISMA poblacion que el precio: si el precio es de vivienda
+ * de mas de cinco anos, la edad tiene que calcularse sobre ese mismo parque.
+ */
+export interface AntiguedadParque {
+  edad_media_anios: number;
+  ambito: AmbitoPrecio;
+  fuente: string;
+  fuente_url: string | null;
+  fecha_dato: string;
+  /** Viviendas sobre las que se ha calculado la media. */
+  n_viviendas: number | null;
+}
+
 export interface MarketData {
   /** Cascada ya resuelta por el adaptador, de mas a menos granular. */
   precio_m2: PrecioM2Referencia;
@@ -415,6 +436,11 @@ export interface MarketData {
   anexos: PreciosAnexos | null;
   /** P90 de superficie de la zona, para penalizar pisos atipicos por iliquidez. */
   superficie_p90_zona_m2: number | null;
+  /**
+   * Antiguedad del parque de la zona. Si viene, manda sobre el valor de
+   * config, que solo es un respaldo global.
+   */
+  antiguedad_parque: AntiguedadParque | null;
   alquiler: DatosAlquiler | null;
   /** Valor de mercado una vez reformado (ARV). Necesario para T3 y flipping. */
   arv_eur_m2: number | null;
