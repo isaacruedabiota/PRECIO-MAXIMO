@@ -1,0 +1,705 @@
+[{"COD":"IPV1209", "Nombre":"Nacional. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Notas":[{"texto" : "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736152838&menu=ultiDatos&idp=1254735976607#~#https://www.ine.es/consul/serie.do?s=IPV769&nult=100&TB_iframe=true&position=center&width=700&height=500&L=0&nocab=1", "Fk_TipoNota" : 6, "textoTipo" : null}], "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.458, "Secreto":false}
+]
+}
+,{"COD":"IPV1522", "Nombre":"Nacional. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1376", "Nombre":"Nacional. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":12.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1612", "Nombre":"Nacional. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1613", "Nombre":"Nacional. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.129, "Secreto":false}
+]
+}
+,{"COD":"IPV1614", "Nombre":"Nacional. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1615", "Nombre":"Nacional. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":9.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1617", "Nombre":"Nacional. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1618", "Nombre":"Nacional. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.666, "Secreto":false}
+]
+}
+,{"COD":"IPV1619", "Nombre":"Nacional. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1620", "Nombre":"Nacional. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1622", "Nombre":"Nacional. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1623", "Nombre":"Andalucía. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.061, "Secreto":false}
+]
+}
+,{"COD":"IPV1624", "Nombre":"Andalucía. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1625", "Nombre":"Andalucía. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1627", "Nombre":"Andalucía. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1628", "Nombre":"Andalucía. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.827, "Secreto":false}
+]
+}
+,{"COD":"IPV1629", "Nombre":"Andalucía. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1630", "Nombre":"Andalucía. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1632", "Nombre":"Andalucía. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1633", "Nombre":"Andalucía. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.09, "Secreto":false}
+]
+}
+,{"COD":"IPV1634", "Nombre":"Andalucía. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1635", "Nombre":"Andalucía. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1637", "Nombre":"Andalucía. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1638", "Nombre":"Aragón. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.195, "Secreto":false}
+]
+}
+,{"COD":"IPV1639", "Nombre":"Aragón. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1640", "Nombre":"Aragón. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":15.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1642", "Nombre":"Aragón. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1643", "Nombre":"Aragón. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.18, "Secreto":false}
+]
+}
+,{"COD":"IPV1644", "Nombre":"Aragón. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":6.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1645", "Nombre":"Aragón. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1647", "Nombre":"Aragón. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":6.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1648", "Nombre":"Aragón. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.411, "Secreto":false}
+]
+}
+,{"COD":"IPV1649", "Nombre":"Aragón. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1650", "Nombre":"Aragón. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":16.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1652", "Nombre":"Aragón. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1653", "Nombre":"Asturias, Principado de. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.655, "Secreto":false}
+]
+}
+,{"COD":"IPV1654", "Nombre":"Asturias, Principado de. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1655", "Nombre":"Asturias, Principado de. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1657", "Nombre":"Asturias, Principado de. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1658", "Nombre":"Asturias, Principado de. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.151, "Secreto":false}
+]
+}
+,{"COD":"IPV1659", "Nombre":"Asturias, Principado de. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1660", "Nombre":"Asturias, Principado de. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1662", "Nombre":"Asturias, Principado de. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1663", "Nombre":"Asturias, Principado de. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.734, "Secreto":false}
+]
+}
+,{"COD":"IPV1664", "Nombre":"Asturias, Principado de. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1665", "Nombre":"Asturias, Principado de. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1667", "Nombre":"Asturias, Principado de. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1668", "Nombre":"Balears, Illes. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.765, "Secreto":false}
+]
+}
+,{"COD":"IPV1669", "Nombre":"Balears, Illes. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1670", "Nombre":"Balears, Illes. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1672", "Nombre":"Balears, Illes. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1524", "Nombre":"Balears, Illes. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":102.59, "Secreto":false}
+]
+}
+,{"COD":"IPV1525", "Nombre":"Balears, Illes. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1526", "Nombre":"Balears, Illes. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1528", "Nombre":"Balears, Illes. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1529", "Nombre":"Balears, Illes. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.369, "Secreto":false}
+]
+}
+,{"COD":"IPV1530", "Nombre":"Balears, Illes. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1531", "Nombre":"Balears, Illes. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":15.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1533", "Nombre":"Balears, Illes. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1534", "Nombre":"Canarias. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.94, "Secreto":false}
+]
+}
+,{"COD":"IPV1535", "Nombre":"Canarias. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1536", "Nombre":"Canarias. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1538", "Nombre":"Canarias. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1539", "Nombre":"Canarias. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.657, "Secreto":false}
+]
+}
+,{"COD":"IPV1540", "Nombre":"Canarias. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1541", "Nombre":"Canarias. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":12.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1543", "Nombre":"Canarias. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1544", "Nombre":"Canarias. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.763, "Secreto":false}
+]
+}
+,{"COD":"IPV1545", "Nombre":"Canarias. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1546", "Nombre":"Canarias. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1548", "Nombre":"Canarias. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1549", "Nombre":"Cantabria. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.568, "Secreto":false}
+]
+}
+,{"COD":"IPV1550", "Nombre":"Cantabria. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1551", "Nombre":"Cantabria. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1553", "Nombre":"Cantabria. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1554", "Nombre":"Cantabria. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":105.86, "Secreto":false}
+]
+}
+,{"COD":"IPV1555", "Nombre":"Cantabria. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1556", "Nombre":"Cantabria. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":9.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1558", "Nombre":"Cantabria. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1559", "Nombre":"Cantabria. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.786, "Secreto":false}
+]
+}
+,{"COD":"IPV1560", "Nombre":"Cantabria. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1561", "Nombre":"Cantabria. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1563", "Nombre":"Cantabria. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1564", "Nombre":"Castilla y León. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.857, "Secreto":false}
+]
+}
+,{"COD":"IPV1565", "Nombre":"Castilla y León. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1566", "Nombre":"Castilla y León. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1568", "Nombre":"Castilla y León. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1569", "Nombre":"Castilla y León. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.394, "Secreto":false}
+]
+}
+,{"COD":"IPV1570", "Nombre":"Castilla y León. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1571", "Nombre":"Castilla y León. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1573", "Nombre":"Castilla y León. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1574", "Nombre":"Castilla y León. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.136, "Secreto":false}
+]
+}
+,{"COD":"IPV1575", "Nombre":"Castilla y León. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1576", "Nombre":"Castilla y León. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":15.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1578", "Nombre":"Castilla y León. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1579", "Nombre":"Castilla - La Mancha. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.247, "Secreto":false}
+]
+}
+,{"COD":"IPV1580", "Nombre":"Castilla - La Mancha. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1581", "Nombre":"Castilla - La Mancha. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1583", "Nombre":"Castilla - La Mancha. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1584", "Nombre":"Castilla - La Mancha. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.719, "Secreto":false}
+]
+}
+,{"COD":"IPV1585", "Nombre":"Castilla - La Mancha. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1586", "Nombre":"Castilla - La Mancha. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1588", "Nombre":"Castilla - La Mancha. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1589", "Nombre":"Castilla - La Mancha. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.094, "Secreto":false}
+]
+}
+,{"COD":"IPV1590", "Nombre":"Castilla - La Mancha. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1591", "Nombre":"Castilla - La Mancha. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1593", "Nombre":"Castilla - La Mancha. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1594", "Nombre":"Cataluña. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.491, "Secreto":false}
+]
+}
+,{"COD":"IPV1378", "Nombre":"Cataluña. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1379", "Nombre":"Cataluña. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1381", "Nombre":"Cataluña. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1382", "Nombre":"Cataluña. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.601, "Secreto":false}
+]
+}
+,{"COD":"IPV1383", "Nombre":"Cataluña. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1384", "Nombre":"Cataluña. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":8.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1386", "Nombre":"Cataluña. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1387", "Nombre":"Cataluña. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.478, "Secreto":false}
+]
+}
+,{"COD":"IPV1388", "Nombre":"Cataluña. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1389", "Nombre":"Cataluña. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1391", "Nombre":"Cataluña. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1392", "Nombre":"Comunitat Valenciana. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.019, "Secreto":false}
+]
+}
+,{"COD":"IPV1393", "Nombre":"Comunitat Valenciana. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1394", "Nombre":"Comunitat Valenciana. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1396", "Nombre":"Comunitat Valenciana. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1397", "Nombre":"Comunitat Valenciana. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.609, "Secreto":false}
+]
+}
+,{"COD":"IPV1398", "Nombre":"Comunitat Valenciana. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1399", "Nombre":"Comunitat Valenciana. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1401", "Nombre":"Comunitat Valenciana. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1402", "Nombre":"Comunitat Valenciana. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.254, "Secreto":false}
+]
+}
+,{"COD":"IPV1403", "Nombre":"Comunitat Valenciana. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1404", "Nombre":"Comunitat Valenciana. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1406", "Nombre":"Comunitat Valenciana. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1407", "Nombre":"Extremadura. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.449, "Secreto":false}
+]
+}
+,{"COD":"IPV1408", "Nombre":"Extremadura. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1409", "Nombre":"Extremadura. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":12.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1411", "Nombre":"Extremadura. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1412", "Nombre":"Extremadura. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":104.289, "Secreto":false}
+]
+}
+,{"COD":"IPV1413", "Nombre":"Extremadura. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":-0.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1414", "Nombre":"Extremadura. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":8.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1416", "Nombre":"Extremadura. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":-0.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1417", "Nombre":"Extremadura. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.561, "Secreto":false}
+]
+}
+,{"COD":"IPV1418", "Nombre":"Extremadura. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1419", "Nombre":"Extremadura. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":12.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1421", "Nombre":"Extremadura. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1422", "Nombre":"Galicia. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.337, "Secreto":false}
+]
+}
+,{"COD":"IPV1423", "Nombre":"Galicia. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1424", "Nombre":"Galicia. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1426", "Nombre":"Galicia. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1427", "Nombre":"Galicia. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":105.69, "Secreto":false}
+]
+}
+,{"COD":"IPV1428", "Nombre":"Galicia. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1429", "Nombre":"Galicia. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":9.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1431", "Nombre":"Galicia. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1432", "Nombre":"Galicia. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.586, "Secreto":false}
+]
+}
+,{"COD":"IPV1433", "Nombre":"Galicia. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1434", "Nombre":"Galicia. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1436", "Nombre":"Galicia. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1437", "Nombre":"Madrid, Comunidad de. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.296, "Secreto":false}
+]
+}
+,{"COD":"IPV1438", "Nombre":"Madrid, Comunidad de. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1439", "Nombre":"Madrid, Comunidad de. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1441", "Nombre":"Madrid, Comunidad de. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1442", "Nombre":"Madrid, Comunidad de. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":103.572, "Secreto":false}
+]
+}
+,{"COD":"IPV1443", "Nombre":"Madrid, Comunidad de. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1444", "Nombre":"Madrid, Comunidad de. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":6.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1446", "Nombre":"Madrid, Comunidad de. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1447", "Nombre":"Madrid, Comunidad de. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.894, "Secreto":false}
+]
+}
+,{"COD":"IPV1448", "Nombre":"Madrid, Comunidad de. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1449", "Nombre":"Madrid, Comunidad de. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1451", "Nombre":"Madrid, Comunidad de. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1452", "Nombre":"Murcia, Región de. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.013, "Secreto":false}
+]
+}
+,{"COD":"IPV1453", "Nombre":"Murcia, Región de. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1454", "Nombre":"Murcia, Región de. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":15.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1456", "Nombre":"Murcia, Región de. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1457", "Nombre":"Murcia, Región de. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.968, "Secreto":false}
+]
+}
+,{"COD":"IPV1458", "Nombre":"Murcia, Región de. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1459", "Nombre":"Murcia, Región de. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1461", "Nombre":"Murcia, Región de. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":1.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1462", "Nombre":"Murcia, Región de. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.33, "Secreto":false}
+]
+}
+,{"COD":"IPV1463", "Nombre":"Murcia, Región de. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1464", "Nombre":"Murcia, Región de. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":16.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1466", "Nombre":"Murcia, Región de. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1467", "Nombre":"Navarra, Comunidad Foral de. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":105.73, "Secreto":false}
+]
+}
+,{"COD":"IPV1468", "Nombre":"Navarra, Comunidad Foral de. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1469", "Nombre":"Navarra, Comunidad Foral de. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1471", "Nombre":"Navarra, Comunidad Foral de. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1472", "Nombre":"Navarra, Comunidad Foral de. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":103.945, "Secreto":false}
+]
+}
+,{"COD":"IPV1473", "Nombre":"Navarra, Comunidad Foral de. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1474", "Nombre":"Navarra, Comunidad Foral de. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":6.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1476", "Nombre":"Navarra, Comunidad Foral de. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1477", "Nombre":"Navarra, Comunidad Foral de. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.722, "Secreto":false}
+]
+}
+,{"COD":"IPV1478", "Nombre":"Navarra, Comunidad Foral de. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1479", "Nombre":"Navarra, Comunidad Foral de. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":12.8, "Secreto":false}
+]
+}
+,{"COD":"IPV1481", "Nombre":"Navarra, Comunidad Foral de. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1482", "Nombre":"País Vasco. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.046, "Secreto":false}
+]
+}
+,{"COD":"IPV1483", "Nombre":"País Vasco. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1484", "Nombre":"País Vasco. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1486", "Nombre":"País Vasco. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1487", "Nombre":"País Vasco. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":104.148, "Secreto":false}
+]
+}
+,{"COD":"IPV1488", "Nombre":"País Vasco. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1489", "Nombre":"País Vasco. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1491", "Nombre":"País Vasco. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1492", "Nombre":"País Vasco. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":106.431, "Secreto":false}
+]
+}
+,{"COD":"IPV1493", "Nombre":"País Vasco. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1494", "Nombre":"País Vasco. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":11.4, "Secreto":false}
+]
+}
+,{"COD":"IPV1496", "Nombre":"País Vasco. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":3.0, "Secreto":false}
+]
+}
+,{"COD":"IPV1497", "Nombre":"Rioja, La. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.962, "Secreto":false}
+]
+}
+,{"COD":"IPV1498", "Nombre":"Rioja, La. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1499", "Nombre":"Rioja, La. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1501", "Nombre":"Rioja, La. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":4.6, "Secreto":false}
+]
+}
+,{"COD":"IPV1502", "Nombre":"Rioja, La. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":107.034, "Secreto":false}
+]
+}
+,{"COD":"IPV1503", "Nombre":"Rioja, La. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1504", "Nombre":"Rioja, La. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":10.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1506", "Nombre":"Rioja, La. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":2.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1507", "Nombre":"Rioja, La. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.376, "Secreto":false}
+]
+}
+,{"COD":"IPV1508", "Nombre":"Rioja, La. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1509", "Nombre":"Rioja, La. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":15.3, "Secreto":false}
+]
+}
+,{"COD":"IPV1511", "Nombre":"Rioja, La. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.1, "Secreto":false}
+]
+}
+,{"COD":"IPV1512", "Nombre":"Ceuta. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":109.803, "Secreto":false}
+]
+}
+,{"COD":"IPV1513", "Nombre":"Ceuta. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1514", "Nombre":"Ceuta. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":14.9, "Secreto":false}
+]
+}
+,{"COD":"IPV1516", "Nombre":"Ceuta. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.7, "Secreto":false}
+]
+}
+,{"COD":"IPV1595", "Nombre":"Ceuta. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1596", "Nombre":"Ceuta. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1597", "Nombre":"Ceuta. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1599", "Nombre":"Ceuta. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1600", "Nombre":"Ceuta. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1601", "Nombre":"Ceuta. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1602", "Nombre":"Ceuta. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1604", "Nombre":"Ceuta. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1517", "Nombre":"Melilla. General. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":108.257, "Secreto":false}
+]
+}
+,{"COD":"IPV1518", "Nombre":"Melilla. General. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1519", "Nombre":"Melilla. General. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":13.2, "Secreto":false}
+]
+}
+,{"COD":"IPV1521", "Nombre":"Melilla. General. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[{"Fecha":1767222000000, "FK_TipoDato":1, "FK_Periodo":19, "Anyo":2026, "Valor":5.5, "Secreto":false}
+]
+}
+,{"COD":"IPV1605", "Nombre":"Melilla. Vivienda nueva. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1606", "Nombre":"Melilla. Vivienda nueva. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1673", "Nombre":"Melilla. Vivienda nueva. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1675", "Nombre":"Melilla. Vivienda nueva. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1676", "Nombre":"Melilla. Vivienda segunda mano. Índice. ", "FK_Unidad":133, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1677", "Nombre":"Melilla. Vivienda segunda mano. Variación trimestral. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1678", "Nombre":"Melilla. Vivienda segunda mano. Variación anual. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+,{"COD":"IPV1680", "Nombre":"Melilla. Vivienda segunda mano. Variación en lo que va de año. ", "FK_Unidad":135, "FK_Escala":1, "Data":[]
+}
+]

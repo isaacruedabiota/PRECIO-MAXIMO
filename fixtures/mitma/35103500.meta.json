@@ -1,0 +1,16 @@
+{
+  "url": "https://apps.fomento.gob.es/boletinonline2/sedal/35103500.XLS",
+  "metodo": "GET",
+  "codigo_estado": 200,
+  "content_type": "application/vnd.ms-excel",
+  "bytes": 3958784,
+  "capturado_en": "2026-08-22T14:30:06+00:00",
+  "formato": "XLS BIFF8, una hoja por trimestre desde T1A2005",
+  "hoja_extraida": "T1A2026",
+  "notas": [
+    "Tabla 5: valor tasado medio de vivienda libre, municipios de mas de 25.000 habitantes.",
+    "El XLS crudo no se versiona (3,9 MB, ignorado por .gitignore); se re-descarga desde la URL.",
+    "PENDIENTE DE CONFIRMAR: si el EUR/m2 se refiere a superficie construida o util. Las tasaciones ECO/805 suelen informar sobre construida, pero la hoja no lo dice.",
+    "n.r = no representativo (muestra insuficiente). Se guarda como null."
+  ]
+}

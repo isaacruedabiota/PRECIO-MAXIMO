@@ -1,0 +1,3068 @@
+{
+  "serie": "35103500",
+  "periodo": "T1A2026",
+  "unidad": "EUR/m2",
+  "municipios": 306,
+  "datos": [
+    {
+      "provincia": "Almería",
+      "municipio": "Almería",
+      "eur_m2_hasta_5_anios": 2086.9,
+      "eur_m2_mas_de_5_anios": 1656.6,
+      "eur_m2_total": 1675.2,
+      "tasaciones_hasta_5_anios": 65.0,
+      "tasaciones_mas_de_5_anios": 557.0,
+      "tasaciones_total": 622.0
+    },
+    {
+      "provincia": "Almería",
+      "municipio": "Nijar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1173.9,
+      "eur_m2_total": 1182.4,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 84.0,
+      "tasaciones_total": 86.0
+    },
+    {
+      "provincia": "Almería",
+      "municipio": "Roquetas de Mar",
+      "eur_m2_hasta_5_anios": 1873.6,
+      "eur_m2_mas_de_5_anios": 1695.7,
+      "eur_m2_total": 1697.9,
+      "tasaciones_hasta_5_anios": 68.0,
+      "tasaciones_mas_de_5_anios": 495.0,
+      "tasaciones_total": 563.0
+    },
+    {
+      "provincia": "Almería",
+      "municipio": "Ejido (El)",
+      "eur_m2_hasta_5_anios": 1678.2,
+      "eur_m2_mas_de_5_anios": 1204.5,
+      "eur_m2_total": 1216.2,
+      "tasaciones_hasta_5_anios": 22.0,
+      "tasaciones_mas_de_5_anios": 332.0,
+      "tasaciones_total": 354.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Algeciras",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1532.5,
+      "eur_m2_total": 1533.1,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 399.0,
+      "tasaciones_total": 412.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Arcos de la frontera",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1260.6,
+      "eur_m2_total": 1262.6,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 106.0,
+      "tasaciones_total": 114.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Cádiz",
+      "eur_m2_hasta_5_anios": 3236.3,
+      "eur_m2_mas_de_5_anios": 3095.1,
+      "eur_m2_total": 3098.9,
+      "tasaciones_hasta_5_anios": 45.0,
+      "tasaciones_mas_de_5_anios": 317.0,
+      "tasaciones_total": 362.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Chiclana de la Frontera",
+      "eur_m2_hasta_5_anios": 2336.0,
+      "eur_m2_mas_de_5_anios": 2160.2,
+      "eur_m2_total": 2163.4,
+      "tasaciones_hasta_5_anios": 32.0,
+      "tasaciones_mas_de_5_anios": 300.0,
+      "tasaciones_total": 332.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Jerez de la Frontera",
+      "eur_m2_hasta_5_anios": 2096.9,
+      "eur_m2_mas_de_5_anios": 1734.0,
+      "eur_m2_total": 1743.4,
+      "tasaciones_hasta_5_anios": 54.0,
+      "tasaciones_mas_de_5_anios": 788.0,
+      "tasaciones_total": 842.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Línea de la Concepción (La)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1561.5,
+      "eur_m2_total": 1562.6,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 182.0,
+      "tasaciones_total": 196.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Puerto de Santa María",
+      "eur_m2_hasta_5_anios": 2257.1,
+      "eur_m2_mas_de_5_anios": 2502.0,
+      "eur_m2_total": 2495.7,
+      "tasaciones_hasta_5_anios": 34.0,
+      "tasaciones_mas_de_5_anios": 305.0,
+      "tasaciones_total": 339.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Puerto Real",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1961.7,
+      "eur_m2_total": 1963.5,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 145.0,
+      "tasaciones_total": 158.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Rota",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2809.4,
+      "eur_m2_total": 2795.5,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 123.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "San Fernando",
+      "eur_m2_hasta_5_anios": 1996.1,
+      "eur_m2_mas_de_5_anios": 1950.0,
+      "eur_m2_total": 1951.2,
+      "tasaciones_hasta_5_anios": 25.0,
+      "tasaciones_mas_de_5_anios": 310.0,
+      "tasaciones_total": 335.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "Sanlúcar de Barrameda",
+      "eur_m2_hasta_5_anios": 2418.1,
+      "eur_m2_mas_de_5_anios": 2072.6,
+      "eur_m2_total": 2083.2,
+      "tasaciones_hasta_5_anios": 34.0,
+      "tasaciones_mas_de_5_anios": 181.0,
+      "tasaciones_total": 215.0
+    },
+    {
+      "provincia": "Cádiz",
+      "municipio": "San Roque",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2522.9,
+      "eur_m2_total": 2558.3,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 168.0,
+      "tasaciones_total": 185.0
+    },
+    {
+      "provincia": "Córdoba",
+      "municipio": "Córdoba",
+      "eur_m2_hasta_5_anios": 2165.0,
+      "eur_m2_mas_de_5_anios": 1719.7,
+      "eur_m2_total": 1745.7,
+      "tasaciones_hasta_5_anios": 91.0,
+      "tasaciones_mas_de_5_anios": 1222.0,
+      "tasaciones_total": 1313.0
+    },
+    {
+      "provincia": "Córdoba",
+      "municipio": "Lucena",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1093.6,
+      "eur_m2_total": 1096.9,
+      "tasaciones_hasta_5_anios": 15.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "Córdoba",
+      "municipio": "Puente Génil",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 986.3,
+      "eur_m2_total": 987.1,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 95.0
+    },
+    {
+      "provincia": "Córdoba",
+      "municipio": "Almuñecar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2665.0,
+      "eur_m2_total": 2661.7,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 113.0,
+      "tasaciones_total": 126.0
+    },
+    {
+      "provincia": "Granada",
+      "municipio": "Granada",
+      "eur_m2_hasta_5_anios": 2841.1,
+      "eur_m2_mas_de_5_anios": 2414.5,
+      "eur_m2_total": 2426.8,
+      "tasaciones_hasta_5_anios": 55.0,
+      "tasaciones_mas_de_5_anios": 686.0,
+      "tasaciones_total": 741.0
+    },
+    {
+      "provincia": "Granada",
+      "municipio": "Motril",
+      "eur_m2_hasta_5_anios": 1681.1,
+      "eur_m2_mas_de_5_anios": 1538.7,
+      "eur_m2_total": 1544.5,
+      "tasaciones_hasta_5_anios": 36.0,
+      "tasaciones_mas_de_5_anios": 175.0,
+      "tasaciones_total": 211.0
+    },
+    {
+      "provincia": "Huelva",
+      "municipio": "Huelva",
+      "eur_m2_hasta_5_anios": 1737.1,
+      "eur_m2_mas_de_5_anios": 1572.3,
+      "eur_m2_total": 1575.7,
+      "tasaciones_hasta_5_anios": 23.0,
+      "tasaciones_mas_de_5_anios": 478.0,
+      "tasaciones_total": 501.0
+    },
+    {
+      "provincia": "Huelva",
+      "municipio": "Lepe",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1844.5,
+      "eur_m2_total": 1842.6,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 153.0,
+      "tasaciones_total": 159.0
+    },
+    {
+      "provincia": "Jaén",
+      "municipio": "Andújar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 815.0,
+      "eur_m2_total": 815.7,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 120.0
+    },
+    {
+      "provincia": "Jaén",
+      "municipio": "Jaén",
+      "eur_m2_hasta_5_anios": 1628.6,
+      "eur_m2_mas_de_5_anios": 1441.5,
+      "eur_m2_total": 1443.8,
+      "tasaciones_hasta_5_anios": 48.0,
+      "tasaciones_mas_de_5_anios": 444.0,
+      "tasaciones_total": 492.0
+    },
+    {
+      "provincia": "Jaén",
+      "municipio": "Linares",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 889.1,
+      "eur_m2_total": 888.8,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 202.0,
+      "tasaciones_total": 212.0
+    },
+    {
+      "provincia": "Jaén",
+      "municipio": "Úbeda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 938.9,
+      "eur_m2_total": 938.5,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 137.0,
+      "tasaciones_total": 141.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Alhaurín de la Torre",
+      "eur_m2_hasta_5_anios": 2920.0,
+      "eur_m2_mas_de_5_anios": 2708.1,
+      "eur_m2_total": 2724.9,
+      "tasaciones_hasta_5_anios": 33.0,
+      "tasaciones_mas_de_5_anios": 157.0,
+      "tasaciones_total": 190.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Antequera",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1565.6,
+      "eur_m2_total": 1564.0,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 132.0,
+      "tasaciones_total": 137.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Benalmádena",
+      "eur_m2_hasta_5_anios": 3859.5,
+      "eur_m2_mas_de_5_anios": 3757.6,
+      "eur_m2_total": 3760.8,
+      "tasaciones_hasta_5_anios": 37.0,
+      "tasaciones_mas_de_5_anios": 338.0,
+      "tasaciones_total": 375.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Estepona",
+      "eur_m2_hasta_5_anios": 3855.7,
+      "eur_m2_mas_de_5_anios": 3471.4,
+      "eur_m2_total": 3514.0,
+      "tasaciones_hasta_5_anios": 86.0,
+      "tasaciones_mas_de_5_anios": 321.0,
+      "tasaciones_total": 407.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Fuengirola",
+      "eur_m2_hasta_5_anios": 4595.6,
+      "eur_m2_mas_de_5_anios": 3613.6,
+      "eur_m2_total": 3668.5,
+      "tasaciones_hasta_5_anios": 101.0,
+      "tasaciones_mas_de_5_anios": 260.0,
+      "tasaciones_total": 361.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Málaga",
+      "eur_m2_hasta_5_anios": 3993.0,
+      "eur_m2_mas_de_5_anios": 3205.8,
+      "eur_m2_total": 3240.5,
+      "tasaciones_hasta_5_anios": 187.0,
+      "tasaciones_mas_de_5_anios": 1418.0,
+      "tasaciones_total": 1605.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Marbella",
+      "eur_m2_hasta_5_anios": 5468.9,
+      "eur_m2_mas_de_5_anios": 4291.5,
+      "eur_m2_total": 4332.7,
+      "tasaciones_hasta_5_anios": 106.0,
+      "tasaciones_mas_de_5_anios": 609.0,
+      "tasaciones_total": 715.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Mijas",
+      "eur_m2_hasta_5_anios": 3302.2,
+      "eur_m2_mas_de_5_anios": 3230.9,
+      "eur_m2_total": 3235.3,
+      "tasaciones_hasta_5_anios": 106.0,
+      "tasaciones_mas_de_5_anios": 479.0,
+      "tasaciones_total": 585.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Rincón de la Victoria",
+      "eur_m2_hasta_5_anios": 3601.8,
+      "eur_m2_mas_de_5_anios": 3330.6,
+      "eur_m2_total": 3343.2,
+      "tasaciones_hasta_5_anios": 28.0,
+      "tasaciones_mas_de_5_anios": 178.0,
+      "tasaciones_total": 206.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Ronda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1681.2,
+      "eur_m2_total": 1683.1,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 131.0,
+      "tasaciones_total": 138.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Vélez Málaga",
+      "eur_m2_hasta_5_anios": 3123.4,
+      "eur_m2_mas_de_5_anios": 2528.9,
+      "eur_m2_total": 2558.2,
+      "tasaciones_hasta_5_anios": 31.0,
+      "tasaciones_mas_de_5_anios": 247.0,
+      "tasaciones_total": 278.0
+    },
+    {
+      "provincia": "Málaga",
+      "municipio": "Torremolinos",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3874.8,
+      "eur_m2_total": 3887.3,
+      "tasaciones_hasta_5_anios": 20.0,
+      "tasaciones_mas_de_5_anios": 270.0,
+      "tasaciones_total": 290.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Alcalá de Guadaíra",
+      "eur_m2_hasta_5_anios": 1820.0,
+      "eur_m2_mas_de_5_anios": 1728.2,
+      "eur_m2_total": 1731.1,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 269.0,
+      "tasaciones_total": 295.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Camas",
+      "eur_m2_hasta_5_anios": 2351.8,
+      "eur_m2_mas_de_5_anios": 1754.7,
+      "eur_m2_total": 1800.1,
+      "tasaciones_hasta_5_anios": 25.0,
+      "tasaciones_mas_de_5_anios": 150.0,
+      "tasaciones_total": 175.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Carmona",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1251.3,
+      "eur_m2_total": 1251.3,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 114.0,
+      "tasaciones_total": 119.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Coria del Río",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1367.4,
+      "eur_m2_total": 1367.7,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 109.0,
+      "tasaciones_total": 112.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Dos Hermanas",
+      "eur_m2_hasta_5_anios": 2355.8,
+      "eur_m2_mas_de_5_anios": 1908.6,
+      "eur_m2_total": 1959.7,
+      "tasaciones_hasta_5_anios": 116.0,
+      "tasaciones_mas_de_5_anios": 417.0,
+      "tasaciones_total": 533.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Écija",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1154.7,
+      "eur_m2_total": 1157.3,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 113.0,
+      "tasaciones_total": 120.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Lebrija",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1149.7,
+      "eur_m2_total": 1154.5,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 73.0,
+      "tasaciones_total": 75.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Mairena del Aljarafe",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2122.9,
+      "eur_m2_total": 2139.0,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 148.0,
+      "tasaciones_total": 165.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Morón de la Frontera",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1010.6,
+      "eur_m2_total": 1010.1,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 63.0,
+      "tasaciones_total": 65.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Palacios y Villafranca (Los)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1300.4,
+      "eur_m2_total": 1300.3,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 98.0,
+      "tasaciones_total": 105.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Rinconada (La)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1742.5,
+      "eur_m2_total": 1744.6,
+      "tasaciones_hasta_5_anios": 15.0,
+      "tasaciones_mas_de_5_anios": 104.0,
+      "tasaciones_total": 119.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Sevilla",
+      "eur_m2_hasta_5_anios": 2846.1,
+      "eur_m2_mas_de_5_anios": 2561.3,
+      "eur_m2_total": 2570.8,
+      "tasaciones_hasta_5_anios": 309.0,
+      "tasaciones_mas_de_5_anios": 2264.0,
+      "tasaciones_total": 2573.0
+    },
+    {
+      "provincia": "Sevilla",
+      "municipio": "Utrera",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1449.7,
+      "eur_m2_total": 1450.2,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 175.0,
+      "tasaciones_total": 181.0
+    },
+    {
+      "provincia": "Huesca",
+      "municipio": "Huesca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1705.2,
+      "eur_m2_total": 1705.8,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 92.0,
+      "tasaciones_total": 99.0
+    },
+    {
+      "provincia": "Teruel",
+      "municipio": "Teruel",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1687.5,
+      "eur_m2_total": 1691.5,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 104.0
+    },
+    {
+      "provincia": "Zaragoza",
+      "municipio": "Zaragoza",
+      "eur_m2_hasta_5_anios": 2513.6,
+      "eur_m2_mas_de_5_anios": 2207.4,
+      "eur_m2_total": 2216.4,
+      "tasaciones_hasta_5_anios": 212.0,
+      "tasaciones_mas_de_5_anios": 1748.0,
+      "tasaciones_total": 1960.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Avilés",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1529.5,
+      "eur_m2_total": 1531.3,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 242.0,
+      "tasaciones_total": 249.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Gijón",
+      "eur_m2_hasta_5_anios": 2399.7,
+      "eur_m2_mas_de_5_anios": 2340.2,
+      "eur_m2_total": 2341.6,
+      "tasaciones_hasta_5_anios": 79.0,
+      "tasaciones_mas_de_5_anios": 828.0,
+      "tasaciones_total": 907.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Langreo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 938.0,
+      "eur_m2_total": 939.0,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 141.0,
+      "tasaciones_total": 143.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Mieres",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1026.1,
+      "eur_m2_total": 1026.0,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 98.0,
+      "tasaciones_total": 101.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Oviedo",
+      "eur_m2_hasta_5_anios": 2325.6,
+      "eur_m2_mas_de_5_anios": 2075.8,
+      "eur_m2_total": 2082.3,
+      "tasaciones_hasta_5_anios": 56.0,
+      "tasaciones_mas_de_5_anios": 686.0,
+      "tasaciones_total": 742.0
+    },
+    {
+      "provincia": "ASTURIAS",
+      "municipio": "Siero",
+      "eur_m2_hasta_5_anios": 1755.5,
+      "eur_m2_mas_de_5_anios": 1439.9,
+      "eur_m2_total": 1453.1,
+      "tasaciones_hasta_5_anios": 33.0,
+      "tasaciones_mas_de_5_anios": 180.0,
+      "tasaciones_total": 213.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Calvià",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 5209.4,
+      "eur_m2_total": 5290.5,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 134.0,
+      "tasaciones_total": 151.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Ciutadella de Menorca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3554.7,
+      "eur_m2_total": 3564.2,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 109.0,
+      "tasaciones_total": 113.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Eivissa",
+      "eur_m2_hasta_5_anios": 6470.7,
+      "eur_m2_mas_de_5_anios": 5690.5,
+      "eur_m2_total": 5725.5,
+      "tasaciones_hasta_5_anios": 35.0,
+      "tasaciones_mas_de_5_anios": 119.0,
+      "tasaciones_total": 154.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Inca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2635.7,
+      "eur_m2_total": 2633.4,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 93.0,
+      "tasaciones_total": 101.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Llucmajor",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3604.8,
+      "eur_m2_total": 3607.3,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 145.0,
+      "tasaciones_total": 152.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Mahón",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2811.2,
+      "eur_m2_total": 2812.2,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 91.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Manacor",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2885.1,
+      "eur_m2_total": 2881.6,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 124.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Marratxí",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3800.7,
+      "eur_m2_total": 3803.2,
+      "tasaciones_hasta_5_anios": 19.0,
+      "tasaciones_mas_de_5_anios": 95.0,
+      "tasaciones_total": 114.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Palma de Mallorca",
+      "eur_m2_hasta_5_anios": 4717.2,
+      "eur_m2_mas_de_5_anios": 3753.3,
+      "eur_m2_total": 3788.9,
+      "tasaciones_hasta_5_anios": 70.0,
+      "tasaciones_mas_de_5_anios": 1099.0,
+      "tasaciones_total": 1169.0
+    },
+    {
+      "provincia": "ILLES BALEARS",
+      "municipio": "Santa Eulalia del Río",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 6605.9,
+      "eur_m2_total": 6624.0,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 108.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Agüimes",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1938.9,
+      "eur_m2_total": 1936.7,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 59.0,
+      "tasaciones_total": 64.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Arrecife",
+      "eur_m2_hasta_5_anios": 2179.6,
+      "eur_m2_mas_de_5_anios": 1941.6,
+      "eur_m2_total": 1946.7,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 164.0,
+      "tasaciones_total": 185.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Arucas",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1627.4,
+      "eur_m2_total": 1627.7,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 135.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Ingenio",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1425.4,
+      "eur_m2_total": 1431.8,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 69.0,
+      "tasaciones_total": 86.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Oliva, La",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3214.2,
+      "eur_m2_total": 3213.7,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 94.0,
+      "tasaciones_total": 111.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Palmas de Gran Canaria (Las)",
+      "eur_m2_hasta_5_anios": 3022.9,
+      "eur_m2_mas_de_5_anios": 2232.9,
+      "eur_m2_total": 2251.4,
+      "tasaciones_hasta_5_anios": 176.0,
+      "tasaciones_mas_de_5_anios": 913.0,
+      "tasaciones_total": 1089.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Puerto del Rosario",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1966.7,
+      "eur_m2_total": 1968.4,
+      "tasaciones_hasta_5_anios": 11.0,
+      "tasaciones_mas_de_5_anios": 134.0,
+      "tasaciones_total": 145.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "San Bartolomé de Tirajana",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3138.3,
+      "eur_m2_total": 3138.9,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 106.0,
+      "tasaciones_total": 123.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Santa Lucía de Tirajana",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1773.3,
+      "eur_m2_total": 1773.3,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 145.0,
+      "tasaciones_total": 149.0
+    },
+    {
+      "provincia": "Las Palmas",
+      "municipio": "Telde",
+      "eur_m2_hasta_5_anios": 1751.1,
+      "eur_m2_mas_de_5_anios": 1796.9,
+      "eur_m2_total": 1796.3,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 241.0,
+      "tasaciones_total": 262.0
+    },
+    {
+      "provincia": "Santa Cruz de",
+      "municipio": "Adeje",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3719.2,
+      "eur_m2_total": 3727.9,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 141.0,
+      "tasaciones_total": 148.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Arona",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2897.3,
+      "eur_m2_total": 2895.6,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 223.0,
+      "tasaciones_total": 232.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Candelaria",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2830.6,
+      "eur_m2_total": 2831.9,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 95.0,
+      "tasaciones_total": 112.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Granadilla de Abona",
+      "eur_m2_hasta_5_anios": 2693.2,
+      "eur_m2_mas_de_5_anios": 2471.6,
+      "eur_m2_total": 2474.7,
+      "tasaciones_hasta_5_anios": 35.0,
+      "tasaciones_mas_de_5_anios": 141.0,
+      "tasaciones_total": 176.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "San Cristóbal Laguna",
+      "eur_m2_hasta_5_anios": 2218.0,
+      "eur_m2_mas_de_5_anios": 2014.6,
+      "eur_m2_total": 2016.2,
+      "tasaciones_hasta_5_anios": 23.0,
+      "tasaciones_mas_de_5_anios": 330.0,
+      "tasaciones_total": 353.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Orotava (La)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1771.8,
+      "eur_m2_total": 1772.4,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 73.0,
+      "tasaciones_total": 80.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Puerto de la Cruz",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3035.5,
+      "eur_m2_total": 3036.3,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 82.0,
+      "tasaciones_total": 89.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Realejos (Los)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1768.9,
+      "eur_m2_total": 1768.7,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 74.0,
+      "tasaciones_total": 84.0
+    },
+    {
+      "provincia": "Tenerife",
+      "municipio": "Santa Cruz deTenerife",
+      "eur_m2_hasta_5_anios": 2706.1,
+      "eur_m2_mas_de_5_anios": 2330.7,
+      "eur_m2_total": 2335.1,
+      "tasaciones_hasta_5_anios": 53.0,
+      "tasaciones_mas_de_5_anios": 537.0,
+      "tasaciones_total": 590.0
+    },
+    {
+      "provincia": "Cantabría",
+      "municipio": "Camargo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2068.4,
+      "eur_m2_total": 2063.5,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 94.0
+    },
+    {
+      "provincia": "Cantabría",
+      "municipio": "Castro-Urdiales",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2715.0,
+      "eur_m2_total": 2717.2,
+      "tasaciones_hasta_5_anios": 11.0,
+      "tasaciones_mas_de_5_anios": 116.0,
+      "tasaciones_total": 127.0
+    },
+    {
+      "provincia": "Cantabría",
+      "municipio": "Santander",
+      "eur_m2_hasta_5_anios": 3130.1,
+      "eur_m2_mas_de_5_anios": 2587.1,
+      "eur_m2_total": 2600.8,
+      "tasaciones_hasta_5_anios": 76.0,
+      "tasaciones_mas_de_5_anios": 475.0,
+      "tasaciones_total": 551.0
+    },
+    {
+      "provincia": "Cantabría",
+      "municipio": "Torrelavega",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1593.2,
+      "eur_m2_total": 1593.4,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 120.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "Ávila",
+      "municipio": "Ávila",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1606.1,
+      "eur_m2_total": 1605.4,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 176.0,
+      "tasaciones_total": 193.0
+    },
+    {
+      "provincia": "Burgos",
+      "municipio": "Aranda de Duero",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1442.8,
+      "eur_m2_total": 1443.2,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 95.0,
+      "tasaciones_total": 100.0
+    },
+    {
+      "provincia": "Burgos",
+      "municipio": "Burgos",
+      "eur_m2_hasta_5_anios": 2234.0,
+      "eur_m2_mas_de_5_anios": 1946.5,
+      "eur_m2_total": 1958.7,
+      "tasaciones_hasta_5_anios": 51.0,
+      "tasaciones_mas_de_5_anios": 483.0,
+      "tasaciones_total": 534.0
+    },
+    {
+      "provincia": "Burgos",
+      "municipio": "Miranda de Ebro",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1483.7,
+      "eur_m2_total": 1483.4,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 137.0,
+      "tasaciones_total": 141.0
+    },
+    {
+      "provincia": "León",
+      "municipio": "León",
+      "eur_m2_hasta_5_anios": 1963.2,
+      "eur_m2_mas_de_5_anios": 1617.4,
+      "eur_m2_total": 1626.4,
+      "tasaciones_hasta_5_anios": 36.0,
+      "tasaciones_mas_de_5_anios": 354.0,
+      "tasaciones_total": 390.0
+    },
+    {
+      "provincia": "León",
+      "municipio": "Ponferrada",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 920.7,
+      "eur_m2_total": 921.6,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 185.0,
+      "tasaciones_total": 188.0
+    },
+    {
+      "provincia": "León",
+      "municipio": "San Andrés  del Rabanedo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1202.5,
+      "eur_m2_total": 1202.4,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 89.0,
+      "tasaciones_total": 94.0
+    },
+    {
+      "provincia": "Palencia",
+      "municipio": "Palencia",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1345.0,
+      "eur_m2_total": 1347.2,
+      "tasaciones_hasta_5_anios": 19.0,
+      "tasaciones_mas_de_5_anios": 220.0,
+      "tasaciones_total": 239.0
+    },
+    {
+      "provincia": "Salamanca",
+      "municipio": "Salamanca",
+      "eur_m2_hasta_5_anios": 2092.7,
+      "eur_m2_mas_de_5_anios": 2166.5,
+      "eur_m2_total": 2165.6,
+      "tasaciones_hasta_5_anios": 32.0,
+      "tasaciones_mas_de_5_anios": 464.0,
+      "tasaciones_total": 496.0
+    },
+    {
+      "provincia": "Segovia",
+      "municipio": "Segovia",
+      "eur_m2_hasta_5_anios": 2148.6,
+      "eur_m2_mas_de_5_anios": 2051.3,
+      "eur_m2_total": 2053.3,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 141.0,
+      "tasaciones_total": 162.0
+    },
+    {
+      "provincia": "Soria",
+      "municipio": "Soria",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1553.1,
+      "eur_m2_total": 1555.3,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 53.0,
+      "tasaciones_total": 62.0
+    },
+    {
+      "provincia": "Valladodid",
+      "municipio": "Valladolid",
+      "eur_m2_hasta_5_anios": 2192.8,
+      "eur_m2_mas_de_5_anios": 1832.9,
+      "eur_m2_total": 1845.9,
+      "tasaciones_hasta_5_anios": 122.0,
+      "tasaciones_mas_de_5_anios": 720.0,
+      "tasaciones_total": 842.0
+    },
+    {
+      "provincia": "Zamora",
+      "municipio": "Zamora",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1323.8,
+      "eur_m2_total": 1323.7,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 176.0,
+      "tasaciones_total": 185.0
+    },
+    {
+      "provincia": "Albacete",
+      "municipio": "Albacete",
+      "eur_m2_hasta_5_anios": 2198.6,
+      "eur_m2_mas_de_5_anios": 1748.3,
+      "eur_m2_total": 1762.2,
+      "tasaciones_hasta_5_anios": 192.0,
+      "tasaciones_mas_de_5_anios": 495.0,
+      "tasaciones_total": 687.0
+    },
+    {
+      "provincia": "Albacete",
+      "municipio": "Almansa",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 801.9,
+      "eur_m2_total": 802.4,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 81.0,
+      "tasaciones_total": 85.0
+    },
+    {
+      "provincia": "Albacete",
+      "municipio": "Hellín",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 684.1,
+      "eur_m2_total": 684.7,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 42.0,
+      "tasaciones_total": 44.0
+    },
+    {
+      "provincia": "Albacete",
+      "municipio": "Villarrobledo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 630.6,
+      "eur_m2_total": 631.5,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 51.0,
+      "tasaciones_total": 53.0
+    },
+    {
+      "provincia": "Ciudad Real",
+      "municipio": "Alcázar de San Juan",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 979.5,
+      "eur_m2_total": 980.4,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 118.0
+    },
+    {
+      "provincia": "Ciudad Real",
+      "municipio": "Ciudad Real",
+      "eur_m2_hasta_5_anios": 1700.3,
+      "eur_m2_mas_de_5_anios": 1462.6,
+      "eur_m2_total": 1469.9,
+      "tasaciones_hasta_5_anios": 28.0,
+      "tasaciones_mas_de_5_anios": 192.0,
+      "tasaciones_total": 220.0
+    },
+    {
+      "provincia": "Ciudad Real",
+      "municipio": "Puertollano",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 710.5,
+      "eur_m2_total": 710.7,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 124.0
+    },
+    {
+      "provincia": "Ciudad Real",
+      "municipio": "Tomelloso",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 804.3,
+      "eur_m2_total": 804.0,
+      "tasaciones_hasta_5_anios": 12.0,
+      "tasaciones_mas_de_5_anios": 113.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "Ciudad Real",
+      "municipio": "Valdepeñas",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 890.2,
+      "eur_m2_total": 892.9,
+      "tasaciones_hasta_5_anios": 11.0,
+      "tasaciones_mas_de_5_anios": 86.0,
+      "tasaciones_total": 97.0
+    },
+    {
+      "provincia": "Cuenca",
+      "municipio": "Cuenca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1566.9,
+      "eur_m2_total": 1566.7,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 127.0,
+      "tasaciones_total": 132.0
+    },
+    {
+      "provincia": "Cuenca",
+      "municipio": "Azuqueca de Henares",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2116.9,
+      "eur_m2_total": 2120.3,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 118.0,
+      "tasaciones_total": 127.0
+    },
+    {
+      "provincia": "Guadalajara",
+      "municipio": "Guadalajara",
+      "eur_m2_hasta_5_anios": 2054.0,
+      "eur_m2_mas_de_5_anios": 2024.4,
+      "eur_m2_total": 2025.9,
+      "tasaciones_hasta_5_anios": 51.0,
+      "tasaciones_mas_de_5_anios": 190.0,
+      "tasaciones_total": 241.0
+    },
+    {
+      "provincia": "Guadalajara",
+      "municipio": "Illescas",
+      "eur_m2_hasta_5_anios": 1658.6,
+      "eur_m2_mas_de_5_anios": 1664.4,
+      "eur_m2_total": 1663.8,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 105.0,
+      "tasaciones_total": 126.0
+    },
+    {
+      "provincia": "Toledo",
+      "municipio": "Talavera de la Reina",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1247.7,
+      "eur_m2_total": 1248.2,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 261.0,
+      "tasaciones_total": 267.0
+    },
+    {
+      "provincia": "Toledo",
+      "municipio": "Toledo",
+      "eur_m2_hasta_5_anios": 2241.6,
+      "eur_m2_mas_de_5_anios": 1955.9,
+      "eur_m2_total": 1965.6,
+      "tasaciones_hasta_5_anios": 36.0,
+      "tasaciones_mas_de_5_anios": 207.0,
+      "tasaciones_total": 243.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Badalona",
+      "eur_m2_hasta_5_anios": 3576.7,
+      "eur_m2_mas_de_5_anios": 2860.7,
+      "eur_m2_total": 2898.8,
+      "tasaciones_hasta_5_anios": 91.0,
+      "tasaciones_mas_de_5_anios": 837.0,
+      "tasaciones_total": 928.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Barcelona",
+      "eur_m2_hasta_5_anios": 5150.0,
+      "eur_m2_mas_de_5_anios": 4674.9,
+      "eur_m2_total": 4681.5,
+      "tasaciones_hasta_5_anios": 431.0,
+      "tasaciones_mas_de_5_anios": 4953.0,
+      "tasaciones_total": 5384.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Castelldefels",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 4297.3,
+      "eur_m2_total": 4301.5,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 243.0,
+      "tasaciones_total": 261.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Cornellà de Llobregat",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3055.4,
+      "eur_m2_total": 3065.3,
+      "tasaciones_hasta_5_anios": 20.0,
+      "tasaciones_mas_de_5_anios": 279.0,
+      "tasaciones_total": 299.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Esplugues de Llobregat",
+      "eur_m2_hasta_5_anios": 4290.1,
+      "eur_m2_mas_de_5_anios": 3626.7,
+      "eur_m2_total": 3652.9,
+      "tasaciones_hasta_5_anios": 32.0,
+      "tasaciones_mas_de_5_anios": 135.0,
+      "tasaciones_total": 167.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Gavà",
+      "eur_m2_hasta_5_anios": 3563.8,
+      "eur_m2_mas_de_5_anios": 3388.4,
+      "eur_m2_total": 3392.5,
+      "tasaciones_hasta_5_anios": 23.0,
+      "tasaciones_mas_de_5_anios": 164.0,
+      "tasaciones_total": 187.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Granollers",
+      "eur_m2_hasta_5_anios": 2663.2,
+      "eur_m2_mas_de_5_anios": 2525.8,
+      "eur_m2_total": 2532.8,
+      "tasaciones_hasta_5_anios": 24.0,
+      "tasaciones_mas_de_5_anios": 186.0,
+      "tasaciones_total": 210.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Hospitalet de Llobregat (L')",
+      "eur_m2_hasta_5_anios": 3272.1,
+      "eur_m2_mas_de_5_anios": 3058.3,
+      "eur_m2_total": 3064.6,
+      "tasaciones_hasta_5_anios": 36.0,
+      "tasaciones_mas_de_5_anios": 942.0,
+      "tasaciones_total": 978.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Igualada",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1855.8,
+      "eur_m2_total": 1854.1,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 122.0,
+      "tasaciones_total": 129.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Manresa",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1552.2,
+      "eur_m2_total": 1554.0,
+      "tasaciones_hasta_5_anios": 19.0,
+      "tasaciones_mas_de_5_anios": 219.0,
+      "tasaciones_total": 238.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Martorell",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2024.0,
+      "eur_m2_total": 2026.7,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 98.0,
+      "tasaciones_total": 103.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Mataró",
+      "eur_m2_hasta_5_anios": 3636.8,
+      "eur_m2_mas_de_5_anios": 2505.2,
+      "eur_m2_total": 2548.9,
+      "tasaciones_hasta_5_anios": 33.0,
+      "tasaciones_mas_de_5_anios": 431.0,
+      "tasaciones_total": 464.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Mollet del Vallès",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2452.4,
+      "eur_m2_total": 2454.1,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 170.0,
+      "tasaciones_total": 183.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Montcada i Reixac",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2310.0,
+      "eur_m2_total": 2312.5,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 122.0,
+      "tasaciones_total": 132.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Pineda de Mar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2260.9,
+      "eur_m2_total": 2258.1,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 116.0,
+      "tasaciones_total": 123.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Prat de Llobregat (El)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3044.7,
+      "eur_m2_total": 3052.5,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 173.0,
+      "tasaciones_total": 187.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Premià de Mar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2920.0,
+      "eur_m2_total": 2920.1,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 100.0,
+      "tasaciones_total": 106.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Ripollet",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2479.8,
+      "eur_m2_total": 2481.0,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 147.0,
+      "tasaciones_total": 157.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Rubí",
+      "eur_m2_hasta_5_anios": 2749.6,
+      "eur_m2_mas_de_5_anios": 2450.7,
+      "eur_m2_total": 2457.8,
+      "tasaciones_hasta_5_anios": 40.0,
+      "tasaciones_mas_de_5_anios": 300.0,
+      "tasaciones_total": 340.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sabadell",
+      "eur_m2_hasta_5_anios": 3020.8,
+      "eur_m2_mas_de_5_anios": 2421.0,
+      "eur_m2_total": 2446.0,
+      "tasaciones_hasta_5_anios": 80.0,
+      "tasaciones_mas_de_5_anios": 930.0,
+      "tasaciones_total": 1010.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Adrià de Besòs",
+      "eur_m2_hasta_5_anios": 3435.9,
+      "eur_m2_mas_de_5_anios": 2865.1,
+      "eur_m2_total": 2895.1,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 138.0,
+      "tasaciones_total": 164.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Andreu de la Barca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2641.1,
+      "eur_m2_total": 2642.0,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 91.0,
+      "tasaciones_total": 94.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Boi de Llobregat",
+      "eur_m2_hasta_5_anios": 3071.9,
+      "eur_m2_mas_de_5_anios": 2822.8,
+      "eur_m2_total": 2830.0,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 324.0,
+      "tasaciones_total": 350.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Cugat del Vallès",
+      "eur_m2_hasta_5_anios": 5690.3,
+      "eur_m2_mas_de_5_anios": 5035.9,
+      "eur_m2_total": 5063.4,
+      "tasaciones_hasta_5_anios": 35.0,
+      "tasaciones_mas_de_5_anios": 271.0,
+      "tasaciones_total": 306.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Feliu de Llobregat",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3366.4,
+      "eur_m2_total": 3377.7,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 109.0,
+      "tasaciones_total": 119.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Joan Despí",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3393.8,
+      "eur_m2_total": 3442.1,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 106.0,
+      "tasaciones_total": 124.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Pere de Ribes",
+      "eur_m2_hasta_5_anios": 3365.0,
+      "eur_m2_mas_de_5_anios": 2491.1,
+      "eur_m2_total": 2532.2,
+      "tasaciones_hasta_5_anios": 62.0,
+      "tasaciones_mas_de_5_anios": 142.0,
+      "tasaciones_total": 204.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Santa Coloma Gramanet",
+      "eur_m2_hasta_5_anios": 2928.6,
+      "eur_m2_mas_de_5_anios": 2605.3,
+      "eur_m2_total": 2607.8,
+      "tasaciones_hasta_5_anios": 24.0,
+      "tasaciones_mas_de_5_anios": 429.0,
+      "tasaciones_total": 453.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Barberà del Vallès",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2585.5,
+      "eur_m2_total": 2584.9,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 121.0,
+      "tasaciones_total": 128.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Santa Perpètua de Mogoda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2475.0,
+      "eur_m2_total": 2476.1,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 107.0,
+      "tasaciones_total": 115.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sant Vicenç dels Horts",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2531.4,
+      "eur_m2_total": 2531.9,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 119.0,
+      "tasaciones_total": 129.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Cerdanyola del Vallès",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2919.3,
+      "eur_m2_total": 2921.6,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 169.0,
+      "tasaciones_total": 177.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Sitges",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 4828.9,
+      "eur_m2_total": 4821.1,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 120.0,
+      "tasaciones_total": 137.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Terrassa",
+      "eur_m2_hasta_5_anios": 2577.9,
+      "eur_m2_mas_de_5_anios": 2290.0,
+      "eur_m2_total": 2300.6,
+      "tasaciones_hasta_5_anios": 124.0,
+      "tasaciones_mas_de_5_anios": 982.0,
+      "tasaciones_total": 1106.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Vic",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2054.3,
+      "eur_m2_total": 2078.9,
+      "tasaciones_hasta_5_anios": 15.0,
+      "tasaciones_mas_de_5_anios": 127.0,
+      "tasaciones_total": 142.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Viladecans",
+      "eur_m2_hasta_5_anios": 3930.6,
+      "eur_m2_mas_de_5_anios": 3010.5,
+      "eur_m2_total": 3065.4,
+      "tasaciones_hasta_5_anios": 84.0,
+      "tasaciones_mas_de_5_anios": 231.0,
+      "tasaciones_total": 315.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Vilafranca del Penedès",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2005.7,
+      "eur_m2_total": 2022.6,
+      "tasaciones_hasta_5_anios": 15.0,
+      "tasaciones_mas_de_5_anios": 109.0,
+      "tasaciones_total": 124.0
+    },
+    {
+      "provincia": "Barcelona",
+      "municipio": "Vilanova i la Geltrú",
+      "eur_m2_hasta_5_anios": 3400.1,
+      "eur_m2_mas_de_5_anios": 2642.1,
+      "eur_m2_total": 2698.4,
+      "tasaciones_hasta_5_anios": 52.0,
+      "tasaciones_mas_de_5_anios": 241.0,
+      "tasaciones_total": 293.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Blanes",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2067.5,
+      "eur_m2_total": 2067.5,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 147.0,
+      "tasaciones_total": 155.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Figueres",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1494.0,
+      "eur_m2_total": 1494.1,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 118.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Girona",
+      "eur_m2_hasta_5_anios": 2734.3,
+      "eur_m2_mas_de_5_anios": 2334.5,
+      "eur_m2_total": 2347.0,
+      "tasaciones_hasta_5_anios": 47.0,
+      "tasaciones_mas_de_5_anios": 316.0,
+      "tasaciones_total": 363.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Lloret de Mar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2364.7,
+      "eur_m2_total": 2364.2,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 174.0,
+      "tasaciones_total": 179.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Olot",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1588.3,
+      "eur_m2_total": 1599.5,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 102.0,
+      "tasaciones_total": 115.0
+    },
+    {
+      "provincia": "Girona",
+      "municipio": "Salt",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1408.2,
+      "eur_m2_total": 1407.8,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 99.0,
+      "tasaciones_total": 104.0
+    },
+    {
+      "provincia": "Lleida",
+      "municipio": "Lleida",
+      "eur_m2_hasta_5_anios": 1989.8,
+      "eur_m2_mas_de_5_anios": 1411.3,
+      "eur_m2_total": 1428.2,
+      "tasaciones_hasta_5_anios": 63.0,
+      "tasaciones_mas_de_5_anios": 411.0,
+      "tasaciones_total": 474.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Cambrils",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2413.8,
+      "eur_m2_total": 2423.2,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 201.0,
+      "tasaciones_total": 219.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Reus",
+      "eur_m2_hasta_5_anios": 1927.0,
+      "eur_m2_mas_de_5_anios": 1635.8,
+      "eur_m2_total": 1640.9,
+      "tasaciones_hasta_5_anios": 28.0,
+      "tasaciones_mas_de_5_anios": 399.0,
+      "tasaciones_total": 427.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Tarragona",
+      "eur_m2_hasta_5_anios": 2158.3,
+      "eur_m2_mas_de_5_anios": 1832.6,
+      "eur_m2_total": 1837.8,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 507.0,
+      "tasaciones_total": 533.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Tortosa",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1084.8,
+      "eur_m2_total": 1084.5,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 97.0,
+      "tasaciones_total": 99.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Vendrell (El)",
+      "eur_m2_hasta_5_anios": 2053.5,
+      "eur_m2_mas_de_5_anios": 1920.3,
+      "eur_m2_total": 1921.3,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 229.0,
+      "tasaciones_total": 250.0
+    },
+    {
+      "provincia": "Tarragona",
+      "municipio": "Salou",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2549.0,
+      "eur_m2_total": 2555.4,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 184.0,
+      "tasaciones_total": 198.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Alcoy/Alcoi",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1040.7,
+      "eur_m2_total": 1041.1,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 221.0,
+      "tasaciones_total": 226.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Alicante/Alacant",
+      "eur_m2_hasta_5_anios": 2867.0,
+      "eur_m2_mas_de_5_anios": 2250.7,
+      "eur_m2_total": 2265.3,
+      "tasaciones_hasta_5_anios": 85.0,
+      "tasaciones_mas_de_5_anios": 1172.0,
+      "tasaciones_total": 1257.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Benidorm",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3079.1,
+      "eur_m2_total": 3089.3,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 250.0,
+      "tasaciones_total": 263.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Calpe/Calp",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3004.0,
+      "eur_m2_total": 3001.4,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 101.0,
+      "tasaciones_total": 105.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Campello, el",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2906.2,
+      "eur_m2_total": 2908.8,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 126.0,
+      "tasaciones_total": 142.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Crevillent",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1019.3,
+      "eur_m2_total": 1020.0,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 64.0,
+      "tasaciones_total": 72.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Dénia",
+      "eur_m2_hasta_5_anios": 3379.5,
+      "eur_m2_mas_de_5_anios": 2825.7,
+      "eur_m2_total": 2841.8,
+      "tasaciones_hasta_5_anios": 35.0,
+      "tasaciones_mas_de_5_anios": 221.0,
+      "tasaciones_total": 256.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Elche/Elx",
+      "eur_m2_hasta_5_anios": 2008.8,
+      "eur_m2_mas_de_5_anios": 1677.3,
+      "eur_m2_total": 1684.1,
+      "tasaciones_hasta_5_anios": 54.0,
+      "tasaciones_mas_de_5_anios": 593.0,
+      "tasaciones_total": 647.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Elda",
+      "eur_m2_hasta_5_anios": 1146.5,
+      "eur_m2_mas_de_5_anios": 978.6,
+      "eur_m2_total": 980.2,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 170.0,
+      "tasaciones_total": 196.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Jávea/Xábia",
+      "eur_m2_hasta_5_anios": 4033.3,
+      "eur_m2_mas_de_5_anios": 3670.9,
+      "eur_m2_total": 3685.1,
+      "tasaciones_hasta_5_anios": 30.0,
+      "tasaciones_mas_de_5_anios": 150.0,
+      "tasaciones_total": 180.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Novelda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 988.0,
+      "eur_m2_total": 987.6,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 114.0,
+      "tasaciones_total": 121.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Orihuela",
+      "eur_m2_hasta_5_anios": 2815.3,
+      "eur_m2_mas_de_5_anios": 2124.5,
+      "eur_m2_total": 2166.2,
+      "tasaciones_hasta_5_anios": 47.0,
+      "tasaciones_mas_de_5_anios": 360.0,
+      "tasaciones_total": 407.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Petrer",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1112.4,
+      "eur_m2_total": 1113.7,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 95.0,
+      "tasaciones_total": 100.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Santa Pola",
+      "eur_m2_hasta_5_anios": 2566.2,
+      "eur_m2_mas_de_5_anios": 2486.1,
+      "eur_m2_total": 2488.7,
+      "tasaciones_hasta_5_anios": 24.0,
+      "tasaciones_mas_de_5_anios": 208.0,
+      "tasaciones_total": 232.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "San Vicente del Raspeig",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1986.6,
+      "eur_m2_total": 1987.2,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 189.0,
+      "tasaciones_total": 194.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Torrevieja",
+      "eur_m2_hasta_5_anios": 2710.8,
+      "eur_m2_mas_de_5_anios": 2169.0,
+      "eur_m2_total": 2182.4,
+      "tasaciones_hasta_5_anios": 54.0,
+      "tasaciones_mas_de_5_anios": 477.0,
+      "tasaciones_total": 531.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Villajoyosa/Vila Joiosa (La)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2232.0,
+      "eur_m2_total": 2236.6,
+      "tasaciones_hasta_5_anios": 12.0,
+      "tasaciones_mas_de_5_anios": 137.0,
+      "tasaciones_total": 149.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Villena",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 910.2,
+      "eur_m2_total": 910.3,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 97.0,
+      "tasaciones_total": 107.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Almazora/Almassora",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1223.3,
+      "eur_m2_total": 1223.4,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 135.0,
+      "tasaciones_total": 143.0
+    },
+    {
+      "provincia": "Alicante",
+      "municipio": "Benicarló",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1267.6,
+      "eur_m2_total": 1268.4,
+      "tasaciones_hasta_5_anios": 1.0,
+      "tasaciones_mas_de_5_anios": 72.0,
+      "tasaciones_total": 73.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Burriana",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1068.2,
+      "eur_m2_total": 1071.5,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 138.0,
+      "tasaciones_total": 145.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Castellón de la Plana",
+      "eur_m2_hasta_5_anios": 1683.5,
+      "eur_m2_mas_de_5_anios": 1522.8,
+      "eur_m2_total": 1526.6,
+      "tasaciones_hasta_5_anios": 44.0,
+      "tasaciones_mas_de_5_anios": 518.0,
+      "tasaciones_total": 562.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Onda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 964.0,
+      "eur_m2_total": 964.4,
+      "tasaciones_hasta_5_anios": 1.0,
+      "tasaciones_mas_de_5_anios": 93.0,
+      "tasaciones_total": 94.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Vall d'Uixó (la)",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 975.0,
+      "eur_m2_total": 975.9,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 91.0,
+      "tasaciones_total": 107.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Villarreal/Vila-real",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1183.2,
+      "eur_m2_total": 1183.4,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 167.0,
+      "tasaciones_total": 177.0
+    },
+    {
+      "provincia": "Castellón/Castelló",
+      "municipio": "Vinaròs",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1632.6,
+      "eur_m2_total": 1632.0,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 93.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Alaquàs",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1604.1,
+      "eur_m2_total": 1603.2,
+      "tasaciones_hasta_5_anios": 1.0,
+      "tasaciones_mas_de_5_anios": 80.0,
+      "tasaciones_total": 81.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Alzira",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1224.2,
+      "eur_m2_total": 1224.0,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 191.0,
+      "tasaciones_total": 200.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Aldaia",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1601.5,
+      "eur_m2_total": 1602.1,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 108.0,
+      "tasaciones_total": 112.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Algemesí",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 983.2,
+      "eur_m2_total": 984.0,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 94.0,
+      "tasaciones_total": 99.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Burjassot",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1940.9,
+      "eur_m2_total": 1940.6,
+      "tasaciones_hasta_5_anios": 1.0,
+      "tasaciones_mas_de_5_anios": 109.0,
+      "tasaciones_total": 110.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Catarroja",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1676.5,
+      "eur_m2_total": 1674.5,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 102.0,
+      "tasaciones_total": 109.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Quart de Poblet",
+      "eur_m2_hasta_5_anios": 1867.5,
+      "eur_m2_mas_de_5_anios": 1855.0,
+      "eur_m2_total": 1855.5,
+      "tasaciones_hasta_5_anios": 24.0,
+      "tasaciones_mas_de_5_anios": 82.0,
+      "tasaciones_total": 106.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Xirivella",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1706.8,
+      "eur_m2_total": 1705.5,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 114.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Gandia",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1643.8,
+      "eur_m2_total": 1646.5,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 265.0,
+      "tasaciones_total": 279.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Xàtiva",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1232.3,
+      "eur_m2_total": 1236.8,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 86.0,
+      "tasaciones_total": 102.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Manises",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1747.0,
+      "eur_m2_total": 1746.6,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 129.0,
+      "tasaciones_total": 135.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Mislata",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2275.4,
+      "eur_m2_total": 2274.1,
+      "tasaciones_hasta_5_anios": 1.0,
+      "tasaciones_mas_de_5_anios": 125.0,
+      "tasaciones_total": 126.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Oliva",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1616.2,
+      "eur_m2_total": 1630.5,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 106.0,
+      "tasaciones_total": 110.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Ontinyent",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1040.5,
+      "eur_m2_total": 1040.9,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 97.0,
+      "tasaciones_total": 105.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Paterna",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2220.7,
+      "eur_m2_total": 2220.0,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 259.0,
+      "tasaciones_total": 275.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Sagunto/Sagunt",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1623.9,
+      "eur_m2_total": 1627.6,
+      "tasaciones_hasta_5_anios": 12.0,
+      "tasaciones_mas_de_5_anios": 239.0,
+      "tasaciones_total": 251.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Sueca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1487.6,
+      "eur_m2_total": 1486.7,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 272.0,
+      "tasaciones_total": 280.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Torrent",
+      "eur_m2_hasta_5_anios": 2152.1,
+      "eur_m2_mas_de_5_anios": 1872.2,
+      "eur_m2_total": 1880.5,
+      "tasaciones_hasta_5_anios": 24.0,
+      "tasaciones_mas_de_5_anios": 285.0,
+      "tasaciones_total": 309.0
+    },
+    {
+      "provincia": "Valencia",
+      "municipio": "Valencia",
+      "eur_m2_hasta_5_anios": 3353.9,
+      "eur_m2_mas_de_5_anios": 2894.0,
+      "eur_m2_total": 2907.9,
+      "tasaciones_hasta_5_anios": 198.0,
+      "tasaciones_mas_de_5_anios": 2321.0,
+      "tasaciones_total": 2519.0
+    },
+    {
+      "provincia": "Badajoz",
+      "municipio": "Almendralejo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 941.0,
+      "eur_m2_total": 939.7,
+      "tasaciones_hasta_5_anios": 11.0,
+      "tasaciones_mas_de_5_anios": 147.0,
+      "tasaciones_total": 158.0
+    },
+    {
+      "provincia": "Badajoz",
+      "municipio": "Badajoz",
+      "eur_m2_hasta_5_anios": 1968.7,
+      "eur_m2_mas_de_5_anios": 1510.6,
+      "eur_m2_total": 1527.0,
+      "tasaciones_hasta_5_anios": 64.0,
+      "tasaciones_mas_de_5_anios": 430.0,
+      "tasaciones_total": 494.0
+    },
+    {
+      "provincia": "Badajoz",
+      "municipio": "Don Benito",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 974.9,
+      "eur_m2_total": 980.4,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 124.0,
+      "tasaciones_total": 134.0
+    },
+    {
+      "provincia": "Badajoz",
+      "municipio": "Mérida",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1094.9,
+      "eur_m2_total": 1095.5,
+      "tasaciones_hasta_5_anios": 19.0,
+      "tasaciones_mas_de_5_anios": 203.0,
+      "tasaciones_total": 222.0
+    },
+    {
+      "provincia": "Badajoz",
+      "municipio": "Villanueva de la Serena",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 808.0,
+      "eur_m2_total": 810.4,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 79.0,
+      "tasaciones_total": 81.0
+    },
+    {
+      "provincia": "Cáceres",
+      "municipio": "Cáceres",
+      "eur_m2_hasta_5_anios": 1902.3,
+      "eur_m2_mas_de_5_anios": 1557.1,
+      "eur_m2_total": 1569.5,
+      "tasaciones_hasta_5_anios": 50.0,
+      "tasaciones_mas_de_5_anios": 282.0,
+      "tasaciones_total": 332.0
+    },
+    {
+      "provincia": "Cáceres",
+      "municipio": "Plasencia",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1081.8,
+      "eur_m2_total": 1084.6,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 119.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "Cáceres",
+      "municipio": "Ames",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1875.4,
+      "eur_m2_total": 1872.4,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 70.0,
+      "tasaciones_total": 79.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Arteixo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1699.8,
+      "eur_m2_total": 1698.7,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 76.0,
+      "tasaciones_total": 83.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Carballo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 989.3,
+      "eur_m2_total": 993.5,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 35.0,
+      "tasaciones_total": 40.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Coruña (A)",
+      "eur_m2_hasta_5_anios": 3015.1,
+      "eur_m2_mas_de_5_anios": 2749.7,
+      "eur_m2_total": 2759.2,
+      "tasaciones_hasta_5_anios": 52.0,
+      "tasaciones_mas_de_5_anios": 513.0,
+      "tasaciones_total": 565.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Culleredo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1968.2,
+      "eur_m2_total": 1967.7,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 81.0,
+      "tasaciones_total": 84.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Ferrol",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1128.7,
+      "eur_m2_total": 1133.3,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 179.0,
+      "tasaciones_total": 193.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Narón",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1113.0,
+      "eur_m2_total": 1113.8,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 127.0,
+      "tasaciones_total": 144.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Oleiros",
+      "eur_m2_hasta_5_anios": 2195.8,
+      "eur_m2_mas_de_5_anios": 2102.6,
+      "eur_m2_total": 2108.4,
+      "tasaciones_hasta_5_anios": 38.0,
+      "tasaciones_mas_de_5_anios": 87.0,
+      "tasaciones_total": 125.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Ribeira",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1401.7,
+      "eur_m2_total": 1398.2,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 68.0,
+      "tasaciones_total": 74.0
+    },
+    {
+      "provincia": "La Coruña",
+      "municipio": "Santiago de Compostela",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2361.4,
+      "eur_m2_total": 2365.0,
+      "tasaciones_hasta_5_anios": 14.0,
+      "tasaciones_mas_de_5_anios": 130.0,
+      "tasaciones_total": 144.0
+    },
+    {
+      "provincia": "Lugo",
+      "municipio": "Lugo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1355.7,
+      "eur_m2_total": 1360.1,
+      "tasaciones_hasta_5_anios": 20.0,
+      "tasaciones_mas_de_5_anios": 244.0,
+      "tasaciones_total": 264.0
+    },
+    {
+      "provincia": "Ourense",
+      "municipio": "Ourense",
+      "eur_m2_hasta_5_anios": 1640.3,
+      "eur_m2_mas_de_5_anios": 1601.4,
+      "eur_m2_total": 1602.0,
+      "tasaciones_hasta_5_anios": 25.0,
+      "tasaciones_mas_de_5_anios": 226.0,
+      "tasaciones_total": 251.0
+    },
+    {
+      "provincia": "Ourense",
+      "municipio": "Cangas",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1745.8,
+      "eur_m2_total": 1748.3,
+      "tasaciones_hasta_5_anios": 8.0,
+      "tasaciones_mas_de_5_anios": 55.0,
+      "tasaciones_total": 63.0
+    },
+    {
+      "provincia": "Pontevedra",
+      "municipio": "Marín",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1415.5,
+      "eur_m2_total": 1414.7,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 54.0,
+      "tasaciones_total": 58.0
+    },
+    {
+      "provincia": "Pontevedra",
+      "municipio": "Pontevedra",
+      "eur_m2_hasta_5_anios": 2635.3,
+      "eur_m2_mas_de_5_anios": 2050.8,
+      "eur_m2_total": 2083.6,
+      "tasaciones_hasta_5_anios": 36.0,
+      "tasaciones_mas_de_5_anios": 180.0,
+      "tasaciones_total": 216.0
+    },
+    {
+      "provincia": "Pontevedra",
+      "municipio": "Redondela",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1381.0,
+      "eur_m2_total": 1381.3,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 45.0,
+      "tasaciones_total": 62.0
+    },
+    {
+      "provincia": "Pontevedra",
+      "municipio": "Vigo",
+      "eur_m2_hasta_5_anios": 2626.5,
+      "eur_m2_mas_de_5_anios": 2296.9,
+      "eur_m2_total": 2302.3,
+      "tasaciones_hasta_5_anios": 62.0,
+      "tasaciones_mas_de_5_anios": 533.0,
+      "tasaciones_total": 595.0
+    },
+    {
+      "provincia": "Pontevedra",
+      "municipio": "Vilagarcía de Arousa",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1452.7,
+      "eur_m2_total": 1454.7,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 74.0,
+      "tasaciones_total": 77.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Alcalá de Henares",
+      "eur_m2_hasta_5_anios": 3083.4,
+      "eur_m2_mas_de_5_anios": 2821.6,
+      "eur_m2_total": 2838.6,
+      "tasaciones_hasta_5_anios": 102.0,
+      "tasaciones_mas_de_5_anios": 471.0,
+      "tasaciones_total": 573.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Alcobendas",
+      "eur_m2_hasta_5_anios": 5196.6,
+      "eur_m2_mas_de_5_anios": 4769.5,
+      "eur_m2_total": 4790.4,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 332.0,
+      "tasaciones_total": 358.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Alcorcón",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3444.4,
+      "eur_m2_total": 3443.7,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 400.0,
+      "tasaciones_total": 418.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Aranjuez",
+      "eur_m2_hasta_5_anios": 2296.4,
+      "eur_m2_mas_de_5_anios": 2146.7,
+      "eur_m2_total": 2151.0,
+      "tasaciones_hasta_5_anios": 26.0,
+      "tasaciones_mas_de_5_anios": 218.0,
+      "tasaciones_total": 244.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Arganda del Rey",
+      "eur_m2_hasta_5_anios": 2840.8,
+      "eur_m2_mas_de_5_anios": 2598.3,
+      "eur_m2_total": 2613.8,
+      "tasaciones_hasta_5_anios": 43.0,
+      "tasaciones_mas_de_5_anios": 169.0,
+      "tasaciones_total": 212.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Boadilla del Monte",
+      "eur_m2_hasta_5_anios": 4146.9,
+      "eur_m2_mas_de_5_anios": 4410.9,
+      "eur_m2_total": 4372.7,
+      "tasaciones_hasta_5_anios": 31.0,
+      "tasaciones_mas_de_5_anios": 154.0,
+      "tasaciones_total": 185.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Colmenar Viejo",
+      "eur_m2_hasta_5_anios": 3092.7,
+      "eur_m2_mas_de_5_anios": 3073.7,
+      "eur_m2_total": 3076.4,
+      "tasaciones_hasta_5_anios": 63.0,
+      "tasaciones_mas_de_5_anios": 149.0,
+      "tasaciones_total": 212.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Collado Villalba",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2882.5,
+      "eur_m2_total": 2879.8,
+      "tasaciones_hasta_5_anios": 11.0,
+      "tasaciones_mas_de_5_anios": 214.0,
+      "tasaciones_total": 225.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Coslada",
+      "eur_m2_hasta_5_anios": 3730.8,
+      "eur_m2_mas_de_5_anios": 3316.4,
+      "eur_m2_total": 3326.2,
+      "tasaciones_hasta_5_anios": 60.0,
+      "tasaciones_mas_de_5_anios": 186.0,
+      "tasaciones_total": 246.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Fuenlabrada",
+      "eur_m2_hasta_5_anios": 3034.4,
+      "eur_m2_mas_de_5_anios": 2911.7,
+      "eur_m2_total": 2913.5,
+      "tasaciones_hasta_5_anios": 45.0,
+      "tasaciones_mas_de_5_anios": 468.0,
+      "tasaciones_total": 513.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Galapagar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2758.4,
+      "eur_m2_total": 2768.2,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 135.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Getafe",
+      "eur_m2_hasta_5_anios": 3311.9,
+      "eur_m2_mas_de_5_anios": 3195.4,
+      "eur_m2_total": 3200.9,
+      "tasaciones_hasta_5_anios": 40.0,
+      "tasaciones_mas_de_5_anios": 456.0,
+      "tasaciones_total": 496.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Leganés",
+      "eur_m2_hasta_5_anios": 3586.0,
+      "eur_m2_mas_de_5_anios": 3150.4,
+      "eur_m2_total": 3157.5,
+      "tasaciones_hasta_5_anios": 51.0,
+      "tasaciones_mas_de_5_anios": 446.0,
+      "tasaciones_total": 497.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Madrid",
+      "eur_m2_hasta_5_anios": 6142.0,
+      "eur_m2_mas_de_5_anios": 5446.0,
+      "eur_m2_total": 5466.1,
+      "tasaciones_hasta_5_anios": 918.0,
+      "tasaciones_mas_de_5_anios": 10529.0,
+      "tasaciones_total": 11447.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Majadahonda",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 4845.0,
+      "eur_m2_total": 4839.5,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 161.0,
+      "tasaciones_total": 171.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Móstoles",
+      "eur_m2_hasta_5_anios": 3141.7,
+      "eur_m2_mas_de_5_anios": 3022.8,
+      "eur_m2_total": 3025.7,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 523.0,
+      "tasaciones_total": 544.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Navalcarnero",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2488.1,
+      "eur_m2_total": 2474.4,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 94.0,
+      "tasaciones_total": 103.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Parla",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2368.2,
+      "eur_m2_total": 2367.8,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 348.0,
+      "tasaciones_total": 357.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Pinto",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2792.4,
+      "eur_m2_total": 2800.7,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 135.0,
+      "tasaciones_total": 151.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Pozuelo de Alarcón",
+      "eur_m2_hasta_5_anios": 5384.8,
+      "eur_m2_mas_de_5_anios": 5138.0,
+      "eur_m2_total": 5150.8,
+      "tasaciones_hasta_5_anios": 46.0,
+      "tasaciones_mas_de_5_anios": 225.0,
+      "tasaciones_total": 271.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Rivas-Vaciamadrid",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3391.9,
+      "eur_m2_total": 3392.8,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 213.0,
+      "tasaciones_total": 229.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Rozas de Madrid (Las)",
+      "eur_m2_hasta_5_anios": 4715.0,
+      "eur_m2_mas_de_5_anios": 4419.5,
+      "eur_m2_total": 4435.2,
+      "tasaciones_hasta_5_anios": 41.0,
+      "tasaciones_mas_de_5_anios": 311.0,
+      "tasaciones_total": 352.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "San Fernando de Henares",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2911.7,
+      "eur_m2_total": 2911.6,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 118.0,
+      "tasaciones_total": 122.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "San Sebastián de los Reyes",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 3856.0,
+      "eur_m2_total": 3865.3,
+      "tasaciones_hasta_5_anios": 17.0,
+      "tasaciones_mas_de_5_anios": 242.0,
+      "tasaciones_total": 259.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Torrejón de Ardoz",
+      "eur_m2_hasta_5_anios": 3248.0,
+      "eur_m2_mas_de_5_anios": 2929.6,
+      "eur_m2_total": 2952.2,
+      "tasaciones_hasta_5_anios": 60.0,
+      "tasaciones_mas_de_5_anios": 344.0,
+      "tasaciones_total": 404.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Valdemoro",
+      "eur_m2_hasta_5_anios": 2760.8,
+      "eur_m2_mas_de_5_anios": 2699.5,
+      "eur_m2_total": 2705.7,
+      "tasaciones_hasta_5_anios": 38.0,
+      "tasaciones_mas_de_5_anios": 263.0,
+      "tasaciones_total": 301.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Villaviciosa de Odón",
+      "eur_m2_hasta_5_anios": 3953.7,
+      "eur_m2_mas_de_5_anios": 3329.2,
+      "eur_m2_total": 3382.3,
+      "tasaciones_hasta_5_anios": 31.0,
+      "tasaciones_mas_de_5_anios": 77.0,
+      "tasaciones_total": 108.0
+    },
+    {
+      "provincia": "Madrid",
+      "municipio": "Tres Cantos",
+      "eur_m2_hasta_5_anios": 4492.8,
+      "eur_m2_mas_de_5_anios": 4225.6,
+      "eur_m2_total": 4265.1,
+      "tasaciones_hasta_5_anios": 60.0,
+      "tasaciones_mas_de_5_anios": 124.0,
+      "tasaciones_total": 184.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Águilas",
+      "eur_m2_hasta_5_anios": 1750.9,
+      "eur_m2_mas_de_5_anios": 1455.5,
+      "eur_m2_total": 1460.6,
+      "tasaciones_hasta_5_anios": 32.0,
+      "tasaciones_mas_de_5_anios": 166.0,
+      "tasaciones_total": 198.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Alcantarilla",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1084.4,
+      "eur_m2_total": 1085.4,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 136.0,
+      "tasaciones_total": 152.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Caravaca de la Cruz",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 860.8,
+      "eur_m2_total": 862.0,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 86.0,
+      "tasaciones_total": 91.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Cartagena",
+      "eur_m2_hasta_5_anios": 1609.2,
+      "eur_m2_mas_de_5_anios": 1494.2,
+      "eur_m2_total": 1496.0,
+      "tasaciones_hasta_5_anios": 46.0,
+      "tasaciones_mas_de_5_anios": 729.0,
+      "tasaciones_total": 775.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Cieza",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 949.2,
+      "eur_m2_total": 949.7,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 91.0,
+      "tasaciones_total": 94.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Jumilla",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 843.7,
+      "eur_m2_total": 845.4,
+      "tasaciones_hasta_5_anios": 2.0,
+      "tasaciones_mas_de_5_anios": 76.0,
+      "tasaciones_total": 78.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Lorca",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1200.3,
+      "eur_m2_total": 1201.5,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 266.0,
+      "tasaciones_total": 279.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Mazarrón",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1610.5,
+      "eur_m2_total": 1611.0,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 103.0,
+      "tasaciones_total": 112.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Molina de Segura",
+      "eur_m2_hasta_5_anios": 1495.2,
+      "eur_m2_mas_de_5_anios": 1264.7,
+      "eur_m2_total": 1269.2,
+      "tasaciones_hasta_5_anios": 23.0,
+      "tasaciones_mas_de_5_anios": 319.0,
+      "tasaciones_total": 342.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Murcia",
+      "eur_m2_hasta_5_anios": 2004.8,
+      "eur_m2_mas_de_5_anios": 1563.6,
+      "eur_m2_total": 1574.8,
+      "tasaciones_hasta_5_anios": 222.0,
+      "tasaciones_mas_de_5_anios": 1521.0,
+      "tasaciones_total": 1743.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "San Javier",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1903.8,
+      "eur_m2_total": 1904.9,
+      "tasaciones_hasta_5_anios": 16.0,
+      "tasaciones_mas_de_5_anios": 270.0,
+      "tasaciones_total": 286.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Torre-Pacheco",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1340.5,
+      "eur_m2_total": 1351.1,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 136.0,
+      "tasaciones_total": 146.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Totana",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 976.5,
+      "eur_m2_total": 978.2,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 75.0,
+      "tasaciones_total": 80.0
+    },
+    {
+      "provincia": "Murcia",
+      "municipio": "Yecla",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 839.3,
+      "eur_m2_total": 839.3,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 103.0,
+      "tasaciones_total": 106.0
+    },
+    {
+      "provincia": "Navarra",
+      "municipio": "Pamplona/Iruña",
+      "eur_m2_hasta_5_anios": 3276.6,
+      "eur_m2_mas_de_5_anios": 2667.9,
+      "eur_m2_total": 2736.6,
+      "tasaciones_hasta_5_anios": 40.0,
+      "tasaciones_mas_de_5_anios": 372.0,
+      "tasaciones_total": 412.0
+    },
+    {
+      "provincia": "Navarra",
+      "municipio": "Tudela",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 1548.2,
+      "eur_m2_total": 1591.0,
+      "tasaciones_hasta_5_anios": 12.0,
+      "tasaciones_mas_de_5_anios": 83.0,
+      "tasaciones_total": 95.0
+    },
+    {
+      "provincia": "Araba/Alava",
+      "municipio": "Vitoria",
+      "eur_m2_hasta_5_anios": 3036.6,
+      "eur_m2_mas_de_5_anios": 2675.5,
+      "eur_m2_total": 2700.0,
+      "tasaciones_hasta_5_anios": 53.0,
+      "tasaciones_mas_de_5_anios": 505.0,
+      "tasaciones_total": 558.0
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "municipio": "Eibar",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2072.7,
+      "eur_m2_total": 2084.0,
+      "tasaciones_hasta_5_anios": 0.0,
+      "tasaciones_mas_de_5_anios": 47.0,
+      "tasaciones_total": 47.0
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "municipio": "Irun",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2981.5,
+      "eur_m2_total": 3005.2,
+      "tasaciones_hasta_5_anios": 18.0,
+      "tasaciones_mas_de_5_anios": 117.0,
+      "tasaciones_total": 135.0
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "municipio": "Errenteria",
+      "eur_m2_hasta_5_anios": 3506.9,
+      "eur_m2_mas_de_5_anios": 3157.3,
+      "eur_m2_total": 3164.1,
+      "tasaciones_hasta_5_anios": 21.0,
+      "tasaciones_mas_de_5_anios": 69.0,
+      "tasaciones_total": 90.0
+    },
+    {
+      "provincia": "Gipuzkoa",
+      "municipio": "San Sebastián/Donostia",
+      "eur_m2_hasta_5_anios": 5659.2,
+      "eur_m2_mas_de_5_anios": 5106.7,
+      "eur_m2_total": 5118.4,
+      "tasaciones_hasta_5_anios": 40.0,
+      "tasaciones_mas_de_5_anios": 346.0,
+      "tasaciones_total": 386.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Barakaldo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2857.0,
+      "eur_m2_total": 2855.5,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 280.0,
+      "tasaciones_total": 293.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Basauri",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2722.3,
+      "eur_m2_total": 2721.2,
+      "tasaciones_hasta_5_anios": 5.0,
+      "tasaciones_mas_de_5_anios": 105.0,
+      "tasaciones_total": 110.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Bilbao",
+      "eur_m2_hasta_5_anios": 3532.9,
+      "eur_m2_mas_de_5_anios": 3399.6,
+      "eur_m2_total": 3401.8,
+      "tasaciones_hasta_5_anios": 52.0,
+      "tasaciones_mas_de_5_anios": 901.0,
+      "tasaciones_total": 953.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Durango",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2611.7,
+      "eur_m2_total": 2618.2,
+      "tasaciones_hasta_5_anios": 6.0,
+      "tasaciones_mas_de_5_anios": 47.0,
+      "tasaciones_total": 53.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Galdakao",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2950.1,
+      "eur_m2_total": 2949.7,
+      "tasaciones_hasta_5_anios": 3.0,
+      "tasaciones_mas_de_5_anios": 63.0,
+      "tasaciones_total": 66.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Getxo",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 4043.8,
+      "eur_m2_total": 4044.9,
+      "tasaciones_hasta_5_anios": 7.0,
+      "tasaciones_mas_de_5_anios": 175.0,
+      "tasaciones_total": 182.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Leioa",
+      "eur_m2_hasta_5_anios": 4020.9,
+      "eur_m2_mas_de_5_anios": 3506.5,
+      "eur_m2_total": 3531.8,
+      "tasaciones_hasta_5_anios": 22.0,
+      "tasaciones_mas_de_5_anios": 61.0,
+      "tasaciones_total": 83.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Portugalete",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2808.3,
+      "eur_m2_total": 2808.3,
+      "tasaciones_hasta_5_anios": 10.0,
+      "tasaciones_mas_de_5_anios": 104.0,
+      "tasaciones_total": 114.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Santurtzi",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2682.5,
+      "eur_m2_total": 2681.5,
+      "tasaciones_hasta_5_anios": 13.0,
+      "tasaciones_mas_de_5_anios": 110.0,
+      "tasaciones_total": 123.0
+    },
+    {
+      "provincia": "Bizkaia",
+      "municipio": "Sestao",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2295.6,
+      "eur_m2_total": 2294.7,
+      "tasaciones_hasta_5_anios": 4.0,
+      "tasaciones_mas_de_5_anios": 94.0,
+      "tasaciones_total": 98.0
+    },
+    {
+      "provincia": "La Rioja",
+      "municipio": "Logroño",
+      "eur_m2_hasta_5_anios": 2258.2,
+      "eur_m2_mas_de_5_anios": 1880.5,
+      "eur_m2_total": 1892.3,
+      "tasaciones_hasta_5_anios": 35.0,
+      "tasaciones_mas_de_5_anios": 406.0,
+      "tasaciones_total": 441.0
+    },
+    {
+      "provincia": "Ceuta",
+      "municipio": "Ceuta",
+      "eur_m2_hasta_5_anios": null,
+      "eur_m2_mas_de_5_anios": 2208.5,
+      "eur_m2_total": 2212.0,
+      "tasaciones_hasta_5_anios": 9.0,
+      "tasaciones_mas_de_5_anios": 145.0,
+      "tasaciones_total": 154.0
+    },
+    {
+      "provincia": "Melilla",
+      "municipio": "Melilla",
+      "eur_m2_hasta_5_anios": 2551.2,
+      "eur_m2_mas_de_5_anios": 2099.5,
+      "eur_m2_total": 2122.9,
+      "tasaciones_hasta_5_anios": 52.0,
+      "tasaciones_mas_de_5_anios": 177.0,
+      "tasaciones_total": 229.0
+    }
+  ]
+}

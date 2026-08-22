@@ -54,25 +54,31 @@
     "serie": "35103500",
     "granularidad": ["municipio (>25.000 hab)", "provincia"],
     "periodicidad": "trimestral",
-    "formato": "XLS descargable",
+    "formato": "XLS BIFF8, una hoja por trimestre desde T1A2005",
     "modo": "ingesta batch",
-    "url": "",
-    "verificado": false,
-    "fixture": null
+    "url": "https://apps.fomento.gob.es/boletinonline2/sedal/35103500.XLS",
+    "_doc": "Descarga probada el 2026-08-22: HTTP 200, 3,9 MB, 306 municipios en la ultima hoja (T1A2026). La hoja de cada trimestre trae, por municipio, EUR/m2 para vivienda de hasta 5 anos, de mas de 5 anos y total, con el numero de tasaciones de cada grupo. 'n.r' significa muestra no representativa.",
+    "_pendiente": "CONFIRMAR si el EUR/m2 se refiere a superficie construida o util. La hoja no lo dice y el dato cambia el resultado de forma importante.",
+    "columna_para_segunda_mano": "eur_m2_mas_de_5_anios",
+    "ultimo_periodo_capturado": "T1A2026",
+    "verificado": true,
+    "fixture": "fixtures/mitma/35103500-municipios-ultimo-trimestre.json"
   },
 
   "ine": {
     "nombre": "INE - Indice de Precios de Vivienda (IPV)",
     "api": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{idTabla}?nult={n}",
     "requiere_clave": false,
-    "_doc": "Hay que localizar los IDs de tabla del IPV por CCAA (general / vivienda nueva / segunda mano) y guardarlos aqui. NO inventarlos: se comprueban llamando a la API.",
+    "_doc": "IDs comprobados el 2026-08-22 llamando a https://servicios.ine.es/wstempus/js/ES/TABLAS_OPERACION/IPV. La tabla 80270 devuelve 240 series: cada CCAA por cada tipo de vivienda (general / nueva / segunda mano) por cada metrica (indice, variacion trimestral, variacion anual, variacion en lo que va de ano). Se filtran por el campo Nombre.",
     "tablas": {
-      "ipv_ccaa_general": null,
-      "ipv_ccaa_nueva": null,
-      "ipv_ccaa_segunda_mano": null
+      "ipv_ccaa_trimestral": 80270,
+      "ipv_ccaa_medias_anuales": 80271,
+      "ipv_ponderaciones": 80272
     },
-    "verificado": false,
-    "fixture": null
+    "patron_nombre_serie": "{CCAA}. {General|Vivienda nueva|Vivienda segunda mano}. {Indice|Variacion trimestral|Variacion anual|Variacion en lo que va de ano}.",
+    "ultimo_periodo_capturado": "2026 T1",
+    "verificado": true,
+    "fixture": "fixtures/ine/datos-tabla-80270-nult1.json"
   },
 
   "geocodificacion": {
