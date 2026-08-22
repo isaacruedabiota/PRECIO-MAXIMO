@@ -32,6 +32,21 @@ export function arancelEscalado(base: number, arancel: ArancelEscalado, ruta: st
     honorarios += (Math.min(base, techo) - tramo.desde) * tramo.tipo;
   }
 
+  // Topes globales antes de rebaja e IVA. El arancel registral los tiene:
+  // "el arancel global no podra superar los 2.181,673939 euros ni ser inferior
+  // a 24,040484 euros".
+  if (arancel.minimo_eur !== null) honorarios = Math.max(honorarios, arancel.minimo_eur);
+  if (arancel.maximo_eur !== null) honorarios = Math.min(honorarios, arancel.maximo_eur);
+
+  // Rebaja legal sobre los derechos resultantes de la escala.
+  const rebaja = requerido(
+    arancel.rebaja,
+    `${ruta}.rebaja`,
+    'Rebaja legal sobre los derechos del arancel. Poner 0 si no hay ninguna, pero comprobarlo: tanto el ' +
+      'arancel notarial como el registral llevan una del 5 %.',
+  );
+  honorarios *= 1 - rebaja;
+
   const iva = requerido(
     arancel.iva_aplicable,
     `${ruta}.iva_aplicable`,

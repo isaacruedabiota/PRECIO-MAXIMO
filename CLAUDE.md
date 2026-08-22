@@ -144,9 +144,14 @@ IVA y los tramos de arancel no los dio nunca el brief, así que se quedan a
 `null` y el motor seguirá fallando en ellos hasta que se rellenen contra el BOE.
 Para deshacerlo: `git checkout packages/config/data`.
 
-Estado tras sembrar: **74 valores sembrados, 93 pendientes, 43 bloques sin
-verificar.** Mientras quede un bloque sin verificar, la UI muestra un aviso rojo
-diciendo que ninguna cifra está contrastada.
+Estado: **62 pendientes, 24 bloques sin verificar.** Los tipos de ITP de la
+Comunitat Valenciana, el IVA de reforma, la reducción de IRPF por arrendamiento y
+los aranceles de notaría y registro **sí están verificados**, leídos del BOE con
+cita literal (ADR-016). Lo que queda pendiente es sobre todo las otras cinco
+CCAA, que siguen como plantillas vacías.
+
+Mientras quede un bloque sin verificar, la UI muestra un aviso rojo diciendo que
+esa cifra no está contrastada.
 
 ### 4. Todo número de salida es un `TrazedValue`
 
@@ -297,14 +302,49 @@ referencia, no las características del piso. Bajado a 0,45 con horquilla
 0,40-0,70, y sigue emitiendo `COEFICIENTE_GLOBAL_TOPADO` cuando actúa: si salta
 a menudo, o el tope está mal puesto o los coeficientes penalizan de más.
 
-### ADR-014 — ESLint con una sola config plana en la raíz
+### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
+Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**
+del BOE, leídos por su API de legislación consolidada:
+
+```
+https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{ID}/texto/indice   (Accept: application/json)
+https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{ID}/texto/bloque/{BLOQUE}   (Accept: application/xml)
+```
+
+El bloque devuelve **todas las versiones históricas** del artículo: hay que
+quedarse con la última cuya `fecha_vigencia` sea anterior o igual a hoy. Cada
+valor lleva en su JSON `_fuente`, `_cita` con el texto literal, `articulo` y
+`vigencia_desde`.
+
+Esto no es pedantería. La página de la Agència Tributària Valenciana daba una
+tabla más simple que la ley: se saltaba el tramo del 11% por encima del millón y
+la partición de cada bonificación en dos tramos por valor. Un resumen no sirve.
+
+### ADR-017 — El brief se equivocaba en la condición del IVA de reforma
+Decía que el tipo reducido exige que el coste de la obra no supere el doble del
+valor catastral. Esa regla **no aparece** en el art. 91.Uno.2.10 LIVA. La tercera
+condición real es que los **materiales aportados por quien ejecuta la obra no
+superen el 40% de la base imponible**. Se ha corregido: `ReformaPrevista` lleva
+ahora `coste_materiales_pct` y la config el límite legal. Sin ese desglose en el
+presupuesto se aplica el tipo general y se avisa.
+
+### ADR-018 — El modelo de config tuvo que crecer para representar la ley
+Tres cosas no cabían en el esquema original y se han añadido:
+`tipo_general.tramos` (el tipo depende del valor del inmueble y se aplica al
+total, no es escala progresiva), `valor_inmueble_desde` (las bonificaciones se
+parten en dos tramos por valor, y sin este campo el motor cogía siempre el tipo
+más bajo de los dos), y `limite_base_imponible_irpf` como `{individual,
+conjunta}` (la norma da dos cifras y usar la que no toca decide mal la
+bonificación).
+
+### ADR-019 — ESLint con una sola config plana en la raíz
 `next lint` desapareció en Next 16, así que el linter se monta aparte:
 `eslint.config.mjs` en la raíz cubre los seis proyectos y `pnpm lint` ejecuta
 `eslint .`. Sin reglas de estilo — solo las que atrapan errores reales, con
 `no-explicit-any` en error: un `any` en un motor que calcula euros es
 exactamente lo que no queremos.
 
-### ADR-015 — Sin Caddy delante
+### ADR-020 — Sin Caddy delante
 La Pi tiene Caddy instalado pero parado, y otras aplicaciones en 8080 y 8129. La
 app escucha directamente en el 8090. Un proxy inverso para una herramienta
 personal en LAN añade una pieza que puede fallar sin aportar nada. Queda

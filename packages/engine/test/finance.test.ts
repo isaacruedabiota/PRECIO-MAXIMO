@@ -90,6 +90,32 @@ describe('arancel escalado', () => {
     );
   });
 
+  it('aplica la rebaja legal sobre los derechos de la escala', () => {
+    // Tanto el arancel notarial como el registral llevan una rebaja del 5%
+    const conRebaja = { ...config.aranceles.notaria, rebaja: 0.05 };
+    expect(arancelEscalado(150000, conRebaja, 'aranceles.notaria')).toBeCloseTo(450 * 0.95, 6);
+  });
+
+  it('respeta el tope maximo global del arancel', () => {
+    const topado = { ...config.aranceles.registro, maximo_eur: 200 };
+    expect(arancelEscalado(5000000, topado, 'aranceles.registro')).toBeCloseTo(200, 6);
+  });
+
+  it('respeta el tope minimo global del arancel', () => {
+    const topado = { ...config.aranceles.registro, minimo_eur: 500 };
+    expect(arancelEscalado(1000, topado, 'aranceles.registro')).toBeCloseTo(500, 6);
+  });
+
+  it('aplica los topes antes de la rebaja y del IVA', () => {
+    const arancel = { ...config.aranceles.registro, maximo_eur: 1000, rebaja: 0.05, iva_aplicable: 0.21 };
+    expect(arancelEscalado(5000000, arancel, 'aranceles.registro')).toBeCloseTo(1000 * 0.95 * 1.21, 6);
+  });
+
+  it('falla ruidosamente si no se ha decidido si hay rebaja', () => {
+    const sinRebaja = { ...config.aranceles.notaria, rebaja: null };
+    expect(() => arancelEscalado(150000, sinRebaja, 'aranceles.notaria')).toThrow(/rebaja/);
+  });
+
   it('falla ruidosamente si falta el IVA aplicable', () => {
     const sinIva = { ...config.aranceles.notaria, iva_aplicable: null };
     expect(() => arancelEscalado(150000, sinIva, 'aranceles.notaria')).toThrow(

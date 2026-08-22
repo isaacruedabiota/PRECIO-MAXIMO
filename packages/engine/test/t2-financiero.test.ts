@@ -155,7 +155,7 @@ describe('T2 - resolucion del tipo de ITP', () => {
       buyer: compradorBase({
         edad: 30,
         primera_vivienda_habitual: true,
-        familia_numerosa: true,
+        familia_numerosa: 'general',
         base_imponible_irpf_anual: 30000,
       }),
     });
@@ -166,7 +166,7 @@ describe('T2 - resolucion del tipo de ITP', () => {
   it('descarta la bonificacion y avisa si no se puede comprobar el limite de renta', () => {
     const r = correrT2({
       buyer: compradorBase({
-        familia_numerosa: true,
+        familia_numerosa: 'general',
         primera_vivienda_habitual: true,
         base_imponible_irpf_anual: null,
       }),
@@ -179,7 +179,7 @@ describe('T2 - resolucion del tipo de ITP', () => {
   it('descarta la bonificacion si la renta supera el limite', () => {
     const r = correrT2({
       buyer: compradorBase({
-        familia_numerosa: true,
+        familia_numerosa: 'general',
         primera_vivienda_habitual: true,
         base_imponible_irpf_anual: 90000,
       }),
@@ -189,8 +189,8 @@ describe('T2 - resolucion del tipo de ITP', () => {
 
   it('falla ruidosamente si el tipo general sigue sin fijarse', () => {
     const config = configDeTest();
-    config.itp.ccaa[0]!.tipo_general = null;
-    expect(() => correrT2({ config })).toThrow(/tipo_general/);
+    config.itp.ccaa[0]!.tipo_general.tramos = [];
+    expect(() => correrT2({ config })).toThrow(/tipo_general\.tramos/);
   });
 
   it('falla ruidosamente si falta la edad limite de una modalidad que podria aplicar', () => {
@@ -199,6 +199,63 @@ describe('T2 - resolucion del tipo de ITP', () => {
     expect(() =>
       correrT2({ config, buyer: compradorBase({ edad: 27, primera_vivienda_habitual: true }) }),
     ).toThrow(/limite_edad/);
+  });
+
+  it('el tipo general sube de tramo con el valor del inmueble', () => {
+    // Fixture: 10% hasta 500.000, 12% por encima. El tipo se aplica al total.
+    const ctx = (precio: number) => {
+      const input = entradaBase({ buyer: compradorBase({ ahorro_disponible: 5000000 }) });
+      return calcularGastosCompra(precio, {
+        property: input.property,
+        buyer: input.buyer,
+        config: input.config,
+      }).gastos;
+    };
+    expect(ctx(400000).tipo_aplicado).toBe(0.1);
+    expect(ctx(600000).tipo_aplicado).toBe(0.12);
+    // No es progresivo: el 12% cae sobre los 600.000 enteros
+    expect(ctx(600000).itp).toBeCloseTo(600000 * 0.12, 2);
+  });
+
+  it('las modalidades partidas por valor son excluyentes entre si', () => {
+    const config = configDeTest();
+    const joven = config.itp.ccaa[0]!.tipos_reducidos[0]!;
+    joven.limite_valor_inmueble = 180000;
+    config.itp.ccaa[0]!.tipos_reducidos.push({
+      ...joven,
+      codigo: 'joven_primera_vivienda_alto_valor',
+      nombre: 'Jovenes, valor alto',
+      tipo: 0.08,
+      limite_valor_inmueble: null,
+      valor_inmueble_desde: 180000,
+    });
+
+    const comprador = compradorBase({ edad: 27, primera_vivienda_habitual: true, ahorro_disponible: 5000000 });
+    const gastosA = calcularGastosCompra(150000, {
+      property: propiedadBase(),
+      buyer: comprador,
+      config,
+    }).gastos;
+    const gastosB = calcularGastosCompra(250000, {
+      property: propiedadBase(),
+      buyer: comprador,
+      config,
+    }).gastos;
+
+    // Por debajo del corte el 6%; por encima el 8%, no el minimo de los dos.
+    expect(gastosA.tipo_aplicado).toBe(0.06);
+    expect(gastosB.tipo_aplicado).toBe(0.08);
+  });
+
+  it('usa el limite de renta del regimen de declaracion que corresponde', () => {
+    // Fixture familia numerosa: 45.000 individual, 60.000 conjunta
+    const base = { familia_numerosa: 'general' as const, base_imponible_irpf_anual: 50000 };
+
+    const individual = correrT2({ buyer: compradorBase({ ...base, tributacion_irpf: 'individual' }) });
+    const conjunta = correrT2({ buyer: compradorBase({ ...base, tributacion_irpf: 'conjunta' }) });
+
+    expect(individual.gastos?.tipo_aplicado).toBe(0.1); // 50.000 > 45.000: no aplica
+    expect(conjunta.gastos?.tipo_aplicado).toBe(0.04); // 50.000 <= 60.000: si aplica
   });
 
   it('falla ruidosamente si no hay bloque de ITP para la comunidad', () => {

@@ -54,8 +54,9 @@ export function compradorBase(over: Partial<BuyerProfile> = {}): BuyerProfile {
   return {
     edad: 40,
     primera_vivienda_habitual: false,
-    familia_numerosa: false,
+    familia_numerosa: 'no',
     discapacidad_reconocida: false,
+    tributacion_irpf: 'individual',
     base_imponible_irpf_anual: null,
     ahorro_disponible: 60000,
     ingresos_netos_mensuales: 2500,
@@ -115,6 +116,7 @@ export function reformaBase(over: Partial<ReformaPrevista> = {}): ReformaPrevist
     partidas_singulares: [],
     hay_proyecto_cerrado: true,
     destinatario_particular: true,
+    coste_materiales_pct: null,
     ...over,
   };
 }

@@ -1,220 +1,197 @@
 {
-  "_doc": "Tipos de ITP y AJD por CCAA. TODOS los tipos estan a null a proposito. El motor lanza MissingConfigError si necesita un tipo que sigue a null: un ITP mal puesto son 8.000 EUR de error en un piso de 200.000. Rellenar contra BOE / boletin autonomico, poner fuente_url y vigencia_desde, y marcar verificado: true.",
-  "_como_rellenar": "Buscar el texto refundido del impuesto de cada CCAA. Los tipos reducidos listados son PLANTILLAS: hay que confirmar que la modalidad existe en esa CCAA, sus requisitos exactos y sus limites de renta antes de darla por buena. Si una modalidad no existe, borrar la entrada en lugar de dejarla a null.",
-  "version": "0.0.0",
+  "_doc": "Tipos de ITP y AJD por CCAA. La Comunitat Valenciana esta rellenada leyendo el texto consolidado del BOE; el resto siguen a null. El motor lanza MissingConfigError si necesita un tipo que sigue a null.",
+  "_como_rellenar": "Buscar el texto consolidado de la ley de tributos cedidos de la CCAA en la API del BOE (https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/{ID}/texto/bloque/{BLOQUE}, cabecera Accept: application/xml) y tomar la ultima version con fecha_vigencia <= hoy. Los tipos reducidos suelen partirse en dos tramos por valor del inmueble: usar limite_valor_inmueble para el tramo bajo y valor_inmueble_desde para el alto.",
+  "_ojo_tramos_generales": "tipo_general.tramos NO es una escala progresiva. El tipo del tramo se aplica al total de la base imponible.",
+  "version": "1.0.0",
   "ccaa": [
     {
       "ccaa": "Comunitat Valenciana",
-      "tipo_general": null,
+      "_fuente": "Ley 13/1997, de 23 de diciembre, de la Generalitat Valenciana, art. 13. Texto consolidado del BOE (BOE-A-1998-8202), version en vigor desde 2026-07-03, leida el 2026-08-22.",
+      "_cita_tipo_general": "Uno. El 9 % en las adquisiciones de inmuebles, asi como en la constitucion o cesion de derechos reales que recaigan sobre los mismos, salvo los derechos reales de garantia, excepto que sea aplicable alguno de los tipos previstos en los apartados siguientes. No obstante, cuando el valor de los bienes inmuebles transmitidos o del derecho que se constituya o ceda sobre los mismos sea superior a un millon de euros, el tipo aplicable sera el 11 %.",
+      "_ojo_devengo": "El 9 % viene del art. 33 de la Ley 5/2025, de 30 de mayo, y produce efectos para los hechos imponibles devengados desde el 1 de junio de 2026. Antes de esa fecha el tipo general era el 10 %.",
+      "tipo_general": {
+        "tramos": [
+          { "desde": 0, "hasta": 1000000, "tipo": 0.09 },
+          { "desde": 1000000, "hasta": null, "tipo": 0.11 }
+        ],
+        "articulo": "art. 13.Uno Ley 13/1997"
+      },
       "tipo_ajd_obra_nueva": null,
       "tipos_reducidos": [
         {
           "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes menores de 35 anos, primera vivienda habitual",
-          "tipo": null,
+          "nombre": "Jovenes menores de 35 anos, primera vivienda habitual, valor hasta 180.000 EUR",
+          "tipo": 0.06,
           "condiciones": [
-            "edad < 35",
-            "vivienda habitual",
-            "limite de renta por confirmar"
+            "menor de 35 anos",
+            "primera vivienda habitual",
+            "valor del inmueble no superior a 180.000 EUR",
+            "base liquidable general + del ahorro dentro del limite del art. 4.Cuatro parrafo primero"
           ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
+          "limite_edad": 35,
+          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_valor_inmueble": 180000,
+          "valor_inmueble_desde": null,
+          "articulo": "art. 13.Tres.1 Ley 13/1997",
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
+        },
+        {
+          "codigo": "joven_primera_vivienda_alto_valor",
+          "nombre": "Jovenes menores de 35 anos, primera vivienda habitual, valor superior a 180.000 EUR",
+          "tipo": 0.08,
+          "condiciones": [
+            "menor de 35 anos",
+            "primera vivienda habitual",
+            "valor del inmueble superior a 180.000 EUR",
+            "base liquidable general + del ahorro dentro del limite del art. 4.Cuatro parrafo primero"
+          ],
+          "limite_edad": 35,
+          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
           "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
+          "valor_inmueble_desde": 180000,
+          "articulo": "art. 13.Dos.2 Ley 13/1997",
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
         },
         {
           "codigo": "familia_numerosa",
-          "nombre": "Familia numerosa, vivienda habitual",
-          "tipo": null,
+          "nombre": "Familia numerosa o monoparental de categoria general, vivienda habitual, valor hasta 180.000 EUR",
+          "tipo": 0.03,
           "condiciones": [
-            "familia numerosa",
-            "vivienda habitual"
+            "familia numerosa o monoparental",
+            "vivienda habitual",
+            "valor del inmueble no superior a 180.000 EUR",
+            "limite de renta segun categoria y regimen de declaracion"
           ],
           "limite_edad": null,
-          "limite_base_imponible_irpf": null,
+          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
+          "limite_valor_inmueble": 180000,
+          "valor_inmueble_desde": null,
+          "articulo": "art. 13.Cinco.2 Ley 13/1997",
+          "_ojo_categoria_especial": "Para categoria ESPECIAL los limites del art. 4.Cuatro son 35.000 individual y 58.000 conjunta. El motor lo resuelve con el campo familia_numerosa del perfil del comprador.",
+          "limite_base_imponible_irpf_categoria_especial": { "individual": 35000, "conjunta": 58000 },
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
+        },
+        {
+          "codigo": "familia_numerosa_alto_valor",
+          "nombre": "Familia numerosa o monoparental, vivienda habitual, valor superior a 180.000 EUR",
+          "tipo": 0.04,
+          "condiciones": [
+            "familia numerosa o monoparental",
+            "vivienda habitual",
+            "valor del inmueble superior a 180.000 EUR",
+            "limite de renta segun categoria y regimen de declaracion"
+          ],
+          "limite_edad": null,
+          "limite_base_imponible_irpf": { "individual": 30000, "conjunta": 47000 },
           "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
+          "valor_inmueble_desde": 180000,
+          "articulo": "art. 13.Cuatro.1.2 Ley 13/1997",
+          "limite_base_imponible_irpf_categoria_especial": { "individual": 35000, "conjunta": 58000 },
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
         },
         {
           "codigo": "discapacidad",
-          "nombre": "Persona con discapacidad reconocida, vivienda habitual",
-          "tipo": null,
+          "nombre": "Discapacidad fisica o sensorial >= 65 %, o intelectual o mental >= 33 %, vivienda habitual, valor hasta 180.000 EUR",
+          "tipo": 0.03,
           "condiciones": [
-            "grado de discapacidad por confirmar",
-            "vivienda habitual"
+            "grado de discapacidad igual o superior al 65 %, o discapacidad intelectual o mental reconocida de manera permanente igual o superior al 33 %",
+            "vivienda habitual",
+            "valor del inmueble no superior a 180.000 EUR"
+          ],
+          "limite_edad": null,
+          "limite_base_imponible_irpf": null,
+          "limite_valor_inmueble": 180000,
+          "valor_inmueble_desde": null,
+          "articulo": "art. 13.Cinco.3 Ley 13/1997",
+          "_ojo": "El texto no somete esta modalidad a limite de renta, a diferencia de familia numerosa y violencia de genero. El motor NO comprueba el grado de discapacidad: solo sabe si esta reconocida. Confirmar el grado antes de contar con este tipo.",
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
+        },
+        {
+          "codigo": "discapacidad_alto_valor",
+          "nombre": "Discapacidad, vivienda habitual, valor superior a 180.000 EUR",
+          "tipo": 0.04,
+          "condiciones": [
+            "grado de discapacidad igual o superior al 65 %, o intelectual o mental permanente igual o superior al 33 %",
+            "vivienda habitual",
+            "valor del inmueble superior a 180.000 EUR"
           ],
           "limite_edad": null,
           "limite_base_imponible_irpf": null,
           "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
+          "valor_inmueble_desde": 180000,
+          "articulo": "art. 13.Cuatro.1.3 Ley 13/1997",
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
         },
         {
           "codigo": "vpo",
-          "nombre": "Vivienda de proteccion publica, vivienda habitual",
-          "tipo": null,
+          "nombre": "VPO de regimen general, primera vivienda habitual, valor hasta 180.000 EUR",
+          "tipo": 0.06,
           "condiciones": [
-            "calificacion de VPO vigente",
-            "vivienda habitual"
+            "vivienda de proteccion oficial de regimen general",
+            "primera vivienda habitual",
+            "valor del inmueble no superior a 180.000 EUR"
           ],
           "limite_edad": null,
           "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
+          "limite_valor_inmueble": 180000,
+          "valor_inmueble_desde": null,
+          "articulo": "art. 13.Tres.2 Ley 13/1997",
+          "_ojo": "La VPO con precio maximo vigente es un bloqueante del motor: el precio lo fija la administracion. Este tipo queda registrado por completitud.",
+          "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+          "verificado": true
         }
       ],
-      "vigencia_desde": null,
-      "fuente_url": "",
-      "verificado": false
+      "vigencia_desde": "2026-07-03",
+      "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-8202",
+      "verificado": true
     },
     {
       "ccaa": "Comunidad de Madrid",
-      "tipo_general": null,
+      "tipo_general": { "tramos": [], "articulo": null },
       "tipo_ajd_obra_nueva": null,
-      "tipos_reducidos": [
-        {
-          "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes, primera vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "edad por confirmar",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        },
-        {
-          "codigo": "familia_numerosa",
-          "nombre": "Familia numerosa, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "familia numerosa",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        }
-      ],
+      "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
       "verificado": false
     },
     {
       "ccaa": "Cataluna",
-      "tipo_general": null,
+      "tipo_general": { "tramos": [], "articulo": null },
       "tipo_ajd_obra_nueva": null,
-      "tipos_reducidos": [
-        {
-          "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "edad por confirmar",
-            "vivienda habitual",
-            "limite de renta por confirmar"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        },
-        {
-          "codigo": "familia_numerosa",
-          "nombre": "Familia numerosa, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "familia numerosa",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        }
-      ],
+      "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
       "verificado": false
     },
     {
       "ccaa": "Andalucia",
-      "tipo_general": null,
+      "tipo_general": { "tramos": [], "articulo": null },
       "tipo_ajd_obra_nueva": null,
-      "tipos_reducidos": [
-        {
-          "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "edad por confirmar",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        }
-      ],
+      "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
       "verificado": false
     },
     {
       "ccaa": "Region de Murcia",
-      "tipo_general": null,
+      "tipo_general": { "tramos": [], "articulo": null },
       "tipo_ajd_obra_nueva": null,
-      "tipos_reducidos": [
-        {
-          "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "edad por confirmar",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        }
-      ],
+      "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
       "verificado": false
     },
     {
       "ccaa": "Aragon",
-      "tipo_general": null,
+      "tipo_general": { "tramos": [], "articulo": null },
       "tipo_ajd_obra_nueva": null,
-      "tipos_reducidos": [
-        {
-          "codigo": "joven_primera_vivienda",
-          "nombre": "Jovenes, vivienda habitual",
-          "tipo": null,
-          "condiciones": [
-            "edad por confirmar",
-            "vivienda habitual"
-          ],
-          "limite_edad": null,
-          "limite_base_imponible_irpf": null,
-          "limite_valor_inmueble": null,
-          "fuente_url": "",
-          "verificado": false
-        }
-      ],
+      "tipos_reducidos": [],
       "vigencia_desde": null,
       "fuente_url": "",
       "verificado": false
@@ -222,9 +199,10 @@
   ],
   "obra_nueva": {
     "_doc": "Primera transmision: IVA + AJD, no ITP. El tipo de IVA de vivienda es estatal; el de AJD es autonomico y va en tipo_ajd_obra_nueva de cada CCAA.",
+    "_fuente": "Art. 91.Uno.1.7 de la Ley 37/1992 del IVA, texto consolidado del BOE (BOE-A-1992-28740), leido el 2026-08-22. PENDIENTE: confirmar el subapartado exacto de entregas de edificios aptos para vivienda antes de dar el 10 % por bueno.",
     "iva_vivienda": null,
     "iva_vpo_regimen_especial": null,
-    "fuente_url": "",
+    "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
     "verificado": false
   }
 }

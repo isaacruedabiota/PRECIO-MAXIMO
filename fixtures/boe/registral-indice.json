@@ -1,0 +1,150 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": [
+        {
+            "bloque": [
+                {
+                    "id": "preambulo",
+                    "titulo": "",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/preambulo"
+                },
+                {
+                    "id": "a1",
+                    "titulo": "Art\u00edculo 1",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/a1"
+                },
+                {
+                    "id": "art2",
+                    "titulo": "Art 2",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/art2"
+                },
+                {
+                    "id": "dd",
+                    "titulo": "DISPOSICI\u00d3N DEROGATORIA",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/dd"
+                },
+                {
+                    "id": "df",
+                    "titulo": "DISPOSICI\u00d3N FINAL",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/df"
+                },
+                {
+                    "id": "ani",
+                    "titulo": "ANEXO I",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/ani"
+                },
+                {
+                    "id": "numero1",
+                    "titulo": "N\u00famero 1",
+                    "fecha_actualizacion": "20020624",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero1"
+                },
+                {
+                    "id": "numero2",
+                    "titulo": "N\u00famero 2",
+                    "fecha_actualizacion": "20111117",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero2"
+                },
+                {
+                    "id": "numero3",
+                    "titulo": "N\u00famero 3",
+                    "fecha_actualizacion": "20020624",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero3"
+                },
+                {
+                    "id": "numero4",
+                    "titulo": "N\u00famero 4",
+                    "fecha_actualizacion": "20020624",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero4"
+                },
+                {
+                    "id": "numero5",
+                    "titulo": "N\u00famero 5",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero5"
+                },
+                {
+                    "id": "numero6",
+                    "titulo": "N\u00famero 6",
+                    "fecha_actualizacion": "20020624",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/numero6"
+                },
+                {
+                    "id": "anii",
+                    "titulo": "ANEXO II",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/anii"
+                },
+                {
+                    "id": "primera",
+                    "titulo": "Primera",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/primera"
+                },
+                {
+                    "id": "segunda",
+                    "titulo": "Segunda",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/segunda"
+                },
+                {
+                    "id": "tercera",
+                    "titulo": "Tercera",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/tercera"
+                },
+                {
+                    "id": "cuarta",
+                    "titulo": "Cuarta",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/cuarta"
+                },
+                {
+                    "id": "quinta",
+                    "titulo": "Quinta",
+                    "fecha_actualizacion": "20111117",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/quinta"
+                },
+                {
+                    "id": "sexta",
+                    "titulo": "Sexta",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/sexta"
+                },
+                {
+                    "id": "septima",
+                    "titulo": "S\u00e9ptima",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/septima"
+                },
+                {
+                    "id": "octava",
+                    "titulo": "Octava",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/octava"
+                },
+                {
+                    "id": "novena",
+                    "titulo": "Novena",
+                    "fecha_actualizacion": "20111117",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/novena"
+                },
+                {
+                    "id": "firma",
+                    "titulo": "",
+                    "fecha_actualizacion": "19891128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-1989-28112\/texto\/bloque\/firma"
+                }
+            ]
+        }
+    ]
+}

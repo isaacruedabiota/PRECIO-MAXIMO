@@ -89,27 +89,27 @@
     "anio_corte_edificio_antiguo": 1970
   },
   "iva": {
-    "_doc": "Art. 91 LIVA: tipo reducido en obras de renovacion y reparacion de vivienda si se cumplen las tres condiciones. Si no se cumplen, tipo general. CONFIRMAR ambos tipos y la redaccion vigente del articulo.",
-    "tipo_reducido_rehabilitacion": null,
-    "tipo_general": null,
+    "_doc": "Tipo reducido en ejecuciones de obra de renovacion y reparacion en viviendas, art. 91.Uno.2.10 de la Ley 37/1992. Si no se cumplen las tres condiciones, tipo general del art. 90.Uno.",
+    "_fuente": "Textos consolidados del BOE (BOE-A-1992-28740) leidos el 2026-08-22. Art. 91 en vigor desde 2024-12-22; art. 90 desde 2012-09-01.",
+    "_cita": "10. Las ejecuciones de obra de renovacion y reparacion realizadas en edificios o partes de los mismos destinados a viviendas, cuando se cumplan los siguientes requisitos: a) Que el destinatario sea persona fisica, no actue como empresario o profesional y utilice la vivienda a que se refieren las obras para su uso particular. No obstante lo dispuesto en el parrafo anterior, tambien se comprenderan en este numero las citadas ejecuciones de obra cuando su destinatario sea una comunidad de propietarios. b) Que la construccion o rehabilitacion de la vivienda a que se refieren las obras haya concluido al menos dos anos antes del inicio de estas ultimas. c) Que la persona que realice las obras no aporte materiales para su ejecucion o, en el caso de que los aporte, su coste no exceda del 40 por ciento de la base imponible de la operacion.",
+    "_correccion_al_brief": "El brief decia que la condicion era que el coste de la obra no superase el doble del valor catastral. El texto vigente no dice eso: la tercera condicion es que los MATERIALES aportados por quien ejecuta la obra no superen el 40 % de la base imponible. La regla del doble del valor catastral no aparece en el art. 91.Uno.2.10. Por eso el campo condicion_coste_vs_valor_catastral se ha eliminado y en su lugar esta limite_materiales_pct.",
+    "tipo_reducido_rehabilitacion": 0.1,
+    "tipo_general": 0.21,
     "antiguedad_minima_anios": {
       "min": 2,
       "max": 2,
       "sugerido": 2,
-      "valor": null
+      "valor": 2
     },
+    "limite_materiales_pct": 0.4,
     "condiciones_tipo_reducido": [
-      "vivienda con al menos 2 anos de antiguedad desde su construccion o rehabilitacion",
-      "destinatario particular, no empresario ni profesional",
-      "el coste de los materiales aportados no supera el limite legal sobre la base imponible"
+      "destinatario persona fisica que no actua como empresario o profesional y usa la vivienda para uso particular, o comunidad de propietarios",
+      "construccion o rehabilitacion de la vivienda concluida al menos dos anos antes del inicio de las obras",
+      "los materiales aportados por quien ejecuta la obra no exceden del 40 % de la base imponible de la operacion"
     ],
-    "condicion_coste_vs_valor_catastral": {
-      "_doc": "Regla del brief: el coste de la obra no supera el doble del valor catastral. CONFIRMAR contra la redaccion vigente del art. 91 LIVA antes de aplicarla.",
-      "multiplicador_valor_catastral": null,
-      "verificado": false
-    },
-    "fuente_url": "",
-    "verificado": false
+    "articulo": "art. 91.Uno.2.10 y art. 90.Uno Ley 37/1992",
+    "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+    "verificado": true
   },
   "margen_seguridad": {
     "_doc": "Colchon frente a desviaciones de obra, como porcentaje del COSTE DE OBRA con imprevistos e IVA ya dentro. Sobre el valor del inmueble (que era la formulacion original del brief) el margen no guardaba proporcion con la obra: un lavado de cara de 17.000 EUR cargaba lo mismo que una reforma integral de 105.000. Ver ADR-012.",

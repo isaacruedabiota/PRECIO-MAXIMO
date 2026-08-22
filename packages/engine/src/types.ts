@@ -245,6 +245,13 @@ export interface ReformaPrevista {
    * modo flipping deja de cumplirse.
    */
   destinatario_particular: boolean;
+  /**
+   * Coste de los materiales que aporta quien ejecuta la obra, como fraccion de
+   * la base imponible. Tercera condicion del tipo reducido de IVA
+   * (art. 91.Uno.2.10 LIVA): por encima del limite legal, tipo general.
+   * null = no se sabe, y entonces se aplica el tipo general con aviso.
+   */
+  coste_materiales_pct: number | null;
 }
 
 // ---------------------------------------------------------------------------
@@ -318,11 +325,19 @@ export interface CondicionesHipoteca {
 
 export type Objetivo = 'residencia' | 'inversion_alquiler' | 'inversion_flipping';
 
+/**
+ * Categoria de familia numerosa o monoparental. Importa porque los limites de
+ * renta de las bonificaciones cambian entre general y especial.
+ */
+export type CategoriaFamiliaNumerosa = 'no' | 'general' | 'especial';
+
 export interface BuyerProfile {
   edad: number;
   primera_vivienda_habitual: boolean;
-  familia_numerosa: boolean;
+  familia_numerosa: CategoriaFamiliaNumerosa;
   discapacidad_reconocida: boolean;
+  /** Los limites de renta de las bonificaciones difieren segun el regimen. */
+  tributacion_irpf: 'individual' | 'conjunta';
   /** Base imponible IRPF del ultimo ejercicio. Muchos tipos reducidos de ITP tienen limite de renta. */
   base_imponible_irpf_anual: number | null;
 

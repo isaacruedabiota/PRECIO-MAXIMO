@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque id="numero2" tipo="precepto" titulo="Número 2">
+      <version id_norma="BOE-A-1989-28112" fecha_publicacion="19891128" fecha_vigencia="19891129">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo_2">a) Si el valor de la finca o derecho no excede de 1.000.000 de pesetas: 4.000.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000-001 y 10.000.000 de pesetas: 1,25 por 10.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000.001 y 25.000.000 de pesetas: 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,30 por 100.</p>
+        <p class="parrafo">f) Por el valor que exceda de 100.000.001 pesetas: 0,20 por 1.000.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 1.000 pesetas.</p>
+      </version>
+      <version id_norma="BOE-A-1996-28544" fecha_publicacion="19961221" fecha_vigencia="19961222">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo_2">a) Si el valor de la finca o derecho no excede de 1.000.000 de pesetas: 4.000.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000-001 y 10.000.000 de pesetas: 1,25 por 10.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000.001 y 25.000.000 de pesetas: 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,30 por 100.</p>
+        <p class="parrafo">f) Por el valor que exceda de 100.000.001 pesetas: 0,20 por 1.000.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) Las subrogaciones, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el párrafo 1 del mencionado artículo 5, tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra de capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 1.000 pesetas.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2000-11836" fecha_publicacion="20000624" fecha_vigencia="20000625">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo_2">a) Si el valor de la finca o derecho no excede de 1.000.000 de pesetas: 4.000.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000-001 y 10.000.000 de pesetas: 1,25 por 10.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000.001 y 25.000.000 de pesetas: 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,30 por 100.</p>
+        <p class="parrafo">f) Por el valor que exceda de 100.000.001 pesetas: 0,20 por 1.000.</p>
+        <p class="parrafo">En todo caso, el arancel global aplicable regulado en este número no podrá superar las 363.000 pesetas.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) Las subrogaciones, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el párrafo 1 del mencionado artículo 5, tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra de capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 1.000 pesetas.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica la letra f) del apartado 1 por el art. 36.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2001-24394" fecha_publicacion="20011221" fecha_vigencia="20020110">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo">a) Si el valor de la finca o derecho no excede de 6.010,12 euros: 24,040484 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,25 por 1.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,30 por 1.000.</p>
+        <p class="parrafo">f) Por el valor que exceda de 601.012,11 euros: 0,20 por 1.000.</p>
+        <p class="parrafo">En todo caso, el arancel global aplicable regulado en el número 2 del arancel no podrá superar los 2.181,673939 euros.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) Las subrogaciones, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el párrafo 1 del mencionado artículo 5 tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 6,010121 euros.</p>
+        <blockquote>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 por el arts. 8 de la Instrucción de 14 de diciembre de 2001.<a class="refPost">Ref. BOE-A-2001-24394</a>.</p>
+          <p class="nota_pie">Se modifica la letra f) del apartado 1 por el art. 36.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2002-12290" fecha_publicacion="20020624" fecha_vigencia="20020714">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo">a) Si el valor de la finca o derecho no excede de 6.010,12 euros 24,040484 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros, 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros, 1,25 por 1.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros, 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros, 0,30 por 1.000.</p>
+        <p class="parrafo">f) Por el valor que exceda de 601.012,10 euros 0,20 por 1.000.</p>
+        <p class="parrafo">En todo caso, el arancel global aplicable regulado en el número 2 del arancel no podrá superar los 2.181,673939 euros.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) La subrogación, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el c) párrafo 1 del mencionado artículo 5, tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 6,010121 euros.</p>
+        <blockquote>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 por el art. 8 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 por el art. 8 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2002-24394</a>.</p>
+          <p class="nota_pie">Se modifica la letra f) del apartado 1 por el art. 36.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2010-8228" fecha_publicacion="20100524" fecha_vigencia="20100525">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo">a) Si el valor de la finca o derecho no excede de 6.010,12 euros 24,040484 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros, 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros, 1,25 por 1.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros, 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros, 0,30 por 1.000.</p>
+        <p class="parrafo">f) Por el valor que exceda de 601.012,10 euros 0,20 por 1.000.</p>
+        <p class="parrafo">En todo caso, el arancel global aplicable regulado en el número 2 del arancel no podrá superar los 2.181,673939 euros.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) La subrogación, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el c) párrafo 1 del mencionado artículo 5, tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 6,010121 euros.</p>
+        <blockquote>
+          <p class="nota_pie">Véase la disposición adicional 8.1.2 del Real Decreto-ley 8/2010 de 20 de mayo. <a class="refPost">Ref. BOE-A-2010-8228</a>., que aplica una rebaja del 5% al importe de los derechos de los registradores, previsto en el apartado 1.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 y la letra c) del apartado 4 por los arts. 8 y 9 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 y se modifica la letra c) del apartado 4 por los arts. 8 y 9 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2002-24394</a>.</p>
+          <p class="nota_pie">Se modifica la letra f) del apartado 1 por el art. 36.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2011-17962" fecha_publicacion="20111117" fecha_vigencia="20111118">
+        <p class="articulo">Número 2. Inscripciones.</p>
+        <p class="parrafo">1. Por la inscripción, anotación o cancelación de cada finca o derecho, se percibirán las cantidades que fijan las siguientes escalas:</p>
+        <p class="parrafo_2">a) Si el valor de la finca o derecho no excede de 6.010,12 euros, 24,040484 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros, 1,75 por 1.000.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros, 1,25 por 1.000.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros, 0,75 por 1.000.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros, 0,30 por 1.000.</p>
+        <p class="parrafo">f) Por el valor que exceda de 601.012,10 euros 0,20 por 1.000.</p>
+        <p class="parrafo">g) El arancel aplicable a la inscripción de escrituras de subrogación, novación modificativa y cancelación de créditos o préstamos hipotecarios será el contemplado en este apartado, tomando como base el capital pendiente de amortizar reducido en un 90 por 100 y con independencia de que la operación se integre o no en un proceso de subrogación o novación hipotecaria.</p>
+        <p class="parrafo">En todo caso, el arancel global aplicable regulado en el número 2 del arancel no podrá superar los 2.181,673939 euros ni ser inferior a 24,040484 euros.</p>
+        <p class="parrafo">En todos los supuestos de este número se aplicará una rebaja del 5 por 100 del importe del arancel a percibir por el registrador de la propiedad. Esta rebaja también se llevará a cabo, en todo caso, en los supuestos previstos en los apartados siguientes de este número y con carácter adicional a los demás descuentos y rebajas previstos en la normativa vigente y sin que resulte de aplicación a la misma lo dispuesto en el apartado 6 de este número.</p>
+        <p class="parrafo_2">2. Los derechos a que se refiere este número del arancel se reducirán al 75 por 100 de su impone en los préstamos con garantía hipotecada y al 70 por 100 en los siguientes casos:</p>
+        <p class="parrafo_2">a) En las agrupaciones, segregaciones y divisiones de fincas. En las agrupaciones y agregaciones se tomará como base el valor de la finca resultante; en las segregaciones, el valor de la finca segregada, y en las divisiones, el valor de cada una de las fincas resultantes.</p>
+        <p class="parrafo">Los asientos que se practiquen en las folios de las fincas originarias no devengarán honorarios.</p>
+        <p class="parrafo">b) En las primeras inscripciones de cada propiedad separada en los casos de propiedad horizontal u otros regímenes de comunidad.</p>
+        <p class="parrafo">c) En la constitución y cancelación de hipotecas y condiciones resolutorias cuando tuvieren por finalidad garantizar el precio aplazado en las compraventas.</p>
+        <p class="parrafo">d) En los asientos de conversión, tanto de inscripciones de posesión como de anotaciones preventivas por defecto subsanable.</p>
+        <p class="parrafo">e) En los asientos practicados a consecuencia de rectificación de títulos ya inscritos, siempre que ésta se solicite dentro de los tres meses siguientes a la fecha del asiento rectificado y no se modifique la titularidad de los derechos inscritos.</p>
+        <p class="parrafo_2">3. Los derechos de este número se bonificarán en un 50 por 100 cuando legalmente resulten obligadas al pago:</p>
+        <p class="parrafo_2">a) Las Administraciones Públicas, comprendiendo la Estatal, Autonómica, Provincial, Local o sus Organismo autónomos.</p>
+        <p class="parrafo">b) Los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo_2">4. Los derechos de este número se bonificarán igualmente en un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Los préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">b) Las segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">c) La subrogación, con o sin simultánea novación, y las novaciones modificativas de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, en cuanto al asiento de inscripción previsto en el último párrafo de los artículos 5 y 9 de la citada Ley. A estos efectos la nota marginal a que se refiere el c) párrafo 1 del mencionado artículo 5, tendrá la consideración de nota marginal de referencia. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">5. Quedan además a salvo las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por Ley.</p>
+        <p class="parrafo">6. Cuando en un mismo asiento concurriesen dos o más reducciones o bonificaciones de las señaladas en los apartados 1 y 2 anteriores, se aplicará de entre ellas la más favorable para el obligado al pago.</p>
+        <p class="parrafo">7. En la inscripción del régimen de propiedad horizontal o de cualquier otro sistema de comunidad, no constituirá concepto minutable la existencia de estatutos o reglas especiales que configuren dicho régimen.</p>
+        <p class="parrafo">No obstante, cuando los estatutos o reglas especiales del régimen de propiedad horizontal o de comunidad se establecieren con posterioridad a la inscripción del título constitutivo de dicho régimen, se percibirán los derechos del número 2 de este Arancel, reducidos en un 70 por 100 de su impone y sobre la base de la suma de los valores de los elementos a que la modificación afecte.</p>
+        <p class="parrafo">8. Cuando las operaciones a que se refieren el apanado anterior impliquen asientos en las folios separados ya abiertos, aquéllas no darán lugar a concepto minutable.</p>
+        <p class="parrafo">9. La desafectación de un elemento común devengará los derechos que correspondan por segregación o individualización como finca independiente sin considerar la repercusión que produzca en las demás cuotas.</p>
+        <p class="parrafo">10. En las inscripciones de obras públicas en que haya de practicarse inscripción principal y otras de referencia, se cobrarán por aquélla los derechos correspondientes según las escalas del número 2 del Arancel, y por cada una de las otras 6,010121 euros.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifiica el apartado 1 por el art. 2.1 del Real Decreto 1612/2011, de 14 de noviembre. <a class="refPost">Ref. BOE-A-2011-17962</a>.</p>
+          <p class="nota_pie">Véase la disposición adicional 8.1.2 del Real Decreto-ley 8/2010 de 20 de mayo. <a class="refPost">Ref. BOE-A-2010-8228</a>., que aplica una rebaja del 5% al importe de los derechos de los registradores, previsto en el apartado 1.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 y la letra c) del apartado 4 por los arts. 8 y 9 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas en los apartados 1 y 10 y se modifica la letra c) del apartado 4 por los arts. 8 y 9 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2002-24394</a>.</p>
+          <p class="nota_pie">Se modifica la letra f) del apartado 1 por el art. 36.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade la letra c) al apartado 4 por el art. 2 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+    </bloque>
+  </data>
+</response>

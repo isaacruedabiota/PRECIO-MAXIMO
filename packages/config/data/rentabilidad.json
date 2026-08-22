@@ -41,11 +41,20 @@
       "valor": 0.045
     },
     "irpf": {
-      "_doc": "Reduccion del rendimiento neto del capital inmobiliario por arrendamiento de vivienda. La Ley 12/2023 sustituyo la reduccion unica anterior por un abanico de porcentajes segun el caso. CONFIRMAR cual aplica antes de usarlo.",
-      "reduccion_general": null,
+      "_doc": "Reduccion del rendimiento neto del capital inmobiliario por arrendamiento de vivienda, art. 23.2 LIRPF en la redaccion dada por la Ley 12/2023.",
+      "_fuente": "Texto consolidado del BOE (BOE-A-2006-20764), art. 23, version en vigor desde 2024-01-01, leido el 2026-08-22.",
+      "_cita": "a) En un 90 por ciento cuando se hubiera formalizado por el mismo arrendador un nuevo contrato de arrendamiento sobre una vivienda situada en una zona de mercado residencial tensionado, en el que la renta inicial se hubiera rebajado en mas de un 5 por ciento en relacion con la ultima renta del anterior contrato. b) En un 70 por ciento cuando [...] el contribuyente hubiera alquilado por primera vez la vivienda, siempre que esta se encuentre situada en una zona de mercado residencial tensionado y el arrendatario tenga una edad comprendida entre 18 y 35 anos [...]. c) En un 60 por ciento cuando [...] la vivienda hubiera sido objeto de una actuacion de rehabilitacion [...] que hubiera finalizado en los dos anos anteriores a la fecha de la celebracion del contrato. d) En un 50 por ciento, en cualquier otro caso.",
+      "_ojo": "El caso por defecto es el 50 %, no el 60 % de la redaccion anterior a la Ley 12/2023. Solo se aplica a contratos celebrados desde el 1 de enero de 2024.",
+      "reduccion_general": 0.5,
+      "reducciones_por_caso": {
+        "zona_tensionada_renta_rebajada": 0.9,
+        "zona_tensionada_inquilino_joven": 0.7,
+        "rehabilitada_ultimos_dos_anios": 0.6
+      },
       "tipo_marginal_estimado": null,
-      "fuente_url": "",
-      "verificado": false
+      "articulo": "art. 23.2 Ley 35/2006 (LIRPF)",
+      "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+      "verificado": true
     },
     "zona_tensionada": {
       "_doc": "Si el municipio esta declarado zona de mercado residencial tensionado, el indice de referencia limita la renta de los nuevos contratos. Es un input de T4, no un adorno: puede tumbar la operacion entera.",

@@ -155,7 +155,7 @@ export function calcularT3(ctx: ContextoT3): ResultadoT3 {
   // -------------------------------------------------------------------------
   // IVA: art. 91 LIVA. Se modelan los dos casos y se avisa de cual aplica.
   // -------------------------------------------------------------------------
-  const { tipo, cumpleArt91, motivos } = resolverIvaReforma(ctx, costeConImprevistos, avisos);
+  const { tipo, cumpleArt91, motivos } = resolverIvaReforma(ctx, avisos);
 
   const tipoGeneral = requerido(
     conf.iva.tipo_general,
@@ -304,7 +304,6 @@ export function calcularT3(ctx: ContextoT3): ResultadoT3 {
  */
 function resolverIvaReforma(
   ctx: ContextoT3,
-  costeSinIva: number,
   avisos: Aviso[],
 ): { tipo: number; cumpleArt91: boolean; motivos: string[] } {
   const { property, config, fecha_calculo, reforma } = ctx;
@@ -333,43 +332,42 @@ function resolverIvaReforma(
     motivos.push('El destinatario de la obra no actua como particular.');
   }
 
-  // (3) Limite del coste frente al valor catastral
-  const multiplicador = conf.iva.condicion_coste_vs_valor_catastral.multiplicador_valor_catastral;
-  if (multiplicador === null) {
-    motivos.push('No se ha comprobado el limite de coste frente al valor catastral: falta el multiplicador.');
+  // (3) Los materiales que aporte quien ejecuta la obra no pueden superar el
+  // limite legal sobre la base imponible de la operacion.
+  const limiteMateriales = requerido(
+    conf.iva.limite_materiales_pct,
+    'reforma.iva.limite_materiales_pct',
+    'Limite del coste de los materiales aportados por quien ejecuta la obra, como fraccion de la base ' +
+      'imponible (art. 91.Uno.2.10 LIVA).',
+  );
+  const materiales = reforma?.coste_materiales_pct ?? null;
+
+  if (materiales === null) {
+    cumple = false;
+    motivos.push('No se sabe que parte del presupuesto son materiales aportados por el contratista.');
     avisos.push(
       aviso(
         'atencion',
-        'LIMITE_IVA_SIN_COMPROBAR',
-        'No se ha verificado el limite de coste del art. 91 LIVA',
-        'reforma.iva.condicion_coste_vs_valor_catastral.multiplicador_valor_catastral sigue a null, asi que ' +
-          'esa condicion no se ha evaluado. Confirma la redaccion vigente del articulo antes de dar por ' +
-          'bueno el tipo reducido.',
-        'Art. 91 de la Ley 37/1992 del IVA',
+        'MATERIALES_SIN_DESGLOSAR',
+        'El presupuesto de obra no desglosa materiales',
+        `El tipo reducido de IVA exige que los materiales que aporte quien ejecuta la obra no pasen del ` +
+          `${(limiteMateriales * 100).toFixed(0)} % de la base imponible. Sin ese desglose se ha aplicado el ` +
+          'tipo general, que encarece la reforma. Pidele al contratista que separe materiales y mano de obra ' +
+          'en el presupuesto.',
+        'Art. 91.Uno.2.10 de la Ley 37/1992 del IVA',
       ),
     );
-  } else if (property.valor_catastral === null) {
+  } else if (materiales > limiteMateriales) {
     cumple = false;
-    motivos.push('No hay valor catastral para comprobar el limite de coste.');
-    avisos.push(
-      aviso(
-        'atencion',
-        'SIN_VALOR_CATASTRAL',
-        'Falta el valor catastral',
-        'Sin el valor catastral no se puede comprobar si la obra entra en el tipo reducido de IVA. ' +
-          'Se ha aplicado el tipo general, que encarece la reforma. Lo tienes en el recibo del IBI.',
-      ),
+    motivos.push(
+      `Los materiales son el ${(materiales * 100).toFixed(0)} % de la base, por encima del limite del ` +
+        `${(limiteMateriales * 100).toFixed(0)} %.`,
     );
   } else {
-    const limite = property.valor_catastral * multiplicador;
-    if (costeSinIva > limite) {
-      cumple = false;
-      motivos.push(
-        `El coste de la obra (${costeSinIva.toFixed(0)} EUR) supera el limite de ${limite.toFixed(0)} EUR.`,
-      );
-    } else {
-      motivos.push(`El coste esta por debajo del limite de ${limite.toFixed(0)} EUR.`);
-    }
+    motivos.push(
+      `Los materiales son el ${(materiales * 100).toFixed(0)} % de la base, dentro del limite del ` +
+        `${(limiteMateriales * 100).toFixed(0)} %.`,
+    );
   }
 
   if (!conf.iva.verificado) {

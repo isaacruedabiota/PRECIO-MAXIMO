@@ -1,33 +1,61 @@
 {
-  "_doc": "Gastos de compraventa distintos del impuesto. Notaria y registro son aranceles escalados por tramos (reales decretos de 1989, con reducciones posteriores), no un porcentaje plano: por eso T2 se resuelve numericamente y no despejando.",
-  "_como_rellenar": "Cargar los tramos del arancel vigente. Cada tramo aplica su tipo sobre la parte de base que cae dentro de el, mas la cuota fija. Mientras 'tramos' este vacio, el motor lanza MissingConfigError.",
-  "version": "0.0.0",
+  "_doc": "Gastos de compraventa distintos del impuesto. Notaria y registro son aranceles escalados por tramos: cada tipo se aplica solo a la parte de base que cae dentro de su tramo, mas una cuota fija de partida. Por eso el coste de compra no es proporcional al precio y T2 se resuelve numericamente.",
+  "_fuente": "Textos consolidados del BOE leidos el 2026-08-22 via la API de legislacion consolidada.",
+  "version": "1.0.0",
   "notaria": {
-    "_doc": "Arancel notarial por la escritura de compraventa. Escalado sobre el valor del inmueble.",
-    "tramos": [],
-    "cuota_fija_base": null,
+    "_doc": "Arancel notarial por la escritura de compraventa (documentos de cuantia).",
+    "_fuente": "RD 1426/1989, de 17 de noviembre, anexo I, numero 2. BOE-A-1989-28111, version en vigor desde 2010-05-25.",
+    "_cita": "Por los instrumentos de cuantia se percibiran los derechos que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala: a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros. b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil. c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil. d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil. e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil. f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.",
+    "tramos": [
+      { "desde": 6010.12, "hasta": 30050.61, "tipo": 0.0045 },
+      { "desde": 30050.61, "hasta": 60101.21, "tipo": 0.0015 },
+      { "desde": 60101.21, "hasta": 150253.03, "tipo": 0.001 },
+      { "desde": 150253.03, "hasta": 601012.1, "tipo": 0.0005 },
+      { "desde": 601012.1, "hasta": 6010121.04, "tipo": 0.0003 }
+    ],
+    "cuota_fija_base": 90.151816,
+    "rebaja": 0.05,
+    "_cita_rebaja": "Nota del texto consolidado: 'que aplica una rebaja del 5% al importe de los derechos notariales resultantes de la aplicacion del numero 2'.",
+    "minimo_eur": null,
+    "maximo_eur": null,
+    "iva_aplicable": 0.21,
     "suplidos_y_copias": {
+      "_doc": "Copias autorizadas, simples y suplidos. Precio libre, no arancel: es la parte que mas varia de una notaria a otra.",
       "min": 60,
       "max": 200,
       "sugerido": 120,
-      "valor": 120
+      "valor": 120,
+      "verificado": false
     },
-    "iva_aplicable": null,
-    "fuente_url": "",
-    "vigencia_desde": null,
-    "verificado": false
+    "articulo": "RD 1426/1989, anexo I, numero 2",
+    "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-28111",
+    "vigencia_desde": "2010-05-25",
+    "verificado": true
   },
   "registro": {
-    "_doc": "Arancel del registrador de la propiedad por la inscripcion. Escalado sobre el valor del inmueble.",
-    "tramos": [],
-    "cuota_fija_base": null,
-    "iva_aplicable": null,
-    "fuente_url": "",
-    "vigencia_desde": null,
-    "verificado": false
+    "_doc": "Arancel del registrador de la propiedad por la inscripcion.",
+    "_fuente": "RD 1427/1989, de 17 de noviembre, anexo I, numero 2. BOE-A-1989-28112, version en vigor desde 2011-11-18.",
+    "_cita": "Por la inscripcion, anotacion o cancelacion de cada finca o derecho, se percibiran las cantidades que fijan las siguientes escalas: a) Si el valor de la finca o derecho no excede de 6.010,12 euros, 24,040484 euros. b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros, 1,75 por 1.000. c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros, 1,25 por 1.000. d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros, 0,75 por 1.000. e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros, 0,30 por 1.000. f) Por el valor que exceda de 601.012,10 euros 0,20 por 1.000.",
+    "_cita_topes": "En todo caso, el arancel global aplicable regulado en el numero 2 del arancel no podra superar los 2.181,673939 euros ni ser inferior a 24,040484 euros. En todos los supuestos de este numero se aplicara una rebaja del 5 por 100 del importe del arancel a percibir por el registrador de la propiedad.",
+    "tramos": [
+      { "desde": 6010.12, "hasta": 30050.61, "tipo": 0.00175 },
+      { "desde": 30050.61, "hasta": 60101.21, "tipo": 0.00125 },
+      { "desde": 60101.21, "hasta": 150253.03, "tipo": 0.00075 },
+      { "desde": 150253.03, "hasta": 601012.1, "tipo": 0.0003 },
+      { "desde": 601012.1, "hasta": null, "tipo": 0.0002 }
+    ],
+    "cuota_fija_base": 24.040484,
+    "rebaja": 0.05,
+    "minimo_eur": 24.040484,
+    "maximo_eur": 2181.673939,
+    "iva_aplicable": 0.21,
+    "articulo": "RD 1427/1989, anexo I, numero 2",
+    "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-28112",
+    "vigencia_desde": "2011-11-18",
+    "verificado": true
   },
   "gestoria": {
-    "_doc": "Honorarios de gestoria. Precio libre de mercado, no arancel.",
+    "_doc": "Honorarios de gestoria. Precio libre de mercado, no arancel: no hay fuente oficial que verificar.",
     "min": 300,
     "max": 500,
     "sugerido": 400,
@@ -53,9 +81,10 @@
     "verificado": false
   },
   "gastos_hipoteca_a_cargo_del_comprador": {
-    "_doc": "Desde la Ley 5/2019 de credito inmobiliario, notaria, registro, gestoria y AJD de la hipoteca los paga el prestamista. Al comprador solo le queda la tasacion y su copia de la escritura. Confirmar antes de dar por bueno.",
-    "aplica": null,
-    "fuente_url": "",
+    "_doc": "Desde la Ley 5/2019 de contratos de credito inmobiliario, los gastos de constitucion de la hipoteca (notaria, gestoria, registro y AJD del prestamo) los paga el prestamista. Al comprador solo le queda la tasacion y la copia de la escritura que pida.",
+    "_pendiente": "PENDIENTE DE VERIFICAR contra el art. 14.1.e de la Ley 5/2019. Se deja en false porque es lo que dice la norma segun la practica habitual, pero no se ha leido el texto.",
+    "aplica": false,
+    "fuente_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-3814",
     "verificado": false
   }
 }

@@ -33,6 +33,15 @@ const vc = valorConfigurableSchema;
 // itp.json
 // ---------------------------------------------------------------------------
 
+/**
+ * Limite de renta de una bonificacion. La normativa suele dar dos cifras segun
+ * el regimen de declaracion, y usar la que no toca decide mal la bonificacion.
+ */
+export const limiteRentaSchema = z.looseObject({
+  individual: z.number().nullable(),
+  conjunta: z.number().nullable(),
+});
+
 export const tipoReducidoSchema = z.looseObject({
   codigo: z.string(),
   nombre: z.string(),
@@ -40,15 +49,39 @@ export const tipoReducidoSchema = z.looseObject({
   condiciones: z.array(z.string()),
   /** Edad maxima para las modalidades de joven. Varia por CCAA: no se supone. */
   limite_edad: z.number().nullable(),
-  limite_base_imponible_irpf: z.number().nullable(),
+  limite_base_imponible_irpf: limiteRentaSchema.nullable(),
+  /** Aplica si el valor del inmueble NO excede de este importe. */
   limite_valor_inmueble: z.number().nullable(),
+  /**
+   * Aplica si el valor del inmueble EXCEDE de este importe. Las normativas
+   * autonomicas suelen partir la misma bonificacion en dos tramos por valor, y
+   * sin este campo el motor elegiria siempre el tipo mas bajo de los dos.
+   */
+  valor_inmueble_desde: z.number().nullable(),
+  /** Referencia legal exacta, para poder citarla en el informe. */
+  articulo: z.string().nullable(),
   fuente_url: z.string(),
   verificado: z.boolean(),
 });
 
+/**
+ * Tramo de tipo general por valor del inmueble.
+ *
+ * OJO: no es una escala progresiva. El tipo del tramo se aplica al total de la
+ * base imponible, no solo a la parte que cae dentro del tramo.
+ */
+export const tramoTipoSchema = z.looseObject({
+  desde: z.number(),
+  hasta: z.number().nullable(),
+  tipo: z.number(),
+});
+
 export const itpCcaaSchema = z.looseObject({
   ccaa: z.string(),
-  tipo_general: z.number().nullable(),
+  tipo_general: z.looseObject({
+    tramos: z.array(tramoTipoSchema),
+    articulo: z.string().nullable(),
+  }),
   tipo_ajd_obra_nueva: z.number().nullable(),
   tipos_reducidos: z.array(tipoReducidoSchema),
   vigencia_desde: z.string().nullable(),
@@ -81,6 +114,12 @@ export const arancelEscaladoSchema = z.looseObject({
   tramos: z.array(tramoArancelSchema),
   cuota_fija_base: z.number().nullable(),
   iva_aplicable: z.number().nullable(),
+  /** Rebaja sobre los derechos resultantes de la escala, en tanto por uno. */
+  rebaja: z.number().nullable(),
+  /** Topes globales del arancel, antes de rebaja e IVA. null si no los hay. */
+  minimo_eur: z.number().nullable(),
+  maximo_eur: z.number().nullable(),
+  articulo: z.string().nullable(),
   fuente_url: z.string(),
   vigencia_desde: z.string().nullable(),
   verificado: z.boolean(),
@@ -190,11 +229,14 @@ export const reformaConfigSchema = z.looseObject({
     tipo_reducido_rehabilitacion: z.number().nullable(),
     tipo_general: z.number().nullable(),
     antiguedad_minima_anios: vc,
+    /**
+     * Limite del coste de los materiales aportados por quien ejecuta la obra,
+     * como fraccion de la base imponible de la operacion. Es la tercera
+     * condicion del art. 91.Uno.2.10 LIVA.
+     */
+    limite_materiales_pct: z.number().nullable(),
     condiciones_tipo_reducido: z.array(z.string()),
-    condicion_coste_vs_valor_catastral: z.looseObject({
-      multiplicador_valor_catastral: z.number().nullable(),
-      verificado: z.boolean(),
-    }),
+    articulo: z.string().nullable(),
     verificado: z.boolean(),
   }),
   margen_seguridad: vc,
@@ -242,8 +284,16 @@ export const rentabilidadConfigSchema = z.looseObject({
     seguro_anual_eur: vc,
     rentabilidad_neta_objetivo: vc,
     irpf: z.looseObject({
+      /** Reduccion por defecto: el caso residual del art. 23.2 LIRPF. */
       reduccion_general: z.number().nullable(),
+      /** Reducciones superiores por caso, art. 23.2 letras a) a c). */
+      reducciones_por_caso: z.looseObject({
+        zona_tensionada_renta_rebajada: z.number().nullable(),
+        zona_tensionada_inquilino_joven: z.number().nullable(),
+        rehabilitada_ultimos_dos_anios: z.number().nullable(),
+      }),
       tipo_marginal_estimado: z.number().nullable(),
+      articulo: z.string().nullable(),
       verificado: z.boolean(),
     }),
     zona_tensionada: z.looseObject({

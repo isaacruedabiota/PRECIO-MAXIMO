@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque id="ani" tipo="encabezado" titulo="ANEXO I">
+      <version id_norma="BOE-A-1989-28111" fecha_publicacion="19891128" fecha_vigencia="19891129">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. <em>Documentos sin cuantía</em>.–1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo_2">a) Poderes en general: 5.000 pesetas.</p>
+        <p class="parrafo">b) Poderes para pleitos: 2.500 pesetas.</p>
+        <p class="parrafo">c) Actas: 6.000 pesetas.</p>
+        <p class="parrafo">d) Testamentos por otorgante: 5.000 pesetas.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 5.000 pesetas.</p>
+        <p class="parrafo">f) Demás documentos (estado civil. emancipación, reconocimiento de filiación, etc.): 5.000 pesetas.</p>
+        <p class="parrafo_2">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 1.000 pesetas por cada uno de exceso, y por cada apoderado que exceda de seis. 100 pesetas.</p>
+        <p class="parrafo">Número 2. <em>Documentos de cuantía</em>.–1. Por los instrumentos de cuantía se percibirán los derechas que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo_2">a) Cuando el valor no exceda de 1.000.000 de pesetas: 15.000 pesetas.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000.001 y 10.000.000 de pesetas: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000. 001 y 25.000.000 de pesetas: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 100.000.000 de pesetas: 0,3 por mil.</p>
+        <p class="parrafo_2">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales del Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo_2">3. Quedan a salvo, ademas, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. <em>Protestos</em>.–1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo_2">a) Si la cuantía de la letra no excede de 10.000 pesetas: 500 pesetas.</p>
+        <p class="parrafo">b) Si es superior a 10.000 pesetas y no excede de 25.000 pesetas: 750 pesetas.</p>
+        <p class="parrafo">c) Si es superior a 25.000 pesetas y no excede de 50.000 pesetas: 1.000 pesetas.</p>
+        <p class="parrafo">d) Si es superior a 50.000 pesetas y no excede de 100.000 pesetas: 1.500 pesetas.</p>
+        <p class="parrafo">e) De 100.000 pesetas en adelante, además de la última cantidad, se percibirán por cada 100.000 pesetas de exceso o fracción: 100 pesetas.</p>
+        <p class="parrafo_2">2. Se percibirá, además, la cantidad de 500 pesetas en los siguientes casos:</p>
+        <p class="parrafo_2">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">e) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo_2">3. Se percibirán 1.000 pesetas por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. <em>Coplas</em>.–1. Las coplas y cédulas autorizadas y su nota de expedición, en su caso, devengarán 500 pesetas por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 100 pesetas por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 100 pesetas por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. <em>Testimonios y legalizaciones</em>.–1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la Iegitimación de firma se percibirán 1.000 pesetas: por cada firma más contenida en el mismo documento, se devengarán 500 pesetas.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrada por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 500 pesetas por la diligencia de cotejo y 100 pesetas por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 500 pesetas por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. <em>Depósitos, salidas y otros</em>.–1. Por el depósito del testamento cerrado u ológrafo, se percibirán 1.000 pesetas. Al retirarse el depósito se percibirán 200 pesetas por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 1.500 pesetas más 10 pesetas por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 500 pesetas.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo_2">a) Si es dentro del termino municipal de su residencia: 3.000 pesetas.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 4.000 pesetas.</p>
+        <p class="parrafo_2">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. <em>Folios de matriz</em>.–Los folios de matriz, a partir del quinto folio inclusive, devengarán 500 pesetas por cara escrita.</p>
+      </version>
+      <version id_norma="BOE-A-1996-28544" fecha_publicacion="19961221" fecha_vigencia="19961222">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. <em>Documentos sin cuantía</em>.–1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo_2">a) Poderes en general: 5.000 pesetas.</p>
+        <p class="parrafo">b) Poderes para pleitos: 2.500 pesetas.</p>
+        <p class="parrafo">c) Actas: 6.000 pesetas.</p>
+        <p class="parrafo">d) Testamentos por otorgante: 5.000 pesetas.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 5.000 pesetas.</p>
+        <p class="parrafo">f) Demás documentos (estado civil. emancipación, reconocimiento de filiación, etc.): 5.000 pesetas.</p>
+        <p class="parrafo_2">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 1.000 pesetas por cada uno de exceso, y por cada apoderado que exceda de seis. 100 pesetas.</p>
+        <p class="parrafo">Número 2. <em>Documentos de cuantía</em>.–1. Por los instrumentos de cuantía se percibirán los derechas que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo_2">a) Cuando el valor no exceda de 1.000.000 de pesetas: 15.000 pesetas.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000.001 y 10.000.000 de pesetas: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000. 001 y 25.000.000 de pesetas: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 100.000.000 de pesetas: 0,3 por mil.</p>
+        <p class="parrafo_2">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales del Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">3. Quedan a salvo, ademas, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. <em>Protestos</em>.–1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo_2">a) Si la cuantía de la letra no excede de 10.000 pesetas: 500 pesetas.</p>
+        <p class="parrafo">b) Si es superior a 10.000 pesetas y no excede de 25.000 pesetas: 750 pesetas.</p>
+        <p class="parrafo">c) Si es superior a 25.000 pesetas y no excede de 50.000 pesetas: 1.000 pesetas.</p>
+        <p class="parrafo">d) Si es superior a 50.000 pesetas y no excede de 100.000 pesetas: 1.500 pesetas.</p>
+        <p class="parrafo">e) De 100.000 pesetas en adelante, además de la última cantidad, se percibirán por cada 100.000 pesetas de exceso o fracción: 100 pesetas.</p>
+        <p class="parrafo_2">2. Se percibirá, además, la cantidad de 500 pesetas en los siguientes casos:</p>
+        <p class="parrafo_2">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">e) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo_2">3. Se percibirán 1.000 pesetas por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. <em>Coplas</em>.–1. Las coplas y cédulas autorizadas y su nota de expedición, en su caso, devengarán 500 pesetas por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 100 pesetas por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 100 pesetas por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. <em>Testimonios y legalizaciones</em>.–1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la Iegitimación de firma se percibirán 1.000 pesetas: por cada firma más contenida en el mismo documento, se devengarán 500 pesetas.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrada por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 500 pesetas por la diligencia de cotejo y 100 pesetas por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 500 pesetas por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. <em>Depósitos, salidas y otros</em>.–1. Por el depósito del testamento cerrado u ológrafo, se percibirán 1.000 pesetas. Al retirarse el depósito se percibirán 200 pesetas por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 1.500 pesetas más 10 pesetas por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 500 pesetas.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo_2">a) Si es dentro del termino municipal de su residencia: 3.000 pesetas.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 4.000 pesetas.</p>
+        <p class="parrafo_2">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. <em>Folios de matriz</em>.–Los folios de matriz, a partir del quinto folio inclusive, devengarán 500 pesetas por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2000-11836" fecha_publicacion="20000624" fecha_vigencia="20000625">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. <em>Documentos sin cuantía</em>.–1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo_2">a) Poderes en general: 5.000 pesetas.</p>
+        <p class="parrafo">b) Poderes para pleitos: 2.500 pesetas.</p>
+        <p class="parrafo">c) Actas: 6.000 pesetas.</p>
+        <p class="parrafo">d) Testamentos por otorgante: 5.000 pesetas.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 5.000 pesetas.</p>
+        <p class="parrafo">f) Demás documentos (estado civil. emancipación, reconocimiento de filiación, etc.): 5.000 pesetas.</p>
+        <p class="parrafo_2">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 1.000 pesetas por cada uno de exceso, y por cada apoderado que exceda de seis. 100 pesetas.</p>
+        <p class="parrafo">Número 2. <em>Documentos de cuantía</em>.–1. Por los instrumentos de cuantía se percibirán los derechas que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo_2">a) Cuando el valor no exceda de 1.000.000 de pesetas: 15.000 pesetas.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 1.000.001 y 5.000.000 de pesetas: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 5.000.001 y 10.000.000 de pesetas: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 10.000. 001 y 25.000.000 de pesetas: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 25.000.001 y 100.000.000 de pesetas: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 100.000.000 de pesetas hasta 1.000.000.000 de pesetas: 0,3 por 1.000.</p>
+        <p class="parrafo">Por lo que excede de 1.000.000.001 pesetas el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes.</p>
+        <p class="parrafo_2">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo_2">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales del Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo_2">3. Quedan a salvo, ademas, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. <em>Protestos</em>.–1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo_2">a) Si la cuantía de la letra no excede de 10.000 pesetas: 500 pesetas.</p>
+        <p class="parrafo">b) Si es superior a 10.000 pesetas y no excede de 25.000 pesetas: 750 pesetas.</p>
+        <p class="parrafo">c) Si es superior a 25.000 pesetas y no excede de 50.000 pesetas: 1.000 pesetas.</p>
+        <p class="parrafo">d) Si es superior a 50.000 pesetas y no excede de 100.000 pesetas: 1.500 pesetas.</p>
+        <p class="parrafo">e) De 100.000 pesetas en adelante, además de la última cantidad, se percibirán por cada 100.000 pesetas de exceso o fracción: 100 pesetas.</p>
+        <p class="parrafo_2">2. Se percibirá, además, la cantidad de 500 pesetas en los siguientes casos:</p>
+        <p class="parrafo_2">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">e) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo_2">3. Se percibirán 1.000 pesetas por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. <em>Coplas</em>.–1. Las coplas y cédulas autorizadas y su nota de expedición, en su caso, devengarán 500 pesetas por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 100 pesetas por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 100 pesetas por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. <em>Testimonios y legalizaciones</em>.–1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la Iegitimación de firma se percibirán 1.000 pesetas: por cada firma más contenida en el mismo documento, se devengarán 500 pesetas.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrada por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 500 pesetas por la diligencia de cotejo y 100 pesetas por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 500 pesetas por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. <em>Depósitos, salidas y otros</em>.–1. Por el depósito del testamento cerrado u ológrafo, se percibirán 1.000 pesetas. Al retirarse el depósito se percibirán 200 pesetas por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 1.500 pesetas más 10 pesetas por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 500 pesetas.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo_2">a) Si es dentro del termino municipal de su residencia: 3.000 pesetas.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 4.000 pesetas.</p>
+        <p class="parrafo_2">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. <em>Folios de matriz</em>.–Los folios de matriz, a partir del quinto folio inclusive, devengarán 500 pesetas por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica el apartado 2.1.f) por el art. 35.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2001-24394" fecha_publicacion="20011221" fecha_vigencia="20020110">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. <em>Documentos sin cuantía</em>.–1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo_2">a) Poderes en general: 30,050605 euros.</p>
+        <p class="parrafo">b) Poderes para pleitos: 15,025303 euros.</p>
+        <p class="parrafo">c) Actas: 36,060726 euros.</p>
+        <p class="parrafo">d) Testamentos por otorgante: 30,050605 euros.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 30,050605 euros.</p>
+        <p class="parrafo">f) Demás documentos (estado civil. emancipación, reconocimiento de filiación, etc.): 30,050605 euros.</p>
+        <p class="parrafo_2">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 6,010121 euros por cada uno de exceso, y por cada apoderado que exceda de seis, 0,601012 euros.</p>
+        <p class="parrafo">Número 2. <em>Documentos de cuantía</em>.–1. Por los instrumentos de cuantía se percibirán los derechas que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo_2">a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.</p>
+        <p class="parrafo">Por lo que excede de 6.010.121,04 euros el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes.</p>
+        <p class="parrafo">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales el Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido la calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo">3. Quedan a salvo, además, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. Protestos.-1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo">a) Si la cuantía de la letra no excede de 60,10 euros: 3,005061 euros.</p>
+        <p class="parrafo">b) Si es superior a 60,10 euros y no excede de 150,25 euros: 4,507591 euros.</p>
+        <p class="parrafo">c) Si es superior a 150,25 euros y no excede de 300,51 euros: 6,010121 euros.</p>
+        <p class="parrafo">d) Si es superior a 300,51 euros y no excede de 601,01 euros: 9,015182 euros.</p>
+        <p class="parrafo">e) De 601,01 euros en adelante, además de la última cantidad, se percibirán por cada 601,01 euros de exceso o fracción: 0,601012 euros.</p>
+        <p class="parrafo">2. Se percibirá, además, la cantidad de 3,005061 euros en los siguientes casos:</p>
+        <p class="parrafo">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">c) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo">3. Se percibirán 6,010121 euros por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. Copias.-1. Las copias y cédulas autorizadas y su nota de expedición, en su caso, devengarán 3,005061 euros por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 0,601012 euros por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 0,601012 euros por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. Testimonios y legalizaciones.-1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la legitimación de firma se percibirán 6,010121 euros ; por cada firma más contenida en el mismo documento, se devengarán 3,005061 euros.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrado por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 3,005061 euros por la diligencia de cotejo y 0,601012 euros por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 3,005061 euros por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. Depósitos, salidas y otros.-1. Por el depósito del testamento cerrado u ológrafo, se percibirán 6,010121 euros. Al retirarse el depósito se percibirán 1,202024 euros por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 9,015182 euros, más 0,060101 euros por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 3,005061 euros.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo">a) Si es dentro del término municipal de su residencia: 18,030363 euros.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 24,040484 euros.</p>
+        <p class="parrafo">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. Folios de matriz.-Los folios de matriz, a partir del quinto folio inclusive, devengarán 3,005061 euros por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2001-24394</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.1.f) por el art. 35.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2002-12290" fecha_publicacion="20020624" fecha_vigencia="20020714">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. Documentos sin cuantía.-1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo">a) Poderes en general: 30,050605 euros.</p>
+        <p class="parrafo">b) Poderes para pleitos: 15,025303 euros.</p>
+        <p class="parrafo">c) Actas: 36,060726 euros.</p>
+        <p class="parrafo">d) Testamentos, por otorgante: 30,050605 euros.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 30,050605 euros.</p>
+        <p class="parrafo">f) Demás documentos (estado civil, emancipación, reconocimiento de filiación, etc.): 30,050605 euros.</p>
+        <p class="parrafo">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 6,010121 euros por cada uno de exceso, y por cada apoderado que exceda de seis, 0,601012 euros.</p>
+        <p class="parrafo">Número 2. Documentos de cuantía.-1. Por los instrumentos de cuantía se percibirán los derechos que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo">a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.</p>
+        <p class="parrafo">Por lo que excede de 6.010.121,04 euros el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes.</p>
+        <p class="parrafo">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales el Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido la calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo">3. Quedan a salvo, además, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. Protestos.-1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo">a) Si la cuantía de la letra no excede de 60,10 euros: 3,005061 euros.</p>
+        <p class="parrafo">b) Si es superior a 60,10 euros y no excede de 150,25 euros: 4,507591 euros.</p>
+        <p class="parrafo">c) Si es superior a 150,25 euros y no excede de 300,51 euros: 6,010121 euros.</p>
+        <p class="parrafo">d) Si es superior a 300,51 euros y no excede de 601,01 euros: 9,015182 euros.</p>
+        <p class="parrafo">e) De 601,01 euros en adelante, además de la última cantidad, se percibirán por cada 601,01 euros de exceso o fracción: 0,601012 euros.</p>
+        <p class="parrafo">2. Se percibirá, además, la cantidad de 3,005061 euros en los siguientes casos:</p>
+        <p class="parrafo">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">c) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo">3. Se percibirán 6,010121 euros por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. Copias.-1. Las copias y cédulas autorizadas y su nota de expedición, en su caso, devengarán 3,005061 euros por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 0,601012 euros por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 0,601012 euros por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. Testimonios y legalizaciones.-1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la legitimación de firma se percibirán 6,010121 euros ; por cada firma más contenida en el mismo documento, se devengarán 3,005061 euros.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrado por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 3,005061 euros por la diligencia de cotejo y 0,601012 euros por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 3,005061 euros por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. Depósitos, salidas y otros.-1. Por el depósito del testamento cerrado u ológrafo, se percibirán 6,010121 euros. Al retirarse el depósito se percibirán 1,202024 euros por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 9,015182 euros, más 0,060101 euros por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 3,005061 euros.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo">a) Si es dentro del término municipal de su residencia: 18,030363 euros.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 24,040484 euros.</p>
+        <p class="parrafo">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. Folios de matriz.-Los folios de matriz, a partir del quinto folio inclusive, devengarán 3,005061 euros por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2001-24394</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.1.f) por el art. 35.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2011-17962" fecha_publicacion="20111117" fecha_vigencia="20111118">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. Documentos sin cuantía.-1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo">a) Poderes en general: 30,050605 euros.</p>
+        <p class="parrafo">b) Poderes para pleitos: 15,025303 euros.</p>
+        <p class="parrafo">c) Actas: 36,060726 euros.</p>
+        <p class="parrafo">d) Testamentos, por otorgante: 30,050605 euros.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 30,050605 euros.</p>
+        <p class="parrafo">f) Escrituras de subrogación y novación modificativa de créditos o préstamos hipotecarios: 30,050605 euros.</p>
+        <p class="parrafo">Por las escrituras de cancelación de crédito o préstamo hipotecario, y con independencia del capital pendiente de amortizar y de que la operación se integre en un proceso de subrogación o novación hipotecaria, se percibirá 30,050605 euros, sin que se devengue cantidad alguna a partir del quinto folio de matriz y de copia, sea copia autorizada o copia simple.</p>
+        <p class="parrafo">g) Escrituras de constitución de sociedades de responsabilidad limitada por vía telemática que no tuvieren entre sus socios personas jurídicas ni un capital social superior a 30.000 euros y cuyo órgano de administración delimitado en los estatutos sociales se estructure como un administrador único, varios administradores solidarios, cualquiera que sea su número, o dos administradores mancomunados, por todos los conceptos: 150 euros. Dicha cantidad será de 60 euros, por todos los conceptos, cuando, además de los requisitos anteriores, el capital social de las sociedades de responsabilidad limitada no sea superior a 3.100 euros y sus estatutos se adapten a algunos de los aprobados por el Ministerio de Justicia.</p>
+        <p class="parrafo">h) Demás documentos (estado civil, emancipación, reconocimiento de filiación, etc.): 30,050605 euros.</p>
+        <p class="parrafo">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 6,010121 euros por cada uno de exceso, y por cada apoderado que exceda de seis, 0,601012 euros.</p>
+        <p class="parrafo">Número 2. Documentos de cuantía.-1. Por los instrumentos de cuantía se percibirán los derechos que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo">a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.</p>
+        <p class="parrafo">Por lo que excede de 6.010.121,04 euros el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes.</p>
+        <p class="parrafo">En todos los supuestos de este apartado se aplicará una rebaja del 5 por 100 del importe del arancel a percibir por el notario. Esta rebaja también se llevará a cabo, en todo caso, en los supuestos previstos en los apartados siguientes de este número que resulten de la aplicación de esta escala y con carácter adicional a los demás descuentos y rebajas previstos en la normativa vigente.</p>
+        <p class="parrafo">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales el Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido la calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo">3. Quedan a salvo, además, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. Protestos.-1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo">a) Si la cuantía de la letra no excede de 60,10 euros: 3,005061 euros.</p>
+        <p class="parrafo">b) Si es superior a 60,10 euros y no excede de 150,25 euros: 4,507591 euros.</p>
+        <p class="parrafo">c) Si es superior a 150,25 euros y no excede de 300,51 euros: 6,010121 euros.</p>
+        <p class="parrafo">d) Si es superior a 300,51 euros y no excede de 601,01 euros: 9,015182 euros.</p>
+        <p class="parrafo">e) De 601,01 euros en adelante, además de la última cantidad, se percibirán por cada 601,01 euros de exceso o fracción: 0,601012 euros.</p>
+        <p class="parrafo">2. Se percibirá, además, la cantidad de 3,005061 euros en los siguientes casos:</p>
+        <p class="parrafo">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">c) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo">3. Se percibirán 6,010121 euros por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. Copias.-1. Las copias y cédulas autorizadas y su nota de expedición, en su caso, devengarán 3,005061 euros por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 0,601012 euros por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 0,601012 euros por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. Testimonios y legalizaciones.-1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la legitimación de firma se percibirán 6,010121 euros ; por cada firma más contenida en el mismo documento, se devengarán 3,005061 euros.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrado por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 3,005061 euros por la diligencia de cotejo y 0,601012 euros por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 3,005061 euros por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. Depósitos, salidas y otros.-1. Por el depósito del testamento cerrado u ológrafo, se percibirán 6,010121 euros. Al retirarse el depósito se percibirán 1,202024 euros por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 9,015182 euros, más 0,060101 euros por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 3,005061 euros.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo">a) Si es dentro del término municipal de su residencia: 18,030363 euros.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 24,040484 euros.</p>
+        <p class="parrafo">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. Folios de matriz.-Los folios de matriz, a partir del quinto folio inclusive, devengarán 3,005061 euros por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Se modifica la letra f) y se añaden las letras g) y h) al apartado 1.1 y el párrafo final al apartado 2.1 por el art. 1.1 y 2 del Real Decreto 1612/2011, de 14 de noviembre. <a class="refPost">Ref. BOE-A-2011-17962</a>.</p>
+          <p class="nota_pie">Véase la disposición adicional 8.1.1 del Real Decreto-ley 8/2010 de 20 de mayo. <a class="refPost">Ref. BOE-A-2010-8228</a>., que aplica una rebaja del 5% al importe de los derechos notariales resultantes de la aplicación del número 2.1</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2001-24394</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.1.f) por el art. 35.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+      <version id_norma="BOE-A-2010-8228" fecha_publicacion="20100524" fecha_vigencia="20100525">
+        <p class="anexo_num">ANEXO I</p>
+        <p class="anexo_tit">Arancel de los Notarios</p>
+        <p class="parrafo_2">Número 1. Documentos sin cuantía.-1. Por los instrumentos públicos sin cuantía se percibirán las siguientes cantidades:</p>
+        <p class="parrafo">a) Poderes en general: 30,050605 euros.</p>
+        <p class="parrafo">b) Poderes para pleitos: 15,025303 euros.</p>
+        <p class="parrafo">c) Actas: 36,060726 euros.</p>
+        <p class="parrafo">d) Testamentos, por otorgante: 30,050605 euros.</p>
+        <p class="parrafo">e) Capitulaciones matrimoniales: 30,050605 euros.</p>
+        <p class="parrafo">f) Demás documentos (estado civil, emancipación, reconocimiento de filiación, etc.): 30,050605 euros.</p>
+        <p class="parrafo">2. En los poderes, si hubiere más de dos poderdantes, se percibirán 6,010121 euros por cada uno de exceso, y por cada apoderado que exceda de seis, 0,601012 euros.</p>
+        <p class="parrafo">Número 2. Documentos de cuantía.-1. Por los instrumentos de cuantía se percibirán los derechos que resulten de aplicar al valor de los bienes objeto del negocio documentado la siguiente escala:</p>
+        <p class="parrafo">a) Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros.</p>
+        <p class="parrafo">b) Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil.</p>
+        <p class="parrafo">c) Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil.</p>
+        <p class="parrafo">d) Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil.</p>
+        <p class="parrafo">e) Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil.</p>
+        <p class="parrafo">f) Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil.</p>
+        <p class="parrafo">Por lo que excede de 6.010.121,04 euros el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes.</p>
+        <p class="parrafo">2. Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria.</p>
+        <p class="parrafo">La reducción alcanzará un 50 por 100 en los casos siguientes:</p>
+        <p class="parrafo">a) Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales el Estado, Comunidades Autónomas, provincias o municipios o sus Organismos autónomos.</p>
+        <p class="parrafo">b) Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales.</p>
+        <p class="parrafo">c) Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas.</p>
+        <p class="parrafo">d) Préstamos para la rehabilitación protegida de viviendas existentes y del equipamiento comunitario primario.</p>
+        <p class="parrafo">e) Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido la calificación o certificación de actuación protegible por reunir los requisitos exigidos en la normativa vigente.</p>
+        <p class="parrafo">f) La subrogación, con o sin simultánea novación, y la novación modificativa de los préstamos hipotecarios acogidos a la Ley 2/1994, de 30 de marzo, entendiéndose que el instrumento comprende un único concepto. Para el cálculo de los honorarios se tomará como base la cifra del capital pendiente de amortizar en el momento de la subrogación, y en las novaciones modificativas la que resulte de aplicar al importe de la responsabilidad hipotecaria vigente el diferencial entre el interés del préstamo que se modifica y el interés nuevo.</p>
+        <p class="parrafo">3. Quedan a salvo, además, las exenciones o bonificaciones en materia de concentración parcelaria, Viviendas de Protección Oficial, explotaciones familiares y demás establecidas por la Ley.</p>
+        <p class="parrafo">Número 3. Protestos.-1. Por las actas de protesto se devengarán los siguientes derechos:</p>
+        <p class="parrafo">a) Si la cuantía de la letra no excede de 60,10 euros: 3,005061 euros.</p>
+        <p class="parrafo">b) Si es superior a 60,10 euros y no excede de 150,25 euros: 4,507591 euros.</p>
+        <p class="parrafo">c) Si es superior a 150,25 euros y no excede de 300,51 euros: 6,010121 euros.</p>
+        <p class="parrafo">d) Si es superior a 300,51 euros y no excede de 601,01 euros: 9,015182 euros.</p>
+        <p class="parrafo">e) De 601,01 euros en adelante, además de la última cantidad, se percibirán por cada 601,01 euros de exceso o fracción: 0,601012 euros.</p>
+        <p class="parrafo">2. Se percibirá, además, la cantidad de 3,005061 euros en los siguientes casos:</p>
+        <p class="parrafo">a) Por la práctica de la notificación, cuando el efecto esté domiciliado fuera de los límites de la población de residencia del Notario autorizante.</p>
+        <p class="parrafo">b) Cuando se entregare el efecto fuera de la hora normal.</p>
+        <p class="parrafo">c) Por pago del efecto en la Notaría.</p>
+        <p class="parrafo">3. Se percibirán 6,010121 euros por cada hora o fracción, cuando el efecto esté domiciliado fuera del término municipal de residencia del Notario.</p>
+        <p class="parrafo">Número 4. Copias.-1. Las copias y cédulas autorizadas y su nota de expedición, en su caso, devengarán 3,005061 euros por cada folio o parte de él. A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior.</p>
+        <p class="parrafo">2. Las copias simples devengarán a razón de 0,601012 euros por folio.</p>
+        <p class="parrafo">3. En las copias de instrumentos públicos que estén en el Archivo Histórico, o en los generales de Distrito o en los de Notarías, cuando tengan más de cinco años de antigüedad, se percibirán derechos dobles y, además, por derechos de custodia, 0,601012 euros por cada año o fracción de antigüedad del documento.</p>
+        <p class="parrafo">4. Los Notarios a cuyo cargo esté el Archivo de Protocolos, expedirán sin derechos, en papel no timbrado, y sin perjuicio del reintegro a su tiempo, las copias de instrumentos que deban dar a instancia de las Oficinas del Estado, Comunidades Autónomas o Corporaciones Locales.</p>
+        <p class="parrafo">Número 5. Testimonios y legalizaciones.-1. Los testimonios en general se regirán por lo dispuesto en el número 4.</p>
+        <p class="parrafo">2. Por la legitimación de firma se percibirán 6,010121 euros ; por cada firma más contenida en el mismo documento, se devengarán 3,005061 euros.</p>
+        <p class="parrafo">3. En las legitimaciones contempladas por el artículo 262 del Reglamento Notarial, se devengarán los derechos que resulten de aplicar el número 2 con una reducción del 85 por 100.</p>
+        <p class="parrafo">4. Los testimonios de autenticidad de la fotocopia de un documento integrado por varios folios en los que sea posible extender un único testimonio comprensivo de todo él, por remisión a datos identificadores, devengarán 3,005061 euros por la diligencia de cotejo y 0,601012 euros por cada folio más.</p>
+        <p class="parrafo">5. Por los testimonios de legalización se percibirán igualmente 3,005061 euros por cada Notario que los autorice.</p>
+        <p class="parrafo">6. Los testimonios de legitimación y legalización de firmas de certificaciones del Registro Civil devengarán la mitad de los derechos establecidos en los números 5.2 y 5.5.</p>
+        <p class="parrafo">Número 6. Depósitos, salidas y otros.-1. Por el depósito del testamento cerrado u ológrafo, se percibirán 6,010121 euros. Al retirarse el depósito se percibirán 1,202024 euros por cada año o fracción, por derechos de conservación y custodia.</p>
+        <p class="parrafo">2. Las diligencias de apertura de libros de actas devengarán 9,015182 euros, más 0,060101 euros por folio.</p>
+        <p class="parrafo">Por las diligencias de adhesión, ratificación u otras cualesquiera puestas en un documento se percibirán 3,005061 euros.</p>
+        <p class="parrafo">3. Por la salida de la Notaría, el Notario devengará, salvo en actas de protesto, por cada hora o fracción:</p>
+        <p class="parrafo">a) Si es dentro del término municipal de su residencia: 18,030363 euros.</p>
+        <p class="parrafo">b) Si es fuera de él o en días festivos, o de guardia, o fuera del horario de trabajo del despacho: 24,040484 euros.</p>
+        <p class="parrafo">4. En caso de venta pública y de tramitación del procedimiento extrajudicial de ejecución hipotecaria, por derechos de matriz se aplicará el número 2 del Arancel, sobre la base del precio de remate o adjudicación.</p>
+        <p class="parrafo">Se aplicarán, además, a las actuaciones que pudieran originarse los números 4, 6.2 y 6.3.</p>
+        <p class="parrafo">Número 7. Folios de matriz.-Los folios de matriz, a partir del quinto folio inclusive, devengarán 3,005061 euros por cara escrita.</p>
+        <p class="parrafo">En los casos de subrogación y novación modificativa de préstamos hipotecarios acogidas a la Ley 2/1994, de 30 de marzo, sobre Subrogación y Modificación de Préstamos Hipotecarios, los folios de la matriz no devengarán cantidad alguna hasta el décimo folio inclusive.</p>
+        <blockquote>
+          <p class="nota_pie">Véase la disposición adicional 8.1.1 del Real Decreto-ley 8/2010 de 20 de mayo. <a class="refPost">Ref. BOE-A-2010-8228</a>., que aplica una rebaja del 5% al importe de los derechos notariales resultantes de la aplicación del número 2.1</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 22 de mayo de 2002. <a class="refPost">Ref. BOE-A-2002-12290</a>.</p>
+          <p class="nota_pie">Se convierten a euros las cuantías contempladas por el art. 1 de la Instrucción de 14 de diciembre de 2001. <a class="refPost">Ref. BOE-A-2001-24394</a>.</p>
+          <p class="nota_pie">Se modifica el apartado 2.1.f) por el art. 35.2 del Real Decreto-Ley 6/2000, de 23 de junio. <a class="refPost">Ref. BOE-A-2000-11836</a>.</p>
+          <p class="nota_pie">Se añade el apartado 2.2.f) y el párrafo segundo al apartado 7 por el art. 1 del Real Decreto 2616/1996, de 20 de diciembre. <a class="refPost">Ref. BOE-A-1996-28544</a>.</p>
+        </blockquote>
+      </version>
+    </bloque>
+  </data>
+</response>

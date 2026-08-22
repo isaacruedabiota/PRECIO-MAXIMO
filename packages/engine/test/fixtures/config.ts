@@ -29,7 +29,15 @@ export function configDeTest(): EngineConfig {
       ccaa: [
         {
           ccaa: 'Comunitat Valenciana',
-          tipo_general: 0.1, // INVENTADO
+          tipo_general: {
+            // INVENTADOS: 10% hasta 500.000 y 12% por encima, para que los
+            // tests puedan comprobar el salto de tramo con numeros redondos.
+            tramos: [
+              { desde: 0, hasta: 500000, tipo: 0.1 },
+              { desde: 500000, hasta: null, tipo: 0.12 },
+            ],
+            articulo: 'test',
+          },
           tipo_ajd_obra_nueva: 0.015, // INVENTADO
           tipos_reducidos: [
             {
@@ -40,6 +48,8 @@ export function configDeTest(): EngineConfig {
               limite_edad: 35,
               limite_base_imponible_irpf: null,
               limite_valor_inmueble: null,
+              valor_inmueble_desde: null,
+              articulo: 'test',
               fuente_url: 'test',
               verificado: true,
             },
@@ -49,8 +59,10 @@ export function configDeTest(): EngineConfig {
               tipo: 0.04, // INVENTADO
               condiciones: ['familia numerosa'],
               limite_edad: null,
-              limite_base_imponible_irpf: 45000,
+              limite_base_imponible_irpf: { individual: 45000, conjunta: 60000 },
               limite_valor_inmueble: null,
+              valor_inmueble_desde: null,
+              articulo: 'test',
               fuente_url: 'test',
               verificado: true,
             },
@@ -77,7 +89,12 @@ export function configDeTest(): EngineConfig {
         ],
         cuota_fija_base: 100,
         iva_aplicable: 0,
+        // Sin rebaja ni topes, para que la aritmetica del test sea directa.
+        rebaja: 0,
+        minimo_eur: null,
+        maximo_eur: null,
         suplidos_y_copias: v(0),
+        articulo: 'test',
         fuente_url: 'test',
         vigencia_desde: '2020-01-01',
         verificado: true,
@@ -89,6 +106,10 @@ export function configDeTest(): EngineConfig {
         ],
         cuota_fija_base: 50,
         iva_aplicable: 0,
+        rebaja: 0,
+        minimo_eur: null,
+        maximo_eur: null,
+        articulo: 'test',
         fuente_url: 'test',
         vigencia_desde: '2020-01-01',
         verificado: true,
@@ -195,11 +216,9 @@ export function configDeTest(): EngineConfig {
         tipo_reducido_rehabilitacion: 0.1, // INVENTADO
         tipo_general: 0.21, // INVENTADO
         antiguedad_minima_anios: v(2, 2, 2),
+        limite_materiales_pct: 0.4,
         condiciones_tipo_reducido: ['test'],
-        condicion_coste_vs_valor_catastral: {
-          multiplicador_valor_catastral: 2,
-          verificado: true,
-        },
+        articulo: 'test',
         verificado: true,
       },
       margen_seguridad: v(0.1),
@@ -238,7 +257,17 @@ export function configDeTest(): EngineConfig {
         gestion_agencia: v(0.08),
         seguro_anual_eur: v(250),
         rentabilidad_neta_objetivo: v(0.045),
-        irpf: { reduccion_general: 0.5, tipo_marginal_estimado: 0.3, verificado: true },
+        irpf: {
+          reduccion_general: 0.5,
+          reducciones_por_caso: {
+            zona_tensionada_renta_rebajada: 0.9,
+            zona_tensionada_inquilino_joven: 0.7,
+            rehabilitada_ultimos_dos_anios: 0.6,
+          },
+          tipo_marginal_estimado: 0.3,
+          articulo: 'test',
+          verificado: true,
+        },
         zona_tensionada: { aplicar_limite_indice: true, verificado: true },
       },
       flipping: {

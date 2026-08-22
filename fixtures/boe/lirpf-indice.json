@@ -1,0 +1,1650 @@
+{
+    "status": {
+        "code": "200",
+        "text": "ok"
+    },
+    "data": [
+        {
+            "bloque": [
+                {
+                    "id": "no",
+                    "titulo": "",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/no"
+                },
+                {
+                    "id": "preambulo",
+                    "titulo": "",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/preambulo"
+                },
+                {
+                    "id": "tpreliminar",
+                    "titulo": "T\u00cdTULO PRELIMINAR",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tpreliminar"
+                },
+                {
+                    "id": "a1",
+                    "titulo": "Art\u00edculo 1",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a1"
+                },
+                {
+                    "id": "a2",
+                    "titulo": "Art\u00edculo 2",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a2"
+                },
+                {
+                    "id": "a3",
+                    "titulo": "Art\u00edculo 3",
+                    "fecha_actualizacion": "20091219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a3"
+                },
+                {
+                    "id": "a4",
+                    "titulo": "Art\u00edculo 4",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a4"
+                },
+                {
+                    "id": "a5",
+                    "titulo": "Art\u00edculo 5",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a5"
+                },
+                {
+                    "id": "ti",
+                    "titulo": "T\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ti"
+                },
+                {
+                    "id": "ci",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci"
+                },
+                {
+                    "id": "a6",
+                    "titulo": "Art\u00edculo 6",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a6"
+                },
+                {
+                    "id": "a7",
+                    "titulo": "Art\u00edculo 7",
+                    "fecha_actualizacion": "20260304",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a7"
+                },
+                {
+                    "id": "cii",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii"
+                },
+                {
+                    "id": "a8",
+                    "titulo": "Art\u00edculo 8",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a8"
+                },
+                {
+                    "id": "a9",
+                    "titulo": "Art\u00edculo 9",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a9"
+                },
+                {
+                    "id": "a10",
+                    "titulo": "Art\u00edculo 10",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a10"
+                },
+                {
+                    "id": "a11",
+                    "titulo": "Art\u00edculo 11",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a11"
+                },
+                {
+                    "id": "ciii",
+                    "titulo": "CAP\u00cdTULO III",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ciii"
+                },
+                {
+                    "id": "a12",
+                    "titulo": "Art\u00edculo 12",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a12"
+                },
+                {
+                    "id": "a13",
+                    "titulo": "Art\u00edculo 13",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a13"
+                },
+                {
+                    "id": "a14",
+                    "titulo": "Art\u00edculo 14",
+                    "fecha_actualizacion": "20221222",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a14"
+                },
+                {
+                    "id": "tii",
+                    "titulo": "T\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tii"
+                },
+                {
+                    "id": "a15",
+                    "titulo": "Art\u00edculo 15",
+                    "fecha_actualizacion": "20091219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a15"
+                },
+                {
+                    "id": "tiii",
+                    "titulo": "T\u00cdTULO III",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tiii"
+                },
+                {
+                    "id": "ci-2",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci-2"
+                },
+                {
+                    "id": "a16",
+                    "titulo": "Art\u00edculo 16",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a16"
+                },
+                {
+                    "id": "cii-2",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii-2"
+                },
+                {
+                    "id": "s1",
+                    "titulo": "Secci\u00f3n 1",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s1"
+                },
+                {
+                    "id": "a17",
+                    "titulo": "Art\u00edculo 17",
+                    "fecha_actualizacion": "20200205",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a17"
+                },
+                {
+                    "id": "a18",
+                    "titulo": "Art\u00edculo 18",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a18"
+                },
+                {
+                    "id": "a19",
+                    "titulo": "Art\u00edculo 19",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a19"
+                },
+                {
+                    "id": "a20",
+                    "titulo": "Art\u00edculo 20",
+                    "fecha_actualizacion": "20240627",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a20"
+                },
+                {
+                    "id": "s2",
+                    "titulo": "Secci\u00f3n 2",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s2"
+                },
+                {
+                    "id": "a21",
+                    "titulo": "Art\u00edculo 21",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a21"
+                },
+                {
+                    "id": "ss1",
+                    "titulo": "Subsecci\u00f3n 1",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ss1"
+                },
+                {
+                    "id": "a22",
+                    "titulo": "Art\u00edculo 22",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a22"
+                },
+                {
+                    "id": "a23",
+                    "titulo": "Art\u00edculo 23",
+                    "fecha_actualizacion": "20230525",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a23"
+                },
+                {
+                    "id": "a24",
+                    "titulo": "Art\u00edculo 24",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a24"
+                },
+                {
+                    "id": "ss2",
+                    "titulo": "Subsecci\u00f3n 2",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ss2"
+                },
+                {
+                    "id": "a25",
+                    "titulo": "Art\u00edculo 25",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a25"
+                },
+                {
+                    "id": "a26",
+                    "titulo": "Art\u00edculo 26",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a26"
+                },
+                {
+                    "id": "s3",
+                    "titulo": "Secci\u00f3n 3",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s3"
+                },
+                {
+                    "id": "a27",
+                    "titulo": "Art\u00edculo 27",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a27"
+                },
+                {
+                    "id": "a28",
+                    "titulo": "Art\u00edculo 28",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a28"
+                },
+                {
+                    "id": "a29",
+                    "titulo": "Art\u00edculo 29",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a29"
+                },
+                {
+                    "id": "a30",
+                    "titulo": "Art\u00edculo 30",
+                    "fecha_actualizacion": "20171025",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a30"
+                },
+                {
+                    "id": "a31",
+                    "titulo": "Art\u00edculo 31",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a31"
+                },
+                {
+                    "id": "a32",
+                    "titulo": "Art\u00edculo 32",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a32"
+                },
+                {
+                    "id": "s4",
+                    "titulo": "Secci\u00f3n 4",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s4"
+                },
+                {
+                    "id": "a33",
+                    "titulo": "Art\u00edculo 33",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a33"
+                },
+                {
+                    "id": "a34",
+                    "titulo": "Art\u00edculo 34",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a34"
+                },
+                {
+                    "id": "a35",
+                    "titulo": "Art\u00edculo 35",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a35"
+                },
+                {
+                    "id": "a36",
+                    "titulo": "Art\u00edculo 36",
+                    "fecha_actualizacion": "20210710",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a36"
+                },
+                {
+                    "id": "a37",
+                    "titulo": "Art\u00edculo 37",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a37"
+                },
+                {
+                    "id": "a38",
+                    "titulo": "Art\u00edculo 38",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a38"
+                },
+                {
+                    "id": "a39",
+                    "titulo": "Art\u00edculo 39",
+                    "fecha_actualizacion": "20220310",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a39"
+                },
+                {
+                    "id": "ciii-2",
+                    "titulo": "CAP\u00cdTULO III",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ciii-2"
+                },
+                {
+                    "id": "a40",
+                    "titulo": "Art\u00edculo 40",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a40"
+                },
+                {
+                    "id": "a41",
+                    "titulo": "Art\u00edculo 41",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a41"
+                },
+                {
+                    "id": "a42",
+                    "titulo": "Art\u00edculo 42",
+                    "fecha_actualizacion": "20221222",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a42"
+                },
+                {
+                    "id": "a43",
+                    "titulo": "Art\u00edculo 43",
+                    "fecha_actualizacion": "20221222",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a43"
+                },
+                {
+                    "id": "civ",
+                    "titulo": "CAP\u00cdTULO IV",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/civ"
+                },
+                {
+                    "id": "a44",
+                    "titulo": "Art\u00edculo 44",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a44"
+                },
+                {
+                    "id": "a45",
+                    "titulo": "Art\u00edculo 45",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a45"
+                },
+                {
+                    "id": "a46",
+                    "titulo": "Art\u00edculo 46",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a46"
+                },
+                {
+                    "id": "cv",
+                    "titulo": "CAP\u00cdTULO V",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cv"
+                },
+                {
+                    "id": "a47",
+                    "titulo": "Art\u00edculo 47",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a47"
+                },
+                {
+                    "id": "a48",
+                    "titulo": "Art\u00edculo 48",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a48"
+                },
+                {
+                    "id": "a49",
+                    "titulo": "Art\u00edculo 49",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a49"
+                },
+                {
+                    "id": "tiv",
+                    "titulo": "T\u00cdTULO IV",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tiv"
+                },
+                {
+                    "id": "a50",
+                    "titulo": "Art\u00edculo 50",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a50"
+                },
+                {
+                    "id": "ci-3",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci-3"
+                },
+                {
+                    "id": "a51",
+                    "titulo": "Art\u00edculo 51",
+                    "fecha_actualizacion": "20211229",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a51"
+                },
+                {
+                    "id": "a52",
+                    "titulo": "Art\u00edculo 52",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a52"
+                },
+                {
+                    "id": "a53",
+                    "titulo": "Art\u00edculo 53",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a53"
+                },
+                {
+                    "id": "a54",
+                    "titulo": "Art\u00edculo 54",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a54"
+                },
+                {
+                    "id": "cii-3",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii-3"
+                },
+                {
+                    "id": "a55",
+                    "titulo": "Art\u00edculo 55",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a55"
+                },
+                {
+                    "id": "tv",
+                    "titulo": "T\u00cdTULO V",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tv"
+                },
+                {
+                    "id": "a56",
+                    "titulo": "Art\u00edculo 56",
+                    "fecha_actualizacion": "20091219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a56"
+                },
+                {
+                    "id": "a57",
+                    "titulo": "Art\u00edculo 57",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a57"
+                },
+                {
+                    "id": "a58",
+                    "titulo": "Art\u00edculo 58",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a58"
+                },
+                {
+                    "id": "a59",
+                    "titulo": "Art\u00edculo 59",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a59"
+                },
+                {
+                    "id": "a60",
+                    "titulo": "Art\u00edculo 60",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a60"
+                },
+                {
+                    "id": "a61",
+                    "titulo": "Art\u00edculo 61",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a61"
+                },
+                {
+                    "id": "a61bis",
+                    "titulo": "Art\u00edculo 61 bis",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a61bis"
+                },
+                {
+                    "id": "tvi",
+                    "titulo": "T\u00cdTULO VI",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tvi"
+                },
+                {
+                    "id": "ci-4",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci-4"
+                },
+                {
+                    "id": "a62",
+                    "titulo": "Art\u00edculo 62",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a62"
+                },
+                {
+                    "id": "a63",
+                    "titulo": "Art\u00edculo 63",
+                    "fecha_actualizacion": "20201231",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a63"
+                },
+                {
+                    "id": "a64",
+                    "titulo": "Art\u00edculo 64",
+                    "fecha_actualizacion": "20250103",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a64"
+                },
+                {
+                    "id": "a65",
+                    "titulo": "Art\u00edculo 65",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a65"
+                },
+                {
+                    "id": "a66",
+                    "titulo": "Art\u00edculo 66",
+                    "fecha_actualizacion": "20241221",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a66"
+                },
+                {
+                    "id": "cii-4",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii-4"
+                },
+                {
+                    "id": "a67",
+                    "titulo": "Art\u00edculo 67",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a67"
+                },
+                {
+                    "id": "a68",
+                    "titulo": "Art\u00edculo 68",
+                    "fecha_actualizacion": "20221222",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a68"
+                },
+                {
+                    "id": "a69",
+                    "titulo": "Art\u00edculo 69",
+                    "fecha_actualizacion": "20130928",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a69"
+                },
+                {
+                    "id": "a70",
+                    "titulo": "Art\u00edculo 70",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a70"
+                },
+                {
+                    "id": "tvii",
+                    "titulo": "T\u00cdTULO VII",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tvii"
+                },
+                {
+                    "id": "ci-5",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci-5"
+                },
+                {
+                    "id": "a71",
+                    "titulo": "Art\u00edculo 71",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a71"
+                },
+                {
+                    "id": "cii-5",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii-5"
+                },
+                {
+                    "id": "a72",
+                    "titulo": "Art\u00edculo 72",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a72"
+                },
+                {
+                    "id": "ciii-3",
+                    "titulo": "CAP\u00cdTULO III",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ciii-3"
+                },
+                {
+                    "id": "s1-2",
+                    "titulo": "Secci\u00f3n 1",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s1-2"
+                },
+                {
+                    "id": "a73",
+                    "titulo": "Art\u00edculo 73",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a73"
+                },
+                {
+                    "id": "a74",
+                    "titulo": "Art\u00edculo 74",
+                    "fecha_actualizacion": "20101223",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a74"
+                },
+                {
+                    "id": "a75",
+                    "titulo": "Art\u00edculo 75",
+                    "fecha_actualizacion": "20250103",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a75"
+                },
+                {
+                    "id": "a76",
+                    "titulo": "Art\u00edculo 76",
+                    "fecha_actualizacion": "20241221",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a76"
+                },
+                {
+                    "id": "s2-2",
+                    "titulo": "Secci\u00f3n 2",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s2-2"
+                },
+                {
+                    "id": "a77",
+                    "titulo": "Art\u00edculo 77",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a77"
+                },
+                {
+                    "id": "a78",
+                    "titulo": "Art\u00edculo 78",
+                    "fecha_actualizacion": "20121228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a78"
+                },
+                {
+                    "id": "tviii",
+                    "titulo": "T\u00cdTULO VIII",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tviii"
+                },
+                {
+                    "id": "a79",
+                    "titulo": "Art\u00edculo 79",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a79"
+                },
+                {
+                    "id": "a80",
+                    "titulo": "Art\u00edculo 80",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a80"
+                },
+                {
+                    "id": "a80bis",
+                    "titulo": "Art\u00edculo 80 bis",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a80bis"
+                },
+                {
+                    "id": "a81",
+                    "titulo": "Art\u00edculo 81",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a81"
+                },
+                {
+                    "id": "a81bis",
+                    "titulo": "Art\u00edculo 81 bis",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a81bis"
+                },
+                {
+                    "id": "tix",
+                    "titulo": "T\u00cdTULO IX",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tix"
+                },
+                {
+                    "id": "a82",
+                    "titulo": "Art\u00edculo 82",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a82"
+                },
+                {
+                    "id": "a83",
+                    "titulo": "Art\u00edculo 83",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a83"
+                },
+                {
+                    "id": "a84",
+                    "titulo": "Art\u00edculo 84",
+                    "fecha_actualizacion": "20091219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a84"
+                },
+                {
+                    "id": "tx",
+                    "titulo": "T\u00cdTULO X",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/tx"
+                },
+                {
+                    "id": "s1-3",
+                    "titulo": "Secci\u00f3n 1",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s1-3"
+                },
+                {
+                    "id": "a85",
+                    "titulo": "Art\u00edculo 85",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a85"
+                },
+                {
+                    "id": "s2-3",
+                    "titulo": "Secci\u00f3n 2",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s2-3"
+                },
+                {
+                    "id": "a86",
+                    "titulo": "Art\u00edculo 86",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a86"
+                },
+                {
+                    "id": "a87",
+                    "titulo": "Art\u00edculo 87",
+                    "fecha_actualizacion": "20221019",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a87"
+                },
+                {
+                    "id": "a88",
+                    "titulo": "Art\u00edculo 88",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a88"
+                },
+                {
+                    "id": "a89",
+                    "titulo": "Art\u00edculo 89",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a89"
+                },
+                {
+                    "id": "a90",
+                    "titulo": "Art\u00edculo 90",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a90"
+                },
+                {
+                    "id": "s3-2",
+                    "titulo": "Secci\u00f3n 3",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s3-2"
+                },
+                {
+                    "id": "a91",
+                    "titulo": "Art\u00edculo 91",
+                    "fecha_actualizacion": "20210710",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a91"
+                },
+                {
+                    "id": "s4-2",
+                    "titulo": "Secci\u00f3n 4",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s4-2"
+                },
+                {
+                    "id": "a92",
+                    "titulo": "Art\u00edculo 92",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a92"
+                },
+                {
+                    "id": "s5",
+                    "titulo": "Secci\u00f3n 5",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s5"
+                },
+                {
+                    "id": "a93",
+                    "titulo": "Art\u00edculo 93",
+                    "fecha_actualizacion": "20241221",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a93"
+                },
+                {
+                    "id": "s6",
+                    "titulo": "Secci\u00f3n 6",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s6"
+                },
+                {
+                    "id": "a94",
+                    "titulo": "Art\u00edculo 94",
+                    "fecha_actualizacion": "20210710",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a94"
+                },
+                {
+                    "id": "a95",
+                    "titulo": "Art\u00edculo 95",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a95"
+                },
+                {
+                    "id": "s7",
+                    "titulo": "Secci\u00f3n 7",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/s7"
+                },
+                {
+                    "id": "a95bis",
+                    "titulo": "Art\u00edculo 95 bis",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a95bis"
+                },
+                {
+                    "id": "txi",
+                    "titulo": "T\u00cdTULO XI",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/txi"
+                },
+                {
+                    "id": "ci-6",
+                    "titulo": "CAP\u00cdTULO I",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ci-6"
+                },
+                {
+                    "id": "a96",
+                    "titulo": "Art\u00edculo 96",
+                    "fecha_actualizacion": "20250123",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a96"
+                },
+                {
+                    "id": "a97",
+                    "titulo": "Art\u00edculo 97",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a97"
+                },
+                {
+                    "id": "a98",
+                    "titulo": "Art\u00edculo 98",
+                    "fecha_actualizacion": "20121030",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a98"
+                },
+                {
+                    "id": "cii-6",
+                    "titulo": "CAP\u00cdTULO II",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/cii-6"
+                },
+                {
+                    "id": "a99",
+                    "titulo": "Art\u00edculo 99",
+                    "fecha_actualizacion": "20150715",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a99"
+                },
+                {
+                    "id": "a100",
+                    "titulo": "Art\u00edculo 100",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a100"
+                },
+                {
+                    "id": "a101",
+                    "titulo": "Art\u00edculo 101",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a101"
+                },
+                {
+                    "id": "ciii-4",
+                    "titulo": "CAP\u00cdTULO III",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ciii-4"
+                },
+                {
+                    "id": "a102",
+                    "titulo": "Art\u00edculo 102",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a102"
+                },
+                {
+                    "id": "a103",
+                    "titulo": "Art\u00edculo 103",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a103"
+                },
+                {
+                    "id": "civ-2",
+                    "titulo": "CAP\u00cdTULO IV",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/civ-2"
+                },
+                {
+                    "id": "a104",
+                    "titulo": "Art\u00edculo 104",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a104"
+                },
+                {
+                    "id": "a105",
+                    "titulo": "Art\u00edculo 105",
+                    "fecha_actualizacion": "20150715",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a105"
+                },
+                {
+                    "id": "txii",
+                    "titulo": "T\u00cdTULO XII",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/txii"
+                },
+                {
+                    "id": "a106",
+                    "titulo": "Art\u00edculo 106",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a106"
+                },
+                {
+                    "id": "a107",
+                    "titulo": "Art\u00edculo 107",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a107"
+                },
+                {
+                    "id": "txiii",
+                    "titulo": "T\u00cdTULO XIII",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/txiii"
+                },
+                {
+                    "id": "a108",
+                    "titulo": "Art\u00edculo 108",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/a108"
+                },
+                {
+                    "id": "daprimera",
+                    "titulo": "Disposici\u00f3n adicional primera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daprimera"
+                },
+                {
+                    "id": "dasegunda",
+                    "titulo": "Disposici\u00f3n adicional segunda",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dasegunda"
+                },
+                {
+                    "id": "datercera",
+                    "titulo": "Disposici\u00f3n adicional tercera",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datercera"
+                },
+                {
+                    "id": "dacuarta",
+                    "titulo": "Disposici\u00f3n adicional cuarta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuarta"
+                },
+                {
+                    "id": "daquinta",
+                    "titulo": "Disposici\u00f3n adicional quinta",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daquinta"
+                },
+                {
+                    "id": "dasexta",
+                    "titulo": "Disposici\u00f3n adicional sexta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dasexta"
+                },
+                {
+                    "id": "daseptima",
+                    "titulo": "Disposici\u00f3n adicional s\u00e9ptima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daseptima"
+                },
+                {
+                    "id": "daoctava",
+                    "titulo": "Disposici\u00f3n adicional octava",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daoctava"
+                },
+                {
+                    "id": "danovena",
+                    "titulo": "Disposici\u00f3n adicional novena",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/danovena"
+                },
+                {
+                    "id": "dadecima",
+                    "titulo": "Disposici\u00f3n adicional d\u00e9cima",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecima"
+                },
+                {
+                    "id": "daundecima",
+                    "titulo": "Disposici\u00f3n adicional und\u00e9cima",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daundecima"
+                },
+                {
+                    "id": "daduodecima",
+                    "titulo": "Disposici\u00f3n adicional duod\u00e9cima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/daduodecima"
+                },
+                {
+                    "id": "dadecimotercera",
+                    "titulo": "Disposici\u00f3n adicional decimotercera",
+                    "fecha_actualizacion": "20220615",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimotercera"
+                },
+                {
+                    "id": "dadecimocuarta",
+                    "titulo": "Disposici\u00f3n adicional decimocuarta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimocuarta"
+                },
+                {
+                    "id": "dadecimoquinta",
+                    "titulo": "Disposici\u00f3n adicional decimoquinta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimoquinta"
+                },
+                {
+                    "id": "dadecimosexta",
+                    "titulo": "Disposici\u00f3n adicional decimosexta",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimosexta"
+                },
+                {
+                    "id": "dadecimoseptima",
+                    "titulo": "Disposici\u00f3n adicional decimos\u00e9ptima",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimoseptima"
+                },
+                {
+                    "id": "dadecimoctava",
+                    "titulo": "Disposici\u00f3n adicional decimoctava",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimoctava"
+                },
+                {
+                    "id": "dadecimonovena",
+                    "titulo": "Disposici\u00f3n adicional decimonovena",
+                    "fecha_actualizacion": "20260304",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dadecimonovena"
+                },
+                {
+                    "id": "davigesima",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesima"
+                },
+                {
+                    "id": "davigesimaprimera",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima primera",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimaprimera"
+                },
+                {
+                    "id": "davigesimasegunda",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima segunda",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimasegunda"
+                },
+                {
+                    "id": "davigesimatercera",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima tercera",
+                    "fecha_actualizacion": "20121228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimatercera"
+                },
+                {
+                    "id": "davigesimacuarta",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima cuarta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimacuarta"
+                },
+                {
+                    "id": "davigesimaquinta",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima quinta",
+                    "fecha_actualizacion": "20131226",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimaquinta"
+                },
+                {
+                    "id": "davigesimosexta",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9simo sexta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimosexta"
+                },
+                {
+                    "id": "davigesimaseptima",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20131226",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimaseptima"
+                },
+                {
+                    "id": "davigesimaoctava",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima octava",
+                    "fecha_actualizacion": "20091224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimaoctava"
+                },
+                {
+                    "id": "davigesimanovena",
+                    "titulo": "Disposici\u00f3n adicional vig\u00e9sima novena",
+                    "fecha_actualizacion": "20110506",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/davigesimanovena"
+                },
+                {
+                    "id": "datrigesima",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima",
+                    "fecha_actualizacion": "20120331",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesima"
+                },
+                {
+                    "id": "datrigesimaprimera",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima primera",
+                    "fecha_actualizacion": "20150711",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimaprimera"
+                },
+                {
+                    "id": "datrigesimasegunda",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima segunda",
+                    "fecha_actualizacion": "20150711",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimasegunda"
+                },
+                {
+                    "id": "datrigesimatercera",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima tercera",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimatercera"
+                },
+                {
+                    "id": "datrigesimacuarta",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima cuarta",
+                    "fecha_actualizacion": "20130928",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimacuarta"
+                },
+                {
+                    "id": "datrigesimaquinta",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima quinta",
+                    "fecha_actualizacion": "20131226",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimaquinta"
+                },
+                {
+                    "id": "datrigesimasexta",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima sexta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimasexta"
+                },
+                {
+                    "id": "datrigesimaseptima",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20121031",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimaseptima"
+                },
+                {
+                    "id": "datrigesimaoctava",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima octava",
+                    "fecha_actualizacion": "20230318",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimaoctava"
+                },
+                {
+                    "id": "datrigesimanovena",
+                    "titulo": "Disposici\u00f3n adicional trig\u00e9sima novena",
+                    "fecha_actualizacion": "20141017",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/datrigesimanovena"
+                },
+                {
+                    "id": "dacuadragesima",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesima"
+                },
+                {
+                    "id": "dacuadragesimaprimera",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima primera",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesimaprimera"
+                },
+                {
+                    "id": "dacuadragesimasegunda",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima segunda",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesimasegunda"
+                },
+                {
+                    "id": "dacuadragesimatercera",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima tercera",
+                    "fecha_actualizacion": "20150729",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesimatercera"
+                },
+                {
+                    "id": "dacuadragesimacuaa",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima cuarta",
+                    "fecha_actualizacion": "20150515",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesimacuaa"
+                },
+                {
+                    "id": "dacuadragesimaquinta",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima quinta",
+                    "fecha_actualizacion": "20170121",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dacuadragesimaquinta"
+                },
+                {
+                    "id": "da",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da"
+                },
+                {
+                    "id": "da-2",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima octava",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-2"
+                },
+                {
+                    "id": "da-3",
+                    "titulo": "Disposici\u00f3n adicional cuadrag\u00e9sima novena",
+                    "fecha_actualizacion": "20201223",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-3"
+                },
+                {
+                    "id": "da-4",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima",
+                    "fecha_actualizacion": "20260321",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-4"
+                },
+                {
+                    "id": "da-5",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima primera",
+                    "fecha_actualizacion": "20220330",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-5"
+                },
+                {
+                    "id": "da-6",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima segunda",
+                    "fecha_actualizacion": "20220701",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-6"
+                },
+                {
+                    "id": "da-7",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima tercera",
+                    "fecha_actualizacion": "20221222",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-7"
+                },
+                {
+                    "id": "da-9",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima cuarta",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-9"
+                },
+                {
+                    "id": "da-10",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima quinta",
+                    "fecha_actualizacion": "20260228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-10"
+                },
+                {
+                    "id": "da-12",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima sexta",
+                    "fecha_actualizacion": "20221224",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-12"
+                },
+                {
+                    "id": "da-8",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20251126",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-8"
+                },
+                {
+                    "id": "da-11",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima octava",
+                    "fecha_actualizacion": "20260321",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-11"
+                },
+                {
+                    "id": "da-13",
+                    "titulo": "Disposici\u00f3n adicional quincuag\u00e9sima novena",
+                    "fecha_actualizacion": "20240627",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-13"
+                },
+                {
+                    "id": "da-14",
+                    "titulo": "Disposici\u00f3n adicional sexag\u00e9sima",
+                    "fecha_actualizacion": "20241221",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-14"
+                },
+                {
+                    "id": "da-15",
+                    "titulo": "Disposici\u00f3n adicional sexag\u00e9sima primera",
+                    "fecha_actualizacion": "20260219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-15"
+                },
+                {
+                    "id": "da-16",
+                    "titulo": "Disposici\u00f3n adicional sexag\u00e9sima segunda",
+                    "fecha_actualizacion": "20260321",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-16"
+                },
+                {
+                    "id": "da-17",
+                    "titulo": "Disposici\u00f3n adicional sexag\u00e9sima tercera",
+                    "fecha_actualizacion": "20260429",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/da-17"
+                },
+                {
+                    "id": "dtprimera",
+                    "titulo": "Disposici\u00f3n transitoria primera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtprimera"
+                },
+                {
+                    "id": "dtsegunda",
+                    "titulo": "Disposici\u00f3n transitoria segunda",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtsegunda"
+                },
+                {
+                    "id": "dttercera",
+                    "titulo": "Disposici\u00f3n transitoria tercera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dttercera"
+                },
+                {
+                    "id": "dtcuarta",
+                    "titulo": "Disposici\u00f3n transitoria cuarta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtcuarta"
+                },
+                {
+                    "id": "dtquinta",
+                    "titulo": "Disposici\u00f3n transitoria quinta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtquinta"
+                },
+                {
+                    "id": "dtsexta",
+                    "titulo": "Disposici\u00f3n transitoria sexta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtsexta"
+                },
+                {
+                    "id": "dtseptima",
+                    "titulo": "Disposici\u00f3n transitoria s\u00e9ptima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtseptima"
+                },
+                {
+                    "id": "dtoctava",
+                    "titulo": "Disposici\u00f3n transitoria octava",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtoctava"
+                },
+                {
+                    "id": "dtnovena",
+                    "titulo": "Disposici\u00f3n transitoria novena",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtnovena"
+                },
+                {
+                    "id": "dtdecima",
+                    "titulo": "Disposici\u00f3n transitoria d\u00e9cima",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecima"
+                },
+                {
+                    "id": "dtundecima",
+                    "titulo": "Disposici\u00f3n transitoria und\u00e9cima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtundecima"
+                },
+                {
+                    "id": "dtduodecima",
+                    "titulo": "Disposici\u00f3n transitoria duod\u00e9cima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtduodecima"
+                },
+                {
+                    "id": "dtdecimotercera",
+                    "titulo": "Disposici\u00f3n transitoria decimotercera",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimotercera"
+                },
+                {
+                    "id": "dtdecimocuarta",
+                    "titulo": "Disposici\u00f3n transitoria decimocuarta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimocuarta"
+                },
+                {
+                    "id": "dtdecimoquinta",
+                    "titulo": "Disposici\u00f3n transitoria decimoquinta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimoquinta"
+                },
+                {
+                    "id": "dtdecimosexta",
+                    "titulo": "Disposici\u00f3n transitoria decimosexta",
+                    "fecha_actualizacion": "20091219",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimosexta"
+                },
+                {
+                    "id": "dtdecimoseptima",
+                    "titulo": "Disposici\u00f3n transitoria decimos\u00e9ptima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimoseptima"
+                },
+                {
+                    "id": "dtdecimoctava",
+                    "titulo": "Disposici\u00f3n transitoria decimoctava",
+                    "fecha_actualizacion": "20121228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimoctava"
+                },
+                {
+                    "id": "dtdecimonovena",
+                    "titulo": "Disposici\u00f3n transitoria decimonovena",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtdecimonovena"
+                },
+                {
+                    "id": "dtvigesima",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima",
+                    "fecha_actualizacion": "20131226",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesima"
+                },
+                {
+                    "id": "dtvigesimaprimera",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima primera",
+                    "fecha_actualizacion": "20110506",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimaprimera"
+                },
+                {
+                    "id": "dtvigesimasegunda",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima segunda",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimasegunda"
+                },
+                {
+                    "id": "dtvigesimatercera",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima tercera",
+                    "fecha_actualizacion": "20131226",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimatercera"
+                },
+                {
+                    "id": "dtvigesimacuarta",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima cuarta",
+                    "fecha_actualizacion": "20121228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimacuarta"
+                },
+                {
+                    "id": "dtvigesimaquinta",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima quinta",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimaquinta"
+                },
+                {
+                    "id": "dtvigesimasexta",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima sexta",
+                    "fecha_actualizacion": "20121228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimasexta"
+                },
+                {
+                    "id": "dtvigesimaseptima",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20130928",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimaseptima"
+                },
+                {
+                    "id": "dtvigesimaoctava",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima octava",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimaoctava"
+                },
+                {
+                    "id": "dtvigesimanovena",
+                    "titulo": "Disposici\u00f3n transitoria vig\u00e9sima novena",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dtvigesimanovena"
+                },
+                {
+                    "id": "dttrigesima",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dttrigesima"
+                },
+                {
+                    "id": "dttrigesimaprimera",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima primera",
+                    "fecha_actualizacion": "20141128",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dttrigesimaprimera"
+                },
+                {
+                    "id": "dttrigesimasegunda",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima segunda",
+                    "fecha_actualizacion": "20260228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dttrigesimasegunda"
+                },
+                {
+                    "id": "dt-3",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima tercera",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt-3"
+                },
+                {
+                    "id": "dt",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima cuarta",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt"
+                },
+                {
+                    "id": "dt-2",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima quinta",
+                    "fecha_actualizacion": "20180704",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt-2"
+                },
+                {
+                    "id": "dt-4",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima sexta",
+                    "fecha_actualizacion": "20210710",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt-4"
+                },
+                {
+                    "id": "dt-5",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima s\u00e9ptima",
+                    "fecha_actualizacion": "20221228",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt-5"
+                },
+                {
+                    "id": "dt-6",
+                    "titulo": "Disposici\u00f3n transitoria trig\u00e9sima octava",
+                    "fecha_actualizacion": "20230525",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dt-6"
+                },
+                {
+                    "id": "ddprimera",
+                    "titulo": "Disposici\u00f3n derogatoria primera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ddprimera"
+                },
+                {
+                    "id": "ddsegunda",
+                    "titulo": "Disposici\u00f3n derogatoria segunda",
+                    "fecha_actualizacion": "20131030",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/ddsegunda"
+                },
+                {
+                    "id": "dfprimera",
+                    "titulo": "Disposici\u00f3n final primera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfprimera"
+                },
+                {
+                    "id": "dfsegunda",
+                    "titulo": "Disposici\u00f3n final segunda",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfsegunda"
+                },
+                {
+                    "id": "dftercera",
+                    "titulo": "Disposici\u00f3n final tercera",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dftercera"
+                },
+                {
+                    "id": "dfcuarta",
+                    "titulo": "Disposici\u00f3n final cuarta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfcuarta"
+                },
+                {
+                    "id": "dfquinta",
+                    "titulo": "Disposici\u00f3n final quinta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfquinta"
+                },
+                {
+                    "id": "dfsexta",
+                    "titulo": "Disposici\u00f3n final sexta",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfsexta"
+                },
+                {
+                    "id": "dfseptima",
+                    "titulo": "Disposici\u00f3n final s\u00e9ptima",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfseptima"
+                },
+                {
+                    "id": "dfoctava",
+                    "titulo": "Disposici\u00f3n final octava",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/dfoctava"
+                },
+                {
+                    "id": "firma",
+                    "titulo": "",
+                    "fecha_actualizacion": "20061129",
+                    "url": "https:\/\/www.boe.es\/datosabiertos\/api\/legislacion-consolidada\/id\/BOE-A-2006-20764\/texto\/bloque\/firma"
+                }
+            ]
+        }
+    ]
+}

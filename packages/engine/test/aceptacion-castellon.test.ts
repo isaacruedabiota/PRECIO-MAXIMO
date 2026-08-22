@@ -76,7 +76,8 @@ function casoDelGrao(): CalcInput {
     buyer: {
       edad: 27,
       primera_vivienda_habitual: true,
-      familia_numerosa: false,
+      familia_numerosa: 'no',
+      tributacion_irpf: 'individual',
       discapacidad_reconocida: false,
       base_imponible_irpf_anual: 28000,
       ahorro_disponible: 45000,
@@ -115,6 +116,7 @@ function casoDelGrao(): CalcInput {
       partidas_singulares: [],
       hay_proyecto_cerrado: false,
       destinatario_particular: true,
+      coste_materiales_pct: null,
     },
     // Residencia habitual: no hay operacion de inversion que valorar.
     inversion: null,

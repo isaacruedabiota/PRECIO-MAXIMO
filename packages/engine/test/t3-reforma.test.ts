@@ -90,41 +90,45 @@ describe('T3 - coste de la reforma', () => {
 });
 
 describe('T3 - IVA del art. 91 LIVA', () => {
-  it('aplica el tipo general si no se puede comprobar el valor catastral', () => {
-    const r = correrT3();
+  // La condicion real del art. 91.Uno.2.10 LIVA no es que el coste no supere el
+  // doble del valor catastral (eso decia el brief, y no aparece en la norma),
+  // sino que los materiales aportados por quien ejecuta la obra no pasen del
+  // 40% de la base imponible.
+  const conMateriales = (pct: number | null) => reformaBase({ coste_materiales_pct: pct });
+
+  it('aplica el tipo general si el presupuesto no desglosa materiales', () => {
+    const r = correrT3({}, conMateriales(null));
     expect(r.costeReforma).toBeCloseTo(64400 * 1.21, 2);
-    expect(codigos(r.techo.avisos)).toContain('SIN_VALOR_CATASTRAL');
+    expect(codigos(r.techo.avisos)).toContain('MATERIALES_SIN_DESGLOSAR');
   });
 
   it('aplica el tipo reducido cuando se cumplen las tres condiciones', () => {
-    // valor catastral 40.000 x multiplicador 2 = limite 80.000 > 64.400
-    const r = correrT3({ property: propiedadBase({ valor_catastral: 40000 }) });
+    const r = correrT3({}, conMateriales(0.3));
     expect(r.costeReforma).toBeCloseTo(64400 * 1.1, 2);
   });
 
-  it('vuelve al tipo general si el coste supera el limite sobre valor catastral', () => {
-    // 10.000 x 2 = limite 20.000 < 64.400
-    const r = correrT3({ property: propiedadBase({ valor_catastral: 10000 }) });
+  it('vuelve al tipo general si los materiales pasan del limite legal', () => {
+    const r = correrT3({}, conMateriales(0.55));
     expect(r.costeReforma).toBeCloseTo(64400 * 1.21, 2);
   });
 
+  it('el limite esta justo en el 40 por ciento', () => {
+    expect(correrT3({}, conMateriales(0.4)).costeReforma).toBeCloseTo(64400 * 1.1, 2);
+    expect(correrT3({}, conMateriales(0.4001)).costeReforma).toBeCloseTo(64400 * 1.21, 2);
+  });
+
   it('aplica el tipo general si el destinatario no actua como particular', () => {
-    const r = correrT3(
-      { property: propiedadBase({ valor_catastral: 40000 }) },
-      reformaBase({ destinatario_particular: false }),
-    );
+    const r = correrT3({}, reformaBase({ coste_materiales_pct: 0.3, destinatario_particular: false }));
     expect(r.costeReforma).toBeCloseTo(64400 * 1.21, 2);
   });
 
   it('aplica el tipo general si la vivienda no llega a la antiguedad minima', () => {
-    const r = correrT3({
-      property: propiedadBase({ valor_catastral: 40000, anio_construccion: 2025 }),
-    });
+    const r = correrT3({ property: propiedadBase({ anio_construccion: 2025 }) }, conMateriales(0.3));
     expect(r.costeReforma).toBeCloseTo(64400 * 1.21, 2);
   });
 
   it('modela siempre el escenario alternativo con el otro tipo', () => {
-    const r = correrT3({ property: propiedadBase({ valor_catastral: 40000 }) });
+    const r = correrT3({}, conMateriales(0.3));
     const alternativo = r.techo.desglose.find((l) => l.concepto.includes('Escenario alternativo'));
     expect(alternativo?.valor.valor).toBeCloseTo(64400 * 1.21, 2);
   });

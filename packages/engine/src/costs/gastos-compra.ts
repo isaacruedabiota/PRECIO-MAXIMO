@@ -1,4 +1,4 @@
-import type { EngineConfig, ItpCcaa } from '@vp/config/schemas';
+import type { EngineConfig, ItpCcaa, TipoReducido } from '@vp/config/schemas';
 import { MissingConfigError, leerValor, requerido } from '@vp/config/values';
 
 import { aviso } from '../trace';
@@ -106,8 +106,12 @@ export function resolverTipoITP(
   for (const [i, reducido] of bloque.tipos_reducidos.entries()) {
     const ruta = `${rutaCcaa}.tipos_reducidos[${i}]`;
 
+    // El codigo puede llevar sufijo de tramo de valor (p. ej. _alto_valor):
+    // la modalidad de fondo es la misma y lo que cambia es el tipo.
+    const modalidad = reducido.codigo.replace(/_alto_valor$/, '');
+
     let cumplePerfil: boolean;
-    switch (reducido.codigo) {
+    switch (modalidad) {
       case 'joven_primera_vivienda': {
         if (!buyer.primera_vivienda_habitual) {
           cumplePerfil = false;
@@ -123,10 +127,10 @@ export function resolverTipoITP(
         break;
       }
       case 'familia_numerosa':
-        cumplePerfil = buyer.familia_numerosa && buyer.primera_vivienda_habitual;
+        cumplePerfil = buyer.familia_numerosa !== 'no';
         break;
       case 'discapacidad':
-        cumplePerfil = buyer.discapacidad_reconocida && buyer.primera_vivienda_habitual;
+        cumplePerfil = buyer.discapacidad_reconocida;
         break;
       case 'vpo':
         cumplePerfil = property.es_vpo === true;
@@ -137,36 +141,29 @@ export function resolverTipoITP(
 
     if (!cumplePerfil) continue;
 
-    // Limite de renta
-    if (reducido.limite_base_imponible_irpf !== null) {
+    // Tramo de valor del inmueble. Las bonificaciones suelen partirse en dos
+    // por valor, y los dos tramos son excluyentes.
+    if (reducido.limite_valor_inmueble !== null && baseImponible > reducido.limite_valor_inmueble) continue;
+    if (reducido.valor_inmueble_desde !== null && baseImponible <= reducido.valor_inmueble_desde) continue;
+
+    // Limite de renta, que depende del regimen de declaracion y, en familia
+    // numerosa, tambien de la categoria.
+    const limite = limiteDeRenta(reducido, buyer);
+    if (limite !== null) {
       if (buyer.base_imponible_irpf_anual === null) {
         avisos.push(
           aviso(
             'critico',
             'BONIFICACION_SIN_COMPROBAR_RENTA',
             `Puede que te aplique "${reducido.nombre}"`,
-            `Esa modalidad exige una base imponible de IRPF por debajo de ` +
-              `${reducido.limite_base_imponible_irpf} EUR, y no has indicado la tuya. Se ha calculado con el ` +
-              'tipo menos favorable. Si cumples, tu techo real es mas alto: rellena tu base imponible.',
+            `Esa modalidad exige una base liquidable de IRPF no superior a ${limite} EUR en tributacion ` +
+              `${buyer.tributacion_irpf}, y no has indicado la tuya. Se ha calculado con el tipo menos ` +
+              'favorable. Si cumples, tu techo real es mas alto: rellena tu base imponible.',
           ),
         );
         continue;
       }
-      if (buyer.base_imponible_irpf_anual > reducido.limite_base_imponible_irpf) continue;
-    }
-
-    // Limite de valor del inmueble
-    if (reducido.limite_valor_inmueble !== null && baseImponible > reducido.limite_valor_inmueble) {
-      avisos.push(
-        aviso(
-          'info',
-          'BONIFICACION_SUPERA_LIMITE_VALOR',
-          `"${reducido.nombre}" no aplica por el valor del inmueble`,
-          `La modalidad tiene un limite de ${reducido.limite_valor_inmueble} EUR y la base imponible del ` +
-            `impuesto es ${baseImponible.toFixed(0)} EUR.`,
-        ),
-      );
-      continue;
+      if (buyer.base_imponible_irpf_anual > limite) continue;
     }
 
     const tipo = requerido(
@@ -197,12 +194,7 @@ export function resolverTipoITP(
     return { tipo: mejor.tipo, modalidad: mejor.nombre, avisos };
   }
 
-  const general = requerido(
-    bloque.tipo_general,
-    `${rutaCcaa}.tipo_general`,
-    'Tipo general de ITP de la comunidad. Es el dato mas caro de equivocar de toda la herramienta: ' +
-      'un punto de error son 2.000 EUR en un piso de 200.000.',
-  );
+  const general = tipoGeneralPorValor(bloque, baseImponible, rutaCcaa);
 
   if (!bloque.verificado) {
     avisos.push(
@@ -218,6 +210,59 @@ export function resolverTipoITP(
   }
 
   return { tipo: general, modalidad: `Tipo general de ${bloque.ccaa}`, avisos };
+}
+
+/**
+ * Tipo general aplicable segun el valor del inmueble.
+ *
+ * No es una escala progresiva: el tipo del tramo se aplica al total de la base.
+ * En la Comunitat Valenciana, por ejemplo, es el 9 % hasta un millon de euros y
+ * el 11 % por encima, sobre el importe entero.
+ */
+function tipoGeneralPorValor(bloque: ItpCcaa, baseImponible: number, rutaCcaa: string): number {
+  const tramos = bloque.tipo_general.tramos;
+  if (tramos.length === 0) {
+    throw new MissingConfigError(
+      `${rutaCcaa}.tipo_general.tramos`,
+      'Tipo general de ITP de la comunidad. Es el dato mas caro de equivocar de toda la herramienta: ' +
+        'un punto de error son 2.000 EUR en un piso de 200.000.',
+    );
+  }
+
+  const tramo = tramos.find(
+    (t) => baseImponible > t.desde && (t.hasta === null || baseImponible <= t.hasta),
+  );
+
+  if (tramo === undefined) {
+    throw new MissingConfigError(
+      `${rutaCcaa}.tipo_general.tramos`,
+      `Ningun tramo cubre una base imponible de ${baseImponible.toFixed(0)} EUR. Los tramos configurados ` +
+        `van de ${tramos[0]?.desde ?? '?'} en adelante y dejan un hueco.`,
+    );
+  }
+
+  return tramo.tipo;
+}
+
+/**
+ * Limite de base liquidable aplicable, resuelto por regimen de declaracion y,
+ * en familia numerosa, por categoria.
+ */
+function limiteDeRenta(reducido: TipoReducido, buyer: BuyerProfile): number | null {
+  const especial = (reducido as { limite_base_imponible_irpf_categoria_especial?: unknown })
+    .limite_base_imponible_irpf_categoria_especial;
+
+  const bloque =
+    buyer.familia_numerosa === 'especial' && esLimiteRenta(especial)
+      ? especial
+      : reducido.limite_base_imponible_irpf;
+
+  if (bloque === null || bloque === undefined) return null;
+  return buyer.tributacion_irpf === 'conjunta' ? bloque.conjunta : bloque.individual;
+}
+
+function esLimiteRenta(v: unknown): v is { individual: number | null; conjunta: number | null } {
+  return typeof v === 'object' && v !== null && 'individual' in v && 'conjunta' in v;
 }
 
 /** Gastos totales de compra para un precio dado. */
