@@ -126,6 +126,10 @@ HOSTNAME=0.0.0.0
 # El bundle standalone de Next no conserva la ruta relativa a packages/config,
 # asi que el directorio de config se indica de forma explicita.
 VP_CONFIG_DIR=${APP_DIR}/packages/config/data
+# Mismo motivo: la antiguedad del parque vive todavia en un fixture, y el bundle
+# standalone no conserva la ruta relativa. Si no se encuentra, la app avisa en
+# lugar de inventarse una antiguedad.
+VP_FIXTURES_DIR=${APP_DIR}/fixtures
 ENV
 
 chown root:"${APP_USER}" "${ENV_FILE}"

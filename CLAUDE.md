@@ -30,7 +30,7 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fases 1, 2 y 3 completas**, con **269 tests**.
+**Fases 1 a 4 completas**, con **272 tests**.
 
 La 1 es el motor: los cuatro techos, descuentos por riesgo, bloqueantes,
 argumentario y métricas de inversión. `calcularPrecioMaximo` devuelve un
@@ -50,6 +50,12 @@ crean su fila de `fuentes_datos` antes de escribir un solo precio, y paran en
 lugar de importar a medias. Encima va la cascada de T1 —Notariado, MITMA
 municipal, MITMA provincial— que deja dicho en qué escalón se ha parado.
 
+La 4 cierra el circuito: `pnpm valorar` desde la terminal y la web en
+`pnpm dev`. Referencia catastral → ficha → los catorce campos que el Catastro no
+publica → precio máximo con los cuatro techos, su desglose y su procedencia. La
+composición del `CalcInput` vive en `@vp/adapters/valoracion` para que CLI y web
+no monten dos entradas distintas.
+
 Encima hay instrumental de calibración (`pnpm calibrate`), captura de respuestas
 reales (`pnpm capture:fixture`) y cinco fuentes verificadas con fixture y cita:
 **BOE** (ITP, IVA, IRPF, aranceles), **MITMA** (series 35103500 y 35101000),
@@ -62,11 +68,8 @@ Lo que sigue sin contrastar y sí se usa son los **coeficientes de
 homogeneización**: no son dato oficial sino criterio profesional, y solo se
 validan contra operaciones reales. Ver la sección de calibración.
 
-Lo que sigue faltando para valorar un piso de punta a punta es el **formulario**
-(Fase 4): la ficha sale del Catastro y el €/m² sale de la base, pero los catorce
-campos que el Catastro no publica —ascensor, orientación, estado, CEE— todavía no
-tienen dónde meterse. Y el **Notariado**, primer escalón de la cascada, sigue sin
-adaptador: hoy T1 arranca del valor tasado de MITMA, que es tasación y no
+Lo que sigue faltando es el **Notariado**, primer escalón de la cascada de T1:
+sin adaptador, hoy T1 arranca del valor tasado de MITMA, que es tasación y no
 escritura.
 
 ---
@@ -106,6 +109,14 @@ pnpm ingest:mitma          # valor tasado por municipio y provincia (--offline u
 pnpm ingest:ine            # IPV por CCAA, 40 trimestres
 ```
 
+Valorar un piso de punta a punta:
+
+```bash
+pnpm valorar --plantilla <RC> > expediente.json   # crea el expediente vacio
+pnpm valorar expediente.json                      # lo valora
+pnpm dev                                          # o por la web
+```
+
 Ficha de un inmueble desde el Catastro:
 
 ```bash
@@ -135,7 +146,7 @@ Despliegue a la Raspberry Pi: ver [infra/pi/README.md](infra/pi/README.md).
 ## Estructura
 
 ```
-apps/web            Next.js App Router. Solo presentación; no calcula nada.
+apps/web            Next.js App Router. Formulario y resultado; el cálculo lo hace el motor.
 packages/engine     Motor. TypeScript puro, cero I/O, 100% testeable.
 packages/config     JSON de negocio + esquemas Zod + cargador.
 packages/adapters   Puertos de las fuentes. Catastro, MITMA e INE implementados.
@@ -532,6 +543,25 @@ T1 deprecia tiene que describir esa misma población.
 Por defecto el adaptador sirve **`mas_de_5`**, por esa coherencia. La serie
 provincial no viene desglosada, así que ahí solo hay `total`.
 
+### ADR-030 — El premio por ser más nuevo que la zona no tenía tope
+Lo destapó `pnpm valorar` en cuanto se corrió sobre un piso real, que es
+justamente para lo que se escribió antes que la web.
+
+La depreciación por antigüedad es **relativa** a la edad media del parque
+(ADR-007), y esa relación es simétrica: un piso más viejo que la media se
+penaliza, y uno más nuevo se premia. El coeficiente tenía suelo
+(`coeficiente_minimo` = 0,60) pero **ningún techo**. Con el parque de Castellón
+en 44,8 años y vida útil de 100, un piso de 1998 sale a **1,3041** — un +30% —
+y obra nueva llegaría a **1,81**. Lo único que lo frenaba era el tope global de
+1,30, que es exactamente lo que ADR-013 dice que no debe hacer: el tope es una
+red de seguridad, no el modelo.
+
+Se ha añadido `coeficiente_maximo` como campo **opcional**, a `null`, de modo
+que el resultado no cambia hasta fijar un valor contrastado. Mientras tanto el
+motor emite `ANTIGUEDAD_PREMIO_SIN_TOPE` cuando el premio pasa del 15%, con el
+número exacto y cuánto sube T1. El valor no se inventa aquí: sale de contrastar
+contra operaciones reales, como el resto de coeficientes de homogeneización.
+
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**
 del BOE, leídos por su API de legislación consolidada:
@@ -605,7 +635,7 @@ Al terminar cada fase se para y se espera visto bueno.
 - [x] **Fase 1** — Motor puro, los cuatro techos, 181 tests. **La fase que decide si el proyecto sirve.**
 - [x] **Fase 2** — Adaptador de Catastro: `pnpm ficha <RC>`, 47 tests contra fixtures reales.
 - [x] **Fase 3** — Ingesta batch: callejero del INE, MITMA municipal y provincial, IPV.
-- [ ] **Fase 4** — Web mínima: formulario → resultado → desglose trazable.
+- [x] **Fase 4** — Web mínima: formulario → resultado → desglose trazable, y `pnpm valorar`.
 - [ ] **Fase 5** — Informe PDF con argumentario y fuentes.
 - [ ] **Fase 6** — Modo inversor: SERPAVI, zonas tensionadas, flipping.
 - [ ] **Fase 7** — Riesgos: CEE, checklist pre-firma, alertas bloqueantes.
