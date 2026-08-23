@@ -216,32 +216,59 @@ export function Formulario() {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          buscar(rc.trim().toUpperCase());
+          const limpia = rc.replace(/[\s.-]/g, '').toUpperCase();
+          // Se valida al enviar y NO deshabilitando el boton. Un boton
+          // deshabilitado desde el HTML del servidor se queda muerto si la
+          // pagina todavia no ha hidratado, y desde fuera eso parece que la
+          // aplicacion esta rota.
+          if (limpia.length !== 14 && limpia.length !== 20) {
+            setBusqueda({
+              estado: 'error',
+              mensaje:
+                limpia === ''
+                  ? 'Escribe una referencia catastral.'
+                  : `"${rc}" tiene ${limpia.length} caracteres. Una referencia catastral tiene 20 (un piso) o 14 (la parcela entera).`,
+              sugerencia: 'La encuentras en el recibo del IBI, en la nota simple o en la escritura.',
+            });
+            return;
+          }
+          buscar(limpia);
         }}
         className="space-y-3"
       >
-        <Campo
-          etiqueta="Referencia catastral"
-          ayuda="20 caracteres para un piso, 14 para la parcela entera. Sale en el recibo del IBI o en la nota simple."
-        >
-          <div className="flex gap-2">
-            <input
-              className={clasesEntrada}
-              value={rc}
-              placeholder="2004930YK5320S0009RH"
-              onChange={(e) => {
-                setRc(e.target.value);
-              }}
-            />
-            <button
-              type="submit"
-              disabled={pendiente || rc.trim() === ''}
-              className="rounded-md bg-(--color-acento) px-4 py-2 text-sm font-medium text-white disabled:opacity-40"
-            >
-              {pendiente ? 'Buscando…' : 'Buscar'}
-            </button>
-          </div>
-        </Campo>
+        {/*
+          El boton va FUERA del <label>. Dentro, el navegador reenvia el clic al
+          primer control etiquetable del label —el input— y el boton no llega a
+          activarse nunca. Por eso aqui no se usa <Campo>.
+        */}
+        <label className="block" htmlFor="referencia-catastral">
+          <span className="block text-sm font-medium">Referencia catastral</span>
+          <span className="block text-xs text-(--color-tenue)">
+            20 caracteres para un piso, 14 para la parcela entera. Sale en el recibo del IBI o
+            en la nota simple.
+          </span>
+        </label>
+        <div className="flex gap-2">
+          <input
+            id="referencia-catastral"
+            name="referencia-catastral"
+            className={clasesEntrada}
+            value={rc}
+            autoComplete="off"
+            spellCheck={false}
+            placeholder="2004930YK5320S0009RH"
+            onChange={(e) => {
+              setRc(e.target.value);
+            }}
+          />
+          <button
+            type="submit"
+            disabled={pendiente}
+            className="rounded-md bg-(--color-acento) px-4 py-2 text-sm font-medium whitespace-nowrap text-white disabled:opacity-40"
+          >
+            {pendiente ? 'Buscando…' : 'Buscar'}
+          </button>
+        </div>
       </form>
 
       {busqueda?.estado === 'error' && (
