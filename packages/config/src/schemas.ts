@@ -205,6 +205,12 @@ export const coeficientesConfigSchema = z.looseObject({
     metodo: z.string(),
     edad_referencia_zona_anios: vc,
     coeficiente_minimo: vc,
+    /**
+     * Tope al premio por ser mas nuevo que la media del parque. Opcional: si no
+     * esta o su valor es null, el premio no se topa y el motor avisa cuando es
+     * grande. Ver ADR-030.
+     */
+    coeficiente_maximo: vc.optional(),
     penalizacion_extra_pre_1980_sin_rehabilitar: vc,
     anio_corte_instalaciones: z.number(),
   }),

@@ -215,6 +215,54 @@ describe('T1 - depreciacion por antiguedad', () => {
     expect(codigos(r.techo.avisos)).not.toContain('ANTIGUEDAD_ABSOLUTA');
   });
 
+  it('avisa cuando el piso es mucho mas nuevo que la zona y ese premio no tiene tope', () => {
+    const config = configDeTest();
+    // Parque viejo frente a un piso de 26 anos: el coeficiente se va por encima
+    // de 1. Es coherente con el modelo relativo, pero nada lo limita.
+    config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 60;
+
+    const r = correrT1({ config });
+    const antiguedad = r.coeficientes.find((c) => c.nombre === 'antiguedad');
+
+    // (1 - 26/100) / (1 - 60/100) = 1,85
+    expect(antiguedad?.valor).toBeCloseTo(1.85, 6);
+    expect(codigos(r.techo.avisos)).toContain('ANTIGUEDAD_PREMIO_SIN_TOPE');
+  });
+
+  it('topa el premio cuando se fija coeficiente_maximo, y lo dice', () => {
+    const config = configDeTest();
+    config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 60;
+    config.coeficientes.antiguedad.coeficiente_maximo = {
+      min: 1.05,
+      max: 1.25,
+      sugerido: 1.15,
+      valor: 1.15,
+    };
+
+    const r = correrT1({ config });
+    expect(r.coeficientes.find((c) => c.nombre === 'antiguedad')?.valor).toBeCloseTo(1.15, 6);
+    expect(codigos(r.techo.avisos)).toContain('ANTIGUEDAD_PREMIO_TOPADO');
+    expect(codigos(r.techo.avisos)).not.toContain('ANTIGUEDAD_PREMIO_SIN_TOPE');
+  });
+
+  it('sin coeficiente_maximo el resultado no cambia: el tope es opcional', () => {
+    const config = configDeTest();
+    config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 60;
+    const sinCampo = correrT1({ config });
+
+    const config2 = configDeTest();
+    config2.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 60;
+    config2.coeficientes.antiguedad.coeficiente_maximo = {
+      min: 1.05,
+      max: 1.25,
+      sugerido: 1.15,
+      valor: null,
+    };
+    const conCampoANull = correrT1({ config: config2 });
+
+    expect(conCampoANull.techo.valor?.valor).toBe(sinCampo.techo.valor?.valor);
+  });
+
   it('el dato de mercado del parque manda sobre el respaldo de config', () => {
     const config = configDeTest();
     config.coeficientes.antiguedad.edad_referencia_zona_anios.valor = 0;

@@ -153,6 +153,12 @@ export interface FichaCatastral {
     municipio: string | null;
     /** 5 digitos (2 de provincia + 3 de municipio). La clave para cruzar con MITMA. */
     municipio_ine: string | null;
+    /**
+     * Codigo de municipio del CATASTRO (cmc), que no es el del INE. Castello de
+     * la Plana es 900 en el Catastro y 040 en el INE. Con el se nombran los
+     * datasets INSPIRE: provincia + cmc = 12900.
+     */
+    municipio_catastro: string | null;
     provincia: string | null;
     codigo_provincia_ine: string | null;
   };

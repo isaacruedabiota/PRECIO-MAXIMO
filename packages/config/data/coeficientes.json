@@ -254,6 +254,13 @@
       "sugerido": 0.6,
       "valor": 0.6
     },
+    "_doc_coeficiente_maximo": "Tope al premio por ser MAS NUEVO que la media del parque. El coeficiente relativo es simetrico: con un parque de 44,8 anos y vida util de 100, un piso de 1998 sale a 1,30 y una obra nueva a 1,81. Sin tope, lo unico que lo frena es el tope global, que es justo lo que ADR-013 dice que no debe hacer el trabajo del modelo. Se deja a null (sin topar) hasta contrastarlo: mientras tanto el motor emite ANTIGUEDAD_PREMIO_SIN_TOPE cuando el premio pasa del 15%.",
+    "coeficiente_maximo": {
+      "min": 1.05,
+      "max": 1.25,
+      "sugerido": null,
+      "valor": null
+    },
     "penalizacion_extra_pre_1980_sin_rehabilitar": {
       "_doc": "Instalaciones de electricidad y fontaneria fuera de norma, sin aislamiento. Se aplica ademas de la depreciacion por antiguedad.",
       "min": 0.93,

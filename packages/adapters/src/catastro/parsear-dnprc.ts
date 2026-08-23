@@ -230,6 +230,7 @@ function parsearFicha(bico: BicoCrudo): FichaCatastral {
       ...direccionDe(urb),
       municipio: texto(dt.nm),
       municipio_ine: municipioIne(dt.loine?.cp, dt.loine?.cm),
+      municipio_catastro: texto(dt.cmc),
       provincia: texto(dt.np),
       codigo_provincia_ine: texto(dt.loine?.cp),
     },

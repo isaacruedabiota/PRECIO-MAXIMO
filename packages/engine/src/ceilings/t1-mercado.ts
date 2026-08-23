@@ -399,7 +399,51 @@ function coeficienteAntiguedad(
   const residualInmueble = Math.max(0, 1 - edad / vidaUtil);
   const residualReferencia = Math.max(0.01, 1 - edadReferencia / vidaUtil);
 
-  let valor = Math.max(residualInmueble / residualReferencia, minimo);
+  const sinTopar = residualInmueble / residualReferencia;
+  let valor = Math.max(sinTopar, minimo);
+
+  // Techo opcional. El coeficiente relativo es simetrico: si el piso es MAS
+  // NUEVO que la media del parque sale por encima de 1, y sin tope ese premio
+  // no lo limita nada. Con un parque de 44,8 anos y vida util de 100, una obra
+  // nueva se llevaria un +81%, y lo unico que lo frenaria seria el tope global,
+  // que es justo lo que ADR-013 dice que no debe hacer el trabajo del modelo.
+  //
+  // Se deja a null (sin tope) por defecto para no cambiar el resultado hasta
+  // que se fije un valor contrastado. Aun asi se avisa cuando el premio es
+  // grande, porque mueve T1 tanto como una penalizacion.
+  const maximoConfigurado = coef.antiguedad.coeficiente_maximo;
+  const maximo =
+    maximoConfigurado === undefined || maximoConfigurado.valor === null
+      ? null
+      : maximoConfigurado.valor;
+  if (maximo !== null && valor > maximo) {
+    avisos.push(
+      aviso(
+        'atencion',
+        'ANTIGUEDAD_PREMIO_TOPADO',
+        'El premio por ser mas nuevo que la zona se ha topado',
+        `El inmueble tiene ${edad} anos frente a los ${edadReferencia.toFixed(1)} de media del parque, ` +
+          `lo que daria un coeficiente de ${sinTopar.toFixed(4)}. Se ha limitado a ${maximo} ` +
+          '(coeficientes.antiguedad.coeficiente_maximo).',
+      ),
+    );
+    valor = maximo;
+  } else if (maximo === null && valor > 1.15) {
+    avisos.push(
+      aviso(
+        'atencion',
+        'ANTIGUEDAD_PREMIO_SIN_TOPE',
+        'El inmueble es bastante mas nuevo que la media de la zona, y ese premio no tiene tope',
+        `Tiene ${edad} anos frente a los ${edadReferencia.toFixed(1)} de media del parque, asi que la ` +
+          `depreciacion relativa le da un coeficiente de ${valor.toFixed(4)}: sube T1 un ` +
+          `${((valor - 1) * 100).toFixed(0)}% sobre el precio de la zona. Es coherente con el modelo ` +
+          '(el EUR/m2 de la zona describe un parque mas viejo), pero el modelo lineal de vida util ' +
+          'premia de mas la obra reciente. Si el numero te parece alto, fija ' +
+          'coeficientes.antiguedad.coeficiente_maximo.',
+        'Metodologia del art. 18 de la Orden ECO/805/2003',
+      ),
+    );
+  }
 
   if (edadReferencia === 0) {
     avisos.push(
