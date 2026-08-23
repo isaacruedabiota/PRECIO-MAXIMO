@@ -44,8 +44,29 @@ sudo -u postgres psql -c "\l vp*"
 ```
 
 Envia el arbol commiteado con `git archive`, instala, construye **en la Pi**
-(arm64 nativo) y reinicia el servicio. Se niega a desplegar si hay cambios sin
-commitear: lo que se despliega es exactamente lo que esta en git.
+(arm64 nativo), migra y reinicia el servicio. Se niega a desplegar si hay
+cambios sin commitear: lo que se despliega es exactamente lo que esta en git.
+
+### La primera vez, ademas: cargar los datos de mercado
+
+El despliegue migra el esquema pero **no ingesta nada**, porque cada ingesta
+llama a una fuente externa y eso es una decision, no un efecto secundario de
+publicar. Sin datos, la aplicacion carga pero cualquier valoracion falla con
+"no hay ningun precio de mercado", que es lo correcto: no se inventa un precio.
+
+```bash
+ssh -i ~/.ssh/brio_pi isaac@pi-isaac.local
+export PATH=/usr/local/bin:$PATH
+set -a; . /etc/vp/vp-web.env; set +a     # apunta a la base vp, no a vp_dev
+cd /home/isaac/vp
+
+pnpm ingest:municipios     # 8.142 municipios del INE
+pnpm ingest:mitma          # valor tasado por municipio y provincia
+pnpm ingest:ine            # IPV por CCAA
+```
+
+Se repiten cada trimestre, cuando MITMA y el INE publican. Son idempotentes:
+reingestar el mismo trimestre actualiza las filas en lugar de duplicarlas.
 
 ## Operacion
 
