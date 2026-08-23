@@ -10,13 +10,15 @@
     "ingest:mitma": "tsx src/ingest-mitma.ts",
     "ingest:ine": "tsx src/ingest-ine.ts",
     "capture:fixture": "tsx src/capture-fixture.ts",
-    "ficha": "tsx src/ficha.ts"
+    "ficha": "tsx src/ficha.ts",
+    "ingest:municipios": "tsx src/ingest-municipios.ts"
   },
   "dependencies": {
     "@vp/adapters": "workspace:*",
     "@vp/config": "workspace:*",
     "@vp/db": "workspace:*",
-    "@vp/engine": "workspace:*"
+    "@vp/engine": "workspace:*",
+    "drizzle-orm": "^0.45.2"
   },
   "devDependencies": {
     "tsx": "^4.23.12",

@@ -22,7 +22,10 @@
     "calibrate": "pnpm --filter @vp/scripts calibrate",
     "ingest:antiguedad": "pnpm --filter @vp/scripts ingest:antiguedad",
     "capture:fixture": "pnpm --filter @vp/scripts capture:fixture",
-    "ficha": "pnpm --filter @vp/scripts ficha"
+    "ficha": "pnpm --filter @vp/scripts ficha",
+    "ingest:municipios": "pnpm --filter @vp/scripts ingest:municipios",
+    "ingest:mitma": "pnpm --filter @vp/scripts ingest:mitma",
+    "ingest:ine": "pnpm --filter @vp/scripts ingest:ine"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

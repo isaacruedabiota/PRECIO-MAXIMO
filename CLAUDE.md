@@ -30,7 +30,7 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fases 1 y 2 completas**, con **228 tests**.
+**Fases 1, 2 y 3 completas**, con **269 tests**.
 
 La 1 es el motor: los cuatro techos, descuentos por riesgo, bloqueantes,
 argumentario y métricas de inversión. `calcularPrecioMaximo` devuelve un
@@ -43,11 +43,18 @@ que fija el ITP, detecta la falta de división horizontal y **enumera lo que el
 Catastro no publica** y hay que meter a mano. El valor de referencia va en modo
 manual porque exige certificado (ADR-024).
 
+La 3 es la ingesta: `pnpm ingest:municipios` trae los 8.142 municipios del INE,
+`pnpm ingest:mitma` el valor tasado por municipio y provincia leyendo el XLS con
+un lector BIFF8 propio (ADR-026), y `pnpm ingest:ine` el IPV por CCAA. Los tres
+crean su fila de `fuentes_datos` antes de escribir un solo precio, y paran en
+lugar de importar a medias. Encima va la cascada de T1 —Notariado, MITMA
+municipal, MITMA provincial— que deja dicho en qué escalón se ha parado.
+
 Encima hay instrumental de calibración (`pnpm calibrate`), captura de respuestas
 reales (`pnpm capture:fixture`) y cinco fuentes verificadas con fixture y cita:
-**BOE** (ITP, IVA, IRPF, aranceles), **MITMA** (serie 35103500), **INE** (tabla
-80270 y las variables 70/115) y el **Catastro**, tanto la Oficina Virtual como
-INSPIRE.
+**BOE** (ITP, IVA, IRPF, aranceles), **MITMA** (series 35103500 y 35101000),
+**INE** (tabla 80270 y las variables 19/70/115) y el **Catastro**, tanto la
+Oficina Virtual como INSPIRE.
 
 **Pendiente antes de fiarse de un número**: 66 valores sin fijar y 19 bloques sin
 verificar, casi todos de las otras cinco CCAA y de fuentes que aún no se usan.
@@ -55,9 +62,12 @@ Lo que sigue sin contrastar y sí se usa son los **coeficientes de
 homogeneización**: no son dato oficial sino criterio profesional, y solo se
 validan contra operaciones reales. Ver la sección de calibración.
 
-Y sigue sin haber forma de valorar un piso de punta a punta: la ficha sale del
-Catastro, pero el precio de mercado de T1 todavía entra a mano (Fase 3) y no hay
-formulario (Fase 4).
+Lo que sigue faltando para valorar un piso de punta a punta es el **formulario**
+(Fase 4): la ficha sale del Catastro y el €/m² sale de la base, pero los catorce
+campos que el Catastro no publica —ascensor, orientación, estado, CEE— todavía no
+tienen dónde meterse. Y el **Notariado**, primer escalón de la cascada, sigue sin
+adaptador: hoy T1 arranca del valor tasado de MITMA, que es tasación y no
+escritura.
 
 ---
 
@@ -85,6 +95,15 @@ pnpm test           # tests del motor
 pnpm config:check   # qué falta por fijar y por verificar en la config
 pnpm calibrate      # informe de calibración de T1 y T3 sobre datos reales
 pnpm ingest:antiguedad 12900   # edad del parque de un municipio, del Catastro
+```
+
+Ingesta de datos de mercado, en este orden (todo lo demas se cruza por el
+callejero):
+
+```bash
+pnpm ingest:municipios     # 8.142 municipios del INE: codigo, provincia y CCAA
+pnpm ingest:mitma          # valor tasado por municipio y provincia (--offline usa el XLS ya bajado)
+pnpm ingest:ine            # IPV por CCAA, 40 trimestres
 ```
 
 Ficha de un inmueble desde el Catastro:
@@ -119,7 +138,7 @@ Despliegue a la Raspberry Pi: ver [infra/pi/README.md](infra/pi/README.md).
 apps/web            Next.js App Router. Solo presentación; no calcula nada.
 packages/engine     Motor. TypeScript puro, cero I/O, 100% testeable.
 packages/config     JSON de negocio + esquemas Zod + cargador.
-packages/adapters   Puertos de las fuentes. Catastro implementado; el resto, aún no.
+packages/adapters   Puertos de las fuentes. Catastro, MITMA e INE implementados.
 packages/db         Drizzle + PostgreSQL/PostGIS.
 scripts             CLI de ingesta y de captura de fixtures.
 fixtures            Respuestas reales capturadas de cada API.
@@ -459,6 +478,60 @@ tomado de la **API del INE** (variables 70 y 115, con fixture guardado), no
 escrito de memoria. Las seis comunidades de la config resuelven; una provincia
 de las otras trece devuelve `null` y el puente lo dice en vez de suponer.
 
+### ADR-026 — Lector de BIFF8 propio en vez de SheetJS
+Las dos series de MITMA solo se publican en `.xls` de Excel 97-2003 (OLE2 +
+BIFF8): no hay CSV, ni XLSX, ni API. La única librería de npm que lee ese
+formato es SheetJS, y **la versión publicada en npm arrastra un prototype
+pollution (CVE-2023-30533) cuyo arreglo no está en el registro**, solo en su
+CDN. Como aquí se parsea un fichero descargado de internet, ese es exactamente
+el escenario del fallo.
+
+El formato, en cambio, lleva congelado desde 1997 y de él solo hacen falta seis
+tipos de registro. `packages/adapters/src/xls/` son unas 400 líneas que leen el
+contenedor OLE2 y los registros de celda, y nada más: ni fórmulas sin resultado
+cacheado, ni formatos, ni gráficos.
+
+La parte fea es la tabla de cadenas compartidas: una cadena puede partirse entre
+dos registros, y al cruzar a un `CONTINUE` el primer byte **no es texto** sino
+una bandera de codificación. Sin eso el texto sale corrido a partir de la
+primera frontera.
+
+### ADR-027 — El municipio de MITMA se resuelve por nombre, no por su columna de provincia
+La columna de provincia del XLS municipal se arrastra hacia abajo y **el fichero
+real tiene filas fuera de su bloque**: Almuñécar, que es de Granada, aparece al
+final del bloque de Córdoba sin etiqueta, y lo mismo pasa con Almassora y
+Benicarló dentro del de Alicante. Hay además erratas en el propio nombre de la
+provincia («Valladodid», «Cantabría»). Fiarse de ese arrastre mete el €/m² de un
+municipio en la provincia equivocada sin que nada chille.
+
+Así que la ingesta resuelve el municipio por **nombre** contra el callejero del
+INE, y usa la provincia solo para desempatar homónimos. De los 306 municipios,
+295 son únicos por nombre, 3 necesitan el desempate y **8 necesitan alias**
+—«Mahón» por «Maó», «Palma de Mallorca» por «Palma», «Vitoria» por
+«Vitoria-Gasteiz»—, que viven en `fuentes.json` con su código comprobado contra
+el INE. El script imprime cada provincia que corrige y **para si no resuelve más
+de 15**.
+
+### ADR-028 — El callejero del INE se pide provincia a provincia
+`VALORES_VARIABLE/19` devuelve los municipios de toda España, pero el servidor
+**corta la respuesta alrededor de los 256 KB** y el JSON llega partido a mitad
+de registro: se queda en 2.829 de 8.142. No es un error que se anuncie, así que
+un `JSON.parse` a ciegas se traga medio país.
+
+`VALORES_HIJOS/115/{idProvincia}` da respuestas de 15 KB que llegan enteras. Son
+52 peticiones y salen los 8.142. `DATOS_TABLA`, en cambio, no tiene ese corte:
+el IPV con 40 trimestres son 950 KB y llegan bien.
+
+### ADR-029 — MITMA publica tres precios por municipio, y se guardan los tres
+La serie no da un €/m² sino tres, según la antigüedad de la vivienda tasada:
+hasta cinco años, más de cinco, y total. En Castellón capital van de 1.522 a
+1.683 €/m². Guardar solo uno obligaba a elegir por el motor y chocaba con
+ADR-015: si el precio describe vivienda usada, la edad del parque contra la que
+T1 deprecia tiene que describir esa misma población.
+
+Por defecto el adaptador sirve **`mas_de_5`**, por esa coherencia. La serie
+provincial no viene desglosada, así que ahí solo hay `total`.
+
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**
 del BOE, leídos por su API de legislación consolidada:
@@ -531,7 +604,7 @@ Al terminar cada fase se para y se espera visto bueno.
 - [x] **Fase 0** — Andamiaje: monorepo, Docker Compose, esquema de BD, tipos del dominio, despliegue en la Pi.
 - [x] **Fase 1** — Motor puro, los cuatro techos, 181 tests. **La fase que decide si el proyecto sirve.**
 - [x] **Fase 2** — Adaptador de Catastro: `pnpm ficha <RC>`, 47 tests contra fixtures reales.
-- [ ] **Fase 3** — Ingesta batch: MITMA + INE.
+- [x] **Fase 3** — Ingesta batch: callejero del INE, MITMA municipal y provincial, IPV.
 - [ ] **Fase 4** — Web mínima: formulario → resultado → desglose trazable.
 - [ ] **Fase 5** — Informe PDF con argumentario y fuentes.
 - [ ] **Fase 6** — Modo inversor: SERPAVI, zonas tensionadas, flipping.

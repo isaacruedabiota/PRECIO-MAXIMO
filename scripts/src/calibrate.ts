@@ -17,6 +17,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { fechaCierreTrimestre } from '@vp/adapters';
 import { loadConfig } from '@vp/config';
 import { MissingConfigError } from '@vp/config/values';
 import {
@@ -30,8 +31,12 @@ import type { CalcInput, MarketData, PropertyInput } from '@vp/engine';
 const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 
 interface FilaMitma {
-  provincia: string;
-  municipio: string;
+  codigo_ine: string;
+  /** Nombre tal cual lo escribe MITMA en su XLS. */
+  nombre_mitma: string;
+  /** Nombre oficial del callejero del INE, ya emparejado por la ingesta. */
+  nombre_ine: string | null;
+  provincia: string | null;
   eur_m2_mas_de_5_anios: number | null;
   tasaciones_mas_de_5_anios: number | null;
 }
@@ -43,7 +48,15 @@ function cargarMitma(municipio: string): { fila: FilaMitma; periodo: string } {
     datos: FilaMitma[];
   };
 
-  const fila = json.datos.find((d) => d.municipio.toLowerCase().includes(municipio.toLowerCase()));
+  const buscado = municipio.toLowerCase();
+  // Se busca por los dos nombres: el de MITMA y el oficial del INE, que en los
+  // municipios bilingues no coinciden ("Castellon de la Plana" contra
+  // "Castello de la Plana/Castellon de la Plana").
+  const fila = json.datos.find(
+    (d) =>
+      d.nombre_mitma.toLowerCase().includes(buscado) ||
+      (d.nombre_ine ?? '').toLowerCase().includes(buscado),
+  );
   if (fila === undefined) {
     throw new Error(`No hay dato de MITMA para "${municipio}" en ${json.periodo}.`);
   }
@@ -71,12 +84,15 @@ function cargarAntiguedad(codigoCatastro: string): AntiguedadFixture | null {
   return JSON.parse(readFileSync(ruta, 'utf8')) as AntiguedadFixture;
 }
 
-/** Fin del trimestre en formato ISO, a partir de la etiqueta T1A2026. */
+/**
+ * Fin del trimestre en formato ISO.
+ *
+ * El fixture guardaba antes la etiqueta de pestana del XLS (T1A2026) y ahora
+ * guarda el periodo normalizado (2026Q1), que es el que va a la base. Se
+ * reutiliza el helper de la ingesta en lugar de mantener dos parseos.
+ */
 function fechaDelPeriodo(periodo: string): string {
-  const m = /^T(\d)A(\d{4})$/.exec(periodo.trim());
-  if (m === null) throw new Error(`Periodo no reconocido: ${periodo}`);
-  const finales = ['03-31', '06-30', '09-30', '12-31'];
-  return `${m[2]}-${finales[Number(m[1]) - 1]}`;
+  return fechaCierreTrimestre(periodo.trim());
 }
 
 const eur = (n: number | null | undefined): string =>
@@ -107,11 +123,11 @@ function main(): void {
   const fechaDato = fechaDelPeriodo(periodo);
 
   if (fila.eur_m2_mas_de_5_anios === null) {
-    throw new Error(`MITMA marca el dato de ${fila.municipio} como no representativo.`);
+    throw new Error(`MITMA marca el dato de ${fila.nombre_mitma} como no representativo.`);
   }
 
   console.log('='.repeat(78));
-  console.log(`CALIBRACION DE T1 y T3 - ${fila.municipio} (${fila.provincia})`);
+  console.log(`CALIBRACION DE T1 y T3 - ${fila.nombre_ine ?? fila.nombre_mitma} (${fila.provincia ?? '?'})`);
   console.log('='.repeat(78));
   console.log(`Config:     ${dir}`);
   console.log(`Dato base:  ${fila.eur_m2_mas_de_5_anios} EUR/m2, vivienda de mas de 5 anos`);
@@ -138,8 +154,8 @@ function main(): void {
     localizacion: {
       codigo_postal: '12100',
       municipio_ine: '12040',
-      municipio_nombre: fila.municipio,
-      provincia: fila.provincia,
+      municipio_nombre: fila.nombre_ine ?? fila.nombre_mitma,
+      provincia: fila.provincia ?? '',
       ccaa: 'Comunitat Valenciana',
     },
     superficie: { tipo: 'construida', m2: 85 },

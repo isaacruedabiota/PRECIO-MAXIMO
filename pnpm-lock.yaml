@@ -75,9 +75,15 @@ importers:
       '@vp/config':
         specifier: workspace:*
         version: link:../config
+      '@vp/db':
+        specifier: workspace:*
+        version: link:../db
       '@vp/engine':
         specifier: workspace:*
         version: link:../engine
+      drizzle-orm:
+        specifier: ^0.45.2
+        version: 0.45.2(postgres@3.4.9)
     devDependencies:
       '@types/node':
         specifier: ^22.15.3
@@ -154,6 +160,9 @@ importers:
       '@vp/engine':
         specifier: workspace:*
         version: link:../packages/engine
+      drizzle-orm:
+        specifier: ^0.45.2
+        version: 0.45.2(postgres@3.4.9)
     devDependencies:
       '@types/node':
         specifier: ^22.15.3
