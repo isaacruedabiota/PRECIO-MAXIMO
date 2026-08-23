@@ -1,9 +1,10 @@
 /**
  * Puertos de las fuentes de datos.
  *
- * FASE 0: solo interfaces. Ninguna implementacion.
+ * Catastro y valor de referencia estan implementados (Fase 2). El resto siguen
+ * siendo solo interfaces.
  *
- * Regla del proyecto para implementarlos (Fases 2 y 3): antes de escribir una
+ * Regla del proyecto para implementarlos: antes de escribir una
  * linea contra cualquiera de estas APIs hay que hacer una peticion real, guardar
  * la respuesta en fixtures/<fuente>/<caso>.json y programar contra esa respuesta.
  * Si un endpoint no responde o ha cambiado de dominio o de esquema, se para y se
@@ -61,20 +62,88 @@ export class SinDatoError extends Error {
   }
 }
 
+/**
+ * La fuente responde correctamente y rechaza la consulta: referencia mal
+ * formada, parametro que falta. Es distinto de SinDatoError, donde la consulta
+ * es valida pero no hay dato, y de SourceUnavailableError, donde el problema es
+ * de la fuente. Aqui el error es de quien pregunta.
+ */
+export class ConsultaInvalidaError extends Error {
+  override readonly name = 'ConsultaInvalidaError';
+
+  constructor(
+    readonly fuente: string,
+    readonly codigo: string,
+    readonly detalle: string,
+  ) {
+    super(`Fuente "${fuente}" rechaza la consulta [${codigo}]: ${detalle}`);
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Catastro
 // ---------------------------------------------------------------------------
 
+/** Un anejo del inmueble: trastero, plaza de garaje, etc. */
+export interface AnejoCatastral {
+  /** Tal cual lo etiqueta el Catastro: 'ALMACEN', 'APARCAMIENTO', 'TERRAZA'... */
+  tipo: string;
+  superficie_m2: number;
+  planta: string | null;
+  puerta: string | null;
+}
+
+/**
+ * Las superficies que publica el Catastro. Todas son CONSTRUIDAS: la superficie
+ * util no es un dato catastral y no aparece por ningun lado (ADR-021).
+ *
+ * El reparto importa mucho. Ver ADR-022: el campo que parece "la superficie"
+ * (debi.sfc) es en realidad la suma de vivienda + anejos + parte proporcional de
+ * elementos comunes, y usarlo en T1 infla el techo de mercado.
+ */
+export interface SuperficiesCatastrales {
+  /** debi.sfc. Total imputado al inmueble. NO es la superficie del piso. */
+  total_m2: number | null;
+  /** Elemento VIVIENDA de lcons: construida, sin comunes y sin anejos. */
+  vivienda_m2: number | null;
+  /** Parte proporcional de elementos comunes. */
+  comunes_m2: number | null;
+  /** vivienda + comunes. Equivale al TipoSuperficie 'construida_con_comunes'. */
+  vivienda_con_comunes_m2: number | null;
+  anejos: readonly AnejoCatastral[];
+  /**
+   * false si la suma del desglose no cuadra con total_m2. Cuando no cuadra hay
+   * que mirar la ficha a mano en lugar de fiarse del reparto.
+   */
+  desglose_cuadra: boolean;
+}
+
 /** Ficha de inmueble segun los datos NO protegidos del Catastro. */
 export interface FichaCatastral {
+  /** 20 caracteres. */
   referencia_catastral: string;
-  /** El Catastro da construida, nunca util. Ojo al usarla en T1. */
-  superficie_construida_m2: number | null;
-  anio_construccion: number | null;
+  /** Los 14 primeros: identifican la parcela. */
+  referencia_parcela: string;
+  clase: 'urbana' | 'rustica' | null;
   uso_principal: string | null;
-  /** Cuota de participacion en la comunidad, en tanto por uno. */
+  anio_construccion: number | null;
+  superficies: SuperficiesCatastrales;
+  /**
+   * Cuota de participacion en la comunidad, en TANTO POR UNO. El Catastro la
+   * publica en porcentaje (cpt); el adaptador divide entre 100.
+   */
   participacion: number | null;
+  finca: {
+    /** Literal del Catastro, p.ej. "Parcela con varios inmuebles (division horizontal)". */
+    tipo: string | null;
+    /** null = el literal no permite decidirlo. Un null avisa, no bloquea. */
+    division_horizontal: boolean | null;
+    superficie_suelo_m2: number | null;
+    url_cartografia: string | null;
+  };
   direccion: {
+    literal: string | null;
+    tipo_via: string | null;
     via: string | null;
     numero: string | null;
     escalera: string | null;
@@ -82,14 +151,58 @@ export interface FichaCatastral {
     puerta: string | null;
     codigo_postal: string | null;
     municipio: string | null;
+    /** 5 digitos (2 de provincia + 3 de municipio). La clave para cruzar con MITMA. */
+    municipio_ine: string | null;
     provincia: string | null;
+    codigo_provincia_ine: string | null;
   };
-  coordenadas: { lat: number; lon: number; srs: string } | null;
+}
+
+/** Una linea del listado de inmuebles de una parcela. */
+export interface InmuebleDeParcela {
+  referencia_catastral: string;
+  uso_principal: string | null;
+  /** debi.sfc: total del inmueble, con anejos y comunes. */
+  superficie_total_m2: number | null;
+  anio_construccion: number | null;
+  /** En tanto por uno. */
+  participacion: number | null;
+  escalera: string | null;
+  planta: string | null;
+  puerta: string | null;
+  direccion_literal: string | null;
+}
+
+export interface ListadoParcela {
+  referencia_parcela: string;
+  total: number;
+  inmuebles: readonly InmuebleDeParcela[];
+}
+
+/**
+ * Una referencia de 14 caracteres puede designar una parcela con muchos
+ * inmuebles o una finca unica. El Catastro devuelve una cosa u otra segun el
+ * caso, asi que el adaptador no puede prometer siempre una ficha.
+ */
+export type ResultadoCatastro =
+  | { tipo: 'inmueble'; ficha: FichaCatastral }
+  | { tipo: 'parcela'; parcela: ListadoParcela };
+
+export interface CoordenadasCatastro {
+  lat: number;
+  lon: number;
+  srs: string;
+  /** Las coordenadas son de la parcela, no del inmueble concreto. */
+  referencia_parcela: string;
+  direccion_literal: string | null;
 }
 
 export interface CatastroPort {
-  porReferenciaCatastral(rc: string): Promise<Respuesta<FichaCatastral>>;
-  porCoordenadas(lat: number, lon: number): Promise<Respuesta<FichaCatastral>>;
+  /** Referencia de 20 caracteres (inmueble) o de 14 (parcela). */
+  consultar(rc: string): Promise<Respuesta<ResultadoCatastro>>;
+  /** Solo acepta referencia de parcela: el servicio rechaza las de 20. */
+  coordenadasDe(referenciaParcela: string): Promise<Respuesta<CoordenadasCatastro>>;
+  porCoordenadas(lat: number, lon: number): Promise<Respuesta<CoordenadasCatastro>>;
 }
 
 // ---------------------------------------------------------------------------
@@ -97,15 +210,23 @@ export interface CatastroPort {
 // ---------------------------------------------------------------------------
 
 /**
- * No se rodea la autenticacion. Si la sede exige certificado digital para un
- * inmueble ajeno, la implementacion sera 'manual': el usuario lo consulta y lo
- * introduce, y el adaptador solo guarda el dato con su fecha.
+ * COMPROBADO el 2026-08-22: la sede exige certificado electronico, DNIe o
+ * Cl@ve para consultar el valor de referencia, incluso el de un inmueble
+ * propio. No se rodea la autenticacion. La implementacion es manual: el
+ * adaptador da el enlace y los pasos, y el usuario introduce la cifra que lee.
  */
 export interface ValorReferenciaPort {
   readonly modo: 'manual' | 'automatico';
   /** Enlace directo a la sede y pasos, para el flujo manual. */
   instrucciones(rc: string): { url: string; pasos: readonly string[] };
-  obtener(rc: string): Promise<Respuesta<{ valor_referencia_eur: number; ejercicio: number }>>;
+  /**
+   * En modo manual el unico argumento util es el que aporta el usuario. Sin el,
+   * lanza en lugar de devolver un cero que parezca un dato.
+   */
+  obtener(
+    rc: string,
+    aportadoPorElUsuario?: { valor_referencia_eur: number; ejercicio: number; consultado_en: string },
+  ): Promise<Respuesta<{ valor_referencia_eur: number; ejercicio: number }>>;
 }
 
 // ---------------------------------------------------------------------------
