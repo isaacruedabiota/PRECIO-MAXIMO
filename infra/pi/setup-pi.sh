@@ -100,12 +100,19 @@ END
 \$\$;
 SQL
 
-if ! sudo -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname='vp'" | grep -q 1; then
-  sudo -u postgres createdb -O vp vp
-fi
-
-sudo -u postgres psql -d vp -v ON_ERROR_STOP=1 -c "CREATE EXTENSION IF NOT EXISTS postgis;"
-sudo -u postgres psql -d vp -tAc "SELECT postgis_version();"
+# Dos bases sobre el mismo PostgreSQL (ADR-005): "vp" es la que sirve la
+# aplicacion y "vp_dev" es contra la que se desarrolla por el tunel SSH. Antes
+# compartian base, lo que valia mientras no hubiera datos; en cuanto la ingesta
+# de MITMA e INE empezo a escribir de verdad, una reingesta de prueba habria
+# pisado los datos que la Pi esta sirviendo.
+for DB in vp vp_dev; do
+  if ! sudo -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname='${DB}'" | grep -q 1; then
+    sudo -u postgres createdb -O vp "${DB}"
+    log "  base ${DB} creada"
+  fi
+  sudo -u postgres psql -d "${DB}" -v ON_ERROR_STOP=1 -c "CREATE EXTENSION IF NOT EXISTS postgis;"
+  log "  ${DB}: PostGIS $(sudo -u postgres psql -d "${DB}" -tAc 'SELECT postgis_version();' | tr -d ' ')"
+done
 
 # ---------------------------------------------------------------------------
 log "Configuracion de entorno"

@@ -20,12 +20,22 @@ scp -i ~/.ssh/brio_pi infra/pi/setup-pi.sh isaac@pi-isaac.local:/tmp/
 ssh -i ~/.ssh/brio_pi isaac@pi-isaac.local 'sudo bash /tmp/setup-pi.sh'
 ```
 
-Instala PostgreSQL 17 + PostGIS, Node 24 arm64, pnpm, crea el rol y la base
-`vp`, escribe `/etc/vp/vp-web.env` y habilita `vp-web.service`.
+Instala PostgreSQL 17 + PostGIS, Node 24 arm64 y pnpm, crea el rol `vp` y **dos
+bases**, escribe `/etc/vp/vp-web.env` y habilita `vp-web.service`.
 
 **PostgreSQL va nativo desde apt, no en Docker.** En una maquina de 4 GB el
-contenedor solo aporta consumo. Docker en local (Windows) sigue siendo la BD de
-desarrollo; son dos bases distintas a proposito.
+contenedor solo aporta consumo.
+
+**Las dos bases** (ADR-005): `vp` es la que sirve la aplicacion y `vp_dev` es
+contra la que se desarrolla desde Windows por el tunel SSH (`pnpm db:tunnel`).
+Mismo rol y misma contrasena; lo unico que cambia es el nombre al final del
+`DATABASE_URL`. Sin esa separacion, una reingesta de prueba de MITMA o INE
+sobrescribiria los datos que la Pi esta sirviendo.
+
+```bash
+# Que hay en cada una
+sudo -u postgres psql -c "\l vp*"
+```
 
 ## Despliegue
 

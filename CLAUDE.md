@@ -66,12 +66,12 @@ formulario (Fase 4).
 ```bash
 pnpm install
 
-# La base de datos de desarrollo es la de la Pi, por túnel SSH (ADR-005).
+# La base de datos de desarrollo es la vp_dev de la Pi, por túnel SSH (ADR-005).
 # Deja esto abierto en otra terminal:
 pnpm db:tunnel
 
 cp .env.example .env    # y pon la contraseña de /etc/vp/vp-web.env de la Pi
-pnpm db:migrate
+pnpm db:migrate         # ojo: apunta a vp_dev, no a la vp que sirve la app
 
 pnpm dev            # http://localhost:3000
 ```
@@ -296,10 +296,15 @@ usaría el contenedor, así que el `DATABASE_URL` es idéntico.
 El PostgreSQL de la Pi **sigue escuchando solo en localhost**: el túnel evita
 abrirlo a la LAN, que era la alternativa y es peor.
 
-Contrapartida, y hay que tenerla presente: desarrollo y producción comparten
-base. Hoy da igual porque ahí no hay datos reales todavía, pero **en cuanto la
-Fase 3 empiece a ingestar MITMA e INE habrá que separarlas** — segunda base en la
-misma Pi, o volver a Docker si para entonces el modo Linux no estorba.
+**Dos bases sobre ese mismo PostgreSQL**, y no una: `vp` es la que sirve la
+aplicación desplegada y `vp_dev` es contra la que se desarrolla. Hasta la Fase 3
+compartían base, lo cual daba igual porque no había datos; en cuanto la ingesta
+de MITMA e INE empezó a escribir de verdad dejó de darlo, porque una reingesta
+de prueba pisaría lo que la Pi está sirviendo. Mismo rol y misma contraseña en
+las dos: lo que separa es el nombre de la base al final del `DATABASE_URL`.
+
+`setup-pi.sh` crea y habilita PostGIS en ambas, así que es idempotente y no hay
+un paso manual que recordar.
 
 `docker-compose.yml` se queda en el repo: funciona tal cual si algún día el
 daemon está en modo Linux.
