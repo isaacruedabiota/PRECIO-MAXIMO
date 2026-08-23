@@ -7,40 +7,16 @@
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import postgres from 'postgres';
-import { existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const AQUI = dirname(fileURLToPath(import.meta.url));
-const ENV_RAIZ = resolve(AQUI, '..', '..', '..', '.env');
+import { nombreDeLaBase, requiereDatabaseUrl } from './env';
 
-/**
- * Carga el .env de la raiz del monorepo.
- *
- * Se resuelve desde la ubicacion del modulo y no desde el directorio de
- * trabajo, porque pnpm ejecuta este script con el cwd en packages/db y un
- * ".env" relativo no lo encontraria.
- */
-function cargarEnv(): void {
-  // El entorno real manda sobre el fichero. En la Pi la cadena viene de
-  // /etc/vp/vp-web.env via systemd, y un .env que se hubiera colado en el arbol
-  // desplegado no debe pisarla.
-  if (process.env['DATABASE_URL'] !== undefined) return;
-  if (!existsSync(ENV_RAIZ)) return;
-  process.loadEnvFile(ENV_RAIZ);
-}
+const AQUI = dirname(fileURLToPath(import.meta.url));
 
 async function main(): Promise<void> {
-  cargarEnv();
-  const url = process.env['DATABASE_URL'];
-  if (!url) {
-    console.error(
-      `Falta DATABASE_URL. Se ha buscado en el entorno y en ${ENV_RAIZ}.
-` +
-        'Si desarrollas contra la Pi, abre antes el tunel con: pnpm db:tunnel',
-    );
-    process.exit(1);
-  }
+  const url = requiereDatabaseUrl();
+  console.log(`Base: ${nombreDeLaBase(url)}`);
 
   // max: 1 -> las migraciones van en una sola conexion, en orden.
   const sql = postgres(url, { max: 1 });
