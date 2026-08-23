@@ -9,7 +9,8 @@
     "ingest:antiguedad": "tsx src/ingest-catastro-antiguedad.ts",
     "ingest:mitma": "tsx src/ingest-mitma.ts",
     "ingest:ine": "tsx src/ingest-ine.ts",
-    "capture:fixture": "tsx src/capture-fixture.ts"
+    "capture:fixture": "tsx src/capture-fixture.ts",
+    "ficha": "tsx src/ficha.ts"
   },
   "dependencies": {
     "@vp/adapters": "workspace:*",

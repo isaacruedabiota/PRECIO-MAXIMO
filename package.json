@@ -21,7 +21,8 @@
     "config:seed": "pnpm --filter @vp/config seed",
     "calibrate": "pnpm --filter @vp/scripts calibrate",
     "ingest:antiguedad": "pnpm --filter @vp/scripts ingest:antiguedad",
-    "capture:fixture": "pnpm --filter @vp/scripts capture:fixture"
+    "capture:fixture": "pnpm --filter @vp/scripts capture:fixture",
+    "ficha": "pnpm --filter @vp/scripts ficha"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

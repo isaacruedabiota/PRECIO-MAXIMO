@@ -30,21 +30,34 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fase 1 completa** — los cuatro techos, descuentos por riesgo, bloqueantes,
-argumentario y métricas de inversión, con **181 tests**. `calcularPrecioMaximo`
-devuelve un resultado completo y trazable en los tres modos: residencia,
-inversión en alquiler e inversión en flipping.
+**Fases 1 y 2 completas**, con **228 tests**.
 
-Encima hay instrumental de calibración (`pnpm calibrate`) y cuatro fuentes reales
-verificadas con fixture y cita: **BOE** (ITP, IVA, IRPF, aranceles), **MITMA**
-(serie 35103500), **INE** (tabla 80270) y **Catastro INSPIRE** (antigüedad del
-parque).
+La 1 es el motor: los cuatro techos, descuentos por riesgo, bloqueantes,
+argumentario y métricas de inversión. `calcularPrecioMaximo` devuelve un
+resultado completo y trazable en los tres modos: residencia, inversión en
+alquiler e inversión en flipping.
 
-**Pendiente antes de fiarse de un número**: 61 valores sin fijar y 23 bloques sin
+La 2 es el Catastro: `pnpm ficha <RC>` da la ficha del inmueble, separa la
+superficie de la vivienda de la de anejos y comunes (ADR-022), resuelve la CCAA
+que fija el ITP, detecta la falta de división horizontal y **enumera lo que el
+Catastro no publica** y hay que meter a mano. El valor de referencia va en modo
+manual porque exige certificado (ADR-024).
+
+Encima hay instrumental de calibración (`pnpm calibrate`), captura de respuestas
+reales (`pnpm capture:fixture`) y cinco fuentes verificadas con fixture y cita:
+**BOE** (ITP, IVA, IRPF, aranceles), **MITMA** (serie 35103500), **INE** (tabla
+80270 y las variables 70/115) y el **Catastro**, tanto la Oficina Virtual como
+INSPIRE.
+
+**Pendiente antes de fiarse de un número**: 66 valores sin fijar y 19 bloques sin
 verificar, casi todos de las otras cinco CCAA y de fuentes que aún no se usan.
 Lo que sigue sin contrastar y sí se usa son los **coeficientes de
 homogeneización**: no son dato oficial sino criterio profesional, y solo se
 validan contra operaciones reales. Ver la sección de calibración.
+
+Y sigue sin haber forma de valorar un piso de punta a punta: la ficha sale del
+Catastro, pero el precio de mercado de T1 todavía entra a mano (Fase 3) y no hay
+formulario (Fase 4).
 
 ---
 
@@ -74,6 +87,21 @@ pnpm calibrate      # informe de calibración de T1 y T3 sobre datos reales
 pnpm ingest:antiguedad 12900   # edad del parque de un municipio, del Catastro
 ```
 
+Ficha de un inmueble desde el Catastro:
+
+```bash
+pnpm ficha 2004930YK5320S0009RH      # referencia de inmueble (20 caracteres)
+pnpm ficha 2004930YK5320S            # de parcela (14): lista sus inmuebles
+pnpm ficha --lat=39.98374 --lon=-0.04927
+```
+
+Antes de programar contra una fuente, su respuesta real:
+
+```bash
+pnpm capture:fixture --lista
+pnpm capture:fixture catastro dnprc --rc=2004930YK5320S0009RH
+```
+
 `pnpm calibrate` acepta municipio y overrides sin tocar los JSON:
 
 ```bash
@@ -91,7 +119,7 @@ Despliegue a la Raspberry Pi: ver [infra/pi/README.md](infra/pi/README.md).
 apps/web            Next.js App Router. Solo presentación; no calcula nada.
 packages/engine     Motor. TypeScript puro, cero I/O, 100% testeable.
 packages/config     JSON de negocio + esquemas Zod + cargador.
-packages/adapters   Puertos de las fuentes de datos. Sin implementaciones aún.
+packages/adapters   Puertos de las fuentes. Catastro implementado; el resto, aún no.
 packages/db         Drizzle + PostgreSQL/PostGIS.
 scripts             CLI de ingesta y de captura de fixtures.
 fixtures            Respuestas reales capturadas de cada API.
@@ -364,6 +392,68 @@ puede sacar del Catastro: su dataset INSPIRE publica **solo `grossFloorArea`**,
 23.033 de 23.033 edificios; la superficie útil no es un dato catastral. La única
 vía es contrastar pares (construida, útil) de notas simples de pisos reales.
 
+### ADR-022 — El campo que parece la superficie del piso no lo es
+`debi.sfc` de la ficha catastral es el **total imputado al inmueble**: vivienda
+más anejos más parte proporcional de elementos comunes. En el caso base son
+155 m², que se desglosan en `lcons` como 101 de vivienda, 6 de trastero, 26 de
+garaje y 22 de comunes — suman 155 exactos. Llevar esos 155 a T1 como si fueran
+los metros del piso **infla el techo de mercado un 53%**, y encima valora garaje
+y trastero al €/m² de la vivienda.
+
+El adaptador reparte el desglose y da las tres cifras por separado. A T1 va la
+de la **vivienda**, que es construida sin comunes, la misma base que declara
+MITMA. `vivienda + comunes` queda disponible como `construida_con_comunes` para
+cuando el precio de referencia venga en esa base. Si el desglose no cuadra con
+el total, `desglose_cuadra: false` y se avisa en vez de repartir a ojo.
+
+De paso: la cuota de participación (`cpt`) viene en **porcentaje** con coma
+decimal, no en tanto por uno. Comprobado sobre la parcela entera: las 27 cuotas
+suman 100,000000 exacto.
+
+### ADR-023 — Los servicios web del Catastro siguen en `meh`, y el brief traía tres erratas
+El brief avisaba de la migración `minhap` → `hacienda`. Es cierta para el portal
+y para INSPIRE, pero **no alcanzó a los servicios web**: `ovc.catastro.meh.es`
+responde y `ovc.catastro.hacienda.gob.es` ni siquiera resuelve. Además:
+
+- El parámetro de `Consulta_DNPRC` es **`RefCat`**, no `RC`. Con `RC` devuelve
+  el error 17, «la referencia catastral es obligatoria».
+- `Consulta_RCCOOR` y `Consulta_CPMRC` **no tienen interfaz JSON**. La fachada
+  `CoordenadasDistancia.svc/json` devuelve una página HTML de error con
+  cualquier combinación de parámetros. La que responde es la HttpGet del
+  `.asmx`, en XML. Su WSDL declara `CoorX`/`CoorY`, pero la HttpGet los espera
+  como `Coordenada_X`/`Coordenada_Y`, y `Coordenada_X` es la **longitud**.
+- `Consulta_CPMRC` solo acepta referencias de 14 caracteres: las coordenadas son
+  de la parcela, no del inmueble.
+
+Por esos dos endpoints XML **no se añade un parser al proyecto**: son 638 bytes,
+un solo espacio de nombres y sin atributos en los datos. El lector es
+deliberadamente estrecho y lanza si no encuentra lo que espera, en lugar de
+devolver ceros; los tests contra el fixture cantan cualquier cambio de formato.
+
+La Oficina Virtual responde **200 con HTML** cuando rechaza una petición, así
+que tanto el adaptador como `capture:fixture` detectan el HTML y paran. Guardar
+esa página como fixture sería programar contra basura.
+
+### ADR-024 — El valor de referencia exige certificado, y no se rodea
+Comprobado sobre la sede: la consulta pide «Certificado electrónico de
+identificación o DNI electrónico» o «Cl@ve PIN - Cl@ve permanente», también
+para un inmueble propio. No hay vía anónima.
+
+El brief era explícito: si requiere autenticación, no se intenta rodear. El
+adaptador es `modo: 'manual'` — da el enlace y los pasos, y recoge la cifra que
+el usuario haya leído con su ejercicio y su fecha. Sin ese dato **lanza**, no
+devuelve cero: desde la Ley 11/2021 la base imponible del ITP es
+`max(precio, valor de referencia)`, así que un valor inventado son euros de
+impuesto mal calculados.
+
+### ADR-025 — La correspondencia provincia → CCAA vive en la config, no en el código
+El Catastro da provincia; el tipo de ITP depende de la comunidad. Esa
+correspondencia es un dato administrativo y por la regla 2 no puede estar en un
+`.ts`: se ha añadido `codigos_provincia_ine` a cada bloque de `itp.json`,
+tomado de la **API del INE** (variables 70 y 115, con fixture guardado), no
+escrito de memoria. Las seis comunidades de la config resuelven; una provincia
+de las otras trece devuelve `null` y el puente lo dice en vez de suponer.
+
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**
 del BOE, leídos por su API de legislación consolidada:
@@ -434,8 +524,8 @@ personal en LAN añade una pieza que puede fallar sin aportar nada. Queda
 Al terminar cada fase se para y se espera visto bueno.
 
 - [x] **Fase 0** — Andamiaje: monorepo, Docker Compose, esquema de BD, tipos del dominio, despliegue en la Pi.
-- [x] **Fase 1** — Motor puro, los cuatro techos, 161 tests. **La fase que decide si el proyecto sirve.**
-- [ ] **Fase 2** — Adaptador de Catastro.
+- [x] **Fase 1** — Motor puro, los cuatro techos, 181 tests. **La fase que decide si el proyecto sirve.**
+- [x] **Fase 2** — Adaptador de Catastro: `pnpm ficha <RC>`, 47 tests contra fixtures reales.
 - [ ] **Fase 3** — Ingesta batch: MITMA + INE.
 - [ ] **Fase 4** — Web mínima: formulario → resultado → desglose trazable.
 - [ ] **Fase 5** — Informe PDF con argumentario y fuentes.

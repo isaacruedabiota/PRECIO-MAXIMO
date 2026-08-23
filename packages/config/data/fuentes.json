@@ -1,29 +1,64 @@
 {
   "_doc": "Catalogo de fuentes de datos. Regla del proyecto: antes de escribir una linea de codigo contra cualquiera de ellas hay que hacer una peticion real, guardar la respuesta en fixtures/<fuente>/<caso>.json y programar contra esa respuesta. Si un endpoint no responde o ha cambiado, se para y se avisa; no se mockea en silencio.",
-  "_estado": "Probados con peticion real y fixture guardado el 2026-08-22: MITMA, INE y Catastro INSPIRE. El resto siguen sin comprobar y sus URLs vienen del brief, no de una comprobacion propia.",
+  "_estado": "Probados con peticion real y fixture guardado el 2026-08-22: BOE, MITMA, INE y Catastro (Oficina Virtual e INSPIRE). El resto siguen sin comprobar y sus URLs vienen del brief, no de una comprobacion propia.",
   "version": "0.0.0",
-
   "catastro": {
     "nombre": "Catastro - Oficina Virtual (datos no protegidos)",
     "requiere_autenticacion": false,
     "coste": "gratuito",
-    "aporta": ["superficie construida", "ano de construccion", "uso", "coordenadas", "tipologia", "referencia catastral"],
+    "aporta": [
+      "superficie construida",
+      "ano de construccion",
+      "uso",
+      "coordenadas",
+      "tipologia",
+      "referencia catastral"
+    ],
     "endpoints": {
-      "soap_callejero": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejero.asmx",
-      "soap_coordenadas": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx",
-      "rest_dnprc": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC"
+      "rest_dnprc": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC",
+      "rest_dnploc": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPLOC",
+      "httpget_cpmrc": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC",
+      "httpget_rccoor": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR",
+      "soap_coordenadas": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx"
     },
-    "operaciones": ["Consulta_DNPRC", "Consulta_DNPLOC", "ConsultaProvincia", "ConsultaMunicipio", "ConsultaVia", "ConsultaNumero", "Consulta_RCCOOR", "Consulta_CPMRC", "Consulta_RCCOOR_Distancia"],
-    "aviso": "Los dominios han migrado (minhap -> hacienda) y hay mezcla http/https con certificados problematicos. Verificar cada endpoint antes de usarlo.",
+    "operaciones": [
+      "Consulta_DNPRC",
+      "Consulta_DNPLOC",
+      "ConsultaProvincia",
+      "ConsultaMunicipio",
+      "ConsultaVia",
+      "ConsultaNumero",
+      "Consulta_RCCOOR",
+      "Consulta_CPMRC",
+      "Consulta_RCCOOR_Distancia"
+    ],
+    "aviso": "Comprobado el 2026-08-22. El host es ovc.catastro.meh.es: ovc.catastro.hacienda.gob.es y ovc.catastro.minhap.es NO resuelven. Ojo, catastro.hacienda.gob.es si funciona para el portal y para INSPIRE; la migracion de dominio no alcanzo a los servicios web.",
     "documentacion": "Webservices_Libres.pdf en catastro.hacienda.gob.es",
-    "verificado": false,
-    "fixture": null
+    "verificado": true,
+    "fixture": "fixtures/catastro/consulta-dnprc-2004930yk5320s0009rh.json",
+    "_correcciones_al_brief": [
+      "El parametro de Consulta_DNPRC es RefCat, no RC: con RC devuelve el error 17.",
+      "Consulta_RCCOOR y Consulta_CPMRC NO tienen interfaz JSON. La fachada CoordenadasDistancia.svc/json devuelve una pagina HTML de error con cualquier parametro. La que responde es la HttpGet del .asmx, en XML.",
+      "Los parametros del WSDL de coordenadas son CoorX y CoorY, pero la fachada HttpGet los espera como Coordenada_X y Coordenada_Y. Coordenada_X es la longitud.",
+      "Consulta_CPMRC solo acepta referencias de 14 caracteres: con una de 20 devuelve el error 18."
+    ],
+    "_ojo_superficies": "debi.sfc NO es la superficie de la vivienda: es el total imputado al inmueble, con anejos y parte proporcional de elementos comunes. En el caso base son 155 m2 frente a 101 de vivienda. El desglose real esta en lcons. Ver ADR-022."
   },
-
   "catastro_inspire": {
     "nombre": "Catastro INSPIRE - edificios, parcelas y direcciones",
-    "servicios": ["wfsBU (buildings)", "wfsCP (cadastral parcels)", "wfsAD (addresses)", "descarga ATOM por municipio"],
-    "aporta": ["poligono del edificio", "superficie de parcela", "ano de construccion", "numero de viviendas", "uso"],
+    "servicios": [
+      "wfsBU (buildings)",
+      "wfsCP (cadastral parcels)",
+      "wfsAD (addresses)",
+      "descarga ATOM por municipio"
+    ],
+    "aporta": [
+      "poligono del edificio",
+      "superficie de parcela",
+      "ano de construccion",
+      "numero de viviendas",
+      "uso"
+    ],
     "atom_nacional": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/ES.SDGC.BU.atom.xml",
     "atom_provincial": "https://www.catastro.hacienda.gob.es/INSPIRE/buildings/{provincia}/ES.SDGC.bu.atom_{provincia}.xml",
     "_doc": "Probado el 2026-08-22. El dominio catastro.minhap.es esta MUERTO (no resuelve); funciona catastro.hacienda.gob.es. El zip municipal de Castellon (12900) pesa 12 MB y trae 108 MB de GML de edificios.",
@@ -31,18 +66,16 @@
     "verificado": true,
     "fixture": "fixtures/catastro/12900-antiguedad-parque.json"
   },
-
   "valor_referencia_catastro": {
     "nombre": "Valor de referencia del Catastro",
     "critico": true,
-    "_doc": "Determina la base imponible del ITP desde la Ley 11/2021. Investigar si es consultable sin certificado digital para un inmueble ajeno. Si requiere autenticacion NO se rodea: el usuario lo consulta a mano en la sede y lo introduce, con enlace directo e instrucciones.",
-    "requiere_autenticacion": null,
+    "_doc": "COMPROBADO el 2026-08-22: la sede exige 'Certificado electronico de identificacion o DNI electronico' o 'Cl@ve PIN - Cl@ve permanente', tambien para el inmueble propio. No hay via anonima y no se rodea. El adaptador es manual: da el enlace y los pasos, y el usuario introduce la cifra.",
+    "requiere_autenticacion": true,
     "estrategia": "entrada_manual_por_defecto",
-    "url_sede": "",
-    "verificado": false,
+    "url_sede": "https://www.sedecatastro.gob.es/Accesos/SECAccvr.aspx",
+    "verificado": true,
     "fixture": null
   },
-
   "notariado": {
     "nombre": "Notariado - penotariado",
     "_doc": "Precio real de escritura por codigo postal. Es el dato rey de T1: precio pagado, no precio de oferta. Sin API documentada.",
@@ -52,11 +85,13 @@
     "verificado": false,
     "fixture": null
   },
-
   "mitma": {
     "nombre": "MITMA - valor tasado de vivienda libre",
     "serie": "35103500",
-    "granularidad": ["municipio (>25.000 hab)", "provincia"],
+    "granularidad": [
+      "municipio (>25.000 hab)",
+      "provincia"
+    ],
     "periodicidad": "trimestral",
     "formato": "XLS BIFF8, una hoja por trimestre desde T1A2005",
     "modo": "ingesta batch",
@@ -70,7 +105,6 @@
     "verificado": true,
     "fixture": "fixtures/mitma/35103500-municipios-ultimo-trimestre.json"
   },
-
   "ine": {
     "nombre": "INE - Indice de Precios de Vivienda (IPV)",
     "api": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{idTabla}?nult={n}",
@@ -86,7 +120,6 @@
     "verificado": true,
     "fixture": "fixtures/ine/datos-tabla-80270-nult1.json"
   },
-
   "geocodificacion": {
     "nombre": "CartoCiudad / IGN",
     "reverse": "https://geolocalizador.idee.es/v1/reverse?point.lat={lat}&point.lon={lon}&size=1",
@@ -94,25 +127,27 @@
     "verificado": false,
     "fixture": null
   },
-
   "certificados_energeticos": {
     "nombre": "Registros autonomicos de certificados de eficiencia energetica",
     "_doc": "Cada CCAA por su cuenta. Empezar por el de la Generalitat Valenciana y buscar el resto via datos.gob.es.",
     "registros": {
-      "Comunitat Valenciana": { "url": "", "verificado": false }
+      "Comunitat Valenciana": {
+        "url": "",
+        "verificado": false
+      }
     },
     "verificado": false,
     "fixture": null
   },
-
   "serpavi": {
     "nombre": "SERPAVI - sistema estatal de referencia del precio del alquiler",
-    "aporta": ["renta de mercado estimada"],
+    "aporta": [
+      "renta de mercado estimada"
+    ],
     "url": "",
     "verificado": false,
     "fixture": null
   },
-
   "zonas_tensionadas": {
     "nombre": "Municipios declarados zona de mercado residencial tensionado",
     "_doc": "Listado por CCAA. Input directo de T4.",
@@ -120,7 +155,6 @@
     "verificado": false,
     "fixture": null
   },
-
   "euribor": {
     "nombre": "Euribor 12 meses",
     "_doc": "Serie historica del Banco de Espana o del BCE. Necesario para el escenario de estres de T2.",
@@ -128,10 +162,14 @@
     "verificado": false,
     "fixture": null
   },
-
   "_prohibido": {
     "_doc": "No se scrapean portales inmobiliarios. Sus terminos prohiben expresamente la extraccion automatica de contenido, y hacerlo via Apify o servicios de terceros subcontrata el riesgo en vez de eliminarlo.",
-    "portales": ["idealista", "fotocasa", "habitaclia", "pisos.com"],
+    "portales": [
+      "idealista",
+      "fotocasa",
+      "habitaclia",
+      "pisos.com"
+    ],
     "alternativa": "Formulario donde el usuario introduce a mano los datos del anuncio que esta mirando."
   }
 }
