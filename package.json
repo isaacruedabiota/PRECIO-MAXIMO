@@ -26,7 +26,8 @@
     "ingest:municipios": "pnpm --filter @vp/scripts ingest:municipios",
     "ingest:mitma": "pnpm --filter @vp/scripts ingest:mitma",
     "ingest:ine": "pnpm --filter @vp/scripts ingest:ine",
-    "valorar": "pnpm --filter @vp/scripts valorar"
+    "valorar": "pnpm --filter @vp/scripts valorar",
+    "notariado:cargar": "pnpm --filter @vp/scripts notariado:cargar"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

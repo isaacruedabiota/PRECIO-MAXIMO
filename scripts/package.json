@@ -12,7 +12,8 @@
     "capture:fixture": "tsx src/capture-fixture.ts",
     "ficha": "tsx src/ficha.ts",
     "ingest:municipios": "tsx src/ingest-municipios.ts",
-    "valorar": "tsx src/valorar.ts"
+    "valorar": "tsx src/valorar.ts",
+    "notariado:cargar": "tsx src/notariado-cargar.ts"
   },
   "dependencies": {
     "@vp/adapters": "workspace:*",

@@ -21,6 +21,7 @@ import {
   ExpedienteIncompletoError,
   IneDbAdapter,
   MitmaDbAdapter,
+  NotariadoDbAdapter,
   PrecioMercadoDbAdapter,
   SinDatoError,
   SinPrecioDeMercadoError,
@@ -178,7 +179,7 @@ export async function calcular(expediente: Expediente): Promise<ResultadoCalculo
       config,
       {
         catastro: new CatastroAdapter(),
-        precios: new PrecioMercadoDbAdapter(mitma),
+        precios: new PrecioMercadoDbAdapter(mitma, new NotariadoDbAdapter(db)),
         ipv: new IneDbAdapter(db, 'segunda_mano'),
         antiguedadParque,
       },

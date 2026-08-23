@@ -30,7 +30,7 @@ PRECIO_MAXIMO = min(T1, T2, T3, T4) − Σ(descuentos_riesgo)
 
 ## Estado
 
-**Fases 1 a 4 completas**, con **272 tests**.
+**Fases 1 a 4 completas**, con **275 tests**.
 
 La 1 es el motor: los cuatro techos, descuentos por riesgo, bloqueantes,
 argumentario y métricas de inversión. `calcularPrecioMaximo` devuelve un
@@ -68,9 +68,10 @@ Lo que sigue sin contrastar y sí se usa son los **coeficientes de
 homogeneización**: no son dato oficial sino criterio profesional, y solo se
 validan contra operaciones reales. Ver la sección de calibración.
 
-Lo que sigue faltando es el **Notariado**, primer escalón de la cascada de T1:
-sin adaptador, hoy T1 arranca del valor tasado de MITMA, que es tasación y no
-escritura.
+El **Notariado** ya es el primer escalón de la cascada, en modo manual
+(`pnpm notariado:cargar`): su portal exige registro y no publica API, así que no
+se rodea (ADR-031). Mientras no cargues tu código postal, T1 corre sobre el valor
+tasado de MITMA, que es tasación y no escritura, y la fuente lo dice.
 
 ---
 
@@ -107,6 +108,9 @@ callejero):
 pnpm ingest:municipios     # 8.142 municipios del INE: codigo, provincia y CCAA
 pnpm ingest:mitma          # valor tasado por municipio y provincia (--offline usa el XLS ya bajado)
 pnpm ingest:ine            # IPV por CCAA, 40 trimestres
+
+# Opcional pero es el mejor dato de T1: precio de escritura por codigo postal.
+pnpm notariado:cargar --instrucciones
 ```
 
 Valorar un piso de punta a punta:
@@ -149,7 +153,7 @@ Despliegue a la Raspberry Pi: ver [infra/pi/README.md](infra/pi/README.md).
 apps/web            Next.js App Router. Formulario y resultado; el cálculo lo hace el motor.
 packages/engine     Motor. TypeScript puro, cero I/O, 100% testeable.
 packages/config     JSON de negocio + esquemas Zod + cargador.
-packages/adapters   Puertos de las fuentes. Catastro, MITMA e INE implementados.
+packages/adapters   Puertos de las fuentes. Catastro, MITMA, INE y Notariado.
 packages/db         Drizzle + PostgreSQL/PostGIS.
 scripts             CLI de ingesta y de captura de fixtures.
 fixtures            Respuestas reales capturadas de cada API.
@@ -561,6 +565,30 @@ que el resultado no cambia hasta fijar un valor contrastado. Mientras tanto el
 motor emite `ANTIGUEDAD_PREMIO_SIN_TOPE` cuando el premio pasa del 15%, con el
 número exacto y cuánto sube T1. El valor no se inventa aquí: sale de contrastar
 contra operaciones reales, como el resto de coeficientes de homogeneización.
+
+### ADR-031 — El Notariado va a mano, y no se rodea su registro
+Es el primer escalón de la cascada de T1 y el dato más valioso que existe:
+precio **pagado**, no de oferta ni de tasación.
+
+Comprobado el 2026-08-23 sobre `penotariado.com/inmobiliario`. El portal es una
+aplicación de mapa sin API documentada, y su propia página dice que «se solicita
+el registro del usuario […] para acceder a consultas más detalladas sobre el
+mercado inmobiliario, así como para la descarga de informes estadísticos».
+Tampoco publica su metodología de superficie en la pantalla de consulta.
+
+El brief daba el orden de preferencia: primero dataset o endpoint público
+documentado y, si no existe, adaptador de carga manual. Estamos en el segundo
+caso. **No se hace ingeniería inversa de la API interna del mapa**: sería rodear
+un registro, que es lo mismo que no hacemos con el valor de referencia (ADR-024).
+
+Así que `pnpm notariado:cargar` mete la cifra que el usuario ha leído, y
+`--base` es **obligatorio y sin valor por defecto**: como el portal no publica
+si su €/m² es útil o construida, confundirlas mueve la valoración alrededor de un
+25%. Si no se sabe, no se carga.
+
+Mientras no haya dato cargado, la cascada arranca un escalón más abajo y lo dice
+en la explicación de la fuente: hoy T1 corre sobre valor tasado, no sobre
+escritura.
 
 ### ADR-016 — Los datos fiscales se leen del BOE, no de resúmenes
 Los tipos de ITP, IVA, IRPF y los aranceles vienen de los textos **consolidados**

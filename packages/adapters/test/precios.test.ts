@@ -11,6 +11,8 @@ import {
   SinPrecioDeMercadoError,
   resolverCascada,
 } from '../src/precios/cascada';
+import { PrecioMercadoDbAdapter } from '../src/precios/precio-mercado-db';
+import { SinDatoError } from '../src/ports';
 import type { CandidatoPrecio } from '../src/precios/cascada';
 import {
   SerieIpvInsuficienteError,
@@ -139,5 +141,61 @@ describe('variacion acumulada del IPV', () => {
     const r = variacionAcumulada('Comunitat Valenciana', serie, '2026Q1', '2024Q4');
     expect(r.variacion).toBeLessThan(0);
     expect(r.notas.join(' ')).toContain('anterior al de origen');
+  });
+});
+
+// ---------------------------------------------------------------------------
+
+describe('cascada completa con Notariado', () => {
+  const respuesta = (p: CandidatoPrecio) => ({
+    datos: p,
+    procedencia: {
+      fuente: p.fuente,
+      url: null,
+      fecha_dato: p.fecha_dato,
+      obtenido_en: '2026-08-23T00:00:00.000Z',
+      desde_cache: true,
+    },
+  });
+
+  const mitmaFalso = {
+    porMunicipio: () => Promise.resolve(respuesta(candidato('municipio', 1522))),
+    porProvincia: () => Promise.resolve(respuesta(candidato('provincia', 1445))),
+  };
+
+  const notariadoCon = (eur: number) => ({
+    modo: 'manual' as const,
+    instrucciones: () => ({ url: '', pasos: [] }),
+    porCodigoPostal: () => Promise.resolve(respuesta(candidato('codigo_postal', eur))),
+  });
+
+  const notariadoSin = {
+    modo: 'manual' as const,
+    instrucciones: () => ({ url: '', pasos: [] }),
+    porCodigoPostal: () =>
+      Promise.reject(new SinDatoError('Notariado', 'codigo postal 12006')),
+  };
+
+  const consulta = { codigo_postal: '12100', municipio_ine: '12040', codigo_provincia: '12' };
+
+  it('el precio de escritura gana al valor tasado de MITMA', async () => {
+    const r = await new PrecioMercadoDbAdapter(mitmaFalso, notariadoCon(1610)).resolver(consulta);
+    expect(r.datos.ambito).toBe('codigo_postal');
+    expect(r.datos.eur_m2).toBe(1610);
+  });
+
+  it('sin dato de Notariado cae al municipal y lo dice', async () => {
+    const r = await new PrecioMercadoDbAdapter(mitmaFalso, notariadoSin).resolver(consulta);
+    expect(r.datos.ambito).toBe('municipio');
+    expect(r.datos.fuente).toContain('no hay dato de escrituras');
+  });
+
+  it('sin adaptador de Notariado se comporta igual que sin dato', async () => {
+    const conAdaptadorVacio = await new PrecioMercadoDbAdapter(mitmaFalso, notariadoSin).resolver(
+      consulta,
+    );
+    const sinAdaptador = await new PrecioMercadoDbAdapter(mitmaFalso).resolver(consulta);
+    expect(sinAdaptador.datos.eur_m2).toBe(conAdaptadorVacio.datos.eur_m2);
+    expect(sinAdaptador.datos.ambito).toBe('municipio');
   });
 });

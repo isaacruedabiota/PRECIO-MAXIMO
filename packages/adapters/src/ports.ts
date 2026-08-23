@@ -239,8 +239,18 @@ export interface ValorReferenciaPort {
 // Precios de mercado (cascada de T1)
 // ---------------------------------------------------------------------------
 
-/** Notariado: EUR/m2 de escritura por codigo postal. El dato rey de T1. */
+/**
+ * Notariado: EUR/m2 de escritura por codigo postal. El dato rey de T1, porque es
+ * precio PAGADO y no de oferta ni de tasacion.
+ *
+ * COMPROBADO el 2026-08-23: el portal exige registro para las consultas
+ * detalladas y no tiene API documentada, asi que el modo es manual. Ver
+ * ADR-031.
+ */
 export interface NotariadoPort {
+  readonly modo: "manual" | "automatico";
+  /** Enlace y pasos para consultarlo a mano. */
+  instrucciones(): { url: string; pasos: readonly string[] };
   porCodigoPostal(cp: string): Promise<Respuesta<PrecioM2Referencia>>;
 }
 

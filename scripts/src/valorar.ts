@@ -19,6 +19,7 @@ import {
   ExpedienteIncompletoError,
   IneDbAdapter,
   MitmaDbAdapter,
+  NotariadoDbAdapter,
   PrecioMercadoDbAdapter,
   SinDatoError,
   SinPrecioDeMercadoError,
@@ -244,7 +245,7 @@ async function main(): Promise<void> {
   const mitma = new MitmaDbAdapter(db);
   const { input, ficha, avisos } = await componerCalcInput(expediente, config, {
     catastro: new CatastroAdapter(),
-    precios: new PrecioMercadoDbAdapter(mitma),
+    precios: new PrecioMercadoDbAdapter(mitma, new NotariadoDbAdapter(db)),
     ipv: new IneDbAdapter(db, 'segunda_mano'),
     antiguedadParque: antiguedadDelFixture,
   }, fechaCalculo);

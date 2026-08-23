@@ -5,9 +5,9 @@
  * como se acumula el IPV) vive en cascada.ts y variacion-ipv.ts, que son puros
  * y estan probados sin base.
  *
- * El Notariado todavia no tiene adaptador: el brief lo deja para carga manual o
- * CSV. La cascada lo contempla, y mientras no exista simplemente no aporta
- * candidato y se cae al escalon municipal, diciendolo.
+ * El Notariado es opcional en el constructor: solo tiene dato para los codigos
+ * postales que se hayan cargado a mano (ADR-031). Cuando no lo tiene, la cascada
+ * cae al escalon municipal y lo dice en la explicacion.
  */
 
 import type { PrecioM2Referencia, TipoSuperficie, VariacionIPV } from '@vp/engine';
@@ -16,7 +16,14 @@ import type { Db } from '@vp/db';
 import { ineIpv, mitmaPrecios } from '@vp/db/schema';
 
 import { SinDatoError } from '../ports';
-import type { InePort, MitmaPort, PrecioMercadoPort, Procedencia, Respuesta } from '../ports';
+import type {
+  InePort,
+  MitmaPort,
+  NotariadoPort,
+  PrecioMercadoPort,
+  Procedencia,
+  Respuesta,
+} from '../ports';
 import { resolverCascada } from './cascada';
 import type { CandidatoPrecio } from './cascada';
 import { trimestreDeFecha, variacionAcumulada } from './variacion-ipv';
@@ -168,7 +175,15 @@ function variantesDeCcaa(nombre: string): string[] {
 // ---------------------------------------------------------------------------
 
 export class PrecioMercadoDbAdapter implements PrecioMercadoPort {
-  constructor(private readonly mitma: MitmaPort) {}
+  constructor(
+    private readonly mitma: MitmaPort,
+    /**
+     * null = sin Notariado. La cascada arranca entonces un escalon mas abajo, en
+     * el valor tasado de MITMA, que es tasacion y no escritura. Se dice en la
+     * explicacion para que no pase inadvertido.
+     */
+    private readonly notariado: NotariadoPort | null = null,
+  ) {}
 
   async resolver(params: {
     codigo_postal: string;
@@ -178,7 +193,17 @@ export class PrecioMercadoDbAdapter implements PrecioMercadoPort {
     const candidatos: CandidatoPrecio[] = [];
     let ultimaProcedencia: Procedencia | null = null;
 
-    // Escalon 1, Notariado por codigo postal: sin adaptador todavia.
+    // Escalon 1: Notariado por codigo postal. Precio de escritura.
+    if (this.notariado !== null) {
+      try {
+        const r = await this.notariado.porCodigoPostal(params.codigo_postal);
+        candidatos.push({ ...r.datos, descripcion: `Notariado (CP ${params.codigo_postal})` });
+        ultimaProcedencia = r.procedencia;
+      } catch (e) {
+        if (!(e instanceof SinDatoError)) throw e;
+        // Solo hay lo que se haya cargado a mano: no tenerlo es lo normal.
+      }
+    }
 
     if (params.municipio_ine !== null) {
       try {
