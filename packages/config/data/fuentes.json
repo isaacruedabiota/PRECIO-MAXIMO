@@ -103,7 +103,48 @@
     "columna_para_segunda_mano": "eur_m2_mas_de_5_anios",
     "ultimo_periodo_capturado": "T1A2026",
     "verificado": true,
-    "fixture": "fixtures/mitma/35103500-municipios-ultimo-trimestre.json"
+    "fixture": "fixtures/mitma/35103500-municipios-ultimo-trimestre.json",
+    "serie_municipal": "35103500",
+    "serie_provincial": "35101000",
+    "url_municipal": "https://apps.fomento.gob.es/boletinonline2/sedal/35103500.XLS",
+    "url_provincial": "https://apps.fomento.gob.es/boletinonline2/sedal/35101000.XLS",
+    "_ojo_provincia_del_xls": "La columna de provincia del XLS municipal se arrastra hacia abajo y en el fichero real hay filas fuera de su bloque: Almunecar (Granada) aparece al final del bloque de Cordoba sin etiqueta, y lo mismo pasa con Almassora y Benicarlo. Por eso la ingesta resuelve el municipio por NOMBRE contra el callejero del INE y usa la provincia solo para desempatar.",
+    "alias_municipios": {
+      "_doc": "Nombres que MITMA escribe de forma que no casa con el callejero del INE. Cada codigo se ha comprobado contra la variable 19 del INE, no escrito de memoria. La clave es el nombre tal cual aparece en el XLS.",
+      "Puerto de Santa Maria": {
+        "codigo_ine": "11027",
+        "nombre_ine": "Puerto de Santa María, El"
+      },
+      "Mahon": {
+        "codigo_ine": "07032",
+        "nombre_ine": "Maó"
+      },
+      "Palma de Mallorca": {
+        "codigo_ine": "07040",
+        "nombre_ine": "Palma"
+      },
+      "Santa Eulalia del Rio": {
+        "codigo_ine": "07054",
+        "nombre_ine": "Santa Eulària des Riu"
+      },
+      "San Cristobal Laguna": {
+        "codigo_ine": "38023",
+        "nombre_ine": "San Cristóbal de La Laguna"
+      },
+      "Santa Cruz deTenerife": {
+        "codigo_ine": "38038",
+        "nombre_ine": "Santa Cruz de Tenerife",
+        "_nota": "En el XLS falta el espacio tras 'de'."
+      },
+      "Santa Coloma Gramanet": {
+        "codigo_ine": "08245",
+        "nombre_ine": "Santa Coloma de Gramenet"
+      },
+      "Vitoria": {
+        "codigo_ine": "01059",
+        "nombre_ine": "Vitoria-Gasteiz"
+      }
+    }
   },
   "ine": {
     "nombre": "INE - Indice de Precios de Vivienda (IPV)",
