@@ -151,12 +151,29 @@ export const mitmaPrecios = pgTable(
     codigo: varchar('codigo', { length: 5 }).notNull(),
     periodo: varchar('periodo', { length: 16 }).notNull(),
     fechaDato: date('fecha_dato').notNull(),
+    /**
+     * Antiguedad de la vivienda tasada: 'hasta_5', 'mas_de_5' o 'total'. MITMA
+     * publica los tres y no son intercambiables. Ver ADR-015: el precio y la
+     * edad del parque tienen que describir la misma poblacion.
+     */
+    segmento: varchar('segmento', { length: 16 }).notNull().default('total'),
     eurM2: numeric('eur_m2', { precision: 10, scale: 2 }).notNull(),
+    /** Tamano de muestra. Por debajo de 15, T1 degrada la confianza. */
+    nTasaciones: integer('n_tasaciones'),
+    /** MITMA informa sobre superficie construida, verificado en su metodologia. */
+    baseSuperficie: varchar('base_superficie', { length: 24 }).notNull().default('construida'),
     fuenteId: integer('fuente_id')
       .notNull()
       .references(() => fuentesDatos.id),
   },
-  (t) => [uniqueIndex('uq_mitma_ambito_codigo_periodo').on(t.ambito, t.codigo, t.periodo)],
+  (t) => [
+    uniqueIndex('uq_mitma_ambito_codigo_periodo_segmento').on(
+      t.ambito,
+      t.codigo,
+      t.periodo,
+      t.segmento,
+    ),
+  ],
 );
 
 /** INE: indice de precios de vivienda por CCAA, para actualizar el dato base. */

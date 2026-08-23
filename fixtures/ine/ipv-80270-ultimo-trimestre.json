@@ -1,0 +1,511 @@
+{
+  "id_tabla": "80270",
+  "periodo": "2026Q1",
+  "trimestres_guardados": 40,
+  "datos": [
+    {
+      "ccaa": "Andalucía",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.061,
+      "variacionTrimestral": 4.1,
+      "variacionAnual": 13.3
+    },
+    {
+      "ccaa": "Andalucía",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.827,
+      "variacionTrimestral": 4.5,
+      "variacionAnual": 11.3
+    },
+    {
+      "ccaa": "Andalucía",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.09,
+      "variacionTrimestral": 4.1,
+      "variacionAnual": 13.6
+    },
+    {
+      "ccaa": "Aragón",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.195,
+      "variacionTrimestral": 5,
+      "variacionAnual": 15.6
+    },
+    {
+      "ccaa": "Aragón",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.18,
+      "variacionTrimestral": 6.4,
+      "variacionAnual": 11.6
+    },
+    {
+      "ccaa": "Aragón",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.411,
+      "variacionTrimestral": 4.7,
+      "variacionAnual": 16.4
+    },
+    {
+      "ccaa": "Asturias, Principado de",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.655,
+      "variacionTrimestral": 4.1,
+      "variacionAnual": 14.3
+    },
+    {
+      "ccaa": "Asturias, Principado de",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.151,
+      "variacionTrimestral": 3.9,
+      "variacionAnual": 11.6
+    },
+    {
+      "ccaa": "Asturias, Principado de",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.734,
+      "variacionTrimestral": 4.1,
+      "variacionAnual": 14.8
+    },
+    {
+      "ccaa": "Balears, Illes",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.765,
+      "variacionTrimestral": 3.3,
+      "variacionAnual": 13.6
+    },
+    {
+      "ccaa": "Balears, Illes",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 102.59,
+      "variacionTrimestral": 2.4,
+      "variacionAnual": 2.5
+    },
+    {
+      "ccaa": "Balears, Illes",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.369,
+      "variacionTrimestral": 3.5,
+      "variacionAnual": 15
+    },
+    {
+      "ccaa": "Canarias",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.94,
+      "variacionTrimestral": 4.5,
+      "variacionAnual": 10.7
+    },
+    {
+      "ccaa": "Canarias",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.657,
+      "variacionTrimestral": 10,
+      "variacionAnual": 12
+    },
+    {
+      "ccaa": "Canarias",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.763,
+      "variacionTrimestral": 4.2,
+      "variacionAnual": 10.6
+    },
+    {
+      "ccaa": "Cantabria",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.568,
+      "variacionTrimestral": 2.5,
+      "variacionAnual": 14
+    },
+    {
+      "ccaa": "Cantabria",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 105.86,
+      "variacionTrimestral": 2.8,
+      "variacionAnual": 9.9
+    },
+    {
+      "ccaa": "Cantabria",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.786,
+      "variacionTrimestral": 2.5,
+      "variacionAnual": 14.5
+    },
+    {
+      "ccaa": "Castilla - La Mancha",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.247,
+      "variacionTrimestral": 2.3,
+      "variacionAnual": 11.4
+    },
+    {
+      "ccaa": "Castilla - La Mancha",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.719,
+      "variacionTrimestral": 1.2,
+      "variacionAnual": 10.2
+    },
+    {
+      "ccaa": "Castilla - La Mancha",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.094,
+      "variacionTrimestral": 2.5,
+      "variacionAnual": 11.6
+    },
+    {
+      "ccaa": "Castilla y León",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.857,
+      "variacionTrimestral": 4,
+      "variacionAnual": 14.9
+    },
+    {
+      "ccaa": "Castilla y León",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.394,
+      "variacionTrimestral": 2.9,
+      "variacionAnual": 11.1
+    },
+    {
+      "ccaa": "Castilla y León",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.136,
+      "variacionTrimestral": 4.2,
+      "variacionAnual": 15.8
+    },
+    {
+      "ccaa": "Cataluña",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.491,
+      "variacionTrimestral": 3.3,
+      "variacionAnual": 10.5
+    },
+    {
+      "ccaa": "Cataluña",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.601,
+      "variacionTrimestral": 4.8,
+      "variacionAnual": 8
+    },
+    {
+      "ccaa": "Cataluña",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.478,
+      "variacionTrimestral": 3.2,
+      "variacionAnual": 10.8
+    },
+    {
+      "ccaa": "Ceuta",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.803,
+      "variacionTrimestral": 5.7,
+      "variacionAnual": 14.9
+    },
+    {
+      "ccaa": "Comunitat Valenciana",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.019,
+      "variacionTrimestral": 3.3,
+      "variacionAnual": 14.3
+    },
+    {
+      "ccaa": "Comunitat Valenciana",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.609,
+      "variacionTrimestral": 2.5,
+      "variacionAnual": 10.7
+    },
+    {
+      "ccaa": "Comunitat Valenciana",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.254,
+      "variacionTrimestral": 3.5,
+      "variacionAnual": 14.9
+    },
+    {
+      "ccaa": "Extremadura",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.449,
+      "variacionTrimestral": 2.7,
+      "variacionAnual": 12.2
+    },
+    {
+      "ccaa": "Extremadura",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 104.289,
+      "variacionTrimestral": -0.4,
+      "variacionAnual": 8.5
+    },
+    {
+      "ccaa": "Extremadura",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.561,
+      "variacionTrimestral": 2.8,
+      "variacionAnual": 12.4
+    },
+    {
+      "ccaa": "Galicia",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.337,
+      "variacionTrimestral": 3,
+      "variacionAnual": 13.5
+    },
+    {
+      "ccaa": "Galicia",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 105.69,
+      "variacionTrimestral": 2.4,
+      "variacionAnual": 9.8
+    },
+    {
+      "ccaa": "Galicia",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.586,
+      "variacionTrimestral": 3.1,
+      "variacionAnual": 14.1
+    },
+    {
+      "ccaa": "Madrid, Comunidad de",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.296,
+      "variacionTrimestral": 3.1,
+      "variacionAnual": 13.6
+    },
+    {
+      "ccaa": "Madrid, Comunidad de",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 103.572,
+      "variacionTrimestral": 1.7,
+      "variacionAnual": 6.9
+    },
+    {
+      "ccaa": "Madrid, Comunidad de",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.894,
+      "variacionTrimestral": 3.2,
+      "variacionAnual": 14.7
+    },
+    {
+      "ccaa": "Melilla",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.257,
+      "variacionTrimestral": 5.5,
+      "variacionAnual": 13.2
+    },
+    {
+      "ccaa": "Murcia, Región de",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.013,
+      "variacionTrimestral": 4.3,
+      "variacionAnual": 15.6
+    },
+    {
+      "ccaa": "Murcia, Región de",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.968,
+      "variacionTrimestral": 1.8,
+      "variacionAnual": 10.9
+    },
+    {
+      "ccaa": "Murcia, Región de",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.33,
+      "variacionTrimestral": 4.7,
+      "variacionAnual": 16.3
+    },
+    {
+      "ccaa": "Nacional",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.458,
+      "variacionTrimestral": 3.5,
+      "variacionAnual": 12.9
+    },
+    {
+      "ccaa": "Nacional",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.129,
+      "variacionTrimestral": 3.5,
+      "variacionAnual": 9.1
+    },
+    {
+      "ccaa": "Nacional",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.666,
+      "variacionTrimestral": 3.5,
+      "variacionAnual": 13.5
+    },
+    {
+      "ccaa": "Navarra, Comunidad Foral de",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 105.73,
+      "variacionTrimestral": 3.2,
+      "variacionAnual": 10.5
+    },
+    {
+      "ccaa": "Navarra, Comunidad Foral de",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 103.945,
+      "variacionTrimestral": 3.8,
+      "variacionAnual": 6.2
+    },
+    {
+      "ccaa": "Navarra, Comunidad Foral de",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.722,
+      "variacionTrimestral": 3,
+      "variacionAnual": 12.8
+    },
+    {
+      "ccaa": "País Vasco",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.046,
+      "variacionTrimestral": 3.1,
+      "variacionAnual": 10.3
+    },
+    {
+      "ccaa": "País Vasco",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 104.148,
+      "variacionTrimestral": 4,
+      "variacionAnual": 4.9
+    },
+    {
+      "ccaa": "País Vasco",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 106.431,
+      "variacionTrimestral": 3,
+      "variacionAnual": 11.4
+    },
+    {
+      "ccaa": "Rioja, La",
+      "serie": "general",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 108.962,
+      "variacionTrimestral": 4.6,
+      "variacionAnual": 14.3
+    },
+    {
+      "ccaa": "Rioja, La",
+      "serie": "nueva",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 107.034,
+      "variacionTrimestral": 2.3,
+      "variacionAnual": 10.5
+    },
+    {
+      "ccaa": "Rioja, La",
+      "serie": "segunda_mano",
+      "periodo": "2026Q1",
+      "fechaDato": "2026-03-31",
+      "indice": 109.376,
+      "variacionTrimestral": 5.1,
+      "variacionAnual": 15.3
+    }
+  ]
+}
