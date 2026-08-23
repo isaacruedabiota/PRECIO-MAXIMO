@@ -1,0 +1,18 @@
+{
+  "url": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC?Provincia=&Municipio=&RefCat=2004930YK5320S",
+  "metodo": "GET",
+  "parametros": {
+    "rc": "2004930YK5320S"
+  },
+  "codigo_estado": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 28858,
+  "capturado_en": "2026-08-22T20:02:10.395Z",
+  "descripcion": "Ficha de inmueble o listado de la parcela, por referencia catastral",
+  "notas": [
+    "El parametro es RefCat, no RC como decia el brief.",
+    "Con RC de 14 caracteres devuelve lrcdnp (listado de la parcela); con 20, bico (ficha).",
+    "Datos no protegidos: no incluye titularidad.",
+    "Listado de la parcela: 27 inmuebles con division horizontal. Las 27 cuotas cpt suman 100,000000 exacto."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC?Provincia=&Municipio=&RefCat=2004930YK5320S0009RH",
+  "metodo": "GET",
+  "parametros": {
+    "rc": "2004930YK5320S0009RH"
+  },
+  "codigo_estado": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 2920,
+  "capturado_en": "2026-08-22T20:01:28.766Z",
+  "descripcion": "Ficha de inmueble o listado de la parcela, por referencia catastral",
+  "notas": [
+    "El parametro es RefCat, no RC como decia el brief.",
+    "Con RC de 14 caracteres devuelve lrcdnp (listado de la parcela); con 20, bico (ficha).",
+    "Datos no protegidos: no incluye titularidad.",
+    "Piso de 155 m2 construidos en CL Adzaneta 2, Es 1, Pl 01, Pta B, CP 12006 Castello de la Plana. Caso base del adaptador."
+  ]
+}

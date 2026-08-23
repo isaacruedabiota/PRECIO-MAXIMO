@@ -1,0 +1,1172 @@
+{
+  "consulta_dnprcResult": {
+    "control": {
+      "cudnp": 27
+    },
+    "lrcdnp": {
+      "rcdnp": [
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0001",
+            "cc1": "L",
+            "cc2": "I"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "00",
+                    "pu": "01"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "275",
+            "cpt": "8,890000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0002",
+            "cc1": "B",
+            "cc2": "O"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "-1",
+                    "pu": "01"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "26",
+            "cpt": "0,750000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0003",
+            "cc1": "Z",
+            "cc2": "P"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "-1",
+                    "pu": "06"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "26",
+            "cpt": "0,750000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0004",
+            "cc1": "X",
+            "cc2": "A"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "-1",
+                    "pu": "07"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "26",
+            "cpt": "0,750000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0005",
+            "cc1": "M",
+            "cc2": "S"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "-1",
+                    "pu": "10"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "26",
+            "cpt": "0,750000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0006",
+            "cc1": "Q",
+            "cc2": "D"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "00",
+                    "pu": "02"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Comercial",
+            "sfc": "137",
+            "cpt": "5,150000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0007",
+            "cc1": "W",
+            "cc2": "F"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "00",
+                    "pu": "03"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Almacen-Estacionamiento",
+            "sfc": "132",
+            "cpt": "3,760000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0008",
+            "cc1": "E",
+            "cc2": "G"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "01",
+                    "pu": "A"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "150",
+            "cpt": "3,830000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0009",
+            "cc1": "R",
+            "cc2": "H"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "01",
+                    "pu": "B"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,980000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0010",
+            "cc1": "W",
+            "cc2": "F"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "01",
+                    "pu": "C"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,960000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0011",
+            "cc1": "E",
+            "cc2": "G"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "02",
+                    "pu": "A"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "150",
+            "cpt": "3,830000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0012",
+            "cc1": "R",
+            "cc2": "H"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "02",
+                    "pu": "B"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,970000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0013",
+            "cc1": "T",
+            "cc2": "J"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "02",
+                    "pu": "C"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "156",
+            "cpt": "3,970000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0014",
+            "cc1": "Y",
+            "cc2": "K"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "03",
+                    "pu": "A"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "152",
+            "cpt": "3,860000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0015",
+            "cc1": "U",
+            "cc2": "L"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "03",
+                    "pu": "B"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,970000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0016",
+            "cc1": "I",
+            "cc2": "B"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "03",
+                    "pu": "C"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "160",
+            "cpt": "4,030000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0017",
+            "cc1": "O",
+            "cc2": "Z"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "04",
+                    "pu": "A"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "151",
+            "cpt": "3,860000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0018",
+            "cc1": "P",
+            "cc2": "X"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "04",
+                    "pu": "B"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "162",
+            "cpt": "4,140000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0019",
+            "cc1": "A",
+            "cc2": "M"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "1",
+                    "tv": "CL",
+                    "nv": "ADZANETA",
+                    "pnp": "2"
+                  },
+                  "loint": {
+                    "es": "1",
+                    "pt": "04",
+                    "pu": "C"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "161",
+            "cpt": "4,070000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0020",
+            "cc1": "O",
+            "cc2": "Z"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "01",
+                    "pu": "D"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,960000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0021",
+            "cc1": "P",
+            "cc2": "X"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "01",
+                    "pu": "E"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,950000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0022",
+            "cc1": "A",
+            "cc2": "M"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "02",
+                    "pu": "D"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "156",
+            "cpt": "3,970000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0023",
+            "cc1": "S",
+            "cc2": "Q"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "02",
+                    "pu": "E"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,950000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0024",
+            "cc1": "D",
+            "cc2": "W"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "03",
+                    "pu": "D"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "156",
+            "cpt": "3,970000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0025",
+            "cc1": "F",
+            "cc2": "E"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "03",
+                    "pu": "E"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,950000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0026",
+            "cc1": "G",
+            "cc2": "R"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "04",
+                    "pu": "D"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "157",
+            "cpt": "4,030000",
+            "ant": "1998"
+          }
+        },
+        {
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0027",
+            "cc1": "H",
+            "cc2": "T"
+          },
+          "dt": {
+            "loine": {
+              "cp": "12",
+              "cm": "40"
+            },
+            "cmc": "900",
+            "np": "CASTELLÓN",
+            "nm": "CASTELLO DE LA PLANA",
+            "locs": {
+              "lous": {
+                "lourb": {
+                  "dir": {
+                    "cv": "222",
+                    "tv": "CL",
+                    "nv": "LUCENA",
+                    "pnp": "39"
+                  },
+                  "loint": {
+                    "es": "2",
+                    "pt": "04",
+                    "pu": "E"
+                  },
+                  "dp": "12006",
+                  "dm": "6"
+                }
+              }
+            }
+          },
+          "debi": {
+            "luso": "Residencial",
+            "sfc": "155",
+            "cpt": "3,950000",
+            "ant": "1998"
+          }
+        }
+      ]
+    }
+  }
+}

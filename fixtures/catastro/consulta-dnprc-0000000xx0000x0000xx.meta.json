@@ -1,0 +1,18 @@
+{
+  "url": "https://ovc.catastro.meh.es/OVCServWeb/OVCWcfCallejero/COVCCallejero.svc/json/Consulta_DNPRC?Provincia=&Municipio=&RefCat=0000000XX0000X0000XX",
+  "metodo": "GET",
+  "parametros": {
+    "rc": "0000000XX0000X0000XX"
+  },
+  "codigo_estado": 200,
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 205,
+  "capturado_en": "2026-08-22T20:02:12.794Z",
+  "descripcion": "Ficha de inmueble o listado de la parcela, por referencia catastral",
+  "notas": [
+    "El parametro es RefCat, no RC como decia el brief.",
+    "Con RC de 14 caracteres devuelve lrcdnp (listado de la parcela); con 20, bico (ficha).",
+    "Datos no protegidos: no incluye titularidad.",
+    "Caso de error: referencia inexistente pero bien formada."
+  ]
+}

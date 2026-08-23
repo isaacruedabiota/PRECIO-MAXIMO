@@ -1,0 +1,20 @@
+{
+  "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_RCCOOR?SRS=EPSG%3A4326&Coordenada_X=-0.049271893410002&Coordenada_Y=39.98374409339",
+  "metodo": "GET",
+  "parametros": {
+    "lat": "39.98374409339",
+    "lon": "-0.049271893410002",
+    "etiqueta": "castellon-lucena-39"
+  },
+  "codigo_estado": 200,
+  "content_type": "text/xml; charset=utf-8",
+  "bytes": 638,
+  "capturado_en": "2026-08-22T20:21:48.485Z",
+  "descripcion": "Referencia catastral en unas coordenadas",
+  "notas": [
+    "La interfaz REST/JSON de este servicio (CoordenadasDistancia.svc) devuelve una",
+    "pagina HTML de error. La que responde es la fachada HttpGet del .asmx, en XML.",
+    "Coordenada_X es la longitud y Coordenada_Y la latitud.",
+    "Recorrido inverso del CPMRC del mismo edificio: devuelve 2004930YK5320S."
+  ]
+}

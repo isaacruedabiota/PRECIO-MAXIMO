@@ -1,0 +1,105 @@
+{
+  "consulta_dnprcResult": {
+    "control": {
+      "cudnp": 1,
+      "cucons": 1,
+      "cucul": 1
+    },
+    "bico": {
+      "bi": {
+        "idbi": {
+          "cn": "RU",
+          "rc": {
+            "pc1": "0000902",
+            "pc2": "YK5300S",
+            "car": "0001",
+            "cc1": "O",
+            "cc2": "M"
+          }
+        },
+        "dt": {
+          "loine": {
+            "cp": "12",
+            "cm": "40"
+          },
+          "cmc": "900",
+          "np": "CASTELLÓN",
+          "nm": "CASTELLO DE LA PLANA",
+          "locs": {
+            "lors": {
+              "lorus": {
+                "cpp": {
+                  "cpo": "0",
+                  "cpa": "0"
+                },
+                "npa": "NC",
+                "cpaj": "0"
+              },
+              "lourb": {
+                "dir": {
+                  "cv": "1380",
+                  "tv": "GR",
+                  "nv": "SAN LORENZO CUBOS",
+                  "pnp": "141"
+                },
+                "loint": {
+                  "es": "T",
+                  "pt": "OD",
+                  "pu": "OS"
+                },
+                "dp": "12006",
+                "dm": "5"
+              }
+            }
+          }
+        },
+        "ldt": "GR SAN LORENZO CUBOS 141 12006 CASTELLO DE LA PLANA (CASTELLÓN)",
+        "debi": {
+          "luso": "Industrial agrario",
+          "sfc": "681",
+          "ant": "1970"
+        }
+      },
+      "finca": {
+        "ldt": "GR SAN LORENZO CUBOS 141  CASTELLO DE LA PLANA (CASTELLÓN)",
+        "ltp": "Parcela construida sin división horizontal",
+        "dff": {
+          "ss": "1909"
+        },
+        "infgraf": {
+          "igraf": "https://www1.sedecatastro.gob.es/Cartografia/mapa.aspx?del=12&mun=900&refcat=0000902YK5300S"
+        }
+      },
+      "lcons": [
+        {
+          "lcd": "ALMACEN",
+          "dt": {
+            "lourb": {
+              "loint": {
+                "pt": "00",
+                "pu": "01"
+              }
+            }
+          },
+          "dfcons": {
+            "stl": "681"
+          },
+          "dvcons": {
+            "dtip": "INDUSTRIA NO FABRIL"
+          }
+        }
+      ],
+      "lspr": [
+        {
+          "cspr": "0",
+          "dspr": {
+            "ccc": "CR",
+            "dcc": "LABOR O LABRADÍO REGADÍO",
+            "ip": "02",
+            "ssp": "1143"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC?Provincia=&Municipio=&SRS=EPSG%3A4326&RC=2004930YK5320S",
+  "metodo": "GET",
+  "parametros": {
+    "rc": "2004930YK5320S"
+  },
+  "codigo_estado": 200,
+  "content_type": "text/xml; charset=utf-8",
+  "bytes": 638,
+  "capturado_en": "2026-08-22T20:02:35.326Z",
+  "descripcion": "Coordenadas de una referencia catastral",
+  "notas": [
+    "Consulta_CPMRC exige RC de 14 posiciones: con la de 20 devuelve error 18. Las coordenadas son de la parcela, no del inmueble."
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_coordenadas xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cucoor>1</cucoor>
+    <cuerr>0</cuerr>
+  </control>
+  <coordenadas>
+    <coord>
+      <pc>
+        <pc1>2004930</pc1>
+        <pc2>YK5320S</pc2>
+      </pc>
+      <geo>
+        <xcen>-0.049271893410002</xcen>
+        <ycen>39.98374409339</ycen>
+        <srs>EPSG:4326</srs>
+      </geo>
+      <ldt>CL LUCENA 39 CASTELLO DE LA PLANA (CASTELLÓN)</ldt>
+    </coord>
+  </coordenadas>
+</consulta_coordenadas>

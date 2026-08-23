@@ -1,0 +1,129 @@
+{
+  "consulta_dnprcResult": {
+    "control": {
+      "cudnp": 1,
+      "cucons": 4
+    },
+    "bico": {
+      "bi": {
+        "idbi": {
+          "cn": "UR",
+          "rc": {
+            "pc1": "2004930",
+            "pc2": "YK5320S",
+            "car": "0009",
+            "cc1": "R",
+            "cc2": "H"
+          }
+        },
+        "dt": {
+          "loine": {
+            "cp": "12",
+            "cm": "40"
+          },
+          "cmc": "900",
+          "np": "CASTELLÓN",
+          "nm": "CASTELLO DE LA PLANA",
+          "locs": {
+            "lous": {
+              "lourb": {
+                "dir": {
+                  "cv": "1",
+                  "tv": "CL",
+                  "nv": "ADZANETA",
+                  "pnp": "2"
+                },
+                "loint": {
+                  "es": "1",
+                  "pt": "01",
+                  "pu": "B"
+                },
+                "dp": "12006",
+                "dm": "6"
+              }
+            }
+          }
+        },
+        "ldt": "CL ADZANETA 2 Es:1 Pl:01 Pt:B 12006 CASTELLO DE LA PLANA (CASTELLÓN)",
+        "debi": {
+          "luso": "Residencial",
+          "sfc": "155",
+          "cpt": "3,980000",
+          "ant": "1998"
+        }
+      },
+      "finca": {
+        "ldt": "CL LUCENA 39  CASTELLO DE LA PLANA (CASTELLÓN)",
+        "ltp": "Parcela con varios inmuebles (division horizontal)",
+        "dff": {
+          "ss": "698"
+        },
+        "infgraf": {
+          "igraf": "https://www1.sedecatastro.gob.es/Cartografia/mapa.aspx?del=12&mun=900&refcat=2004930YK5320S"
+        }
+      },
+      "lcons": [
+        {
+          "lcd": "VIVIENDA",
+          "dt": {
+            "lourb": {
+              "loint": {
+                "es": "1",
+                "pt": "01",
+                "pu": "B"
+              }
+            }
+          },
+          "dfcons": {
+            "stl": "101"
+          },
+          "dvcons": {
+            "dtip": "VIVIENDA COLECTIVA"
+          }
+        },
+        {
+          "lcd": "ALMACEN",
+          "dt": {
+            "lourb": {
+              "loint": {
+                "es": "1",
+                "pt": "05",
+                "pu": "04"
+              }
+            }
+          },
+          "dfcons": {
+            "stl": "6"
+          },
+          "dvcons": {
+            "dtip": "ANEJOS DE VIVIENDA Y LOCALES EN ESTRUCTURA"
+          }
+        },
+        {
+          "lcd": "APARCAMIENTO",
+          "dt": {
+            "lourb": {
+              "loint": {
+                "es": "1",
+                "pt": "-1",
+                "pu": "19"
+              }
+            }
+          },
+          "dfcons": {
+            "stl": "26"
+          },
+          "dvcons": {
+            "dtip": "ANEJOS DE VIVIENDA Y LOCALES EN ESTRUCTURA"
+          }
+        },
+        {
+          "lcd": "ELEMENTOS COMUNES",
+          "dfcons": {
+            "stl": "22"
+          }
+        }
+      ]
+    }
+  }
+}
