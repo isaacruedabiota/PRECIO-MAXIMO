@@ -1,0 +1,17 @@
+{
+  "url": "https://servicios.ine.es/wstempus/js/ES/VALORES_VARIABLE/70",
+  "metodo": "GET",
+  "parametros": {
+    "id": "70"
+  },
+  "codigo_estado": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "bytes": 4641,
+  "capturado_en": "2026-08-22T20:05:28.830Z",
+  "descripcion": "Valores de una variable del INE (70 = CCAA, 115 = provincias)",
+  "notas": [
+    "En la variable 115 (provincias) el primer elemento de FK_JerarquiaPadres es el",
+    "Id de su CCAA en la variable 70. De ahi sale la correspondencia provincia -> CCAA.",
+    "Comunidades y ciudades autonomas. Codigo = codigo INE de CCAA."
+  ]
+}

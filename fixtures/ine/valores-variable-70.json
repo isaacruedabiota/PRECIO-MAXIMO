@@ -1,0 +1,293 @@
+[
+  {
+    "Id": 16473,
+    "FK_Variable": 70,
+    "Nombre": "Total Nacional",
+    "Codigo": "00"
+  },
+  {
+    "Id": 8997,
+    "FK_Variable": 70,
+    "Nombre": "Andalucía",
+    "Codigo": "01",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 8998,
+    "FK_Variable": 70,
+    "Nombre": "Aragón",
+    "Codigo": "02",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 8999,
+    "FK_Variable": 70,
+    "Nombre": "Asturias, Principado de",
+    "Codigo": "03",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9000,
+    "FK_Variable": 70,
+    "Nombre": "Balears, Illes",
+    "Codigo": "04",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      274508
+    ]
+  },
+  {
+    "Id": 9001,
+    "FK_Variable": 70,
+    "Nombre": "Canarias",
+    "Codigo": "05",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      274508
+    ]
+  },
+  {
+    "Id": 9002,
+    "FK_Variable": 70,
+    "Nombre": "Cantabria",
+    "Codigo": "06",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9003,
+    "FK_Variable": 70,
+    "Nombre": "Castilla y León",
+    "Codigo": "07",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9004,
+    "FK_Variable": 70,
+    "Nombre": "Castilla - La Mancha",
+    "Codigo": "08",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9005,
+    "FK_Variable": 70,
+    "Nombre": "Cataluña",
+    "Codigo": "09",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9006,
+    "FK_Variable": 70,
+    "Nombre": "Comunitat Valenciana",
+    "Codigo": "10",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9007,
+    "FK_Variable": 70,
+    "Nombre": "Extremadura",
+    "Codigo": "11",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9008,
+    "FK_Variable": 70,
+    "Nombre": "Galicia",
+    "Codigo": "12",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9009,
+    "FK_Variable": 70,
+    "Nombre": "Madrid, Comunidad de",
+    "Codigo": "13",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9010,
+    "FK_Variable": 70,
+    "Nombre": "Murcia, Región de",
+    "Codigo": "14",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9011,
+    "FK_Variable": 70,
+    "Nombre": "Navarra, Comunidad Foral de",
+    "Codigo": "15",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9012,
+    "FK_Variable": 70,
+    "Nombre": "País Vasco",
+    "Codigo": "16",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9013,
+    "FK_Variable": 70,
+    "Nombre": "Rioja, La",
+    "Codigo": "17",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      457344,
+      274508
+    ]
+  },
+  {
+    "Id": 9015,
+    "FK_Variable": 70,
+    "Nombre": "Ceuta",
+    "Codigo": "18",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      274508
+    ]
+  },
+  {
+    "Id": 8995,
+    "FK_Variable": 70,
+    "Nombre": "Melilla",
+    "Codigo": "19",
+    "FK_JerarquiaPadres": [
+      16473,
+      274511,
+      274508
+    ]
+  },
+  {
+    "Id": 68,
+    "FK_Variable": 70,
+    "Nombre": "Extranjero",
+    "Codigo": ""
+  },
+  {
+    "Id": 9014,
+    "FK_Variable": 70,
+    "Nombre": "Ceuta y Melilla",
+    "Codigo": "",
+    "FK_JerarquiaPadres": [
+      16473,
+      274508
+    ]
+  },
+  {
+    "Id": 15299,
+    "FK_Variable": 70,
+    "Nombre": "Total Ciudades con Metro",
+    "Codigo": ""
+  },
+  {
+    "Id": 274508,
+    "FK_Variable": 70,
+    "Nombre": "Total capitales de provincia",
+    "Codigo": "00000"
+  },
+  {
+    "Id": 285494,
+    "FK_Variable": 70,
+    "Nombre": "Otras Comunidades Autónomas",
+    "Codigo": ""
+  },
+  {
+    "Id": 291907,
+    "FK_Variable": 70,
+    "Nombre": "Peninsula y Baleares",
+    "Codigo": ""
+  },
+  {
+    "Id": 416366,
+    "FK_Variable": 70,
+    "Nombre": "No residente",
+    "Codigo": ""
+  },
+  {
+    "Id": 416510,
+    "FK_Variable": 70,
+    "Nombre": "Total Islas",
+    "Codigo": ""
+  },
+  {
+    "Id": 457344,
+    "FK_Variable": 70,
+    "Nombre": "España peninsular",
+    "Codigo": "",
+    "FK_JerarquiaPadres": [
+      16473
+    ]
+  }
+]

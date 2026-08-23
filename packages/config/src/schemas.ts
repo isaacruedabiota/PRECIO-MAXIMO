@@ -78,6 +78,12 @@ export const tramoTipoSchema = z.looseObject({
 
 export const itpCcaaSchema = z.looseObject({
   ccaa: z.string(),
+  /**
+   * Codigos INE de las provincias de esta CCAA, de dos digitos. El Catastro da
+   * provincia, no comunidad, y el tipo de ITP depende de la comunidad: sin esta
+   * correspondencia una ficha catastral no se puede llevar al motor.
+   */
+  codigos_provincia_ine: z.array(z.string()),
   tipo_general: z.looseObject({
     tramos: z.array(tramoTipoSchema),
     articulo: z.string().nullable(),

@@ -29,6 +29,8 @@ export function configDeTest(): EngineConfig {
       ccaa: [
         {
           ccaa: 'Comunitat Valenciana',
+          // Codigos INE reales: son administrativos, no un tipo impositivo.
+          codigos_provincia_ine: ['03', '12', '46'],
           tipo_general: {
             // INVENTADOS: 10% hasta 500.000 y 12% por encima, para que los
             // tests puedan comprobar el salto de tramo con numeros redondos.
